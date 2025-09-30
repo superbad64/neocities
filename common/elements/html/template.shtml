@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<link rel="stylesheet" href="/common/styles/anims.css">
+	</head>
+	<body>
+		<script src="/common/elements/js/sidenav.js"></script>
+
+		<div class="content">
+			<script src="/common/elements/js/topnav.js"></script>
+
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title"></label>
+					<div class="buttoncontainer">
+						<label class="fakebutton">X</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/js/fakemenu.js"></script>
+
+				<p>
+                		</p>
+			</article>
+			<script src="/common/elements/js/footer.js"></script>
+		</div>
+	</body>
+</html>

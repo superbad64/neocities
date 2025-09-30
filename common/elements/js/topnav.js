@@ -1,0 +1,16 @@
+document.write('<!-- Hidden top menu for devices with a vertical aspect ratio -->');
+document.write('<nav class="topnav">');
+document.write('	<div class="titlebar">');
+document.write('		<label class="title">Menu</label>');
+document.write('	</div>');
+document.write('    ');
+document.write('    <!--#include virtual="/common/elements/html/fakemenu.shtml"-->');
+document.write('');
+document.write('	<div class="topnavmenu">');
+document.write('		<div><img src="/common/images/icons/help_book_cool-4.png" />&nbsp<a href="/about.shtml"><span style="text-decoration: underline">A</span>bout me</a>&nbsp</div>');
+document.write('		<div><img src="/common/images/icons/keyboard-5.png" />&nbsp<a href="/articles.shtml">A<span style="text-decoration: underline">r</span>ticles</a>&nbsp</div>');
+document.write('		<div><img src="/common/images/icons/computer_explorer-4.png" />&nbsp<a href="/blog/1.shtml"><span style="text-decoration: underline">B</span>log</a>&nbsp</div>');
+document.write('		<div><img src="/common/images/icons/notepad-5.png" />&nbsp<a href="/faq.shtml"><span style="text-decoration: underline">F</span>AQ</a>&nbsp</div>');
+document.write('		<div><img src="/common/images/icons/directory_open_file_mydocs-4.png" />&nbsp<a href="/projects.shtml"><span style="text-decoration: underline">P</span>rojects</a>&nbsp</div>');
+document.write('	</dl>');
+document.write('</nav>');

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bad64's Blog</title>		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<link rel="stylesheet" href="/common/styles/anims.css">
+	</head>
+	<body>
+		<script src="/common/elements/js/sidenav.js"></script>
+
+		<div class="content">
+			<script src="/common/elements/js/topnav.js"></script>
+<h3>Bad64's Blog</h3><div style="display: flex; flex-wrap: wrap; justify-content: center;">
+&nbsp<strong>1</strong>&nbsp</div><article class="blogpost">
+	<div class="titlebar">
+		<label class="title">Site launch - 30/09/2025 21:21</label>
+		<div class="buttoncontainer">
+			<label class="fakebutton">X</label>
+		</div>
+	</div>
+	<script src="/common/elements/js/fakemenu.js"></script>
+	<p>
+Well, here we are. I'm (finally) launching this website I've been bothering pretty much everyone about for the past five months or so.<br>
+<br>
+It's been an eventful road. I'm not a developer, much less a web developer (if anything I mostly write either administration scripts or low level code for embedded microcontrollers). The design alone took quite a lot of time. I created two stylesheets, one themed around Windows 9x and one around Windows XP. Still not entirely sure which one looks best.<br>
+<br>
+Either way, that's that. Hope you enjoy your stay !
+<div class="signature">- Bad64</div>
+
+	</p>
+</article><article class="blogpost">
+	<div class="titlebar">
+		<label class="title">Hello, World ! - 30/09/2025 13:33</label>
+		<div class="buttoncontainer">
+			<label class="fakebutton">X</label>
+		</div>
+	</div>
+	<script src="/common/elements/js/fakemenu.js"></script>
+	<p>
+Ayo ? This thing on ?<br>
+<br>
+Good ! If you see this, it means my blog applet is working !<br>
+I've been hacking at it for days now... Glad to see nothing caught on fire (yet) !<br>
+<div class="signature">- Bad64</div>
+
+	</p>
+</article>			<script src="/common/elements/js/footer.js"></script>
+		</div>
+	</body>
+</html>

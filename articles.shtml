@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Articles</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<link rel="stylesheet" href="/common/styles/anims.css">
+	</head>
+	<body>
+		<script src="/common/elements/js/sidenav.js"></script>
+
+		<div class="content">
+			<script src="/common/elements/js/topnav.js"></script>
+
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">Articles</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton">X</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/js/fakemenu.js"></script>
+
+				<p>
+				I'm usually a man of relatively few words, but sometimes I do yap a little more than usual. These are said times.
+                		</p>
+
+				<ul>
+					<li><i>No articles published yet.</i></li>
+				</ul>
+			</article>
+			<script src="/common/elements/js/footer.js"></script>
+		</div>
+	</body>
+</html>
+
+

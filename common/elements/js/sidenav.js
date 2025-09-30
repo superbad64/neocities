@@ -1,0 +1,16 @@
+document.write('<!-- The sidebar navigation menu device thingy -->');
+document.write('<nav class="sidenav">');
+document.write('	<div class="titlebar">');
+document.write('		<label class="title">Menu</label>');
+document.write('	</div>');
+document.write('	');
+document.write('    <!--#include virtual="/common/elements/html/fakemenu.shtml"-->');
+document.write('	');
+document.write('	<dl class="navmenu">');
+document.write('		<dt><img src="/common/images/icons/help_book_cool-4.png" />&nbsp<a href="/about.shtml"><span style="text-decoration: underline">A</span>bout me</a></dt>');
+document.write('		<dt><img src="/common/images/icons/keyboard-5.png" />&nbsp<a href="/articles.shtml">A<span style="text-decoration: underline">r</span>ticles</a></dt>');
+document.write('		<dt><img src="/common/images/icons/computer_explorer-4.png" />&nbsp<a href="/blog/1.shtml"><span style="text-decoration: underline">B</span>log</a></dt>');
+document.write('		<dt><img src="/common/images/icons/notepad-5.png" />&nbsp<a href="/faq.shtml"><span style="text-decoration: underline">F</span>AQ</a></dt>');
+document.write('		<dt><img src="/common/images/icons/directory_open_file_mydocs-4.png" />&nbsp<a href="/projects.shtml"><span style="text-decoration: underline">P</span>rojects</a></dt>');
+document.write('	</dl>');
+document.write('</nav>');

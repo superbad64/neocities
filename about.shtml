@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About me</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<link rel="stylesheet" href="/common/styles/anims.css">
+	</head>
+	<body>
+		<script src="/common/elements/js/sidenav.js"></script>
+
+		<div class="content">
+			<script src="/common/elements/js/topnav.js"></script>
+
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">About me</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton">X</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/js/fakemenu.js"></script>
+
+				<p>
+					Around these parts of the net I am known as either <span class="rainbow"><span class="wave-text"><span>B</span><span>a</span><span>d</span><span>6</span><span>4</span></span></span>, or Super Bad 64 for those who've known me for a very long time. I have been using that name for close to a decade and a half now.<br>
+					<br>			
+					I am a 34 years old former system administrator. Left the field due to a chronic inability to cope with how modern IT works. Hours long daily meetings are definitely not for me. There may be something wrong with me, I dunno. Sure as heck isn't the IT world I grew up with and wanted to work in ! As a result, I'm currently looking for a job, and in general looking at where to go next in my life.<br>
+					<br>
+					As you might infer by the style of this here website, I'm a big fan of retro computing. I'm a bit too young to say "things were better before", but I still think as much. Been around for long enough to know.<br>
+					<br>
+					On the hobby side, I'm a bit of a tinkerer. Here you may find content about woodworking, 3D printing, electronics, cooking, hiking, and I play a variety of instruments for fun so maybe one day I'll upload music here too.<br>
+					But the very niche thing I'm into, as you'll see if you snoop around, is building fight sticks. I play a lot of fighting games, figured I should use my limited crafting talents to help people access decent hardware. Most modern controllers are garbage (except the Xbox Series X !) so yeah, time to use the plastic squirting machine to make some cases.<br>
+				</p>
+				
+				<hr style="width: 80%;">
+				
+				<p>
+					I grew up in the French countryside, in a small village in the middle of the flatlands, where even today internet coverage is spotty at best. Our first familial computer was I think a Compaq Presario, running Windows 95, that we actually got in either late 96 or early 97. I'm not completely sure why we got it in the first place as we couldn't even have Internet back then - not even 28k ! My old man probably thought about doing administrative tasks on it via Excel but I've never seen that happen. Of course, me, I had a few games like Oregon Trail, Doom && Doom 2 (acquired through a cousin that I'll refer to as "FPS Cousin" due to his ability and willingness to purchase games I could not due to age), the first Tomb Raider I think too...<br>
+					<br>
+					For reasons I am not entirely clear on, we replaced this computer in January 1999 (for my birthday !) with another beige box that ran Windows 98. This was shortly followed by actually connecting it to the Internet in either late Feb or early March. That's where I discovered the magic of what we now call the Web 1.0, the old net; GeoCities, AngelFire, that famous Space Jam website, you probably know the drill. I wasn't actually gaming online yet, barring some Adobe (then Macromedia) Flash games.<br>
+					<br>
+					<i>(Just to address the elephant in the room: In April 99 there is a certain tragic event with very dubious links to gaming that happened in North America<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup> that made the news almost worldwide, and very nearly prevented me from even indulging in video games for several years because my mother wholeheartedly bought into the "Video Games Make Kids Violent" propaganda. Me actually still playing Doom, Quake, and Duke Nukem 3D back then did not help. I was "fortunate" to be a very lonely kid with few friends, most of them uninterested in video games in the first place (they'd rather kick a ball around which I don't blame them for), so my father and I managed to calm her down a little bit. She still distrusts technology as a whole, and seeing how I view modern tech I'm tempted to think the apple didn't fall that far away from the tree in the end !)</i><br>
+					<br>
+					Back then the web was wild and free, to the point many people nowadays refer to it as its "Wild West" era. Everybody, and most importantly <i>anybody</i> could have a website, given some dough to pay for hosting (or not, with GeoCities) and a copy of "HTML For Dummies". There were no web design codes, everyone did whatever they wanted, and pretty much everyone structured webpages using tables. This gave websites of the era their classic, amateurish, eye-searing look. The crux of all magic.<br>
+					<br>
+					Several months later, amidst growing Y2K concerns (another fun part of the era ! And I don't even say this ironically. As an observer it was extremely interesting, but I can completely understand workers of the time were worried out of their minds), a not very important video game released. A online multiplayer focused sequel to a massive 1998 hit. Unreal Tournament (once again provided by FPS Cousin).<br>
+					This was the start of my online gaming, followed a couple months later (in 2000 already even, as I wasn't able to purchase the game on my own due to the PEGI rating system - had to wait for FPS Cousin to come back in town) by Quake 3 Arena. I quickly took to both games, and eventually managed to find myself a clan<sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup> on UT99.<br>
+					<br>
+					Through this clan, and the later addition of a new game (something not important, an indie FPS called Counter-Strike), I learned how to get "technical". I ended up becoming the kid who knew how to wrangle the OVH dediboxes to host whatever game we were having a weekly war on (strange word for a more or less friendly contest of virtually fragging each other all night long eh ?). The box wasn't mine of course, it was paid by an older member of the clan (yeah much like MMORPG guilds there were people of all ages interacting within clans, mostly through IRC - this wasn't seen as really problematic back then mind you), but it sown the seeds of system administration in my head. I was already a nerd back then, was already on track to become a game programmer (this was before reports of the working conditions in triple A studios were well known mind you), but it along with much later Minecraft server administration definitely steered me towards system administration. Along with a later event I'll talk about in a few paragraphs.<br>
+					<br>
+					Let's fast forward a bit. We're in 2005 now. I have a new machine that I use to play Unreal Tournament 2k4 (among other games), but it got hit by a nasty virus that destroyed my partition table, rendering the hard drive unbootable. (I actually have no idea what exactly happened to it; considering all the games I was pirating at the time<sup id="footnote-3-orig"><a href="#footnote-3">3</a></sup> it could have been as much me having downloaded something sketchy than my father)<br>
+					After repairing the installation with my (genuinely legit) Windows XP OEM CD, someone on IRC told me about an indie, free operating system called Linux, of which a certain "distribution" (a foreign concept to me at the time) had released a stable version a few months ago. One (very long) download and CD-burning sesh later, I was met with a crude but effective installer that helped me partition my drives without wiping out my brand new Windows XP installation. I clicked "Install" and waited a few hours.
+					<br>
+					And man did I get hooked.<br>
+					<br>
+					The first experience was rough and could honestly be an article onto itself (lots of network driver issues due to a not-very-well supported USB PPPoE modem, to summarize). But I've learned, and I started learning more and more. At first it was just a passing interest in the command line interface and software development, then I started making websites, then I started looking into web hosting, database administration, clustering/high availability... The list goes on and on. Combined with my previous experience in convincing game servers to not catch fire in the middle of the seventh round on cs_italy, I started imagining myself as a system administrator by trade, living in busy ice-cold server rooms, making sure every piece of high-end silicon would perform optimally. The choice of Linux as my main OS came kind of naturally, as Windows Server was way too expensive for the PFY<sup id="footnote-4-orig"><a href="#footnote-4">4</a></sup> that I was back then.<br>
+					<br>
+					I was never really good with software development<sup id="footnote-5-orig"><a href="#footnote-5">5</a></sup>. My coding style is rather antiquated - for example, I find <i>most</i> uses of OOP to be rather unjustified, and this isn't just me being a primarily C coder either; when I was in engineering school we learned OOP by writing software that would be far better suited for a waterfall model than OOP (like a password generator; a password <i>manager</i> I could understand, but merely generating a n-character long string does not require OOP and I will die on this hill), and in general my development cycles tend to be either very slow and incremental, or energy drink fueled, stream-of-consciousness affairs of chaos. Neither particularly work in an enterprise context, as you can imagine.<br>
+					<br>
+					At first I was kind of discouraged and turned away from IT altogether due to how the public education system works here: to get into IT, the paths were either undergraduating in math (clearly not an option considering my grades in that subject), becoming a patented network tech (entry rejected due to limited places), or going through a private school. I signed up for a physics undergrad program since I had no better option at the time<sup id="footnote-6-orig"><a href="#footnote-6">6</a></sup> and started working part-time as a janitor. Ended up failing (of course) and course correcting into a private school with my meager savings in 2015.<br>
+					<br>
+					To be completely honest and blunt, I hardly learned anything in my time there. Some classes clearly had more work put into them than others (special mention to the Windows Server classes where we deployed an Active Directory for three years straight), some classes were entirely superfluous, and some were outright sabotage. One in particular that I remember was the .NET 101 class; most of the class was taught on .NET Core, which at the time was the only way to write and run .NET code on non-Windows OSes (because of course I had to be this dude who ran Fedora Linux full time), but the exam was on .NET full. The subject explicitly asked for deliverables in the .exe format among other things. Everyone running either a Mac or Linux could do nothing but fail the exam, which caused a lot of uproar.<br>
+					There are a few other stories I could tell from back then, but basically: not a pleasant experience at all. Parts of me genuinely feel I've wasted my time and money, doubly so after the school founder got embroiled in a ton of monetary scandals, to the point I felt my degree was all but useless since the school's rep got nuked from low earth orbit. And I was right to an extent; I was unemployed for a little under a year before being offered a job as a junior Linux sysadmin in a paramedical company in September 2020.<br>
+					<br>
+					I won't go into details about why I left this job almost four years later because it's neither the place nor important to my life story. Outside of two short "blips", I've been unemployed ever since, because somehow no one here appears to need a Linux focused systems administrator. I have attempted to switch careers and go into woodworking, but a back injury prevented me from doing to, and am still exploring other options, although I'm not necessarily closed to opportunities in IT.<br>
+					<br>
+					Well, that's quite enough yapping for today. Signing off.<br>
+					<div class="signature">- Bad64</div><br>
+				</p>
+				
+				<hr style="width: 80%;">
+				
+				<p>
+					<div class="footnotes">
+						<a href="#footnote-1-orig" id="footnote-1">1</a>: Columbine, which The Media squarely blamed on metal music and satanic video games. I happened to be into both. Good times ! (Not)<br>
+						<a href="#footnote-2-orig" id="footnote-2">2</a>: For those too young to know a "Clan" is basically a gaming team in modern terms, minus the management. In the late 90s/early 00s we had some weird obsession with tribal stuff - see the tribal tattoo epidemic - and before the advent of military shooters later in the decade, "Team" or "Squad" felt too vanilla for our young heads<br>
+						<a href="#footnote-3-orig" id="footnote-3">3</a>: I have stopped since. Support indies !<br>
+						<a href="#footnote-4-orig" id="footnote-4">4</a>: Pimply Faced Youth, a character in the Bastard Operator From Hell series by Simon Travaglia<br>
+						<a href="#footnote-5-orig" id="footnote-5">5</a>: If you need any proof other than this website itself, feel free to look at my GitHub<br>
+						<a href="#footnote-6-orig" id="footnote-6">6</a>: Idea being that I could get into domotics/home automation through physics undergrad, as a backup plan if I couldn't save up enough for a private engineering school<br>
+					</div>
+				</p>
+			</article>
+			<script src="/common/elements/js/footer.js"></script>
+		</div>
+	</body>
+</html>
+

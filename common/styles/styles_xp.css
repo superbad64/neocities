@@ -1,0 +1,57 @@
+/* Main page content */
+html
+{
+	background-color: #008080;
+	background-image: url("/common/images/bliss.png");
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: "Segoe UI";
+}
+
+/* Shared elements */
+.titlebar
+{
+	background-image: linear-gradient(to top, darkblue, blue, #0055ea);
+	border-radius: 6px 6px 0 0;
+}
+
+.fakemenu
+{
+	display: block;
+}
+
+.fakebutton
+{
+	background-color: #f66e51;
+	font-family: "Lucida Console";
+	font-weight: bold;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+/* Side bar */
+.sidenav
+{
+	border: 3px solid #0055ea;
+	border-radius: 10px 10px 0 0;
+	background-color: #667ad8;
+}
+
+/* Top menu (hidden) */
+.topnav
+{
+	border: 3px solid #0055ea;
+	border-radius: 10px 10px 0 0;
+	background-color: #667ad8;
+}
+
+/* Blog post */
+.blogpost
+{
+	background-color: #FFFFFF;
+	color: black;
+	border: 3px solid #0055ea;
+	border-radius: 10px 10px 0 0;
+}

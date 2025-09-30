@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Projects</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<link rel="stylesheet" href="/common/styles/anims.css">
+	</head>
+	<body>
+		<script src="/common/elements/js/sidenav.js"></script>
+
+		<div class="content">
+			<script src="/common/elements/js/topnav.js"></script>
+
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">Arcade controllers</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton">X</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/js/fakemenu.js"></script>
+
+				<p>
+					<i>Coming soon !</i>
+                		</p>
+			</article>
+
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">Woodworking</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton">X</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/js/fakemenu.js"></script>
+
+				<p>
+					<i>Coming soon !</i>
+                		</p>
+			</article>
+
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">Code</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton">X</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/js/fakemenu.js"></script>
+
+				<ul>
+					<li><a href="/projects/code/website/website.shtml">This website !</a>	
+                		</ul>
+			</article>
+			<script src="/common/elements/js/footer.js"></script>
+		</div>
+	</body>
+</html>
+
+

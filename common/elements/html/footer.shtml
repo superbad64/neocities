@@ -1,0 +1,27 @@
+<!-- The site footer, where most of the JavaScript is loaded -->
+<style>
+.badges
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+</style>
+<section class="footer">
+	<hr>
+	<div class="badges">
+		<img src=/common/images/badges/firefoxnow.gif />&nbsp
+		<img src=/common/images/badges/netscapenow.gif />&nbsp 
+		<img src=/common/images/badges/php.gif />&nbsp
+		<img src=/common/images/badges/geocities.gif />&nbsp
+		<img src=/common/images/badges/neocities.gif />&nbsp
+		<img src=/common/images/badges/vim.gif />
+	</div>
+	<p style="text-align: center;">Copyright Bad64 2025<br>And remember...</p>
+	<div class="badges">
+		<img src=/common/images/badges/chromevil.gif />
+	</div>
+	<p style="text-align: center;"><a href="#">Back to top</a></p>
+</section>
+
+<script src="/common/elements/scripts.js"></script>
