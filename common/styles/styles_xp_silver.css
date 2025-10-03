@@ -11,8 +11,9 @@ html
 /* Shared elements */
 .titlebar
 {
-	background-image: linear-gradient(to top, #0042b6, #0055ea, #0042b6);
+	background-image: linear-gradient(to top, #FFFFFF, #b2b2b2, #b2b2b2);
 	border-radius: 6px 6px 0 0;
+	color: black;
 }
 
 .fakemenu
@@ -34,17 +35,17 @@ html
 /* Side bar */
 .sidenav
 {
-	border: 3px solid #0042b6;
+	border: 3px solid #b2b2b2;
 	border-radius: 10px 10px 0 0;
-	background-color: #667ad8;
+	background-color: #e7e6ee;
 }
 
 /* Top menu (hidden) */
 .topnav
 {
-	border: 3px solid #0042b6;
+	border: 3px solid #b2b2b2;
 	border-radius: 10px 10px 0 0;
-	background-color: #667ad8;
+	background-color: #e7e6ee;
 }
 
 /* Blog post */
@@ -52,6 +53,6 @@ html
 {
 	background-color: #FFFFFF;
 	color: black;
-	border: 3px solid #0042b6;
+	border: 3px solid #b2b2b2;
 	border-radius: 10px 10px 0 0;
 }

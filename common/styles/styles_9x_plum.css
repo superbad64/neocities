@@ -1,0 +1,60 @@
+/* Main page content */
+@font-face
+{
+	font-family: W95Font;
+	src: url("/common/W95font.otf");
+}
+
+html
+{
+	background-color: #402840;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: "W95Font";
+	color: white;
+}
+
+/* Shared elements */
+.titlebar
+{
+	background-image: linear-gradient(to right, #484060, #484060);
+	color: white;
+	font-weight: bold;
+}
+
+.fakemenu
+{
+	display: none;
+}
+
+.fakebutton
+{
+	background-color: #a89890;
+	font-family: "Lucida Console";
+	font-weight: bold;
+	color: black;
+	border: 1px solid grey;
+	text-align: center;
+}
+
+/* Side bar */
+.sidenav
+{
+	border: 3px solid #756964;
+	background-color: #a89890;
+}
+
+/* Top menu (hidden) */
+.topnav
+{
+	border: 3px solid #756964;
+	background-color: #a89890;
+}
+
+/* Blog post */
+.blogpost
+{
+	background-color: #a89890;
+	color: black;
+	border: 3px solid grey;
+}

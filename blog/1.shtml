@@ -10,8 +10,27 @@
 
 		<div class="content">
 			<script src="/common/elements/js/topnav.js"></script>
-<h3>Bad64's Blog</h3><div style="display: flex; flex-wrap: wrap; justify-content: center;">
-&nbsp<strong>1</strong>&nbsp</div><article class="blogpost">
+	<h3>Bad64's Blog</h3>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+&nbsp<strong>1</strong>&nbsp
+</div>
+<article class="blogpost">
+	<div class="titlebar">
+		<label class="title">Small update - 03/10/2025 21:53</label>
+		<div class="buttoncontainer">
+			<label class="fakebutton">X</label>
+		</div>
+	</div>
+	<script src="/common/elements/js/fakemenu.js"></script>
+	<p>
+I've cleaned up the actual website a little bit, and touched up the CSS to slightly better match the XP aesthetic. On the GitHub repo I've uploaded a bunch of new styles too.<br>
+<br>
+I should go back to my EVO training now ! Hopefully I'll get to write about my experience there !<br>
+<div class="signature">- Bad64</div>
+
+	</p>
+</article><article class="blogpost">
 	<div class="titlebar">
 		<label class="title">Site launch - 30/09/2025 21:21</label>
 		<div class="buttoncontainer">

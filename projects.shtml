@@ -22,9 +22,11 @@
 				
 				<script src="/common/elements/js/fakemenu.js"></script>
 
-				<p>
-					<i>Coming soon !</i>
-                		</p>
+				<p>My main hobby is to design and build arcade sticks, to help aspiring fighters of today grow into the champions of tomorrow !</p>
+
+				<ul>
+					<li><a href="projects/arcade/goblin.shtml">The Goblin</a>: A tiny weekend leverless build</li>
+                		</ul>
 			</article>
 
 			<article class="blogpost">
@@ -36,6 +38,8 @@
 				</div>
 				
 				<script src="/common/elements/js/fakemenu.js"></script>
+
+				<p>It's not uncommon for me to do woodworking in the warmer parts of the year.</p>
 
 				<p>
 					<i>Coming soon !</i>
@@ -51,6 +55,8 @@
 				</div>
 				
 				<script src="/common/elements/js/fakemenu.js"></script>
+
+				<p>Did you know ? Sometimes I write (something that barely passes off as) productive code !</p>
 
 				<ul>
 					<li><a href="/projects/code/website/website.shtml">This website !</a>	

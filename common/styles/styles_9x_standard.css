@@ -16,7 +16,9 @@ html
 /* Shared elements */
 .titlebar
 {
-	background-image: linear-gradient(to right, #000066, #0022bb);
+	background-image: linear-gradient(to right, #000080, #1084d0);
+	color: white;
+	font-weight: bold;
 }
 
 .fakemenu

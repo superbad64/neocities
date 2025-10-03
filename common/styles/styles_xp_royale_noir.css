@@ -1,17 +1,16 @@
 /* Main page content */
 html
 {
-	background-color: #008080;
-	background-image: url("/common/images/bliss.png");
+	background-image: linear-gradient(to bottom, #444444, #555555);
 	background-attachment: fixed;
 	background-size: cover;
-	font-family: "Segoe UI";
+	font-family: "Tahoma";
 }
 
 /* Shared elements */
 .titlebar
 {
-	background-image: linear-gradient(to top, darkblue, blue, #0055ea);
+	background-image: linear-gradient(to top, #161d2d, #919195);
 	border-radius: 6px 6px 0 0;
 }
 
@@ -34,17 +33,17 @@ html
 /* Side bar */
 .sidenav
 {
-	border: 3px solid #0055ea;
+	border: 3px solid #919195;
 	border-radius: 10px 10px 0 0;
-	background-color: #667ad8;
+	background-color: #707a82;
 }
 
 /* Top menu (hidden) */
 .topnav
 {
-	border: 3px solid #0055ea;
+	border: 3px solid #919195;
 	border-radius: 10px 10px 0 0;
-	background-color: #667ad8;
+	background-color: #707a82;
 }
 
 /* Blog post */
@@ -52,6 +51,6 @@ html
 {
 	background-color: #FFFFFF;
 	color: black;
-	border: 3px solid #0055ea;
+	border: 3px solid #919195;
 	border-radius: 10px 10px 0 0;
 }

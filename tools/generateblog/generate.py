@@ -27,7 +27,8 @@ class Post():
         html += "\t\t\t<label class=\"fakebutton\">X</label>\n"
         html += "\t\t</div>\n"
         html += "\t</div>\n"
-        html += "\t<!--#include virtual=\"/common/elements/fakemenu.shtml\"-->\n"
+        #html += "\t<!--#include virtual=\"/common/elements/fakemenu.shtml\"-->\n"
+        html += "\t<script src=\"/common/elements/js/fakemenu.js\"></script>\n"
         html += "\t<p>\n"
         html += self.content
         html += "\n\t</p>\n"
@@ -37,7 +38,7 @@ class Post():
 
 def navigationWidget(pageNumber, maxPages):
     # Old-style chevron based navigation widget
-    navStr = "<div style=\"display: flex; flex-wrap: wrap; justify-content: center;\">\n"
+    navStr = "\n<div style=\"display: flex; flex-wrap: wrap; justify-content: center;\">\n"
 
     # First/Previous
     if pageNumber == 1:
@@ -61,7 +62,7 @@ def navigationWidget(pageNumber, maxPages):
     if pageNumber + 2 < maxPages:
         navStr += f"&nbsp<a href=\"{maxPages}.shtml\">&gt&gt</a>&nbsp"
 
-    navStr += "</div>"
+    navStr += "\n</div>\n"
     return navStr
 
 # Split the template
@@ -70,17 +71,18 @@ fileStart = []
 with open("../../common/elements/template.shtml", 'r') as t:
     for line in t:
         fileStart.append(line)
-        if "topnav.shtml" in line:
+        if "topnav.js" in line or "topnav.shtml" in line:
             break
 
 ## Append title
 fileStart[3] = "\t\t<title>Bad64's Blog</title>"
 
 ## And blog header
-fileStart.append("<h3>Bad64's Blog</h3>")
+fileStart.append("\t<h3>Bad64's Blog</h3>\n")
 fileStart = ''.join(fileStart)
 
-fileEnd = "\t\t\t<!--#include virtual=\"/common/elements/footer.shtml\"-->\n"
+#fileEnd = "\t\t\t<!--#include virtual=\"/common/elements/footer.shtml\"-->\n"
+fileEnd = "\t\t\t<script src=\"/common/elements/js/footer.js\"></script>\n"
 fileEnd += "\t\t</div>\n"
 fileEnd += "\t</body>\n"
 fileEnd += "</html>"
