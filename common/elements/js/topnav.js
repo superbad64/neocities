@@ -4,7 +4,7 @@ document.write('	<div class="titlebar">');
 document.write('		<label class="title">Menu</label>');
 document.write('	</div>');
 document.write('    ');
-document.write('    <!--#include virtual="/common/elements/html/fakemenu.shtml"-->');
+document.write('    <script src="/common/elements/js/fakemenu.js"></script>');
 document.write('');
 document.write('	<div class="topnavmenu">');
 document.write('		<div><img src="/common/images/icons/help_book_cool-4.png" />&nbsp<a href="/about.shtml"><span style="text-decoration: underline">A</span>bout me</a>&nbsp</div>');

@@ -24,4 +24,21 @@
 	<p style="text-align: center;"><a href="#">Back to top</a></p>
 </section>
 
+<section id="styleselector">
+	<label for="stylemenu">Pick a style !</label>
+
+	<select id="stylemenu" onchange="easterEggCallback()">
+		<option value="9x_standard">9x Standard</option>
+		<option value="9x_plum">9x Plum</option>
+		<option value="9x_darkplum">9x Dark Plum</option>
+		<option value="9x_storm">9x Storm</option>
+		<option selected="selected" value="xp_luna">XP Luna (default)</option>
+		<option value="xp_olive">XP Olive</option>
+		<option value="xp_silver">XP Silver</option>
+		<option value="xp_royale_noir">XP Royale Noir</option>
+		<option value="watercolor">Whistler Watercolor</option>
+	</select>
+</section>
+<style id="extrastyle"></style>
+
 <script src="/common/elements/scripts.js"></script>

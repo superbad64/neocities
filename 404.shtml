@@ -24,7 +24,7 @@
 
 				<p style="text-align: center;">
 				You appear to have lost your way, traveler.
-				<u><a onclick="history.back()">How about retracing your steps ?</a></u>
+				<u><a class="back" onclick="history.back()">How about retracing your steps ?</a></u>
                 		</p>
 			</article>
 			<script src="/common/elements/js/footer.js"></script>
