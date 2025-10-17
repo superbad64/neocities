@@ -6,15 +6,19 @@ html
 
 @media (orientation: landscape)
 {
-	html { font-size: 16px; }
+	html
+	{
+		font-size: 16px;
+	}
 }
 
 @media (orientation: portrait)
 {
-	html { font-size: 24px; }
+	html
+	{
+		font-size: 24px;
+	}
 }
-
-body { margin: 0; }
 
 a, a:hover, a:visited
 {
@@ -70,6 +74,7 @@ p
 	margin-right: 2em;
 }
 
+/* Shared elements */
 .titlebar
 {
 	margin-top: 0;
@@ -130,92 +135,92 @@ hr
 	}
 }
 
-/* Nav menu */
-nav
+/* Side bar */
+.nav
 {
+	position: fixed;
 	min-width: 10em;
 	height: 0;
 }
 
 @media (orientation: landscape)
 {
-	nav
+	.nav
 	{
-		position: fixed;
-		min-width: 10em;
-		width: 10%;
-		height: 98%;
-		left: 15%;
-		top: 10px;
+		display: block;
 	}
 }
 
 @media (orientation: portrait)
 {
-	nav
+	.nav
 	{
-		position: relative;
-		left: 1%;
-		width: 98%;
-		height: auto;
-		font-size: 18px;
+		display: none;
 	}
 }
 
-nav img
+.nav img
 {
 	height: 24px;
 	width: auto;
 }
 
-nav a, nav a:hover, nav a:visited
+.navmenu
+{
+	margin-left: 0.5em;
+}
+
+.navmenu a, .navmenu a:hover, .navmenu a:visited
 {
 	color: black;
 	text-decoration: none;
 }
 
-.horizontalmenu
+/* Top nav menu (hidden) */
+.topnav
 {
-	margin-left: 0.5em;
+	position: relative;
+	width: 100%;
+	height: auto;
+	font-size: 18px;
 }
 
-.verticalmenu
+@media (orientation: landscape)
 {
-	flex-direction: row;
+	.topnav
+	{
+		display: none;
+	}
+}
+
+@media (orientation: portrait)
+{
+	.topnav
+	{
+		display: block;
+	}
+}
+
+.topnav img
+{
+	height: 24px;
+	width: auto;
+}
+
+.topnavmenu
+{
+	padding-top: .5em;
+	padding-bottom: .5em;
+	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
-	margin-top: 1em;
-	margin-bottom: 1em;
+	font-size: 18px;
+	justify-content: center;
 }
 
-@media (orientation: landscape)
+.topnavmenu a, .topnavmenu a:hover, .topnavmenu a:visited
 {
-	.horizontalmenu	{ display: block; }
-	.verticalmenu {	display: none; }
-}
-
-@media (orientation: portrait)
-{
-	.horizontalmenu	{ display: none; }
-	.verticalmenu {	display: flex; }
-}
-
-/* Content section */
-@media (orientation: landscape)
-{
-	.content
-	{
-		width: 50%;
-	}
-}
-
-@media (orientation: portrait)
-{
-	.content
-	{
-		width: 98%;
-		left: 1%;
-	}
+	color: black;
+	text-decoration: none;
 }
 
 /* Blog post */

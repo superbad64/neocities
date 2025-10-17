@@ -32,15 +32,7 @@ html
 }
 
 /* Side bar */
-.sidenav
-{
-	border: 3px solid #0042b6;
-	border-radius: 10px 10px 0 0;
-	background-color: #667ad8;
-}
-
-/* Top menu (hidden) */
-.topnav
+nav
 {
 	border: 3px solid #0042b6;
 	border-radius: 10px 10px 0 0;

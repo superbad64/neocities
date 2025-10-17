@@ -17,52 +17,55 @@ class Post():
         # Build content as a string
         with open(self.path, 'r') as file:
             self.content = file.read()
+        self.content = self.content.split("\n")
+        self.content.pop(-1)
 
     def generate(self):
         # Formats the blog post to be inserted into the HTML template
-        html = "<article class=\"blogpost\">\n"
-        html += "\t<div class=\"titlebar\">\n"
-        html += "\t\t<label class=\"title\">" + self.title + "</label>\n"
-        html += "\t\t<div class=\"buttoncontainer\">\n"
-        html += "\t\t\t<label class=\"fakebutton\">X</label>\n"
-        html += "\t\t</div>\n"
-        html += "\t</div>\n"
-        #html += "\t<!--#include virtual=\"/common/elements/fakemenu.shtml\"-->\n"
-        html += "\t<script src=\"/common/elements/js/fakemenu.js\"></script>\n"
-        html += "\t<p>\n"
-        html += self.content
-        html += "\n\t</p>\n"
-        html += "</article>"
+        html = "\t\t\t<article class=\"blogpost\">\n"
+        html += "\t\t\t\t<div class=\"titlebar\">\n"
+        html += "\t\t\t\t\t<label class=\"title\">" + self.title + "</label>\n"
+        html += "\t\t\t\t\t<div class=\"buttoncontainer\">\n"
+        html += "\t\t\t\t\t<label class=\"fakebutton\">X</label>\n"
+        html += "\t\t\t\t\t</div>\n"
+        html += "\t\t\t\t</div>\n"
+        #html += "\t\t\t\t<!--#include virtual=\"/common/elements/fakemenu.shtml\"-->\n"
+        html += "\t\t\t\t<script src=\"/common/elements/js/fakemenu.js\"></script>\n"
+        html += "\t\t\t\t<p>\n"
+        for line in self.content:
+            html += "\t\t\t\t\t" + line + '\n'
+        html += "\n\t\t\t\t</p>\n"
+        html += "\t\t\t</article>\n"
 
         return html
 
 def navigationWidget(pageNumber, maxPages):
     # Old-style chevron based navigation widget
-    navStr = "\n<div style=\"display: flex; flex-wrap: wrap; justify-content: center;\">\n"
+    navStr = "\n\t\t\t<div style=\"display: flex; flex-wrap: wrap; justify-content: center;\">\n"
 
     # First/Previous
     if pageNumber == 1:
         pass
     elif pageNumber == 2:
-        navStr += f"&nbsp<a href=\"1.shtml\">&lt</a>&nbsp"
+        navStr += f"\t\t\t\t&nbsp<a href=\"1.shtml\">&lt</a>&nbsp"
     else:
-        navStr += f"&nbsp<a href=\"1.shtml\">&lt&lt</a>&nbsp"
-        navStr += f"&nbsp<a href=\"{pageNumber-1}.shtml\">&lt</a>&nbsp"
+        navStr += f"\t\t\t\t&nbsp<a href=\"1.shtml\">&lt&lt</a>&nbsp"
+        navStr += f"\t\t\t\t&nbsp<a href=\"{pageNumber-1}.shtml\">&lt</a>&nbsp"
 
     # Regular pages
     for i in range(1, maxPages):
         if i == pageNumber:
-            navStr += f"&nbsp<strong>{i}</strong>&nbsp"
+            navStr += f"\t\t\t\t&nbsp<strong>{i}</strong>&nbsp"
         else:
-            navStr += f"&nbsp<a href=\"{i}.shtml\">{i}</a>&nbsp"
+            navStr += f"\t\t\t\t&nbsp<a href=\"{i}.shtml\">{i}</a>&nbsp"
 
     # Next/Last
     if pageNumber + 1 < maxPages:
-        navStr += f"&nbsp<a href=\"{pageNumber+1}.shtml\">&gt</a>&nbsp"
+        navStr += f"\t\t\t\t&nbsp<a href=\"{pageNumber+1}.shtml\">&gt</a>&nbsp"
     if pageNumber + 2 < maxPages:
-        navStr += f"&nbsp<a href=\"{maxPages}.shtml\">&gt&gt</a>&nbsp"
+        navStr += f"\t\t\t\t&nbsp<a href=\"{maxPages}.shtml\">&gt&gt</a>&nbsp"
 
-    navStr += "\n</div>\n"
+    navStr += "\n\t\t\t</div>\n"
     return navStr
 
 # Split the template
@@ -71,20 +74,20 @@ fileStart = []
 with open("../../common/elements/template.shtml", 'r') as t:
     for line in t:
         fileStart.append(line)
-        if "topnav.js" in line or "topnav.shtml" in line:
+        if "section" in line:
             break
 
 ## Append title
-fileStart[3] = "\t\t<title>Bad64's Blog</title>"
+fileStart[3] = "\t\t<title>Blog - Bad64's Domain</title>\n"
 
 ## And blog header
-fileStart.append("\t<h3>Bad64's Blog</h3>\n")
+fileStart.append("\n\t\t\t<h3>Blog</h3>\n")
 fileStart = ''.join(fileStart)
 
 #fileEnd = "\t\t\t<!--#include virtual=\"/common/elements/footer.shtml\"-->\n"
 fileEnd = "\t\t\t<script src=\"/common/elements/js/footer.js\"></script>\n"
-fileEnd += "\t\t\t<script>document.getElementsByClassName(\"content\")[0].getElementsByTagName(\"h3\")[0].style.marginTop = document.getElementsByClassName(\"sidenav\")[0].getBoundingClientRect().top + \"px\"</script>"
-fileEnd += "\t\t</div>\n"
+fileEnd += "\t\t\t<script>document.getElementsByClassName(\"content\")[0].getElementsByTagName(\"h3\")[0].style.marginTop = document.getElementsByClassName(\"nav\")[0].getBoundingClientRect().top + \"px\"</script>\n"
+fileEnd += "\t\t</section>\n"
 fileEnd += "\t</body>\n"
 fileEnd += "</html>"
 

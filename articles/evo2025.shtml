@@ -7,7 +7,7 @@
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<script src="/common/elements/js/sidenav.js"></script>
+		<script src="/common/elements/js/nav.js"></script>
 		<script>
 			function showTWContent() {
 				document.getElementById("revealTW").style = "display: none;";
@@ -15,9 +15,7 @@
 			}
 		</script>
 
-		<div class="content">
-			<script src="/common/elements/js/topnav.js"></script>
-
+		<section class="content">
 			<article class="blogpost">
 				<div class="titlebar">
 					<label class="title">Foreword</label>
@@ -184,6 +182,6 @@
 				</p>
 			</article>
 			<script src="/common/elements/js/footer.js"></script>
-		</div>
+		</section>
 	</body>
 </html>

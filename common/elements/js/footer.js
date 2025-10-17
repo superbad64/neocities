@@ -42,6 +42,5 @@ document.write('	</select>');
 document.write('</section>');
 document.write('<style id="extrastyle"></style>');
 document.write('');
-document.write('<canvas id="bgCanvas" style="display: none;"></canvas>');
 document.write('<script src="/common/elements/scripts.js"></script>');
 document.write('<script src="/common/elements/canvas/canvas.js"></script>');

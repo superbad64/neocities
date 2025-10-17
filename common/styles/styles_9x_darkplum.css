@@ -43,13 +43,13 @@ a, a:hover, a:visited
 }
 
 /* Side bar */
-.sidenav
+.nav
 {
 	border: 3px solid grey;
 	background-color: #333333;
 }
 
-.sidenav a, .sidenav a:hover, .sidenav a:visited
+.nav a, .nav a:hover, .nav a:visited
 {
 	color: white;
 }

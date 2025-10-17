@@ -1,21 +1,22 @@
 /* Globals */
 var html = document.getElementsByTagName("html")[0];
 var content = document.getElementsByClassName("content")[0];
-var sidenav = document.getElementsByClassName("sidenav")[0];
-var topnav = document.getElementsByClassName("topnav")[0];
+var nav = document.getElementsByTagName("nav")[0];
+var horizontalMenu = document.getElementsByClassName("horizontalmenu")[0];
+var verticalMenu = document.getElementsByClassName("verticalmenu")[0];
+var prevState = "?";
 var baseFontSize = window.getComputedStyle(html, null).getPropertyValue("font-size").slice(0, -2);
 
 function recalculateFonts() {
 	/* Resizes the fonts according to the main content font size */
+	baseFontSize = window.getComputedStyle(html, null).getPropertyValue("font-size").slice(0, -2);
 
 	// Title bars
 	for (let e of document.getElementsByClassName("title")) { e.style.fontSize = (parseInt(baseFontSize) * 1.25) + "px"; }
 
-	// Side nav
-	for (let e of document.getElementsByClassName("sidenavmenu")) { e.style.fontSize = (parseInt(baseFontSize) * 1.25) + "px"; }
-
-	// Top nav
-	for (let e of document.getElementsByClassName("topnavmenu")) { e.style.fontSize = (parseInt(baseFontSize) * 1.25) + "px"; }
+	// Nav menu
+	for (let e of document.getElementsByClassName("horizontalmenu")) { e.style.fontSize = (parseInt(baseFontSize) * 1.25) + "px"; }
+	for (let e of document.getElementsByClassName("verticalmenu")) { e.style.fontSize = (parseInt(baseFontSize) * 1.25) + "px"; }
 
 	// Sup elements
 	for (let e of document.getElementsByTagName("sup")) { e.style.fontSize = (parseInt(baseFontSize) * 0.75) + "px"; }
@@ -29,57 +30,47 @@ function recalculateFonts() {
 	// Footnotes
 	for (let e of document.getElementsByClassName("footnotes")) { e.style.fontSize = (parseInt(baseFontSize) * 0.8) + "px";	}
 }
-recalculateFonts()
+recalculateFonts();
 
 function recalculateLayout() {
-	/* Changes the layout according to the aspect ratio of the device */
-	// Locals
-	var sidenavRect = sidenav.getBoundingClientRect();
-	var topnavRect = topnav.getBoundingClientRect();
-	var firstArticle = document.getElementsByClassName("blogpost")[0];
+	var navRect = nav.getBoundingClientRect();
 
-	if (window.innerHeight > window.innerWidth) {		// Vertical viewport
-		// Set content width to use as much of the viewport as possible
-		content.style.left = "5px";
-		content.style.width = (window.innerWidth - 5) + "px";
+	if (window.matchMedia("(orientation: landscape)").matches) {
+		content.style.top = 0;
+		content.style.left = (navRect.right + 10) + "px";
+		content.style.width = "50%";
 
-		// Show vertical nav menu, hide horizontal nav
-		sidenav.style.display = "none";
-		topnav.style.display = "block";
+		if (prevState != "landscape") {
+			prevState = "landscape";
+			recalculateFonts();
 
-		// Set top nav size
-		topnav.style.width = content.style.width;
+			/* Adjust margin from topmost article */
+			document.getElementsByTagName("article")[0].style.marginTop = "10px";
+		}
+	} else if (window.matchMedia("(orientation: portrait)").matches) {
+		//content.style.top = (navRect.bottom + 10) + "px";
+		content.style.left = "1%";
+		content.style.width = "98%";
 
-		// Set content offsets
-		firstArticle.style.marginTop = "0.5em";
+		if (prevState != "portrait") {
+			prevState = "portrait";
+			recalculateFonts();
+
+			/* Reinstate margin to topmost article */
+			document.getElementsByTagName("article")[0].style.marginTop = "0.5em";
+		}
 	}
-	else if (window.innerHeight < window.innerWidth) {	// Horizontal viewport
-		// Show horizontal nav menu, hide vertical nav
-		sidenav.style.display = "block";
-		topnav.style.display = "none";
 
-		// Set side menu vertical size
-		sidenav.style.height = ((window.innerHeight * 98) / 100) + "px";
-
-		// Set sidenav left offset
-		sidenav.style.left = (window.innerWidth * 0.2) + "px";
-		sidenav.style.minWidth = "10em";
-		sidenav.style.maxWidth = (window.innerWidth * 0.1) + "px";
-		sidenav.style.width = (window.innerWidth * 0.1) + "px";
-
-		// Set content offsets
-		firstArticle.style.marginTop = sidenavRect.top + "px";	// Aligns the blog posts with the top of the side nav
-		content.style.top -= (topnavRect.bottom - topnavRect.top);
-		content.style.left = (sidenavRect.right + 10) + "px";
-
-		// Set content width
-		content.style.width = (window.innerWidth - 2 * (sidenavRect.right) + (sidenavRect.right - sidenavRect.left - 10)) + "px";
+	try {
+		document.getElementById("bgCanvas").width = window.innerWidth;
+		document.getElementById("bgCanvas").height = window.innerHeight;
+	} catch {
+		
 	}
 }
 recalculateLayout();
-recalculateLayout();
-//window.onresize = recalculateLayout;			// Do I *really* need this ?
-												// It's not like people resize their browser all the time... right ?
+window.onresize = recalculateLayout;
+
 /* Easter egg */ 
 /* Code from https://stackoverflow.com/questions/31626852/how-to-add-konami-code-in-a-website-based-on-html */
 var allowedKeys = {
@@ -133,21 +124,23 @@ function easterEggCallback() {
 	switch (stylemenu.value) {
 		// 9x styles
 		case "9x_standard":
-			extrastyle.innerHTML = "@font-face { font-family: W95Font; src: url(\"/common/W95font.otf\"); } html { background-color: #008080; background-image: unset; background-attachment: fixed; background-size: cover; font-family: \"W95Font\"; } .titlebar { background-image: linear-gradient(to right, #000080, #000080); color: white; font-weight: bold; border-radius: 0; } .fakemenu { display: none; } .fakebutton { background-color: #AAAAAA; font-family: \"Lucida Console\"; font-weight: bold; color: black; border: 2px outset; border-radius: 0; text-align: center; } .sidenav { border: 3px solid grey; border-radius: 0; background-color: #AAAAAA; } .topnav { border: 3px solid grey; border-radius: 0; background-color: #AAAAAA; } .blogpost { background-color: #AAAAAA; color: black; border: 3px solid grey; border-radius: 0; }";
+			extrastyle.innerHTML = "@font-face { font-family: W95Font; src: url(\"/common/W95font.otf\"); } html { background-color: #008080; background-image: unset; background-attachment: fixed; background-size: cover; font-family: \"W95Font\"; } .titlebar { background-image: linear-gradient(to right, #000080, #000080); color: white; font-weight: bold; border-radius: 0; } .fakemenu { display: none; } .fakebutton { background-color: #AAAAAA; font-family: \"Lucida Console\"; font-weight: bold; color: black; border: 2px outset; border-radius: 0; text-align: center; } nav { border: 3px solid grey; border-radius: 0; background-color: #AAAAAA; } .blogpost { background-color: #AAAAAA; color: black; border: 3px solid grey; border-radius: 0; }";
 			break;
 		case "9x_plum":
-			extrastyle.innerHTML = "@font-face { font-family: W95Font; src: url(\"/common/W95font.otf\"); } html { background-color: #000000; background-image: unset; background-attachment: fixed; background-size: cover; font-family: \"W95Font\"; color: white; } .titlebar { background-image: linear-gradient(to right, #484060, #484060); color: white; font-weight: bold; border-radius: 0; } .fakemenu { display: none; } .fakebutton { background-color: #a89890; font-family: \"Lucida Console\"; font-weight: bold; color: black; border: 2px outset; border-radius: 0; text-align: center; } .sidenav { border: 3px solid #756964; border-radius: 0; background-color: #a89890; } .topnav { border: 3px solid #756964; border-radius: 0; background-color: #a89890; } .blogpost { background-color: #a89890; color: black; border: 3px solid #756964; border-radius: 0;}";
+			extrastyle.innerHTML = "@font-face { font-family: W95Font; src: url(\"/common/W95font.otf\"); } html { background-color: #000000; background-image: unset; background-attachment: fixed; background-size: cover; font-family: \"W95Font\"; color: white; } .titlebar { background-image: linear-gradient(to right, #484060, #484060); color: white; font-weight: bold; border-radius: 0; } .fakemenu { display: none; } .fakebutton { background-color: #a89890; font-family: \"Lucida Console\"; font-weight: bold; color: black; border: 2px outset; border-radius: 0; text-align: center; } nav { border: 3px solid #756964; border-radius: 0; background-color: #a89890; } .blogpost { background-color: #a89890; color: black; border: 3px solid #756964; border-radius: 0;}";
 			try {
 				document.getElementById("bgCanvas").style.display = "block";
+				document.getElementById("bgCanvas").width = window.innerWidth;
+				document.getElementById("bgCanvas").height = window.innerHeight;
 			} catch {
 
 			}
 			break;
 		case "9x_matrix":
-			extrastyle.innerHTML = "@font-face { font-family: W95Font; src: url(\"/common/W95font.otf\"); } html { background-color: #000000; background-image: unset; background-attachment: fixed; background-size: cover; font-family: \"W95Font\"; color: #00FF00; } a, a:hover, a:visited { color: #00FF00; } .titlebar { background-image: linear-gradient(to right, #00ff00, #00ff00); color: black; font-weight: bold; border-radius: 0; } .fakemenu { display: none; } .fakebutton { background-color: #000000; font-family: \"Lucida Console\"; font-weight: bold; color: #00FF00; border: 1px solid #00FF00; border-radius: 0; text-align: center; } .sidenav { border: 3px solid #00FF00; border-radius: 0; background-color: #000000; } .sidenav a, .sidenav a:hover, .sidenav a:visited { color: #00FF00; } .topnav { border: 3px solid #00FF00; border-radius: 0; background-color: #000000; } .topnav a, .topnav a:hover, .topnav a:visited { color: #00FF00; } .blogpost { background-color: #000000; color: #00FF00; border: 3px solid #00FF00; border-radius: 0; }";
+			extrastyle.innerHTML = "@font-face { font-family: W95Font; src: url(\"/common/W95font.otf\"); } html { background-color: #000000; background-image: unset; background-attachment: fixed; background-size: cover; font-family: \"W95Font\"; color: #00FF00; } a, a:hover, a:visited { color: #00FF00; } .titlebar { background-image: linear-gradient(to right, #00ff00, #00ff00); color: black; font-weight: bold; border-radius: 0; } .fakemenu { display: none; } .fakebutton { background-color: #000000; font-family: \"Lucida Console\"; font-weight: bold; color: #00FF00; border: 1px solid #00FF00; border-radius: 0; text-align: center; } nav { border: 3px solid #00FF00; border-radius: 0; background-color: #000000; } nav a, nav a:hover, nav a:visited { color: #00FF00; } .topnav a, .topnav a:hover, .topnav a:visited { color: #00FF00; } .blogpost { background-color: #000000; color: #00FF00; border: 3px solid #00FF00; border-radius: 0; }";
 			break;
 		case "9x_mystery":
-			extrastyle.innerHTML = "@font-face { font-family: W95Font; src: url(\"/common/W95font.otf\"); } html { background-color: #008080; background-image: url(\"/common/images/mystery.jpg\"); background-attachment: fixed; background-size: cover; background-position-y: -25em; font-family: \"W95Font\"; } .titlebar { background-image: linear-gradient(to right, #503840, #503840); color: white; font-weight: bold; border-radius: 0; } .fakemenu { display: none; } .fakebutton { background-color: #87888f; font-family: \"Lucida Console\"; font-weight: bold; color: black; border: 2px outset; border-radius: 0; text-align: center; } .sidenav { border: 3px solid grey; border-radius: 0; background-color: #87888f; } .topnav { border: 3px solid grey; border-radius: 0; background-color: #87888f; } .blogpost { background-color: #87888f; color: black; border: 3px solid grey; border-radius: 0; }";
+			extrastyle.innerHTML = "@font-face { font-family: W95Font; src: url(\"/common/W95font.otf\"); } html { background-color: #008080; background-image: url(\"/common/images/mystery.jpg\"); background-attachment: fixed; background-size: cover; background-position-y: -25em; font-family: \"W95Font\"; } .titlebar { background-image: linear-gradient(to right, #503840, #503840); color: white; font-weight: bold; border-radius: 0; } .fakemenu { display: none; } .fakebutton { background-color: #87888f; font-family: \"Lucida Console\"; font-weight: bold; color: black; border: 2px outset; border-radius: 0; text-align: center; } nav { border: 3px solid grey; border-radius: 0; background-color: #87888f; } .blogpost { background-color: #87888f; color: black; border: 3px solid grey; border-radius: 0; }";
 			html.style.backgroundSize = "cover";
 			break;
 		// XP styles
@@ -155,23 +148,23 @@ function easterEggCallback() {
 			extrastyle.innerHTML = "";
 			break;
 		case "xp_olive":
-			extrastyle.innerHTML = "html { background-color: #FFFFFF; background-image: url(\"/common/images/bliss.png\"); background-attachment: fixed; background-size: cover; font-family: \"Tahoma\"; } .titlebar { background-image: linear-gradient(to top, #8b956a, #bbc98f, #8b956a); border-radius: 6px 6px 0 0; } .fakemenu { display: block; } .fakebutton { background-color: #f66e51; font-family: \"Lucida Console\"; font-weight: bold; color: white; border: 1px solid white; border-radius: 3px; text-align: center; } .sidenav { border: 3px solid #8b956a; border-radius: 10px 10px 0 0; background-color: #bbc98f; } .topnav { border: 3px solid #8b956a; border-radius: 10px 10px 0 0; background-color: #bbc98f; } .blogpost { background-color: #FFFFFF; color: black; border: 3px solid #8b956a; border-radius: 10px 10px 0 0; }";
+			extrastyle.innerHTML = "html { background-color: #FFFFFF; background-image: url(\"/common/images/bliss.png\"); background-attachment: fixed; background-size: cover; font-family: \"Tahoma\"; } .titlebar { background-image: linear-gradient(to top, #8b956a, #bbc98f, #8b956a); border-radius: 6px 6px 0 0; } .fakemenu { display: block; } .fakebutton { background-color: #f66e51; font-family: \"Lucida Console\"; font-weight: bold; color: white; border: 1px solid white; border-radius: 3px; text-align: center; } nav { border: 3px solid #8b956a; border-radius: 10px 10px 0 0; background-color: #bbc98f; } .blogpost { background-color: #FFFFFF; color: black; border: 3px solid #8b956a; border-radius: 10px 10px 0 0; }";
 			break;
 		case "xp_silver":
-			extrastyle.innerHTML = "html { background-color: #FFFFFF; background-image: url(\"/common/images/bliss.png\"); background-attachment: fixed; background-size: cover; font-family: \"Tahoma\"; } .titlebar { background-image: linear-gradient(to top, #FFFFFF, #b2b2b2, #b2b2b2); border-radius: 6px 6px 0 0; color: black; } .fakemenu { display: block; } .fakebutton { background-color: #f66e51; font-family: \"Lucida Console\"; font-weight: bold; color: white; border: 1px solid white; border-radius: 3px; text-align: center; } .sidenav { border: 3px solid #b2b2b2; border-radius: 10px 10px 0 0; background-color: #e7e6ee; } .topnav { border: 3px solid #b2b2b2; border-radius: 10px 10px 0 0; background-color: #e7e6ee; } .blogpost { background-color: #FFFFFF; color: black; border: 3px solid #b2b2b2; border-radius: 10px 10px 0 0; }";
+			extrastyle.innerHTML = "html { background-color: #FFFFFF; background-image: url(\"/common/images/bliss.png\"); background-attachment: fixed; background-size: cover; font-family: \"Tahoma\"; } .titlebar { background-image: linear-gradient(to top, #FFFFFF, #b2b2b2, #b2b2b2); border-radius: 6px 6px 0 0; color: black; } .fakemenu { display: block; } .fakebutton { background-color: #f66e51; font-family: \"Lucida Console\"; font-weight: bold; color: white; border: 1px solid white; border-radius: 3px; text-align: center; } nav { border: 3px solid #b2b2b2; border-radius: 10px 10px 0 0; background-color: #e7e6ee; } .blogpost { background-color: #FFFFFF; color: black; border: 3px solid #b2b2b2; border-radius: 10px 10px 0 0; }";
 			break;
 		case "xp_royale_noir":
-			extrastyle.innerHTML = "html { background-color: #202020; background-image: url(\"/common/images/energybliss.png\"); background-attachment: fixed; background-size: cover; font-family: \"Tahoma\"; } .titlebar { background-image: linear-gradient(to top, #161d2d, #556271); border-radius: 6px 6px 0 0; } .fakemenu { display: block; background-color: #f0eef1 } .fakebutton { background-color: #f66e51; font-family: \"Lucida Console\"; font-weight: bold; color: white; border: 1px solid white; border-radius: 3px; text-align: center; } .sidenav { border: 3px solid #556271; border-radius: 10px 10px 0 0; background-color: #707a82; } .topnav { border: 3px solid #556271; border-radius: 10px 10px 0 0; background-color: #707a82; } .blogpost { background-color: #FFFFFF; color: black; border: 3px solid #556271; border-radius: 10px 10px 0 0; }";
+			extrastyle.innerHTML = "html { background-color: #202020; background-image: url(\"/common/images/energybliss.png\"); background-attachment: fixed; background-size: cover; font-family: \"Tahoma\"; } .titlebar { background-image: linear-gradient(to top, #161d2d, #556271); border-radius: 6px 6px 0 0; } .fakemenu { display: block; background-color: #f0eef1 } .fakebutton { background-color: #f66e51; font-family: \"Lucida Console\"; font-weight: bold; color: white; border: 1px solid white; border-radius: 3px; text-align: center; } nav { border: 3px solid #556271; border-radius: 10px 10px 0 0; background-color: #707a82; } .blogpost { background-color: #FFFFFF; color: black; border: 3px solid #556271; border-radius: 10px 10px 0 0; }";
 			html.style.backgroundSize = window.innerWidth + "px " + window.innerHeight + "px";
 			break;
 		// Other styles
 		case "watercolor":
-			extrastyle.innerHTML = "html { background-color: #004e98; background-image: unset; background-attachment: fixed; background-size: cover; font-family: \"Tahoma\"; } .titlebar { background-image: linear-gradient(to right, #5094f8, #5094f8); color: white; font-weight: bold; border-radius: 0; } .fakemenu { display: block; background-color: #f0f4f0; } .fakebutton { background-color: #5094f8; font-family: \"Lucida Console\"; font-weight: bold; color: lightblue; border: 3px outset; border-radius: 0; text-align: center; } .sidenav { border: 3px solid #5094f8; border-radius: 0; background-color: #F8FCF8; } .topnav { border: 3px solid #5094f8; border-radius: 0; background-color: #F8FCF8; } .blogpost { background-color: #F8FCF8; color: black; border: 3px solid #5094f8; border-radius: 0; }";
+			extrastyle.innerHTML = "html { background-color: #004e98; background-image: unset; background-attachment: fixed; background-size: cover; font-family: \"Tahoma\"; } .titlebar { background-image: linear-gradient(to right, #5094f8, #5094f8); color: white; font-weight: bold; border-radius: 0; } .fakemenu { display: block; background-color: #f0f4f0; } .fakebutton { background-color: #5094f8; font-family: \"Lucida Console\"; font-weight: bold; color: lightblue; border: 3px outset; border-radius: 0; text-align: center; } nav { border: 3px solid #5094f8; border-radius: 0; background-color: #F8FCF8; } .blogpost { background-color: #F8FCF8; color: black; border: 3px solid #5094f8; border-radius: 0; }";
 			break;
 		case "candy":
 			break;
 		case "cde":
-			extrastyle.innerHTML = "html { background-color: #008080; background-image: unset; background-attachment: fixed; background-size: cover; font-family: \"Lucida Console\"; } .titlebar { background-image: linear-gradient(to right, #eda870, #eda870); color: white; font-weight: unset; border-radius: 0; text-align: center; } .fakemenu { display: block; background-color: #4991a7; color: white; } .fakebutton { background-color: #eda870; font-family: \"Lucida Console\"; font-weight: bold; color: #eda870; border: 3px outset; border-radius: 0; text-align: center; } .sidenav { border: 3px solid #eda870; border-radius: 0; background-color: #C6B2A8; } .topnav { border: 3px solid #eda870; border-radius: 0; background-color: #C6B2A8; } .blogpost { background-color: #C6B2A8; color: black; border: 3px solid #eda870; border-radius: 0; }";
+			extrastyle.innerHTML = "html { background-color: #008080; background-image: unset; background-attachment: fixed; background-size: cover; font-family: \"Lucida Console\"; } .titlebar { background-image: linear-gradient(to right, #eda870, #eda870); color: white; font-weight: unset; border-radius: 0; text-align: center; } .fakemenu { display: block; background-color: #4991a7; color: white; } .fakebutton { background-color: #eda870; font-family: \"Lucida Console\"; font-weight: bold; color: #eda870; border: 3px outset; border-radius: 0; text-align: center; } nav { border: 3px solid #eda870; border-radius: 0; background-color: #C6B2A8; } .blogpost { background-color: #C6B2A8; color: black; border: 3px solid #eda870; border-radius: 0; }";
 			break;
 		default:
 			break;

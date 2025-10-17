@@ -7,11 +7,9 @@
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<script src="/common/elements/js/sidenav.js"></script>
+		<script src="/common/elements/js/nav.js"></script>
 
-		<div class="content">
-			<script src="/common/elements/js/topnav.js"></script>
-
+		<section class="content">
 			<article class="blogpost">
 				<div class="titlebar">
 					<label class="title">The Ork</label>
