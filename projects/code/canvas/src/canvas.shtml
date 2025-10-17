@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <canvas id="bgCanvas"></canvas>
+    </body>
+    <script src="canvas.js"></script>
+</html>

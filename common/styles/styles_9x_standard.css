@@ -32,7 +32,7 @@ html
 	font-family: "Lucida Console";
 	font-weight: bold;
 	color: black;
-	border: 1px solid grey;
+	border: 2px outset;
 	text-align: center;
 }
 

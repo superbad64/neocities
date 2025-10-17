@@ -4,7 +4,7 @@
 		<title>The Goblin</title>
 		<link rel="stylesheet" href="/common/styles/layout.css">
 		<link rel="stylesheet" href="/common/styles/styles.css">
-		<link rel="stylesheet" href="/common/styles/anims.css">
+		<meta charset="UTF-8">
 	</head>
 	<body>
 		<script src="/common/elements/js/sidenav.js"></script>
@@ -21,7 +21,7 @@
 				</div>
 				
 				<script src="/common/elements/js/fakemenu.js"></script>
-				<p style="back"><a href="/projects.shtml">&lt Back to the Projects</a></p>
+				<p class="back"><a href="/projects.shtml">&lt Back to the Projects</a></p>
 
 				<div class="picture">
 					<img src="/common/images/projects/builds/goblin/goblin.png">
@@ -30,7 +30,7 @@
 
 				<p>
 					<a href="https://github.com/superbad64/OpenFighter/tree/main/Goblin">Find it on GitHub !</a>
-                		</p>
+                </p>
 
 				<p>
 				The Goblin was born out of a mostly commercial necessity, originally envisioned as a Smash-oriented controller and later brought "down" to something more reasonable and easy to build. Part of me want to say this is a really uncomplicated build with very few caveats, but the reality is that whether you elect to solder directly to your switch pins or to hotswap sockets, well you still have to solder, innit ? And the ground chain is always a bit hard to get right in my experience. I find that solid core wire makes it a <i>little</i> easier if you solder to bare pins, as you can bend it into "hooks" or "eye holes" that you can wrap around the pins to hold the wire in place while you solder, but to each their own; at the end of the day, as long as there is reliable continuity between all the pins, I don't think there is a wrong way to do it.

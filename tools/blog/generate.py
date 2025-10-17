@@ -83,6 +83,7 @@ fileStart = ''.join(fileStart)
 
 #fileEnd = "\t\t\t<!--#include virtual=\"/common/elements/footer.shtml\"-->\n"
 fileEnd = "\t\t\t<script src=\"/common/elements/js/footer.js\"></script>\n"
+fileEnd += "\t\t\t<script>document.getElementsByClassName(\"content\")[0].getElementsByTagName(\"h3\")[0].style.marginTop = document.getElementsByClassName(\"sidenav\")[0].getBoundingClientRect().top + \"px\"</script>"
 fileEnd += "\t\t</div>\n"
 fileEnd += "\t</body>\n"
 fileEnd += "</html>"

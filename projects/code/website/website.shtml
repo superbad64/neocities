@@ -4,7 +4,7 @@
 		<title>Let's get meta !</title>
 		<link rel="stylesheet" href="/common/styles/layout.css">
 		<link rel="stylesheet" href="/common/styles/styles.css">
-		<link rel="stylesheet" href="/common/styles/anims.css">
+		<meta charset="UTF-8">
 	</head>
 	<body>
 		<script src="/common/elements/js/sidenav.js"></script>

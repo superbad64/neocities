@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Forbidden</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<script src="/common/elements/js/sidenav.js"></script>
+
+		<div class="content">
+			<script src="/common/elements/js/topnav.js"></script>
+
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">Forbidden</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton">X</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/js/fakemenu.js"></script>
+
+				<p style="text-align: center;">
+				I'm sorry, Dave. I'm afraid I cannot let you do that.
+				<u><a onclick="history.back()">How about retracing your steps ?</a></u>
+                		</p>
+			</article>
+			<script src="/common/elements/js/footer.js"></script>
+		</div>
+	</body>
+</html>

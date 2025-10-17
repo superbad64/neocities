@@ -4,7 +4,7 @@
 		<title>Articles</title>
 		<link rel="stylesheet" href="/common/styles/layout.css">
 		<link rel="stylesheet" href="/common/styles/styles.css">
-		<link rel="stylesheet" href="/common/styles/anims.css">
+		<meta charset="UTF-8">
 	</head>
 	<body>
 		<script src="/common/elements/js/sidenav.js"></script>
@@ -24,11 +24,14 @@
 
 				<p>
 				I'm usually a man of relatively few words, but sometimes I do yap a little more than usual. These are said times.
-                		</p>
+                </p>
 
-				<ul>
-					<li><i>No articles published yet.</i></li>
-				</ul>
+				<section style="margin-left: 0.5em;">
+					<h2>Life experiences</h2>
+					<ul>
+						<li><a href="articles/evo2025.shtml">13/10/2025 - I went to EVO !</a> <strong>(Some TW content, spoiler-tagged)</strong></li>
+					</ul>
+				</section>
 			</article>
 			<script src="/common/elements/js/footer.js"></script>
 		</div>

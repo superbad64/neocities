@@ -4,7 +4,7 @@
 		<title></title>
 		<link rel="stylesheet" href="/common/styles/layout.css">
 		<link rel="stylesheet" href="/common/styles/styles.css">
-		<link rel="stylesheet" href="/common/styles/anims.css">
+		<meta charset="UTF-8">
 	</head>
 	<body>
 		<script src="/common/elements/js/sidenav.js"></script>
@@ -23,7 +23,7 @@
 				<script src="/common/elements/js/fakemenu.js"></script>
 
 				<p>
-                		</p>
+                </p>
 			</article>
 			<script src="/common/elements/js/footer.js"></script>
 		</div>

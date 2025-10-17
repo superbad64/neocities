@@ -1,4 +1,4 @@
-<!-- The site footer, where most of the JavaScript is loaded -->
+<!-- The site footer, with badges, copyright, and other fun stuff -->
 <style>
 .badges
 {
@@ -17,7 +17,7 @@
 		<img src=/common/images/badges/neocities.gif />&nbsp
 		<img src=/common/images/badges/vim.gif />
 	</div>
-	<p style="text-align: center;">Copyright Bad64 2025<br>And remember...</p>
+	<p style="text-align: center;">© Bad64 2025<br>And remember...</p>
 	<div class="badges">
 		<img src=/common/images/badges/chromevil.gif />
 	</div>
@@ -30,15 +30,17 @@
 	<select id="stylemenu" onchange="easterEggCallback()">
 		<option value="9x_standard">9x Standard</option>
 		<option value="9x_plum">9x Plum</option>
-		<option value="9x_darkplum">9x Dark Plum</option>
-		<option value="9x_storm">9x Storm</option>
+		<option value="9x_matrix">9x Matrix</option>
+		<option value="9x_mystery">9x Mystery</option>
 		<option selected="selected" value="xp_luna">XP Luna (default)</option>
 		<option value="xp_olive">XP Olive</option>
 		<option value="xp_silver">XP Silver</option>
 		<option value="xp_royale_noir">XP Royale Noir</option>
 		<option value="watercolor">Whistler Watercolor</option>
+		<option value="cde">Common Desktop Environment</option>
 	</select>
 </section>
 <style id="extrastyle"></style>
 
 <script src="/common/elements/scripts.js"></script>
+<script src="/common/elements/canvas/canvas.js"></script>

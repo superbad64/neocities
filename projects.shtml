@@ -4,7 +4,7 @@
 		<title>My Projects</title>
 		<link rel="stylesheet" href="/common/styles/layout.css">
 		<link rel="stylesheet" href="/common/styles/styles.css">
-		<link rel="stylesheet" href="/common/styles/anims.css">
+		<meta charset="UTF-8">
 	</head>
 	<body>
 		<script src="/common/elements/js/sidenav.js"></script>
@@ -26,7 +26,8 @@
 
 				<ul>
 					<li><a href="projects/arcade/goblin.shtml">The Goblin</a>: A tiny weekend leverless build</li>
-                		</ul>
+					<li><a href="projects/arcade/ork.shtml">The Ork</a>: Standard-size case</li>
+                </ul>
 			</article>
 
 			<article class="blogpost">
@@ -43,7 +44,7 @@
 
 				<p>
 					<i>Coming soon !</i>
-                		</p>
+                </p>
 			</article>
 
 			<article class="blogpost">
@@ -59,8 +60,9 @@
 				<p>Did you know ? Sometimes I write (something that barely passes off as) productive code !</p>
 
 				<ul>
-					<li><a href="/projects/code/website/website.shtml">This website !</a>	
-                		</ul>
+					<li><a href="/projects/code/website/website.shtml">This website !</a></li>
+					<li><a href="/projects/code/canvas/toasters.shtml">Flying Toasters</a>: A personal take on an iconic screensaver from my childhood</li>
+                </ul>
 			</article>
 			<script src="/common/elements/js/footer.js"></script>
 		</div>

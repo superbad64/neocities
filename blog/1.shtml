@@ -3,7 +3,7 @@
 	<head>
 		<title>Bad64's Blog</title>		<link rel="stylesheet" href="/common/styles/layout.css">
 		<link rel="stylesheet" href="/common/styles/styles.css">
-		<link rel="stylesheet" href="/common/styles/anims.css">
+		<meta charset="UTF-8">
 	</head>
 	<body>
 		<script src="/common/elements/js/sidenav.js"></script>
@@ -16,6 +16,19 @@
 &nbsp<strong>1</strong>&nbsp
 </div>
 <article class="blogpost">
+	<div class="titlebar">
+		<label class="title">I went to EVO ! - 13/10/2025 23:36</label>
+		<div class="buttoncontainer">
+			<label class="fakebutton">X</label>
+		</div>
+	</div>
+	<script src="/common/elements/js/fakemenu.js"></script>
+	<p>
+As the title says, I even wrote <a href="/articles/evo2025.shtml">an article</a> about it ! Go peek it !<br>
+<div class="signature">- Bad64</div>
+
+	</p>
+</article><article class="blogpost">
 	<div class="titlebar">
 		<label class="title">Small update - 03/10/2025 21:53</label>
 		<div class="buttoncontainer">
@@ -64,6 +77,6 @@ I've been hacking at it for days now... Glad to see nothing caught on fire (yet)
 
 	</p>
 </article>			<script src="/common/elements/js/footer.js"></script>
-		</div>
+			<script>document.getElementsByClassName("content")[0].getElementsByTagName("h3")[0].style.marginTop = document.getElementsByClassName("sidenav")[0].getBoundingClientRect().top + "px"</script>		</div>
 	</body>
 </html>

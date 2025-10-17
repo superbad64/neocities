@@ -12,5 +12,5 @@ document.write('		<div><img src="/common/images/icons/keyboard-5.png" />&nbsp<a 
 document.write('		<div><img src="/common/images/icons/computer_explorer-4.png" />&nbsp<a href="/blog/1.shtml"><span style="text-decoration: underline">B</span>log</a>&nbsp</div>');
 document.write('		<div><img src="/common/images/icons/notepad-5.png" />&nbsp<a href="/faq.shtml"><span style="text-decoration: underline">F</span>AQ</a>&nbsp</div>');
 document.write('		<div><img src="/common/images/icons/directory_open_file_mydocs-4.png" />&nbsp<a href="/projects.shtml"><span style="text-decoration: underline">P</span>rojects</a>&nbsp</div>');
-document.write('	</dl>');
+document.write('	</div>');
 document.write('</nav>');

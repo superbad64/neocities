@@ -4,7 +4,6 @@
 		<title>About me</title>
 		<link rel="stylesheet" href="/common/styles/layout.css">
 		<link rel="stylesheet" href="/common/styles/styles.css">
-		<link rel="stylesheet" href="/common/styles/anims.css">
 	</head>
 	<body>
 		<script src="/common/elements/js/sidenav.js"></script>
@@ -23,7 +22,7 @@
 				<script src="/common/elements/js/fakemenu.js"></script>
 
 				<p>
-					Around these parts of the net I am known as either <span class="rainbow"><span class="wave-text"><span>B</span><span>a</span><span>d</span><span>6</span><span>4</span></span></span>, or Super Bad 64 for those who've known me for a very long time. I have been using that name for close to a decade and a half now.<br>
+					Around these parts of the net I am known as either <strong>Bad64</strong>, or Super Bad 64 for those who've known me for a very long time. I have been using that name for close to a decade and a half now.<br>
 					<br>			
 					I am a 34 years old former system administrator. Left the field due to a chronic inability to cope with how modern IT works. Hours long daily meetings are definitely not for me. There may be something wrong with me, I dunno. Sure as heck isn't the IT world I grew up with and wanted to work in ! As a result, I'm currently looking for a job, and in general looking at where to go next in my life.<br>
 					<br>
@@ -33,7 +32,7 @@
 					But the very niche thing I'm into, as you'll see if you snoop around, is building fight sticks. I play a lot of fighting games, figured I should use my limited crafting talents to help people access decent hardware. Most modern controllers are garbage (except the Xbox Series X !) so yeah, time to use the plastic squirting machine to make some cases.<br>
 				</p>
 				
-				<hr style="width: 80%;">
+				<hr>
 				
 				<p>
 					I grew up in the French countryside, in a small village in the middle of the flatlands, where even today internet coverage is spotty at best. Our first familial computer was I think a Compaq Presario, running Windows 95, that we actually got in either late 96 or early 97. I'm not completely sure why we got it in the first place as we couldn't even have Internet back then - not even 28k ! My old man probably thought about doing administrative tasks on it via Excel but I've never seen that happen. Of course, me, I had a few games like Oregon Trail, Doom && Doom 2 (acquired through a cousin that I'll refer to as "FPS Cousin" due to his ability and willingness to purchase games I could not due to age), the first Tomb Raider I think too...<br>
