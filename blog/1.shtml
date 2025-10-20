@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>Blog - Bad64's Domain</title>
 		<link rel="stylesheet" href="/common/styles/layout.css">
@@ -18,6 +18,19 @@
 			</div>
 			<article class="blogpost">
 				<div class="titlebar">
+					<label class="title">Roaming around - 20/10/2025 16:38</label>
+					<div class="buttoncontainer">
+					<label class="fakebutton">X</label>
+					</div>
+				</div>
+				<script src="/common/elements/js/fakemenu.js"></script>
+				<p>
+					Been exploring tagged websites on NeoCities. There's quite a lot more people than I thought would be who also seem to hold fond memories of the XP Luna Blue style ! Genuinely surprised.<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<div class="titlebar">
 					<label class="title">I went to EVO ! - 13/10/2025 23:36</label>
 					<div class="buttoncontainer">
 					<label class="fakebutton">X</label>
@@ -27,7 +40,6 @@
 				<p>
 					As the title says, I even wrote <a href="/articles/evo2025.shtml">an article</a> about it ! Go peek it !<br>
 					<div class="signature">- Bad64</div>
-
 				</p>
 			</article>
 			<article class="blogpost">
@@ -43,7 +55,6 @@
 					<br>
 					I should go back to my EVO training now ! Hopefully I'll get to write about my experience there !<br>
 					<div class="signature">- Bad64</div>
-
 				</p>
 			</article>
 			<article class="blogpost">
@@ -61,7 +72,6 @@
 					<br>
 					Either way, that's that. Hope you enjoy your stay !
 					<div class="signature">- Bad64</div>
-
 				</p>
 			</article>
 			<article class="blogpost">
@@ -78,7 +88,6 @@
 					Good ! If you see this, it means my blog applet is working !<br>
 					I've been hacking at it for days now... Glad to see nothing caught on fire (yet) !<br>
 					<div class="signature">- Bad64</div>
-
 				</p>
 			</article>
 			<script src="/common/elements/js/footer.js"></script>

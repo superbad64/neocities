@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>Frequently Asked Questions</title>
+		<title>Frequently Asked Questions - Bad64's Corner</title>
 		<link rel="stylesheet" href="/common/styles/layout.css">
 		<link rel="stylesheet" href="/common/styles/styles.css">
 		<meta charset="UTF-8">
@@ -104,7 +104,7 @@
                 </p>
 			</article>
 			<script src="/common/elements/js/footer.js"></script>
-		</div>
+		</section>
 	</body>
 </html>
 

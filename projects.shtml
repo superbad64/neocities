@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>My Projects</title>
+		<title>My Projects - Bad64's Corner</title>
 		<link rel="stylesheet" href="/common/styles/layout.css">
 		<link rel="stylesheet" href="/common/styles/styles.css">
 		<meta charset="UTF-8">
@@ -63,7 +63,7 @@
                 </ul>
 			</article>
 			<script src="/common/elements/js/footer.js"></script>
-		</div>
+		</section>
 	</body>
 </html>
 

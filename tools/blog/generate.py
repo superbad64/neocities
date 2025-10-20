@@ -34,6 +34,7 @@ class Post():
         html += "\t\t\t\t<p>\n"
         for line in self.content:
             html += "\t\t\t\t\t" + line + '\n'
+        html = html[:-1]
         html += "\n\t\t\t\t</p>\n"
         html += "\t\t\t</article>\n"
 
