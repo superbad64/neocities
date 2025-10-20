@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Quick and dirty script to switch visual styles on the fly
+# Largely deprecated by the inclusion of an actual style switcher
 
 cd ../common/styles
 

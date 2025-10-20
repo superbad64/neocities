@@ -19,7 +19,7 @@
 				</div>
 				
 				<script src="/common/elements/js/fakemenu.js"></script>
-				<p class="back"><a href="/projects.shtml">&lt Back to the Projects</a></p> 
+				<p class="back"><a href="/projects.shtml">&lt; Back to the Projects</a></p> 
 
 				<div class="picture" style="align-items: center;">
 					<iframe src="src/canvas.shtml" width="400" height="400"></iframe>

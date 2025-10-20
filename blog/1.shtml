@@ -14,7 +14,7 @@
 			<h3>Blog</h3>
 
 			<div style="display: flex; flex-wrap: wrap; justify-content: center;">
-				&nbsp<strong>1</strong>&nbsp
+				&nbsp;<strong>1</strong>&nbsp;
 			</div>
 			<article class="blogpost">
 				<div class="titlebar">

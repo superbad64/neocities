@@ -48,23 +48,23 @@ def navigationWidget(pageNumber, maxPages):
     if pageNumber == 1:
         pass
     elif pageNumber == 2:
-        navStr += f"\t\t\t\t&nbsp<a href=\"1.shtml\">&lt</a>&nbsp"
+        navStr += f"\t\t\t\t&nbsp;<a href=\"1.shtml\">&lt;</a>&nbsp;"
     else:
-        navStr += f"\t\t\t\t&nbsp<a href=\"1.shtml\">&lt&lt</a>&nbsp"
-        navStr += f"\t\t\t\t&nbsp<a href=\"{pageNumber-1}.shtml\">&lt</a>&nbsp"
+        navStr += f"\t\t\t\t&nbsp;<a href=\"1.shtml\">&lt;&lt;</a>&nbsp;"
+        navStr += f"\t\t\t\t&nbsp;<a href=\"{pageNumber-1}.shtml\">&lt;</a>&nbsp;"
 
     # Regular pages
     for i in range(1, maxPages):
         if i == pageNumber:
-            navStr += f"\t\t\t\t&nbsp<strong>{i}</strong>&nbsp"
+            navStr += f"\t\t\t\t&nbsp;<strong>{i}</strong>&nbsp;"
         else:
-            navStr += f"\t\t\t\t&nbsp<a href=\"{i}.shtml\">{i}</a>&nbsp"
+            navStr += f"\t\t\t\t&nbsp;<a href=\"{i}.shtml\">{i}</a>&nbsp;"
 
     # Next/Last
     if pageNumber + 1 < maxPages:
-        navStr += f"\t\t\t\t&nbsp<a href=\"{pageNumber+1}.shtml\">&gt</a>&nbsp"
+        navStr += f"\t\t\t\t&nbsp;<a href=\"{pageNumber+1}.shtml\">&gt;</a>&nbsp;"
     if pageNumber + 2 < maxPages:
-        navStr += f"\t\t\t\t&nbsp<a href=\"{maxPages}.shtml\">&gt&gt</a>&nbsp"
+        navStr += f"\t\t\t\t&nbsp;<a href=\"{maxPages}.shtml\">&gt;&gt;</a>&nbsp;"
 
     navStr += "\n\t\t\t</div>\n"
     return navStr

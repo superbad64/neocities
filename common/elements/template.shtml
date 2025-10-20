@@ -12,7 +12,7 @@
 		<section class="content">
 			<article class="blogpost">
 				<div class="titlebar">
-					<label class="title"></label>
+					<label class="title">Uh... What are you doing here ?</label>
 					<div class="buttoncontainer">
 						<label class="fakebutton">X</label>
 					</div>
@@ -21,6 +21,7 @@
 				<script src="/common/elements/js/fakemenu.js"></script>
 
 				<p>
+					You probably only have knowledge of this page because you follow my GitHub. I don't really mind but there really is nothing else ! Thanks for watching my repo though :-D
                 </p>
 			</article>
 			<script src="/common/elements/js/footer.js"></script>

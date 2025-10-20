@@ -7,17 +7,17 @@
     <script src="/common/elements/js/fakemenu.js"></script>
 	
 	<dl class="horizontalmenu">
-		<dt><img src="/common/images/icons/help_book_cool-4.png" />&nbsp<a href="/about.shtml"><span style="text-decoration: underline">A</span>bout me</a></dt>
-		<dt><img src="/common/images/icons/keyboard-5.png" />&nbsp<a href="/articles.shtml">A<span style="text-decoration: underline">r</span>ticles</a></dt>
-		<dt><img src="/common/images/icons/computer_explorer-4.png" />&nbsp<a href="/blog/1.shtml"><span style="text-decoration: underline">B</span>log</a></dt>
-		<dt><img src="/common/images/icons/notepad-5.png" />&nbsp<a href="/faq.shtml"><span style="text-decoration: underline">F</span>AQ</a></dt>
-		<dt><img src="/common/images/icons/directory_open_file_mydocs-4.png" />&nbsp<a href="/projects.shtml"><span style="text-decoration: underline">P</span>rojects</a></dt>
+		<dt><img src="/common/images/icons/help_book_cool-4.png" />&nbsp;<a href="/about.shtml"><span style="text-decoration: underline">A</span>bout me</a></dt>
+		<dt><img src="/common/images/icons/keyboard-5.png" />&nbsp;<a href="/articles.shtml">A<span style="text-decoration: underline">r</span>ticles</a></dt>
+		<dt><img src="/common/images/icons/computer_explorer-4.png" />&nbsp;<a href="/blog/1.shtml"><span style="text-decoration: underline">B</span>log</a></dt>
+		<dt><img src="/common/images/icons/notepad-5.png" />&nbsp;<a href="/faq.shtml"><span style="text-decoration: underline">F</span>AQ</a></dt>
+		<dt><img src="/common/images/icons/directory_open_file_mydocs-4.png" />&nbsp;<a href="/projects.shtml"><span style="text-decoration: underline">P</span>rojects</a></dt>
 	</dl>
 	<div class="verticalmenu">
-		<div><img src="/common/images/icons/help_book_cool-4.png" />&nbsp<a href="/about.shtml"><span style="text-decoration: underline">A</span>bout me</a></div>
-		<div><img src="/common/images/icons/keyboard-5.png" />&nbsp<a href="/articles.shtml">A<span style="text-decoration: underline">r</span>ticles</a></div>
-		<div><img src="/common/images/icons/computer_explorer-4.png" />&nbsp<a href="/blog/1.shtml"><span style="text-decoration: underline">B</span>log</a></div>
-		<div><img src="/common/images/icons/notepad-5.png" />&nbsp<a href="/faq.shtml"><span style="text-decoration: underline">F</span>AQ</a></div>
-		<div><img src="/common/images/icons/directory_open_file_mydocs-4.png" />&nbsp<a href="/projects.shtml"><span style="text-decoration: underline">P</span>rojects</a></div>
+		<div><img src="/common/images/icons/help_book_cool-4.png" />&nbsp;<a href="/about.shtml"><span style="text-decoration: underline">A</span>bout me</a></div>
+		<div><img src="/common/images/icons/keyboard-5.png" />&nbsp;<a href="/articles.shtml">A<span style="text-decoration: underline">r</span>ticles</a></div>
+		<div><img src="/common/images/icons/computer_explorer-4.png" />&nbsp;<a href="/blog/1.shtml"><span style="text-decoration: underline">B</span>log</a></div>
+		<div><img src="/common/images/icons/notepad-5.png" />&nbsp;<a href="/faq.shtml"><span style="text-decoration: underline">F</span>AQ</a></div>
+		<div><img src="/common/images/icons/directory_open_file_mydocs-4.png" />&nbsp;<a href="/projects.shtml"><span style="text-decoration: underline">P</span>rojects</a></div>
 	</div>
 </nav>

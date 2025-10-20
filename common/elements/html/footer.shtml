@@ -10,11 +10,11 @@
 <section class="footer">
 	<hr>
 	<div class="badges">
-		<img src=/common/images/badges/firefoxnow.gif />&nbsp
-		<img src=/common/images/badges/netscapenow.gif />&nbsp 
-		<img src=/common/images/badges/php.gif />&nbsp
-		<img src=/common/images/badges/geocities.gif />&nbsp
-		<img src=/common/images/badges/neocities.gif />&nbsp
+		<img src=/common/images/badges/firefoxnow.gif />&nbsp;
+		<img src=/common/images/badges/netscapenow.gif />&nbsp; 
+		<img src=/common/images/badges/php.gif />&nbsp;
+		<img src=/common/images/badges/geocities.gif />&nbsp;
+		<img src=/common/images/badges/neocities.gif />&nbsp;
 		<img src=/common/images/badges/vim.gif />
 	</div>
 	<p style="text-align: center;">© Bad64 2025<br>And remember...</p>
