@@ -7,7 +7,8 @@
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<script src="/common/elements/js/nav.js"></script>
+		<script src="/common/elements/langbar.js"></script>
+		<script src="/common/elements/nav.js"></script>
 
 		<section class="content">
 			<article class="blogpost">
@@ -18,13 +19,13 @@
 					</div>
 				</div>
 				
-				<script src="/common/elements/js/fakemenu.js"></script>
+				<script src="/common/elements/fakemenu.js"></script>
 
 				<p>
 					You probably only have knowledge of this page because you follow my GitHub. I don't really mind but there really is nothing else ! Thanks for watching my repo though :-D
                 </p>
 			</article>
-			<script src="/common/elements/js/footer.js"></script>
+			<script src="/common/elements/footer.js"></script>
 		</section>
 	</body>
 </html>

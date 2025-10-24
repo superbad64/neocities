@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Bad64's Corner</title>
+		<title>Blog - Bad64's Domain</title>
 		<link rel="stylesheet" href="/common/styles/layout.css">
 		<link rel="stylesheet" href="/common/styles/styles.css">
 		<meta charset="UTF-8">
@@ -11,25 +11,27 @@
 		<script src="/common/elements/nav.js"></script>
 
 		<section class="content">
+
+			<h3>Blog</h3>
+
+			<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+				&nbsp;<strong>1</strong>&nbsp;
+			</div>
 			<article class="blogpost">
 				<div class="titlebar">
 					<label class="title">&nbsp;</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton">X</label>
+					<label class="fakebutton">X</label>
 					</div>
 				</div>
-				
 				<script src="/common/elements/fakemenu.js"></script>
-
-				<script>window.location.href = "/en/blog/1.shtml";</script>
 				<p>
-					Hi ! If you see this page, I have severely misconfigured something. Please click on any link in the menu and pretend this didn't happen !
+					Pour des raisons de fluidité d'expression, je ne traduis pas mon blog ! Veuillez consulter la <a href="/en/blog/1.shtml">version Anglophone</a> à la place.
+					<div class="signature">- Bad64</div>
 				</p>
-
 			</article>
 			<script src="/common/elements/footer.js"></script>
+			<script>document.getElementsByClassName("content")[0].getElementsByTagName("h3")[0].style.marginTop = document.getElementsByClassName("nav")[0].getBoundingClientRect().top + "px"</script>
 		</section>
 	</body>
 </html>
-
-

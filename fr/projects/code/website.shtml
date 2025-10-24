@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Let's get meta ! - Bad64's Corner</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<script src="/common/elements/langbar.js"></script>
+		<script src="/common/elements/nav.js"></script>
+
+		<section class="content">
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">Let's get meta !</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton">X</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/fakemenu.js"></script>
+				<p class="back"><a href="/fr/projects.shtml">&lt; Retour aux Projets</a></p> 
+
+				<div class="picture">
+					<img src="/common/images/projects/code/website/hi mom !.png" alt="A screenshot of a beautiful, modern website">
+
+					<p>
+					Surely there is a joke somewhere on the fact that I'm talking about my website on said website. Clearly, nobody's going to be infuriated by this /s<br>
+					(Site v1.0 using the 9x style sheet)
+					</p>
+				</div>
+
+				<p>
+				I started writing this website in May 2025, shortly before getting an ill-fated job where I only lasted a couple months before burning out. It's born of a combination between a deep desire to have a personal expression space on the Internet, a complete and utter reject of modern website building codes, and a way to pass the time that doesn't involve playing video games for 14 hours a day. I guess in that sense you could also say it's a way to keep myself a little sharp, but truth be told I'm not a web dev, nor do I plan to become one given my stance on frameworks in general.<br>
+				<br>
+				There's some <i>intensely</i> janky stuff on there - some I'm proud of, some a little less. If your stomach is solid (or empty), you can try looking at <a href="https://github.com/superbad64/neocities">the code</a>, but you should be warned: this isn't for the faint of heart. I do things in a very, erm, "independant" way, shall we say. How about I try to justify some of my crimes ?<br>
+				</p>
+				<p>
+				Let's start with the blog post generator script. This is something I really wanted to do, for objectively no good reason at all. Plenty of people have already told me that there is ample choice when it comes to Markdown to HTML converters, but <i>nooooo</i>, that isn't how *I* function<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup>. On the surface, this is actually a fairly simple script whose only moderately hard trick is splitting the template file to insert generated HTML articles. That is because it actually is a fairly simple script whose only moderately hard trick is splitting the template file to insert generated HTML articles.<br>
+				<br>
+				For most people at least. I have no shame in admitting that I spent <i>way</i> too long on the navigation widget used to generate the sumptuous old school style angle bracket based page selector<sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup>.<br>
+				<br>
+				I'm tooting my own horn, of course, but rest assured this is a rare thing; however, I do genuinely think the fact it allows me to statically "compile" my blog and dispenses me of any sort of backend is awesome, mostly because it allows this website to exist on NeoCities in the first place. Maybe I should pair it with a post creation script ? Although it's simple HTML, it'd be way overkill... But overkill is what I do anyway !
+				</p>
+				<p>
+				The JS, well, I tried to keep to a minimum, and in fact there was a lot more of it when I tried to do responsive design using vanilla JS at first. I hadn't even heard of media queries at this point, to give you an idea of how rusty I am. It's still lovably janky, and some even said "over-commented" (as if such a notion could even exist). As you can see, I mostly use it to resize various elements according to what I can figure out about screen size/aspect ratio. It's nowhere near perfect by any means<sup id="footnote-3-orig"><a href="#footnote-3">3</a></sup>, but so far it works well enough for me. Gonna be waiting on those pull requests haha !<br>
+				<br>
+				I'm well aware that responsiveness is inherently "immersion-breaking"; after all, there were no smartphones before 2007, and WAP accessible websites were... yeah you know what, let's not go there. I'm still reeling from some of these experiences. But anyway, I deemed it a fair trade that <i>some</i> modern amenities should be implemented, if only to broaden my potential reach a little bit. I have only done very limited testing on the mobile version with my own phone, and at the time of this writing, this here website does <i>not</i> like auto-rotate. Fortunately this is the only issue I have noticed (again, the PRs are going to disagree very soon I believe !)
+				</p>
+				<p>
+				At this point in time, I feel I have most of the basic functionalities down (maybe add a gallery widget for the projects ?), and expect any further developments to focus almost entirely on writing content. Ironically, I feel I could turn it into its own light framework, as I've taken great care of splitting the CSS files into a layered architecture, with the layout and the actual appearance almost entirely independant. Maybe I'll do a Watercolor theme some day ? Who knows ! Either way, I hope you'll enjoy your short stay here, and the code if you're brave enough to check it !<br>
+				<div class="signature">- Bad64</div>
+				<hr>
+				<p class="footnotes">
+					<a id="footnote-1" href="#footnote-1-orig">1</a>: "Functioning" is a very loose concept here; I tend to view myself as some<i>thing</i> cosplaying as a normal person cosplaying as a systems administrator<br>
+					<a id="footnote-2" href="#footnote-2-orig">2</a>: At the time of this writing, the blog has 2 posts. You won't see it in full until it gets to 20 ! (Btw, I tested it up to 420 posts)<br>
+					<a id="footnote-3" href="#footnote-3-orig">3</a>: It <i>probably</i> is closer to the antithesis of perfect than anything else<br>
+				</p>
+			</article>
+			<script src="/common/elements/footer.js"></script>
+		</section>
+	</body>
+</html>

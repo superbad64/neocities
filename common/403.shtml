@@ -7,7 +7,8 @@
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<script src="/common/elements/js/nav.js"></script>
+		<script src="/common/elements/langbar.js"></script>
+		<script src="/common/elements/nav.js"></script>
 
 		<section class="content">
 			<article class="blogpost">
@@ -18,14 +19,14 @@
 					</div>
 				</div>
 				
-				<script src="/common/elements/js/fakemenu.js"></script>
+				<script src="/common/elements/fakemenu.js"></script>
 
 				<p style="text-align: center;">
 				I'm sorry, Dave. I'm afraid I cannot let you do that.
 				<u><a onclick="history.back()">How about retracing your steps ?</a></u>
                 		</p>
 			</article>
-			<script src="/common/elements/js/footer.js"></script>
+			<script src="/common/elements/footer.js"></script>
 		</section>
 	</body>
 </html>

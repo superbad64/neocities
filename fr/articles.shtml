@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Not Found - Bad64's Corner</title>
+		<title>Articles</title>
 		<link rel="stylesheet" href="/common/styles/layout.css">
 		<link rel="stylesheet" href="/common/styles/styles.css">
 		<meta charset="UTF-8">
@@ -10,10 +10,10 @@
 		<script src="/common/elements/langbar.js"></script>
 		<script src="/common/elements/nav.js"></script>
 
-		<section class="content">	
+		<section class="content">
 			<article class="blogpost">
 				<div class="titlebar">
-					<label class="title">Page not found</label>
+					<label class="title">Articles</label>
 					<div class="buttoncontainer">
 						<label class="fakebutton">X</label>
 					</div>
@@ -21,12 +21,20 @@
 				
 				<script src="/common/elements/fakemenu.js"></script>
 
-				<p style="text-align: center;">
-				You appear to have lost your way, traveler.
-				<u><a class="back" onclick="history.back()">How about retracing your steps ?</a></u>
-                		</p>
+				<p>
+				I'm usually a man of relatively few words, but sometimes I do yap a little more than usual. These are said times.
+                </p>
+
+				<section style="margin-left: 0.5em;">
+					<h2>Life experiences</h2>
+					<ul>
+						<li><a href="articles/evo2025.shtml">13/10/2025 - I went to EVO !</a> <strong>(Some TW content, spoiler-tagged)</strong></li>
+					</ul>
+				</section>
 			</article>
 			<script src="/common/elements/footer.js"></script>
 		</section>
 	</body>
 </html>
+
+

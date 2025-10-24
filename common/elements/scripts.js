@@ -73,6 +73,19 @@ window.onresize = recalculateLayout;
 
 /* Easter egg */ 
 /* Code from https://stackoverflow.com/questions/31626852/how-to-add-konami-code-in-a-website-based-on-html */
+var lang = window.location.href.split("/")[3];
+
+var strings = {
+	"en": {
+		"easterEggActivated": "Check the bottom of the page !",
+		"userHint": "Try entering the Konami Code if you're on PC !"
+	},
+	"fr": {
+		"easterEggActivated": "Regarde en bas de la page !",
+		"userHint": "Si tu es sur PC, essaie d'entrer le Konami Code"
+	}
+}
+
 var allowedKeys = {
   37: 'left',
   38: 'up',
@@ -114,7 +127,7 @@ loadedstyles = [ "9x_standard", "9x_plum", "9x_matrix", "9x_mystery",
 	"watercolor", "candy", "cde" ];
 
 function easterEgg() {
-	alert("Check the bottom of the page !");
+	alert(strings[lang]["easterEggActivated"]);
 
 	document.getElementById("styleselector").style.display = "block";
 	window.location.replace("#styleselector");
@@ -198,7 +211,7 @@ if (searchParams.has("style")) {
 			stylemenu.value = "watercolor";
 			break;
 		case 64:	// Take a wild guess
-			alert("Try entering the Konami Code if you're on PC !");
+			alert(strings[lang]["userHint"]);
 			break;
 		case 93:	// CDE release year
 			stylemenu.value = "cde";

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>I went to EVO 2025 ! - Bad64's Corner</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<script src="/common/elements/langbar.js"></script>
+		<script src="/common/elements/nav.js"></script>
+		<script>
+			function showTWContent() {
+				document.getElementById("revealTW").style = "display: none;";
+				document.getElementById("TWContent").style = "display: block;";
+			}
+		</script>
+
+		<section class="content">
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">Foreword</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton">X</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/fakemenu.js"></script>
+
+				<p>
+					This article contains:
+				</p>
+					<ul>
+						<li>Coarse language (Parental Advisory: Explicit Lyrics)</li>
+						<li>Face reveal (there goes the "Bad64 is just a very advanced AI" crackpot theory)</li>
+						<li>Something <i>really</i> bad in a very non-fun way, spoiler tagged as the last section</li>
+					</ul>
+				<p>	
+					Reader discretion is advised !
+                </p>
+			</article>
+
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">Welcome to the show</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton">X</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/fakemenu.js"></script>
+
+				<p>
+					I was pretty excited to go to my first major tournament ! Barely a year ago I would have never imagined that EVO, of all things, would be held in France (and most importantly, not in Paris !)
+                </p>
+
+				<div class="gridview">
+					<img src="/common/images/articles/evo2025/IMG_20251011_133204.jpg">
+					<img src="/common/images/articles/evo2025/IMG_20251010_092913.jpg">
+					<img src="/common/images/articles/evo2025/IMG_20251010_093026.jpg">
+					<img src="/common/images/articles/evo2025/IMG_20251010_113715.jpg">
+				</div>
+				<p>
+					Armor King was available to try at the Tekken corner ! I didn't get too much time with him though - not really ideal labbing conditions. He seems okay, at least I didn't find anything super egregiously broken so far.
+				</p>
+
+				<div class="gridview">
+					<img src="/common/images/articles/evo2025/IMG_20251010_113929.jpg">
+					<img src="/common/images/articles/evo2025/IMG_20251012_191056.jpg">
+				</div>
+				<p>
+					I spent a <i>lot</i> of time at the arcade corner. Played a ton of ST and 3S. On day 2 I met a Taiwanese dude onto whom I dumped the entirety of my rusty ST knowledge (including how to pick Gouki !) over the course of a couple of hours. Hope he'll put it to good use back home to wreck his mates !
+				</p>
+
+				<div class="gridview">
+					<img src="/common/images/articles/evo2025/IMG_20251010_124909.jpg">
+					<img src="/common/images/articles/evo2025/IMG_20251010_124921_1.jpg">
+					<img src="/common/images/articles/evo2025/IMG_20251010_124937.jpg">
+					<img src="/common/images/articles/evo2025/IMG_20251010_124946.jpg">
+					<img src="/common/images/articles/evo2025/IMG_20251010_124957.jpg">
+					<img src="/common/images/articles/evo2025/IMG_20251010_125045.jpg">
+				</div>
+				<p>
+					There was a mini exposition on the history of fight sticks. Quite a lot of vintage specimens ! Some missing (notably on the Nintendo side of things) which is par for the course for Sony, although the Virtua Stick High Grade appeared to be the Dreamcast version, oddly enough.
+				</p>
+
+				<div class="gridview">
+					<img src="/common/images/articles/evo2025/IMG_20251012_195812.jpg">
+				</div>
+				<p>
+					There was a Juri-themed custom Suzuki GSX-8R, so <i>of course</i> I had to aura farm on it !
+				</p>
+
+				<p>
+					On the performance side of things, I went 2-2 on Tekken (lost to a Nina player in losers due to lack of matchup knowledge - at least I know what to work on) and 1-2 on Street Fighter 6 (just really bad luck). I'm honestly satisfied with this performance, considering how much my head was in the gutter for the entire weekend. I'll train hard and aim for better results next year !
+				</p>
+			</article>
+
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">Headhunting</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton">X</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/fakemenu.js"></script>
+
+				<p>
+					The old tournament tradition, collecting selfies with the big shots ! (Turns out my front camera is fubar and I didn't know... oh well)
+                </p>
+				<div class="gridview">
+					<img src="/common/images/articles/evo2025/IMG_20251010_190514.jpg">
+					<img src="/common/images/articles/evo2025/IMG_20251011_133601.jpg">
+					<img src="/common/images/articles/evo2025/IMG_20251011_150140.jpg">
+					<img src="/common/images/articles/evo2025/IMG_20251011_150530.jpg">
+					<img src="/common/images/articles/evo2025/IMG_20251011_172210.jpg">
+					<img src="/common/images/articles/evo2025/IMG_20251011_204323.jpg">
+					<img src="/common/images/articles/evo2025/IMG_20251012_141712.jpg" style="object-fit: contain; height: 100%;">
+					<img src="/common/images/articles/evo2025/20251011_205705.jpg" style="object-fit: contain; height: 100%;">
+				</div>
+				<p>
+					In order of appearance: ItaZan (whom I <i>almost</i> ran into in pools), Kayane, Tokido, PunkDaGod, (the worst picture ever taken of) Daigo, JWong the GOAT, Mister Quaraté (French commentator), and Harada-san !!
+				</p>
+			</article>
+
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">The tale of the random guy who doesn't give a shit</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton">X</label>
+					</div>
+				</div>
+				<script src="/common/elements/fakemenu.js"></script>
+
+				<div class="picture">
+					<img src="/common/images/articles/evo2025/20251010_165944.jpg" alt="Me playing with Arslan Ash">
+
+					<p>
+					Pictured: A multi-time EVO champion (teal, on the right) and the most oblivious man on the planet (red/orange on the left)
+					</p>
+				</div>
+
+				<p>
+					This picture has <i>lore</i>.<br>
+					<br>
+					On day 1 I was playing friendlies upstairs after being knocked out of my Tekken bracket when <i>some guy</i> asked if he could join. Both me and the guy I was playing against said yes, and my opponent graciously leaves his seat. New dude sets up, whips out a blinged out golden Qanba Obsidian.<br>
+					<br>
+					And I'm like "Hold the phone. I seen this stick before I think. Looks like the one you're s'posed to get when ya win EVO eh ?"<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup><br>
+					<br>
+					I turn around to ask this exact question to Hellios, and he basically just shrugs and tells me to not worry and that I can do it. Not his exact words but to be honest I don't remember them. Either way, I think he didn't get that I was completely serious.<br>
+					<br>
+					We start playing. He's good. <i>Real</i> good even. I get double perfected in an instant. I don't fare that much better for the rest of the FT2 set, so once I got well and proper wrecked, we bump fists as usual and, in my absolutely glorious ignorance, I ask him what his name is.<br>
+					<br>
+					So that's the story of how I unknowingly ran a set with <i>Arslan Goddamn Ash</i>, 7-time EVO champion !
+                </p>
+				<hr>
+				<p class="footnotes">
+					<a id="footnote-1" href="#footnote-1-orig">1</a>: Yes I do speak with a cartoonishly heavy Australian accent in my head. That isn't <i>actually</i> the case (if anything my accent is closer to something you'd hear in California)
+				</p>
+			</article>
+
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">So what went wrong ?</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton">X</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/fakemenu.js"></script>
+
+				<p>
+					<strong>TW: This is some serious life changing stuff. Don't say I didn't warn you.</strong>
+                </p>
+				<button id="revealTW" onclick="showTWContent()" style="margin: 1em;">Show</button>
+				<p id="TWContent" style="display: none;">
+					Literally ten minutes before leaving for the airport, I got a call from my aunt to whom I hadn't talked in close to a decade. She announced to me that, at the time, my father was put in a coma due to his late-stage cancer unexpectedly metastasizing.<br>
+					<br>
+					As of this writing I'm still in the process of... well, processing that this is now a thing I have to deal with, quite bluntly. This is the latest entry in a long series of stuff that's been grinding away at my mental and emotional health like if they were a Soulsborne boss for the past couple of years, so while my body was definitely at EVO, my mind was probably somewhere in the Backrooms.<br>
+					<br>
+					The real kick in the nuts - as if the death of a close family member wasn't one in the first place - is that I'm going to have to deal with the rest of my family for a minute. Most of whom I <i>don't</i> get along with at all. While I don't intend to start shit at a funeral (because <i>who does that</i>, y'know ?), I'm definitely not going to coddle them and let them harass and insult me either. All in all I'm looking at a particularly shitty week, is what I'm saying.
+				</p>
+			</article>
+			<script src="/common/elements/footer.js"></script>
+		</section>
+	</body>
+</html>

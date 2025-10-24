@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Mes projets - Bad64's Corner</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<script src="/common/elements/langbar.js"></script>
+		<script src="/common/elements/nav.js"></script>
+
+		<section class="content">
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">Sticks arcade (et leverless)</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton">X</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/fakemenu.js"></script>
+
+				<p>Mon hobby principal est de concevoir et construire des manettes de style arcade, pour aider la branche locale de la FGC !</p>
+
+				<ul>
+					<li><a href="projects/arcade/goblin.shtml">Le Goblin</a>: Un petit build parfait pour un projet dominical</li>
+					<li><a href="projects/arcade/ork.shtml">L'Ork</a>: Boitier standard plus costaud que le Goblin</li>
+                </ul>
+			</article>
+
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">Ébenisterie</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton">X</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/fakemenu.js"></script>
+
+				<p>Sur les périodes plus chaudes de l'année, j'aime m'adonner au travail du bois</p>
+
+				<ul>
+					<li><i>À venir !</i></li>
+                </ul>
+			</article>
+
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">Code</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton">X</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/fakemenu.js"></script>
+
+				<p>Saviez vous que parfois je produis des choses qu'on peut potentiellement confondre avec du code productif ?</p>
+
+				<ul>
+					<li><a href="projects/code/website.shtml">Ce site web !</a></li>
+					<li><a href="projects/code/toasters.shtml">Flying Toasters</a>: Ma réimplémentation/réinterprétation d'un économiseur d'écran nostalgique</li>
+					<li><a href="projects/code/dos.shtml">BAD-DOS</a>: Un concentré de technologie tout droit sortie de la fin des années 80</li>
+                </ul>
+			</article>
+			<script src="/common/elements/footer.js"></script>
+		</section>
+	</body>
+</html>
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Blog - Bad64's Domain</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<script src="/common/elements/langbar.js"></script>
+		<script src="/common/elements/nav.js"></script>
+
+		<section class="content">
+
+			<h3>Blog</h3>
+
+			<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+				&nbsp;<a href="1.shtml">&lt;</a>&nbsp;				&nbsp;<a href="1.shtml">1</a>&nbsp;				&nbsp;<strong>2</strong>&nbsp;
+			</div>
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">Hello, World ! - 30/09/2025 13:33</label>
+					<div class="buttoncontainer">
+					<label class="fakebutton">X</label>
+					</div>
+				</div>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					Ayo ? This thing on ?<br>
+					<br>
+					Good ! If you see this, it means my blog applet is working !<br>
+					I've been hacking at it for days now... Glad to see nothing caught on fire (yet) !<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<script src="/common/elements/footer.js"></script>
+			<script>document.getElementsByClassName("content")[0].getElementsByTagName("h3")[0].style.marginTop = document.getElementsByClassName("nav")[0].getBoundingClientRect().top + "px"</script>
+		</section>
+	</body>
+</html>

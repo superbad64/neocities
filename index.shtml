@@ -7,26 +7,27 @@
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<script src="/common/elements/js/nav.js"></script>
+		<script src="/common/elements/langbar.js"></script>
+		<script src="/common/elements/nav.js"></script>
 
 		<section class="content">
 			<article class="blogpost">
 				<div class="titlebar">
-					<label class="title"></label>
+					<label class="title">&nbsp;</label>
 					<div class="buttoncontainer">
 						<label class="fakebutton">X</label>
 					</div>
 				</div>
 				
-				<script src="/common/elements/js/fakemenu.js"></script>
+				<script src="/common/elements/fakemenu.js"></script>
 
-				<script>window.location.href = "blog/1.shtml";</script>
+				<script>window.location.href = "/en/blog/1.shtml";</script>
 				<p>
 					Hi ! If you see this page, I have severely misconfigured something. Please click on any link in the menu and pretend this didn't happen !
 				</p>
 
 			</article>
-			<script src="/common/elements/js/footer.js"></script>
+			<script src="/common/elements/footer.js"></script>
 		</section>
 	</body>
 </html>

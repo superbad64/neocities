@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>! - Bad64's Corner</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<script src="/common/elements/langbar.js"></script>
+		<script src="/common/elements/nav.js"></script>
+
+		<section class="content">
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">Mais kestufélà ?!</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton">X</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/fakemenu.js"></script>
+
+				<p>
+					Espèce de p'tit scraper à deux balles ! Ou alors t'as peut être juste eu de la chance ? :-D<br>
+					<br>
+					Voici la page que j'utilise pour tester mes palettes graphiques. Je me suis inspiré de quelques styles rétro:
+                </p>
+				<ul>
+					<li><strong>9x Standard</strong>: Style classique de Windows 95/98</li>
+					<li><strong>9x Plum</strong>: Un mix du thème Plum de Windows 95 et de l'économiseur d'écran <i>Flying Toasters</i> d'<i>After Dark</i></li>
+					<li><strong>9x Matrix</strong>: Thème à (très) haut contraste inspiré par Matrix</li>
+					<li><strong>9x Mystery</strong>: Thème iconique de <i>Microsoft Plus! 95</i></li>
+					<li><strong>XP Luna</strong>: Thème par défaut, basé sur Luna Blue de Windows XP</li>
+					<li><strong>XP Olive</strong>: Techniquement je devrais l'appeler "XP <i>Luna</i> Olive"</li>
+					<li><strong>XP Silver</strong>: Idem mais en gris métallisé</li>
+					<li><strong>XP Royale Noir</strong>: Thème populaire jamais sorti officiellement, qui deviendra par la suite XP Zune en 2006</li>
+					<li><strong>Whistler Watercolor</strong>: Basé sur le thème éponyme de Windows Whistler</li>
+					<li><strong>Common Desktop Environment</strong>: Le seul thème d'origine *NIX, basé sur CDE, lui même basé sur (Open)Motif</li>
+				</ul>
+				<p>
+					Tu peux afficher le sélécteur de thèmes sur n'importe quelle page en rentrant le Konami Code !
+				</p>
+			</article>
+			<!--TODO: Wallpaper selector -->
+			<script src="/common/elements/footer.js"></script>
+		</div>
+	</body>
+</html>
+<script>
+	document.getElementById("styleselector").style.display = "block";
+</script>

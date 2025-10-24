@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Operating System - Bad64's Corner</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<script src="/common/elements/langbar.js"></script>
+		<script src="/common/elements/nav.js"></script>
+
+		<section class="content">
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">C:\</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton">X</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/fakemenu.js"></script>
+				<p class="back"><a href="/en/projects.shtml">&lt; Back to the Projects</a></p> 
+
+				<div class="picture" style="align-items: center;">
+					<iframe src="/common/gadgets/bad-dos/repl.shtml" width="400" height="300"></iframe>
+					<p>
+						This probably doesn't look that good on mobile
+					</p>
+				</div>
+
+				<p>
+					<a href="https://github.com/superbad64/bad-dos">Find the code on GitHub !</a>
+				</p>
+
+				<p>
+					I feel like I'm the only guy my age who has fond memories of DOS. Of course, for me it was only a means to an end back then, specifically that end being to launch whatever game I was gonna play that day, usually some form of educational game like Adibou since the only DOS machine I had access to was at school. My first home computer already had Windows 95.<br>
+					<br>
+					Like most of what I write nowadays, it's a rather jumbled blob of stream-of-consciousness vanilla(-ish) JavaScript with a few <s>war crimes</s> questionable design choices. Most notably, I re-use some object-targeting code a couple times throughout, which normally means I should turn that bit of code into a function, but scope and lack of foresight made it harder than it needs to be<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup><br>
+					<br>
+					There are a few anachronisms, of course. System32 wasn't present on DOS (which makes sense - DOS is <i>16</i> bit), and neither was user management in the first place; that feature was actually part of a different DOS, specifically Novell Multiuser DOS (who'd have thought !)<br>
+					<br>
+					I made the virtual filesystem<sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup> read-only out of both convenience and ease of coding. Would have loved to include the EDIT command but this sounds like a local storage nightmare waiting to happen.<br>
+					<br>
+					All in all, despite some flaws like word wrapping being perfectible (to say the least), I quite like this thing. Brings back the good vibes, doesn't it ?<br>
+					<div class="signature">- Bad64</div>
+					<hr>
+					<p class="footnotes">
+						<a id="footnote-1" href="#footnote-1-orig">1</a>: To be honest this isn't insurmountable, I'm just lazy and operating on a MVP principle here<br>
+						<a id="footnote-2" href="#footnote-2-orig">2</a>: Which uses *NIX-style octal permissions because I needed the DIR command to display something<br>
+					</p>
+                </p>
+			</article>
+			<script src="/common/elements/footer.js"></script>
+		</section>
+	</body>
+</html>

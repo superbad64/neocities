@@ -30,7 +30,7 @@ class Post():
         html += "\t\t\t\t\t</div>\n"
         html += "\t\t\t\t</div>\n"
         #html += "\t\t\t\t<!--#include virtual=\"/common/elements/fakemenu.shtml\"-->\n"
-        html += "\t\t\t\t<script src=\"/common/elements/js/fakemenu.js\"></script>\n"
+        html += "\t\t\t\t<script src=\"/common/elements/fakemenu.js\"></script>\n"
         html += "\t\t\t\t<p>\n"
         for line in self.content:
             html += "\t\t\t\t\t" + line + '\n'
@@ -86,7 +86,7 @@ fileStart.append("\n\t\t\t<h3>Blog</h3>\n")
 fileStart = ''.join(fileStart)
 
 #fileEnd = "\t\t\t<!--#include virtual=\"/common/elements/footer.shtml\"-->\n"
-fileEnd = "\t\t\t<script src=\"/common/elements/js/footer.js\"></script>\n"
+fileEnd = "\t\t\t<script src=\"/common/elements/footer.js\"></script>\n"
 fileEnd += "\t\t\t<script>document.getElementsByClassName(\"content\")[0].getElementsByTagName(\"h3\")[0].style.marginTop = document.getElementsByClassName(\"nav\")[0].getBoundingClientRect().top + \"px\"</script>\n"
 fileEnd += "\t\t</section>\n"
 fileEnd += "\t</body>\n"
@@ -104,7 +104,7 @@ for file in files:
 
 # Clear the working dir
 print("Clearing the workdir")
-for file in glob.glob("../../blog/*.shtml"):
+for file in glob.glob("../../en/blog/*.shtml"):
     os.remove(file)
 
 # Create pages
@@ -113,7 +113,7 @@ maxPages = int(ceil((len(posts) / 5)))
 print(f"Creating a total of {maxPages} pages")
 for i in range(1, maxPages + 1):
     print(f"Creating page blog/{i}.shtml (out of {maxPages})")
-    with open(f"../../blog/{i}.shtml", "w") as f:
+    with open(f"../../en/blog/{i}.shtml", "w") as f:
         f.write(fileStart)
         f.write(navigationWidget(i, maxPages+1))
         for j in range(len(posts)):

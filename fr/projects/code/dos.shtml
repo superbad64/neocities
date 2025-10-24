@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Système d'exploitation - Bad64's Corner</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<script src="/common/elements/langbar.js"></script>
+		<script src="/common/elements/nav.js"></script>
+
+		<section class="content">
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">C:\</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton">X</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/fakemenu.js"></script>
+				<p class="back"><a href="/fr/projects.shtml">&lt; Retour aux Projets</a></p> 
+
+				<div class="picture" style="align-items: center;">
+					<iframe src="/common/gadgets/bad-dos/repl.shtml" width="400" height="300"></iframe>
+					<p>
+						Probablement moins beau sur mobile
+					</p>
+				</div>
+
+				<p>
+					<a href="https://github.com/superbad64/bad-dos">Code disponible sur GitHub !</a>
+				</p>
+
+				<p>
+					<i>Note: Pour des raisons techniques, ce projet ne fonctionne qu'en Anglais. Désolé !</i>
+				</p>
+
+				<p>
+					J'ai l'impression d'être le seul gars de mon âge à avoir de bons souvenirs de MS-DOS. Bon, évidemment, pour moi DOS était juste un moyen d'accéder aux jeux et j'avais pas grand chose à faire du reste du système. Je l'utilisais surtout à l'école pour jouer à Adibou, vu que mon propre PC familial tournait déjà sous Windows 95 (le premier en tout cas).<br>
+					<br>
+					Comme la plupart des trucs que j'écris sous les effets combinés du Ennuiprofondax<sup>TM</sup> et du Nostalgiezépam<sup>TM</sup>, le résultat final est un sacré bordel de JavaScript avec des choix d'architecture discutables. Par exemple je réutilise un petit bout de code pour cibler un objet particulier, or qui dit "réutilisation" dit "factorisation", et une combinaison entre le scope et le manque de prévision rendent ça plus compliqué que ça ne devrait logiquement l'être.<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup><br>
+					<br>
+					Quelques anachronismes ont été introduits plus ou moins délibérément; System32 par exemple n'existait pas sous DOS (logique, vu que DOS et tous ses dérivatifs sont des OS en <i>16</i> bits), guère plus que les systèmes de gestion d'utilisateurs. D'ailleurs, il a existé des DOS multiutilisateurs, notamment Data Research/Novell Multiuser DOS (avec un tel nom, qui l'eut cru ?)<br>
+					<br>
+					J'ai mis le système de fichiers simulé<sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup> en lecture seule, à la fois pour des questions de convénience, et parce que c'était juste plus simple à coder. J'aurai beaucoup aimé inclure la commande EDIT, mais avec du JS client-side ça a l'air chiant.<br>
+					<br>
+					En post-mortem, je peux dire que j'aimeuh bieng ce que j'ai réussi à faire (en tant que mec qui ne fait pas de JS à la base, j'entend). Même si évidemment il y a des trucs à améliorer comme le word-wrapping, ça ramène quand même de bonnes vibes, non ?<br>
+					<div class="signature">- Bad64</div>
+					<hr>
+					<p class="footnotes">
+						<a id="footnote-1" href="#footnote-1-orig">1</a>: Le plus gros obstacle étant que j'ai la turbo flemme<br>
+						<a id="footnote-2" href="#footnote-2-orig">2</a>: Qui d'ailleurs utilise des permissions octales qu'on voit sur les Unices, purement parce que j'avais besoin que la commande DIR affiche quelquechose d'esthétique<br>
+					</p>
+                </p>
+			</article>
+			<script src="/common/elements/footer.js"></script>
+		</section>
+	</body>
+</html>
