@@ -23,7 +23,7 @@
 				<p class="back"><a href="/fr/projects.shtml">&lt; Retour aux Projets</a></p> 
 
 				<div class="picture" style="align-items: center;">
-					<iframe src="/common/gadgets/bad-dos/repl.shtml" width="400" height="300"></iframe>
+					<iframe id="DOS" src="/common/gadgets/bad-dos/repl.shtml" width="400" height="300"></iframe>
 					<p>
 						Probablement moins beau sur mobile
 					</p>
@@ -56,6 +56,19 @@
                 </p>
 			</article>
 			<script src="/common/elements/footer.js"></script>
+			<script>
+				var url = window.location.href.split("/");
+				url[0] += "/";
+				
+				document.getElementById("DOS").onload = (event) => {
+					window.addEventListener("message", event => {
+						if (event.origin !== "http://localhost:8080") { return; }
+						//if (event.origin !== "https://https://bad64.neocities.org") { return; }
+
+						window.location.href = url.slice(0, 4).join("/") + "/styles.shtml";
+					});
+				};
+			</script>
 		</section>
 	</body>
 </html>

@@ -7,11 +7,15 @@ html
 @media (orientation: landscape)
 {
 	html { font-size: 16px; }
+	#langbar img { height: 36px; }
+	#langText { font-size: 28px; margin: 0; }
 }
 
 @media (orientation: portrait)
 {
 	html { font-size: 24px; }
+	#langbar img { height: 48px; }
+	#langText { font-size: 40px; margin: 0; }
 }
 
 body { margin: 0; }
