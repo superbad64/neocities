@@ -1,6 +1,0 @@
-[submodule "common/gadgets/bad-dos"]
-	path = common/gadgets/bad-dos
-	url = https://github.com/superbad64/bad-dos
-[submodule "common/gadgets/toasters"]
-	path = common/gadgets/toasters
-	url = https://github.com/superbad64/toasters
