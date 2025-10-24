@@ -123,7 +123,7 @@ document.addEventListener('keydown', function(e) {
 stylemenu = document.getElementById("stylemenu");
 extrastyle = document.getElementById("extrastyle");
 loadedstyles = [ "9x_standard", "9x_plum", "9x_matrix", "9x_mystery",
-	"xp_luna", "xp_olive", "xp_silver", "xp_royale_noir",
+	"xp_classic", "xp_luna", "xp_olive", "xp_silver", "xp_royale_noir",
 	"watercolor", "candy", "cde" ];
 
 function easterEgg() {
@@ -157,6 +157,9 @@ function easterEggCallback() {
 			html.style.backgroundSize = "cover";
 			break;
 		// XP styles
+		case "xp_classic":
+			extrastyle.innerHTML = "html { background-attachment: fixed; background-size: cover; font-family: \"Tahoma\"; } .titlebar { background-image: linear-gradient(to right, #000080, #000080, #a3c6ed); color: white; font-weight: bold; border-radius: 0; } .fakemenu { display: block; background-color: #d4d0c8; } .fakebutton { background-color: #AAAAAA; font-family: \"Lucida Console\"; font-weight: bold; color: black; border: 2px outset; border-radius: 0; text-align: center; } nav { border: 3px solid #a19d97; border-radius: 0 0 0; background-color: #d4d0c8; } .blogpost { background-color: #FFFFFF; color: black; border: 3px solid #a19d97; border-radius: 0; }";
+			break;
 		case "xp_luna":
 			extrastyle.innerHTML = "";
 			break;

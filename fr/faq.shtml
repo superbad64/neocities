@@ -13,7 +13,7 @@
 		<section class="content">
 			<article class="blogpost">
 				<div class="titlebar">
-					<label class="title">About the website</label>
+					<label class="title">À propos du site</label>
 					<div class="buttoncontainer">
 						<label class="fakebutton">X</label>
 					</div>
@@ -22,25 +22,24 @@
 				<script src="/common/elements/fakemenu.js"></script>
 
 				<p>
-				<strong>Q: So what's the deal with the retro theme ?</strong><br>
-				In very succint terms, I <i>profundly</i> despise modern UI design, not just web design. I think smartphones made us walk back on every good UX design made in the early days of the Internet in the name of uniformization, and this quite honestly makes me sad ! The Web 1.0 used to be a much more vibrant, lively place than the modern aseptized corporate drivel we're algorithmically served every day. Consider this website as a futile but stalwart attempt at recapturing some of this elder magic.<br>
+				<strong>Q: Pourquoi ce thème antédiluvien ?</strong><br>
+				Pour faire court, je hais <i>viscéralement</i> les codes de design d'UI modernes (pas que le web design, c'est généralisé). Je pense que les smartphones nous on fait reculer d'au moins 20 ans en termes d'interface homme machine, et ça me rend ouf ! Le Web 1.0 était tellement plus fun et plein de vie que la merde sur-sanitisée qu'on nous sert algorithmiquement aujourd'hui. Considérez mon site comme étant la manifestation de ce rejet total et une tentative futile mais héroïque de recapturer un peu de la magie d'antan.<br>
 				<br>
-				<strong>Q: You do know that your colors are all wrong, don't you ?</strong><br>
-				Yeah I do. Think of it as more of an imitation rather than an attempt to outright copy old Windows GUI.<br>
+				<strong>Q: Tu sais que c'est pas les bonnes couleurs hein ?</strong><br>
+				Oui, il faut plus voir mon site comme étant un hommage plus qu'une copie conforme.<br>
 				<br>
-				<strong>Q: What framework did you use ?</strong><br>
-				None. This is pure handwritten HTML with light touches of vanillaJS. No framework, no AI, no problem.<br>
-				Oh and there is no backend either, as I deemed it superfluous considering I don't blog that much. It does use a generator script written in Python but that's about it.<br>
+				<strong>Q: Tu as utilisé quel framework ?</strong><br>
+				Aucun, c'est du pur HTML,, CSS & JS écrit à la main, sans framework, sans IA, et sans problèmes.<br>
+				Et sans backend aussi.<br>
 				<br>
-				<strong>Q: Why does the site appear to randomly switch styles ?</strong><br>
-				Because it does ! Everytime you load a page a script rolls a random integer. Some values will cause the site to load alternate stylesheets.<br>
-				On PC you can also input a well-known cheat code to select alternate stylesheets yourself !<br>
+				<strong>Q: Pourquoi le site charge aléatoirement d'autres styles ?</strong><br>
+				J'avais envie :-D<br>
                 </p>
 			</article>
 
 			<article class="blogpost">
 				<div class="titlebar">
-					<label class="title">About my projects</label>
+					<label class="title">À propos de mes projets</label>
 					<div class="buttoncontainer">
 						<label class="fakebutton">X</label>
 					</div>
@@ -49,26 +48,26 @@
 				<script src="/common/elements/fakemenu.js"></script>
 
 				<p>
-				<strong>Q: Where can I purchase your arcade controllers ?</strong><br>
-				You can't <i>yet</i>. I'm working on it !<br>
+				<strong>Q: Où puis-je acheter tes produits ?</strong><br>
+				C'est malheureusement pas encore possible, mais j'y travaille !<br>
 				<br>
-				<strong>Q: Any shortlist of what you're working on ?</strong><br>
+				<strong>Q: Une petite liste des trucs sur lesquels tu bosses ?</strong><br>
 				</p>
 				<ul>
-					<li>More cases (actually just one at the time)</li>
-					<li>A handheld controller</li>
-					<li>A DualShock 2 modkit (potentially redundant with the above)</li>
-					<li>Eventually I'd <i>like</i> to make my own retro handheld console based on the Raspberry Pi Compute Module, but that's probably not happening in 2026</li>
+					<li>D'autres chassis (juste un actuellement)</li>
+					<li>Une manette normale</li>
+					<li>Un modkit pour DualShock 2</li>
+					<li>P'têtre un jour une console d'émulation...</li>
 				</ul>
 				<p>
-				<strong>Q: Why the DualShock 2 ?</strong><br>
-				Honestly it's a toss-up between it and the DS3. I happen to have never owned a PlayStation 3 in the first place so I'm just going with the DS2 out of habit.<br>
+				<strong>Q: Pourquoi la DualShock 2 ?</strong><br>
+				C'est ça ou la DS3, et j'en ai jamais vraiment eu...<br>
             	</p>
 			</article>
 
 			<article class="blogpost">
 				<div class="titlebar">
-					<label class="title">About myself !</label>
+					<label class="title">À propos de moi !</label>
 					<div class="buttoncontainer">
 						<label class="fakebutton">X</label>
 					</div>
@@ -77,32 +76,15 @@
 				<script src="/common/elements/fakemenu.js"></script>
 
 				<p>
-				I don't really expect too many personal questions, but once in a blue moon one or two will likely trickle down here.<br>
-				<br>
-				<strong>Q: Just... why ?</strong><br>
-				Starting with the loaded questions, are we ? :-P<br>
-				I guess I needed a personal expression space on the Internet. My own little corner of the web. I've always wanted my own website but never really had much to publish. Still don't, in fact, as you can probably tell by the rather barebones Projects section (more will come, don't worry !). I used to run a couple blogs, fortunately lost media by now, under a ton of aliases, but never anything more "serious" than that.<br>
-				This isn't my first website, I wrote a few back then for associations && other non-profits, but I never really had a reason to make one for myself. Until today, at least.<br>
+				<strong>Q: ...Pourquoi ?</strong><br>
+				Ah oui on commence direct avec les questions relou ahah<br>
+				J'imagine que j'ai besoin d'un endroit où m'exprimer et crier mon amour du retrocomputing sur tous les toits virtuels, voila tout.<br>
 				</br>
-				<strong>Q: Any game recs ?</strong><br>
-				I'm particularly fond of Hypnospace Outlaw, Progressbar95, Stardew Valley and Elden Ring. Pretty good ways to eat my free time when I'm not writing code ;-)<br>
+				<strong>Q: Des jeux à conseiller ?</strong><br>
+				Hypnospace Outlaw, Stardew Valley, Progressbar95, Elden Ring, et Kingsway !<br>
 				<br>
-				<strong>Q: Why the Windows themes ? Aren't you a Linux guy ?</strong><br>
-				Oh I am, through and through. But old OS GUIs have an aura that modern GUIs fail to reproduce (for me, anyway). In fact even on Linux you'd catch me using retro UIs: Win9x and XP (through Cinnamon DE) mostly, but once in a blue moon I'm not averse to running CDE or XFCE either. Won't really comment on KDE as I'm not super familiar with it. GNOME just ain't it for me.<br>
-				(Of course one would argue you usually <i>don't</i> run Linux for the GUI, but that's another matter entirely)<br>
-				<br>
-				<strong>Q: Hold on, you're French... Why are you speaking only English ? Why isn't there a French version of the site ?</strong><br>
-				As is the case for most IT people, I tend to work primarily in English, to the point I consider it my default language over French. This drives my fellow countrymen up the wall, unsurprisingly. My English isn't perfect either, especially my oral comprehension, but I keep practicing !<br>
-				On the subject of translation, there's some things to take into consideration:<br>
-				</p>
-				<ul>
-					<li>The site architecture doesn't really support this right now (as in, I would have to significantly refactor the content distribution)</li>
-					<li>I do not think there is a significant enough French audience</li>
-					<li>I genuinely don't <i>want</i> to translate my blog</i>
-				</ul>
-				<p>
-				There is a good part of laziness in there, of course, but there's also the fact that English allows me to express things that translate very poorly in French due to various language idiosyncrasies (or outright missing words in some cases).
-                </p>
+				<strong>Q: Pourquoi y'a que des thèmes Windows ? T'es pas censé être un "Linux Guy" ?</strong><br>
+				Disons que Linux a pas <i>vraiment</i> d'UI iconique. Si il faut c'est même l'inverse, c'est l'absence d'UI qui est le plus connu chez Linux. (Et aussi j'ai aucune envie d'implémenter GTK3)<br>
 			</article>
 			<script src="/common/elements/footer.js"></script>
 		</section>

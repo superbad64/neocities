@@ -43,13 +43,14 @@ document.write('');
 
 
 document.write('<section id="styleselector">');
-document.write('	<label for="stylemenu">' + footerStrings[lang]["styleMenu"] + '</label>');
+document.write('	<label for="stylemenu">' + footerStrings[lang]["stylePrompt"] + '</label>');
 document.write('');
 document.write('	<select id="stylemenu" onchange="easterEggCallback()">');
 document.write('		<option value="9x_standard">9x Standard</option>');
 document.write('		<option value="9x_plum">9x Plum</option>');
 document.write('		<option value="9x_matrix">9x Matrix</option>');
 document.write('		<option value="9x_mystery">9x Mystery</option>');
+document.write('		<option value="xp_classic">XP Classic</option>');
 document.write('		<option selected="selected" value="xp_luna">XP Luna (default)</option>');
 document.write('		<option value="xp_olive">XP Olive</option>');
 document.write('		<option value="xp_silver">XP Silver</option>');

@@ -25,7 +25,7 @@
 				<div class="picture" style="align-items: center;">
 					<iframe id="iframe" src="/common/gadgets/toasters/canvas.shtml" width="400" height="400"></iframe>
 					<p>
-						Nostalgic vibes... like the rest of this place actually !
+						Ca sent le pain grillé, non ?
 					</p>
 				</div>
 
@@ -34,22 +34,20 @@
 				</p>
 
 				<p>
-					Good old After Dark, eh ? Man I miss these screensavers...<br>
+					Voici ma version de l'économiseur d'écran "<i>Flying Toasters</i>" disponible dans <i>After Dark</i>. Tout est fait main, ce qui cause pas mal de différences avec l'original. Par exemple, aucun objet n'a de collision (je sais que les grille-pain ont une collision entre eux dans l'original, mais je me souviens plus pour les toasts), et le look est un peu différent vu que j'ai refait tous les modèles sous Blender.<br>
 					<br>
-					This is my take on the now classic Flying Toasters screensaver from After Dark. Everything was made from scratch, which leads to some differences compared to the original, like the lack of collision between toasters (I don't remember if toasts ever collided with each other given that they all share the same speed), and visual appearance most importantly since I made those graphics myself in Blender !<br>
+					Je pensais que ça allait être un projet simple considérant sa nature. C'est juste un canevas, une fonction en callback, et trois objets (et une animation). Vous avez peut-être déjà reconnu ici les premiers signes de l'hubris, et je peux maintenant vous affirmer que c'est pas faux ! J'ai assez vite découvert que les canevas HTML ne supportent pas d'animation au format GIF<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup>, APNG ou même WEBP), donc j'ai dû séparer toutes les trames d'animation du grille-pain et les charger dans un tableau une à une.<br>
 					<br>
-					I thought this would be a very straightforward project at first. I mean at its core it's a canvas, a callback function, and three objects. You might, if you're either an astute reader or a programmer yourself, recognize this as "hubris", or more colloquially "famous last words", and you wouldn't be wrong ! I discovered in very short order that canvases do not support animated media of any kind natively (whether GIF<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup>, APNG or WEBP apparently), so I had to split the toaster animation into individual frames and load them one by one in an array that I iterate over.<br>
+					Pour être tout à fait honnête, je n'aime pas la distribution pseudoaléatoire utilisée pour faire apparaître les objets, je trouve qu'ils sont trop rapprochés. Mais y'a bien pire comme problème, et j'ai appris à me contenter du "bien" plutôt que du "parfait".<br>
 					<br>
-					To be completely honest, I'm not <i>fully</i> satisfied with the random spread used to spawn the flying objects. They sometimes spawn right on top of each other and it bugs me to no end ! Maybe I'll fix that someday...<br>
+					J'ai jamais eu <i>After Dark</i> moi-même; c'était un pote à moi qui mee l'avait montré à l'époque sur son Macintosh<sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup> vers 2002. J'avais passé un moment à chercher la version Windows, mais sans succès. J'ai appris tout récemment que la version anniversaire 10 ans a été upload sur la Internet Archive, mais malheureusement ça marche évidemment pas sur un OS "moderne"...<br>
 					<br>
-					As for the wallpaper itself, I actually never had After Dark myself. I do remember having a friend in the early 00s with a (relatively) old Macintosh<sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup> who had it installed, though, and I also remember specifically looking for this thing for a long time before moving on with my life. I only recently found out that the After Dark 10th Anniversary Edition was available on the Internet Archive, and of course it won't work on a modern OS. Sigh.<br>
-					<br>
-					Maybe I should remake more wallpapers to pass the time ? Don't think I have the skills to do 3DMaze but hey, I won't know before I try.<br>
+					Je vais surement faire d'autres gadgets de ce genre pour passer le temps et faire la propagande de la nostalgie !<br>
 					<div class="signature">- Bad64</div>
 					<hr>
 					<p class="footnotes">
-						<a id="footnote-1" href="#footnote-1-orig">1</a>: Considering JIF exists, I pronounce it "Guif"<br>
-						<a id="footnote-2" href="#footnote-2-orig">1</a>: By which I mean an actual old school Macintosh, not the transparent iMac G3s that were more common at the time. Maybe I should write something about <i>those</i><br>
+						<a id="footnote-1" href="#footnote-1-orig">1</a>: "Guif". Non-négociable.<br>
+						<a id="footnote-2" href="#footnote-2-orig">1</a>: Un "vrai" Mac rétro, pas les iMac G3 (magnifiques, d'ailleurs) qui étaient plus courants à l'époque<br>
 					</p>
                 </p>
 			</article>
