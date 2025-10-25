@@ -4,10 +4,10 @@ document.write('<div class="fakemenu">');
 var lang = window.location.href.split("/")[3];
 switch (lang) {
     case "fr":
-        document.write("<u>F</u>ichier&nbsp;&nbsp;<u>É</u>dition&nbsp;&nbsp;<u>À</u> propos");
+        document.write("<span>&nbsp;<u>F</u>ichier&nbsp;</span><span>&nbsp;<u>É</u>dition&nbsp;</span><span>&nbsp;<u>À</u> propos&nbsp;</span>");
         break;
     default:
-        document.write("<u>F</u>ile&nbsp;&nbsp;<u>E</u>dit&nbsp;&nbsp;<u>A</u>bout");
+        document.write("<span>&nbsp;<u>F</u>ile&nbsp;</span><span>&nbsp;<u>E</u>dit&nbsp;</span><span>&nbsp;<u>A</u>bout&nbsp;</span>");
         break;
 }
 

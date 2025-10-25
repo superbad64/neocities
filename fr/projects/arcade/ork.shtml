@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>The Ork - Bad64's Corner</title>
+		<title>L'Ork - Le coin à Bad64</title>
 		<link rel="stylesheet" href="/common/styles/layout.css">
 		<link rel="stylesheet" href="/common/styles/styles.css">
 		<meta charset="UTF-8">
@@ -13,40 +13,27 @@
 		<section class="content">
 			<article class="blogpost">
 				<div class="titlebar">
-					<label class="title">The Ork</label>
+					<label class="title">L'Ork</label>
 					<div class="buttoncontainer">
 						<label class="fakebutton">X</label>
 					</div>
 				</div>
 				
 				<script src="/common/elements/fakemenu.js"></script>
-				<p class="back"><a href="/projects.shtml">&lt; Back to the Projects</a></p>
+				<p class="back"><a href="/projects.shtml">&lt; Retour aux Projets</a></p>
 
 				<div class="picture">
 					<img src="/common/images/projects/builds/ork/ork.png">
-					<p>Lean mean (optionally) green machine</p>
+					<p></p>
 				</div>
 
 				<p>
-					<a href="https://github.com/superbad64/OpenFighter/tree/main/Ork">Find it on GitHub !</a>
+					<a href="https://github.com/superbad64/OpenFighter/tree/main/Ork">Dispo sur GitHub !</a>
                 </p>
 
 				<p>
-					I actually don't have a whole lot to say about this case, not that it's a bad thing. It went through a fair amount of revisions - the first few were made to be one-shot chassis printable on my old SOVOL SV06+, which has a 300 by 300mm print area. Later, in an effort to make it more "accessible", I split it into parts that could fit on a more standard 220 by 220mm print bed.
+					Traduction en cours !
                 </p>
-
-				<p>
-					This case supports 24mm screw-in buttons<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup> as well as low and flat collar joysticks. It's still a fairly cramped build though, while a standard Brook harness will fit you'll have to compress everything a little bit with the bottom plates.
-				</p>
-
-				<p>
-					I really don't know what to add to that ! It's a very solid baseline case with a good feature set and buildability. And it's rather inexpensive to boot, I clocked it at roughly 550 grams (depending on infill of course), so barely over half of a spool ! Go print it now !!
-				</p>
-				<div class="signature">- Bad64</div>
-				<hr>
-				<p class="footnotes">
-					<a href="#footnote-1-orig">1</a>: At this point it should be known that I really hate snap-ins
-				</p>
 			</article>
 			<script src="/common/elements/footer.js"></script>
 		</section>

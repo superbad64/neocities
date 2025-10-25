@@ -97,6 +97,19 @@ hr
 	display: none;
 }
 
+.fakemenu span
+{
+	box-sizing: border-box;
+	padding: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.fakemenu span:hover 
+{
+	box-shadow: inset 0 0 0 1px grey;
+}
+
 .buttoncontainer
 {
 	position: absolute;
