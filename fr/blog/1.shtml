@@ -21,7 +21,7 @@
 				<div class="titlebar">
 					<label class="title">&nbsp;</label>
 					<div class="buttoncontainer">
-					<label class="fakebutton">X</label>
+					<label class="fakebutton">r</label>
 					</div>
 				</div>
 				<script src="/common/elements/fakemenu.js"></script>
@@ -31,7 +31,7 @@
 				</p>
 			</article>
 			<script src="/common/elements/footer.js"></script>
-			<script>document.getElementsByClassName("content")[0].getElementsByTagName("h3")[0].style.marginTop = document.getElementsByClassName("nav")[0].getBoundingClientRect().top + "px"</script>
+			<script>document.getElementsByClassName("content")[0].getElementsByTagName("h3")[0].style.marginTop = document.getElementsByTagName("nav")[0].getBoundingClientRect().top + "px"</script>
 		</section>
 	</body>
 </html>

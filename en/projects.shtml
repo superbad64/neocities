@@ -15,7 +15,7 @@
 				<div class="titlebar">
 					<label class="title">Arcade controllers</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton">X</label>
+						<label class="fakebutton">r</label>
 					</div>
 				</div>
 				
@@ -33,7 +33,7 @@
 				<div class="titlebar">
 					<label class="title">Woodworking</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton">X</label>
+						<label class="fakebutton">r</label>
 					</div>
 				</div>
 				
@@ -52,7 +52,7 @@
 				<div class="titlebar">
 					<label class="title">Code</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton">X</label>
+						<label class="fakebutton">r</label>
 					</div>
 				</div>
 				

@@ -21,7 +21,7 @@
 				<div class="titlebar">
 					<label class="title">French translation incoming - 24/10/2025 12:50</label>
 					<div class="buttoncontainer">
-					<label class="fakebutton">X</label>
+					<label class="fakebutton">r</label>
 					</div>
 				</div>
 				<script src="/common/elements/fakemenu.js"></script>
@@ -34,7 +34,7 @@
 				<div class="titlebar">
 					<label class="title">Roaming around - 20/10/2025 16:38</label>
 					<div class="buttoncontainer">
-					<label class="fakebutton">X</label>
+					<label class="fakebutton">r</label>
 					</div>
 				</div>
 				<script src="/common/elements/fakemenu.js"></script>
@@ -47,7 +47,7 @@
 				<div class="titlebar">
 					<label class="title">I went to EVO ! - 13/10/2025 23:36</label>
 					<div class="buttoncontainer">
-					<label class="fakebutton">X</label>
+					<label class="fakebutton">r</label>
 					</div>
 				</div>
 				<script src="/common/elements/fakemenu.js"></script>
@@ -60,7 +60,7 @@
 				<div class="titlebar">
 					<label class="title">Small update - 03/10/2025 21:53</label>
 					<div class="buttoncontainer">
-					<label class="fakebutton">X</label>
+					<label class="fakebutton">r</label>
 					</div>
 				</div>
 				<script src="/common/elements/fakemenu.js"></script>
@@ -75,7 +75,7 @@
 				<div class="titlebar">
 					<label class="title">Site launch - 30/09/2025 21:21</label>
 					<div class="buttoncontainer">
-					<label class="fakebutton">X</label>
+					<label class="fakebutton">r</label>
 					</div>
 				</div>
 				<script src="/common/elements/fakemenu.js"></script>

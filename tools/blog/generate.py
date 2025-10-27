@@ -26,7 +26,7 @@ class Post():
         html += "\t\t\t\t<div class=\"titlebar\">\n"
         html += "\t\t\t\t\t<label class=\"title\">" + self.title + "</label>\n"
         html += "\t\t\t\t\t<div class=\"buttoncontainer\">\n"
-        html += "\t\t\t\t\t<label class=\"fakebutton\">X</label>\n"
+        html += "\t\t\t\t\t<label class=\"fakebutton\">r</label>\n"
         html += "\t\t\t\t\t</div>\n"
         html += "\t\t\t\t</div>\n"
         #html += "\t\t\t\t<!--#include virtual=\"/common/elements/fakemenu.shtml\"-->\n"

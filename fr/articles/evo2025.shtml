@@ -21,7 +21,7 @@
 				<div class="titlebar">
 					<label class="title">Avertissement</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton">X</label>
+						<label class="fakebutton">r</label>
 					</div>
 				</div>
 				
@@ -41,7 +41,7 @@
 				<div class="titlebar">
 					<label class="title">Welcome to the show</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton">X</label>
+						<label class="fakebutton">r</label>
 					</div>
 				</div>
 				
@@ -101,7 +101,7 @@
 				<div class="titlebar">
 					<label class="title">Opération "Photographiez-les tous"</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton">X</label>
+						<label class="fakebutton">r</label>
 					</div>
 				</div>
 				
@@ -129,7 +129,7 @@
 				<div class="titlebar">
 					<label class="title">L'histoire du p'tit con qui en a rien à foutre</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton">X</label>
+						<label class="fakebutton">r</label>
 					</div>
 				</div>
 				<script src="/common/elements/fakemenu.js"></script>
@@ -161,7 +161,7 @@
 				<div class="titlebar">
 					<label class="title">Et du coup, y s'est passé quoi ?</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton">X</label>
+						<label class="fakebutton">r</label>
 					</div>
 				</div>
 				

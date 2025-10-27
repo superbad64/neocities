@@ -1,0 +1,40 @@
+@font-face {
+	font-family: W95Font;
+	src: url(\"/common/W95font.otf\");
+}
+html {
+	background-color: #008080;
+	background-image: unset;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: \"W95Font\";
+}
+.titlebar {
+	background-image: linear-gradient(to right, #000080, #000080);
+	color: white;
+	font-weight: bold;
+	border-radius: 0;
+}
+.fakemenu {
+	display: none;
+}
+.fakebutton {
+	background-color: #AAAAAA;
+	font-family: \"Marlett\";
+	font-weight: bold;
+	color: black;
+	border: 2px outset;
+	border-radius: 0;
+	text-align: center;
+}
+nav {
+	border: 3px solid grey;
+	border-radius: 0;
+	background-color: #AAAAAA;
+}
+.blogpost {
+	background-color: #AAAAAA;
+	color: black;
+	border: 3px solid grey;
+	border-radius: 0;
+}

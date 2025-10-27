@@ -1,0 +1,1 @@
+Those are the files I serialize and then inject in ../../elements/scripts.js to dynamically change the site style

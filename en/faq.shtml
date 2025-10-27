@@ -15,7 +15,7 @@
 				<div class="titlebar">
 					<label class="title">About the website</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton">X</label>
+						<label class="fakebutton">r</label>
 					</div>
 				</div>
 				
@@ -42,7 +42,7 @@
 				<div class="titlebar">
 					<label class="title">About my projects</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton">X</label>
+						<label class="fakebutton">r</label>
 					</div>
 				</div>
 				
@@ -70,7 +70,7 @@
 				<div class="titlebar">
 					<label class="title">About myself !</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton">X</label>
+						<label class="fakebutton">r</label>
 					</div>
 				</div>
 				
