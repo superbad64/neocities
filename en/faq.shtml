@@ -22,7 +22,7 @@
 				<script src="/common/elements/fakemenu.js"></script>
 
 				<p>
-				<strong>Q: So what's the deal with the retro theme ?</strong><br>
+				<strong>Q: So what's the deal with the retro themes ?</strong><br>
 				In very succint terms, I <i>profundly</i> despise modern UI design, not just web design. I think smartphones made us walk back on every good UX design made in the early days of the Internet in the name of uniformization, and this quite honestly makes me sad ! The Web 1.0 used to be a much more vibrant, lively place than the modern aseptized corporate drivel we're algorithmically served every day. Consider this website as a futile but stalwart attempt at recapturing some of this elder magic.<br>
 				<br>
 				<strong>Q: You do know that your colors are all wrong, don't you ?</strong><br>
@@ -32,10 +32,6 @@
 				None. This is pure handwritten HTML with light touches of vanillaJS. No framework, no AI, no problem.<br>
 				Oh and there is no backend either, as I deemed it superfluous considering I don't blog that much. It does use a generator script written in Python but that's about it.<br>
 				<br>
-				<strong>Q: Why does the site appear to randomly switch styles ?</strong><br>
-				Because it does ! Everytime you load a page a script rolls a random integer. Some values will cause the site to load alternate stylesheets.<br>
-				On PC you can also input a well-known cheat code to select alternate stylesheets yourself !<br>
-                </p>
 			</article>
 
 			<article class="blogpost">
@@ -81,15 +77,13 @@
 				<br>
 				<strong>Q: Just... why ?</strong><br>
 				Starting with the loaded questions, are we ? :-P<br>
-				I guess I needed a personal expression space on the Internet. My own little corner of the web. I've always wanted my own website but never really had much to publish. Still don't, in fact, as you can probably tell by the rather barebones Projects section (more will come, don't worry !). I used to run a couple blogs, fortunately lost media by now, under a ton of aliases, but never anything more "serious" than that.<br>
-				This isn't my first website, I wrote a few back then for associations && other non-profits, but I never really had a reason to make one for myself. Until today, at least.<br>
+				I guess I needed a personal expression space on the Internet. My own little corner of the web. I've always wanted my own website but never really had much to publish. Still don't, in fact, as you can probably tell by the rather barebones Projects section (more will come, don't worry !)<br>
 				</br>
 				<strong>Q: Any game recs ?</strong><br>
 				I'm particularly fond of Hypnospace Outlaw, Progressbar95, Stardew Valley, Elden Ring and Kingsway. Pretty good ways to eat my free time when I'm not writing code ;-)<br>
 				<br>
 				<strong>Q: Why the Windows themes ? Aren't you a Linux guy ?</strong><br>
-				Oh I am, through and through. But old OS GUIs have an aura that modern GUIs fail to reproduce (for me, anyway). In fact even on Linux you'd catch me using retro UIs: Win9x and XP (through Cinnamon DE) mostly, but once in a blue moon I'm not averse to running CDE or XFCE either. Won't really comment on KDE as I'm not super familiar with it. GNOME just ain't it for me.<br>
-				(Of course one would argue you usually <i>don't</i> run Linux for the GUI, but that's another matter entirely)<br>
+				To be honest Linux isn't really known for having iconic GUIs - if anything it's the <i>opposite</i>, Linux is more known for its CLI than anything else. (And I don't want to write an ersatz of GTK3 in CSS)<br>
 			</article>
 			<script src="/common/elements/footer.js"></script>
 		</section>

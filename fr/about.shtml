@@ -22,7 +22,57 @@
 				<script src="/common/elements/fakemenu.js"></script>
 
 				<p>
-					Traduction en cours !
+					On m'appelle <b>Bad64</b>, ou Super Bad 64 si vraiment vous me connaissez depuis super longtemps. Ca fait quoi, 15 ans que j'ai ce pseudo au moins ?<br>
+					<br>
+					J'ai 34 ans, et je suis un (ancien) administrateur système spécialisé Linux. J'ai quitté la profession par manque de cohésion avec la culture d'entreprise là où je vis - les dailies de 2h, très peu pour moi. P'têtre que j'suis fou. Ou p'têtre que c'est juste pas l'image de l'informatique avec laquelle j'ai grandi ! Beh, du coup, je suis au chômage pour l'instant. Ou plus généralement, je cherche la prochaine destination où mes pas me mèneront.<br>
+					<br>
+					Vous l'avez peut-être déjà déduit vu la tronche du site, mais je suis assez fan de rétrocomputing. On peut tendre à penser que je suis un peu jeune pour dire que "c'était mieux avant" et tout ça, mais je le pense sincèrement depuis un bail...<br>
+					<br>
+					À part ça, je fais pas mal de trucs pour m'occuper; principalement de l'impression 3D, mais aussi de l'éléctronique, de la cuisine, de la randonnée... Quelques instruments de musique aussi. On sait jamais, p'têtre qu'un jour j'vais me chauffer et upload des compos originales ici !<br>
+					Mais le truc que je fais le plus, c'est les manettes de jeu (spécifiquement des "sticks arcade", même si maintenant beaucoup se passent de joystick). Je joue beaucoup aux jeux de versus, alors je me suis dit, pourquoi pas en faire profiter la commu ? C'est pas comme si les manettes modernes étaient d'une qualité décente en plus (sauf la Xbox Series X). De fait, vous allez voir passer pas mal de plastique thermoformé par ici !<br>
+				</p>
+
+				<hr>
+
+				<p>
+					J'ai grandi dans la pampa Alsacienne, dans un bled si paumé que même aujourd'hui tout le monde a pas accès à la 5G là-bas. Le premier PC familial était une machine avec Windows 95, je crois que c'était précisément un Compaq Presario, qu'on a eu soit fin 96 soit début 97. J'ai toujours pas la moindre idée de pourquoi mon paternel l'avait pris à l'époque, on pouvait même pas avoir internet (même pas du 28k !). J'imagine qu'il voulait faire de la compta dessus, mais il a jamais pris le temps d'apprendre comment s'en servir. Moi, bah évidemment j'avais quelques jeux dessus genre Oregon Trail, Doom && Doom 2 (que j'ai eu via un de mes cousins), j'crois le premier Tomb Raider aussi...<br>
+					<br>
+					Pour des raisons que j'ai jamais vraiment connu, en Janvier 99 (pour mon anniversaire) on a remplacé cette machine avec un nouveau PC qui tournait sous Windows 98, suivi peu de temps après (entre fin Février et mi-Mars) par ma première connexion à Internet via Wanadoo. Et c'est là que les problèmes<sup>TM</sup> ont commencé; j'ai découvert le Web 1.0; GeoCities, AngelFire, le fameux site de Space Jam... Je pense que vous connaissez l'histoire ! Je jouais pas encore en ligne à l'époque (non pas que j'avais de quoi, à part quelques jeux sur Macromedia Flash)<br>
+					<br>
+					<i>(Juste histoire de faire la parenthèse semi-évidente là dessus: En Avril 99 y'a eu un petit truc avec des liens douteux quant à la communauté des gamers qui s'est passé en Amérique du nord<sup id="footnote-1-orig"><a href="#">1</a></sup> qui a fait un peu de bruit dans les médias, et qui par proxy a failli me faire interdire de toucher quoi que ce soit d'éléctronique pendant plusieurs années. Ma mère a fermement cru la propagande de "Les jeux vidéos rendent violent", et moi bah je faisais le con sur DOOM II à l'époque... Donc ouais une fois ma mère m'a grillé en train de faire un truc que, jusqu'à ce moment, j'étais persuadé d'être autorisé à faire, à savoir jouer aux jeux vidéo le samedi aprem (vu que j'avais aucun pote geek à l'époque), et je me suis fait engueuler comme si c'était moi qu'était passé aux infos. Elle s'est un peu calmée heureusement)</i><br>
+					<br>
+					C'était l'ère un peu "Far West" du Web. Tout le monde, et surtout <i>absolument n'importe qui</i> pouvait faire son site, moyennant quelques deniers pour payer un nom de domaine, un hébergeur, et une copie de "Le HTML pour les Nuls" (et encore avec GeoCities les deux premiers étaient gratos !). Y'avait pas vraiment de codes de design, pas de responsivité, pas de règles en soi (tout le monde organisait son site avec des &lt;tables&gt;, t'imagines ?!) et les gens faisaient un peu ce qu'ils voulaient. Mais justement c'était ça le truc cool: la créativité quasi infinie conférée par le manque de limites. La "magie", en soi.<br>
+					<br>
+					Quelques mois après l'incident décrit au dessus, on commençait <i>vraiment</i> à s'inquiéter par rapport au "Bug de l'an 2000" (en vrai c'était une époque très marrante, et je dis même pas ça ironiquement; c'était super intéressant en tant qu'observateur purement externe, mais j'imagine que pour les gens qui bossaient déjà dans la tech à cette époque ça devait être méga stressant), et un petit jeu indé venait de sortir. Un truc pas important oublié de tous, la suite d'un jeu solo de l'an dernier, mais cette fois plus focalisé sur le jeu multi en ligne. Un p'tit truc qui s'appelle <i>Unreal Tournament</i> (encore une fois fourni par mon cousin)<br>
+					C'est avec ça que j'ai commencé à vraiment jouer en ligne, et quelques mois après (à ce moment là on était déjà en 2000, j'ai pas pu me le procurer le jour de la sortie à cause du système PEGI - j'ai du attendre de revoir le cousin pour le choper) avec Quake 3 Arena. Même que j'avais trouvé un clan<sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup> sur UT99 !<br>
+					<br>
+					C'est dans ce clan que j'ai commencé à toucher à l'administration système; fallait quelqu'un pour paramétrer la dédibox louée chez OVH (pas par moi évidemment, j'avais 9 ans; mais oui c'était une époque un peu chelou où t'avais des adultes qui filaient des logins d'administration à des gamins de 9 ans et ça choquait absolument personne) afin qu'elle prenne pas feu en essayant de charger CTF-Face ou cs_italy (on faisait un peu de tout) C'était pas grand chose, mais il m'en a pas fallu beaucoup plus pour décider de me lancer sur ce chemin de carrière. Administrer des serveurs Minecraft par la suite n'a fait qu'empirer les choses !<br>
+					<br>
+					Faisons un petit time skip. On est en 2005, j'ai une nouvelle machine (woo, Windows XP !) que j'utilise principalement pour jouer à Unreal Tournament 2004, mais j'ai chopé un gros méchant virus qui a détruit ma table de partitions (note qu'à l'époque je savais pas ce que c'était, mais vu que je téléchargeais pas mal à l'époque<sup id="footnote-3-orig"><a href="#footnote-3">3</a></sup>, ça pouvait autant être moi que mon père qui va sur des sites bizarres)<br>
+					Après avoir réparé l'install avec un CD OEM de Windows XP parfaitement légal, un pote sur IRC m'a parlé d'un truc, un système d'exploitation indépendant et gratos qui s'appelle Linux. M'en a pas fallu plus pour télécharger un ISO et me graver un CD d'Ubuntu qui m'a aidé à partitionner mon disque (sans effacer Windows !). J'ai cliqué sur "Installer" et j'ai attendu quelques petites heures...<br>
+					<br>
+					Et putain c'que je suis tombé dans la marmite !<br>
+					<br>
+					Au début c'était méga galère, comme tout le monde j'aimais pas passer par le terminal, surtout que j'ai eu pas mal de soucis avec mon modem de l'époque (modem PPPoE USB pas très bien supporté). Mais à force on s'y fait, et assez vite j'ai commencé à me diversifier: développement web, puis applications de bureau, bases de données, serveurs web, etc... J'ai comme qui dirait glissé. Au final j'ai commencé à passer plus de temps dans le terminal que sur les applications graphiques, et j'ai daily Ubuntu pendant pas loin d'un an, rebootant sous Windows très occasionnellement pour jouer un peu. Même pour mes expériences en administration pure, Linux était un choix bien plus pratique que Windows pour le pauvre PFY<sup id="footnote-4-orig"><a href="#footnote-4">4</a></sup> que j'étais à l'époque.<br>
+					<br>
+					D'un autre côté, j'ai aussi très vite réalisé que j'étais pas très bon en développement logiciel<sup id="footnote-5-orig"><a href="#footnote-5">5</a></sup>. J'ai tendance à être très "vieux con" quand je programme, et j'ai une certaine dent contre la POO (due à un passif lors de mes études d'ingénieur, en grande partie). Quand tu combines ça avec ma tendance à avoir des cycles de développement lents et très incrémentaux, ça devient vite évident que je suis pas fait pour programmer dans un contexte d'entreprise où la réactivité prime sur la planification et la sécurité (à mon grand dam)<br>
+					<br>
+					Niveau éducation, c'était assez catastrophique pour moi. J'ai jamais été excellent en cours, et j'ai été un peu forcé de me rabattre sur une école privée pour trouver une formation (askip j'étais pas assez bien pour faire un BTS réseaux télécom). J'y ai pas appris grand chose, mis à part que j'ai vraiment pas la fibre du développement, et j'ai surtout accumulé des "histoires de guerre", des situations ubuesques causées par un cursus déficient et des profs qui n'en ont absolument rien à cirer (pour paraphraser un truc qu'on a tous entendus dans notre scolarité, le diplôme eux ils l'ont déjà, du coup que tu puisses faire l'exam de .NET ou non avec ta machine Linux ils s'en battent un peu les noix). Tout ça pour qu'au final mon diplôme vaille même plus rien; à cause des agissements du directeur, l'institution s'est fait liquider en justice, et du coup elle existe à peine administrativement maintenant.<br>
+					<br>
+					J'ai passé un an au chômage avant de trouver mon premier taf dans une boîte de services paramédicaux en tant qu'admin sys junior. Je vais pas trop rentrer dans les détails pour des questions d'anonymat, mais j'ai fini par le quitter au bout de presque 4 ans là-bas, et depuis, à part deux très courtes expériences remplies de <i>red flags</i>, ma recherche n'a pas eu de succès. J'envisage de changer de carrière entièrement, d'une part à cause de cette incompatibilité fondamentale avec la culture d'entreprise dont j'ai parlé plus haut, mais aussi parce que je n'aime pas la direction que l'industrie est en train d'emprunter.<br>
+					<br>
+					Bon, ça fait beaucoup là, non ? Serait temps que je la ferme un peu héhé.<br>
+					<div class="signature">- Bad64</div>
+				</p>
+				
+				<hr>
+				
+				<p class="footnotes">
+					<a href="#footnote-1-orig" id="footnote-1">1</a>: Columbine, un incident que Les Médias ont intégralement blâmé sur les jeux vidéos. Fun ! (pas du tout)<br>
+					<a href="#footnote-2-orig" id="footnote-2">2</a>: En termes modernes on appelle ça une "team". Le début des années 2000 a été très marqué par un appel au tribalisme, notamment chez les jeunes<br>
+					<a href="#footnote-3-orig" id="footnote-3">3</a>: J'ai arrêté depuis. Supportez les indés !<br>
+					<a href="#footnote-4-orig" id="footnote-4">4</a>: Pimply Faced Youth, un personnage de la série <i>Bastard Operator From Hell</i> de Simon Travaglia<br>
+					<a href="#footnote-5-orig" id="footnote-5">5</a>: Si vous avez besoin d'une preuve je vous invite à aller voir mon GitHub<br>
 				</p>
 			</article>
 			<script src="/common/elements/footer.js"></script>

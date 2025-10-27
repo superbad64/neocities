@@ -32,7 +32,19 @@
                 </p>
 
 				<p>
-					Traduction en cours !
+					Le Goblin est né principalement d'un besoin commercial; à la toute base il s'agit d'une manette spécifiquement pour Super Smash Bros, puis par la suite j'ai gardé le principe du chassis et je l'ai remodelé en quelquechose d'un peu plus "raisonnable", on va dire. J'ai très envie de dire que c'est un build simple avec peu de pièges, mais en réalité c'est peut être le plus exigeant d'un bricoleur du dimanche car c'est le seul à exiger de savoir utiliser un fer à souder. La chaîne des masses est un peu coton à souder (moi j'utilise du fil monobrin que j'enroule autour des broches mais chacun sa méthode), mais à part ça, ça devrait aller quand même.<br>
+					<br>
+					Le chassis lui même est conçu pour accueillir des switches de type Cherry MX, maintenu par friction dans les socles<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup>. Pour les poussoirs, moi je recommande de choper des SiTong 24mm sur AliExpress, mais vous pouvez aussi en imprimer, normalement les poussoirs <a href="https://github.com/OpenStickCommunity/Hardware/tree/main/3D%20Prints/OSBMX%20v2">OSBMX v2 de TheTrain</a> devraient marcher tout pareil.<br>
+					Sur le GitHub j'ai écrit que j'utilise des écrous "Chicago" de taille M4x20, et oui ça marche parfaitement tant que tu les boulonnes pas comme un taré. La feuille d'acrylique est technniquement optionnelle, mais ça fait joli.<br>
+					<br>
+					Le seul truc un poil relou à trouver c'est les barres en acier 3x200mm. Moi j'en ai trouvé sur Amazon, y'en a surement sur AliExpress aussi, et ça fait vraiment le café pour stabiliser les impression multiparties comme celle là !!<br>
+					<br>
+					Vraiment c'est un projet plutot cool pour un weekend. Pas de compromis sur la qualité, facile et pas super cher à imprimer... Z'attendez quoi ?! :-D
+				</p>
+				<div class="signature">- Bad64</div>
+				<hr>
+				<p class="footnotes">
+					<a href="#footnote-1-orig">1</a>: Si les tolérances de l'imprimante sont pas ouf, tu peux mettre du gaffeur autour des switches pour améliorer le maintien !<br>
 				</p>
 			</article>
 			<script src="/common/elements/footer.js"></script>
