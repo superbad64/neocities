@@ -29,7 +29,7 @@ a, a:hover, a:visited {
 
 .fakebutton {
     background-color: #000000;
-    font-family: "Marlett";
+    font-family: "Marlett", "Webdings", "W95Font";
     font-weight: bold;
     color: #00FF00;
     border: 1px solid #00FF00;

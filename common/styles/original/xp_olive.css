@@ -9,6 +9,7 @@ html {
  .titlebar {
     background-image: linear-gradient(to top, #8b956a, #bbc98f, #8b956a);
     border-radius: 6px 6px 0 0;
+    color: white;
 }
 
  .fakemenu {
@@ -17,7 +18,7 @@ html {
 
  .fakebutton {
     background-color: #f66e51;
-    font-family: "Marlett";
+    font-family: "Marlett", "Webdings", "W95Font";
     font-weight: bold;
     color: white;
     border: 1px solid white;

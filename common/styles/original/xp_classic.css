@@ -20,7 +20,7 @@ html {
 
  .fakebutton {
     background-color: #AAAAAA;
-    font-family: "Marlett";
+    font-family: "Marlett", "Webdings", "W95Font";
     font-weight: bold;
     color: black;
     border: 2px outset;

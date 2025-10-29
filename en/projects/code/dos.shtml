@@ -59,7 +59,7 @@
 				document.getElementById("DOS").onload = (event) => {
 					window.addEventListener("message", event => {
 						if (event.origin !== "http://localhost:8080") { return; }
-						//if (event.origin !== "https://https://bad64.neocities.org") { return; }
+						//if (event.origin !== "https://bad64.neocities.org") { return; }
 
 						window.location.href = url.slice(0, 4).join("/") + "/styles.shtml";
 					});

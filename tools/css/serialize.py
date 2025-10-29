@@ -14,6 +14,8 @@ with open(sys.argv[1]) as f:
             print(" ", sep="", end="")
         elif c in [ '\r', '\t' ]:
             continue
+        elif c in [ '"' ]:
+            print("\\\"", sep="", end="")
         else:
             print(c, sep="", end="")
 

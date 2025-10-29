@@ -18,7 +18,7 @@ html {
 
  .fakebutton {
     background-color: #f66e51;
-    font-family: "Marlett";
+    font-family: "Marlett", "Webdings", "W95Font";
     font-weight: bold;
     color: white;
     border: 1px solid white;

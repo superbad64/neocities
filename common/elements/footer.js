@@ -22,17 +22,20 @@ var lang = document.location.href.split("/")[3];
 
 var footerStrings = {
     "en": {
+        "mobileWarning": "Best viewed on a computer with a display at least 1920x1080; Mobile support is an afterthought at best",
         "copyrightNotice": "And remember...",
         "toTop": "Back to top",
         "stylePrompt": "Pick a style ! "
     },
     "fr": {
+        "mobileWarning": "Site conçu pour être navigable sur un PC avec une résolution de 1920 par 1080 pixels; Support mobile partiel",
         "copyrightNotice": "Et n'oubliez pas...",
         "toTop": "Haut de page",
         "stylePrompt": "Choisis ton style ! "
     }
 }
 
+document.write('	<p style="text-align: center;">' + footerStrings[lang]["mobileWarning"] + '</p>');
 document.write('	<p style="text-align: center;">© Bad64 2025<br>' + footerStrings[lang]["copyrightNotice"] + '</p>');
 document.write('	<div class="badges">');
 document.write('		<img src=/common/images/badges/chromevil.gif />');

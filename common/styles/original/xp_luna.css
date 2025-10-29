@@ -1,4 +1,3 @@
-/* Main page content */
 html
 {
 	background-color: #008080;
@@ -8,11 +7,11 @@ html
 	font-family: "Tahoma";
 }
 
-/* Shared elements */
 .titlebar
 {
 	background-image: linear-gradient(to top, #0042b6, #0055ea, #0042b6);
 	border-radius: 6px 6px 0 0;
+	color: white;
 }
 
 .fakemenu
@@ -23,14 +22,13 @@ html
 .fakebutton
 {
 	background-color: #f66e51;
-	font-family: "Marlett";
+	font-family: "Marlett", "Webdings", "W95Font";
 	color: white;
 	border: 1px solid white;
 	border-radius: 3px;
 	text-align: center;
 }
 
-/* Side bar */
 nav
 {
 	border: 3px solid #0042b6;
@@ -38,7 +36,6 @@ nav
 	background-color: #667ad8;
 }
 
-/* Blog post */
 .blogpost
 {
 	background-color: #FFFFFF;
