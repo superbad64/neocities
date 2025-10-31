@@ -44,7 +44,7 @@
 				<div class="signature">- Bad64</div>
 				<hr>
 				<p class="footnotes">
-					<a href="#footnote-1-orig">1</a>: Si les tolérances de l'imprimante sont pas ouf, tu peux mettre du gaffeur autour des switches pour améliorer le maintien !<br>
+					<a id="footnote-1" href="#footnote-1-orig">1</a>: Si les tolérances de l'imprimante sont pas ouf, tu peux mettre du gaffeur autour des switches pour améliorer le maintien !<br>
 				</p>
 			</article>
 			<script src="/common/elements/footer.js"></script>

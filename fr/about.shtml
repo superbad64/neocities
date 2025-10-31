@@ -68,11 +68,11 @@
 				<hr>
 				
 				<p class="footnotes">
-					<a href="#footnote-1-orig" id="footnote-1">1</a>: Columbine, un incident que Les Médias ont intégralement blâmé sur les jeux vidéos. Fun ! (pas du tout)<br>
-					<a href="#footnote-2-orig" id="footnote-2">2</a>: En termes modernes on appelle ça une "team". Le début des années 2000 a été très marqué par un appel au tribalisme, notamment chez les jeunes<br>
-					<a href="#footnote-3-orig" id="footnote-3">3</a>: J'ai arrêté depuis. Supportez les indés !<br>
-					<a href="#footnote-4-orig" id="footnote-4">4</a>: Pimply Faced Youth, un personnage de la série <i>Bastard Operator From Hell</i> de Simon Travaglia<br>
-					<a href="#footnote-5-orig" id="footnote-5">5</a>: Si vous avez besoin d'une preuve je vous invite à aller voir mon GitHub<br>
+					<a id="footnote-1" href="#footnote-1-orig">1</a>: Columbine, un incident que Les Médias ont intégralement blâmé sur les jeux vidéos. Fun ! (pas du tout)<br>
+					<a id="footnote-2" href="#footnote-2-orig">2</a>: En termes modernes on appelle ça une "team". Le début des années 2000 a été très marqué par un appel au tribalisme, notamment chez les jeunes<br>
+					<a id="footnote-3" href="#footnote-3-orig">3</a>: J'ai arrêté depuis. Supportez les indés !<br>
+					<a id="footnote-4" href="#footnote-4-orig">4</a>: Pimply Faced Youth, un personnage de la série <i>Bastard Operator From Hell</i> de Simon Travaglia<br>
+					<a id="footnote-5" href="#footnote-5-orig">5</a>: Si vous avez besoin d'une preuve je vous invite à aller voir mon GitHub<br>
 				</p>
 			</article>
 			<script src="/common/elements/footer.js"></script>

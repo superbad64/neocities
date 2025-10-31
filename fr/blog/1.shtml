@@ -19,15 +19,27 @@
 			</div>
 			<article class="blogpost">
 				<div class="titlebar">
-					<label class="title">&nbsp;</label>
+					<label class="title">Barrière de langage</label>
 					<div class="buttoncontainer">
 					<label class="fakebutton">r</label>
 					</div>
 				</div>
 				<script src="/common/elements/fakemenu.js"></script>
 				<p>
-					Pour des raisons de fluidité d'expression, je ne traduis pas mon blog ! Veuillez consulter la <a href="/en/blog/1.shtml">version Anglophone</a> à la place.
-					<div class="signature">- Bad64</div>
+					<b>Tl;dr:</b> Pour des raisons de fluidité d'expression, je ne traduis pas mon blog ! Si vous voulez voir ce qui se passe dans ma tête, référez vous à la <a href="/en/blog/1.shtml">version Anglophone</a> à la place.
+				</p>
+				<hr>
+				<p>
+					Bon. On va pas y aller par quatre chemins; si vous me connaissez (que ça soit IRL ou IVL), vous savez <i>probablement</i> que je mets des Anglicismes absolument partout (genre, au hasard, les deux acronymes cités plus tôt dans cette phrase). Le fait est qu'effectivement, dû en partie à mon (ancien) corps de métier, je parle beaucoup dans la langue de Shakespeare, par nécéssité autant que par confort<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup>.<br>
+					<br>
+					Et ça se reflète surtout dans le fond de mon expression verbale plus que dans la forme; j'ai fini par adopter beaucoup de structures de langage qui sont propres à l'Anglais (particulièrement dans sa forme Américaine), et comme j'ai aussi une très forte tendance à écrire comme je parle, ça résulte en pas mal de constructions et de tournures de phrases qui s'adaptent assez peu au Français.<br>
+					<br>
+					On me l'a "reproché" (gentiment, hein) pas mal de fois, et j'ai toujours eu du mal à l'expliquer - en soi, un symptôme de ce qui motive mon choix de ne pas traduire mon blog. Peut être qu'il me faut un genre de rééducation pour refranciser ma façon de parler ?
+				</p>
+				<div class="signature">- Bad64</div>
+				<hr>
+				<p class="footnotes">
+					<a href="#footnote-1-orig" id="footnote-1">1:</a> Moi vivant, jamais je n'enverrai un "rapport de bogue" par "imèl" et toutes ces conneries
 				</p>
 			</article>
 			<script src="/common/elements/footer.js"></script>
