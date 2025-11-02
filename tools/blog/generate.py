@@ -52,6 +52,7 @@ class Post():
         return html
 
     def get_publication_time(self):
+        # Returns the post date (but not time) for sorting
         return datetime.datetime.strptime(self.date, "%d/%m/%Y")
 
 def navigationWidget(pageNumber, maxPages):
@@ -99,7 +100,7 @@ fileStart[3] = "\t\t<title>Blog - Bad64's Domain</title>\n"
 fileStart.append("\n\t\t\t<h3>Blog</h3>\n")
 fileStart = ''.join(fileStart)
 
-#fileEnd = "\t\t\t<!--#include virtual=\"/common/elements/footer.shtml\"-->\n"
+# Now the end of the file
 fileEnd = "\t\t\t<script src=\"/common/elements/footer.js\"></script>\n"
 fileEnd += "\t\t\t<script>window.onload = () => { document.getElementsByClassName(\"content\")[0].getElementsByTagName(\"h3\")[0].style.marginTop = document.getElementByTagName(\"nav\")[0].getBoundingClientRect().top + \"px\"; }</script>\n"
 fileEnd += "\t\t</section>\n"
@@ -112,6 +113,7 @@ files = glob.glob("posts/*/*/*/*.shtml", recursive=True)
 
 print(f"Found {len(files)} posts")
 
+# Sort posts by date
 for file in files:
     posts.append(Post(file))
 posts = list(reversed(sorted(posts, key=Post.get_publication_time)))

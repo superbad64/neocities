@@ -21,9 +21,9 @@
 				<div class="titlebar">
 					<label class="title">Avertissement</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">0</label>
-						<label class="fakebutton_maximize">1</label>
-						<label class="fakebutton_close">r</label>
+						<label class="fakebutton_minimize">&#128469;</label>
+						<label class="fakebutton_maximize">&#128470;</label>
+						<label class="fakebutton_close">&#128473;</label>
 					</div>
 				</div>
 				
@@ -43,9 +43,9 @@
 				<div class="titlebar">
 					<label class="title">Welcome to the show</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">0</label>
-						<label class="fakebutton_maximize">1</label>
-						<label class="fakebutton_close">r</label>
+						<label class="fakebutton_minimize">&#128469;</label>
+						<label class="fakebutton_maximize">&#128470;</label>
+						<label class="fakebutton_close">&#128473;</label>
 					</div>
 				</div>
 				
@@ -105,9 +105,9 @@
 				<div class="titlebar">
 					<label class="title">Opération "Photographiez-les tous"</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">0</label>
-						<label class="fakebutton_maximize">1</label>
-						<label class="fakebutton_close">r</label>
+						<label class="fakebutton_minimize">&#128469;</label>
+						<label class="fakebutton_maximize">&#128470;</label>
+						<label class="fakebutton_close">&#128473;</label>
 					</div>
 				</div>
 				
@@ -135,9 +135,9 @@
 				<div class="titlebar">
 					<label class="title">L'histoire du p'tit con qui en a rien à foutre</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">0</label>
-						<label class="fakebutton_maximize">1</label>
-						<label class="fakebutton_close">r</label>
+						<label class="fakebutton_minimize">&#128469;</label>
+						<label class="fakebutton_maximize">&#128470;</label>
+						<label class="fakebutton_close">&#128473;</label>
 					</div>
 				</div>
 				<script src="/common/elements/fakemenu.js"></script>
@@ -169,9 +169,9 @@
 				<div class="titlebar">
 					<label class="title">Et du coup, y s'est passé quoi ?</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">0</label>
-						<label class="fakebutton_maximize">1</label>
-						<label class="fakebutton_close">r</label>
+						<label class="fakebutton_minimize">&#128469;</label>
+						<label class="fakebutton_maximize">&#128470;</label>
+						<label class="fakebutton_close">&#128473;</label>
 					</div>
 				</div>
 				

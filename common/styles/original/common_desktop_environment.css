@@ -21,18 +21,18 @@ html {
 }
 
 .fakebutton_minimize {
-	display: hidden;
+	display: none;
 	color: #eda870;
 }
 
 .fakebutton_maximize {
-	display: hidden;
+	display: none;
 	color: #eda870;
 }
 
 .fakebutton_close {
 	background-color: #eda870;
-	font-family: "Marlett", "Webdings", "W95Font";
+	font-family: "Marlett", "Webdings";
 	font-weight: bold;
 	color: #eda870;
 	border: 3px outset;

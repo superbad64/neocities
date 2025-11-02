@@ -15,9 +15,9 @@
 				<div class="titlebar">
 					<label class="title">Let's get meta !</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">0</label>
-						<label class="fakebutton_maximize">1</label>
-						<label class="fakebutton_close">r</label>
+						<label class="fakebutton_minimize">&#128469;</label>
+						<label class="fakebutton_maximize">&#128470;</label>
+						<label class="fakebutton_close">&#128473;</label>
 					</div>
 				</div>
 				

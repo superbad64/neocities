@@ -15,9 +15,9 @@
 				<div class="titlebar">
 					<label class="title">About the website</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">0</label>
-						<label class="fakebutton_maximize">1</label>
-						<label class="fakebutton_close">r</label>
+						<label class="fakebutton_minimize">&#128469;</label>
+						<label class="fakebutton_maximize">&#128470;</label>
+						<label class="fakebutton_close">&#128473;</label>
 					</div>
 				</div>
 				
@@ -40,9 +40,9 @@
 				<div class="titlebar">
 					<label class="title">About my projects</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">0</label>
-						<label class="fakebutton_maximize">1</label>
-						<label class="fakebutton_close">r</label>
+						<label class="fakebutton_minimize">&#128469;</label>
+						<label class="fakebutton_maximize">&#128470;</label>
+						<label class="fakebutton_close">&#128473;</label>
 					</div>
 				</div>
 				
@@ -70,9 +70,9 @@
 				<div class="titlebar">
 					<label class="title">About myself !</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">0</label>
-						<label class="fakebutton_maximize">1</label>
-						<label class="fakebutton_close">r</label>
+						<label class="fakebutton_minimize">&#128469;</label>
+						<label class="fakebutton_maximize">&#128470;</label>
+						<label class="fakebutton_close">&#128473;</label>
 					</div>
 				</div>
 				
