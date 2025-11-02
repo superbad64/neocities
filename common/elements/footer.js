@@ -48,7 +48,7 @@ document.write('');
 document.write('<section id="styleselector">');
 document.write('	<label for="stylemenu">' + footerStrings[lang]["stylePrompt"] + '</label>');
 document.write('');
-document.write('	<select id="stylemenu" onchange="easterEggCallback()">');
+document.write('	<select id="stylemenu" onchange="styleCallback()">');
 document.write('		<option value="9x_standard">9x Standard</option>');
 document.write('		<option value="9x_plum">9x Plum</option>');
 document.write('		<option value="9x_matrix">9x Matrix</option>');

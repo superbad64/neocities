@@ -1,37 +1,60 @@
 @font-face {
 	font-family: W95Font;
-	src: url(\"/common/W95font.otf\");
+	src: url("/common/W95font.otf");
 }
+
 html {
 	background-color: #008080;
 	background-image: unset;
 	background-attachment: fixed;
 	background-size: cover;
-	font-family: \"W95Font\";
+	font-family: "W95Font";
 }
+
 .titlebar {
 	background-image: linear-gradient(to right, #000080, #000080);
 	color: white;
 	font-weight: bold;
 	border-radius: 0;
 }
+
 .fakemenu {
 	display: none;
 }
-.fakebutton {
+
+.fakebutton_minimize {
 	background-color: #AAAAAA;
-	font-family: \"Marlett\";
-	font-weight: bold;
+	font-family: "Marlett", "Webdings", "W95Font";
 	color: black;
 	border: 2px outset;
 	border-radius: 0;
 	text-align: center;
 }
+
+.fakebutton_maximize {
+	background-color: #AAAAAA;
+	font-family: "Marlett", "Webdings", "W95Font";
+	color: black;
+	border: 2px outset;
+	border-radius: 0;
+	text-align: center;
+}
+
+.fakebutton_close {
+	background-color: #AAAAAA;
+	font-family: "Marlett", "Webdings", "W95Font";
+	color: black;
+	border: 2px outset;
+	border-radius: 0;
+	text-align: center;
+}
+
 nav {
 	border: 3px solid grey;
 	border-radius: 0;
 	background-color: #AAAAAA;
 }
+
 .blogpost {
 	background-color: #AAAAAA;
 	color: black;

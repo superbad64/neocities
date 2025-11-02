@@ -1,44 +1,54 @@
 html {
-    background-color: #008080;
-    background-image: unset;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: "Lucida Console";
+	background-color: #008080;
+	background-image: unset;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: "Lucida Console";
 }
 
- .titlebar {
-    background-image: linear-gradient(to right, #eda870, #eda870);
-    color: white;
-    font-weight: unset;
-    border-radius: 0;
-    text-align: center;
+.titlebar {
+	background-image: linear-gradient(to right, #eda870, #eda870);
+	color: white;
+	font-weight: unset;
+	border-radius: 0;
+	text-align: center;
 }
 
- .fakemenu {
-    display: block;
-    background-color: #4991a7;
-    color: white;
+.fakemenu {
+	display: block;
+	background-color: #4991a7;
+	color: white;
 }
 
- .fakebutton {
-    background-color: #eda870;
-    font-family: "Marlett", "Webdings", "W95Font";
-    font-weight: bold;
-    color: #eda870;
-    border: 3px outset;
-    border-radius: 0;
-    text-align: center;
+.fakebutton_minimize {
+	display: hidden;
+	color: #eda870;
 }
 
- nav {
-    border: 3px solid #eda870;
-    border-radius: 0;
-    background-color: #C6B2A8;
+.fakebutton_maximize {
+	display: hidden;
+	color: #eda870;
 }
 
- .blogpost {
-    background-color: #C6B2A8;
-    color: black;
-    border: 3px solid #eda870;
-    border-radius: 0;
+.fakebutton_close {
+	background-color: #eda870;
+	font-family: "Marlett", "Webdings", "W95Font";
+	font-weight: bold;
+	color: #eda870;
+	border: 3px outset;
+	border-radius: 0;
+	text-align: center;
+}
+
+nav {
+	border: 3px solid #eda870;
+	border-radius: 0;
+	background-color: #C6B2A8;
+}
+
+.blogpost {
+	background-color: #C6B2A8;
+	color: black;
+	border: 3px solid #eda870;
+	border-radius: 0;
 }

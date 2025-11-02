@@ -1,42 +1,59 @@
 html {
-    background-color: #004e98;
-    background-image: unset;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: "Tahoma";
+	background-color: #004e98;
+	background-image: unset;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: "Tahoma";
 }
 
- .titlebar {
-    background-image: linear-gradient(to right, #5094f8, #5094f8);
-    color: white;
-    font-weight: bold;
-    border-radius: 0;
+.titlebar {
+	background-image: linear-gradient(to right, #5094f8, #5094f8, #5094f8, #3573d6);
+	color: white;
+	font-weight: bold;
+	border-radius: 0;
 }
 
- .fakemenu {
-    display: block;
-    background-color: #f0f4f0;
+.fakemenu {
+	display: block;
+	background-color: #f4f4f0;
 }
 
- .fakebutton {
-    background-color: #5094f8;
-    font-family: "Marlett", "Webdings", "W95Font";
-    font-weight: bold;
-    color: lightblue;
-    border: 3px outset;
-    border-radius: 0;
-    text-align: center;
+.fakebutton_minimize {
+	background-color: #5094f8;
+	font-family: "Marlett", "Webdings", "W95Font";
+	color: lightblue;
+	border: 1px solid;
+	border-radius: 0;
+	text-align: center;
 }
 
- nav {
-    border: 3px solid #5094f8;
-    border-radius: 0;
-    background-color: #F8FCF8;
+.fakebutton_maximize {
+	background-color: #5094f8;
+	font-family: "Marlett", "Webdings", "W95Font";
+	color: lightblue;
+	border: 1px solid;
+	border-radius: 0;
+	text-align: center;
 }
 
- .blogpost {
-    background-color: #F8FCF8;
-    color: black;
-    border: 3px solid #5094f8;
-    border-radius: 0;
+.fakebutton_close {
+	background-color: #5094f8;
+	font-family: "Marlett", "Webdings", "W95Font";
+	color: lightblue;
+	border: 1px solid;
+	border-radius: 0;
+	text-align: center;
+}
+
+nav {
+	border: 3px solid #5094f8;
+	border-radius: 0;
+	background-color: #FFF;
+}
+
+.blogpost {
+	background-color: #FFF;
+	color: black;
+	border: 3px solid #5094f8;
+	border-radius: 0;
 }

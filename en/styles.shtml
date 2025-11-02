@@ -15,7 +15,9 @@
 				<div class="titlebar">
 					<label class="title">Found something interesting, have you ? ;-)</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton">r</label>
+						<label class="fakebutton_minimize">0</label>
+						<label class="fakebutton_maximize">1</label>
+						<label class="fakebutton_close">r</label>
 					</div>
 				</div>
 				

@@ -6,7 +6,7 @@ html
 
 @media (orientation: landscape)
 {
-	html { font-size: 16px; }
+	html { font-size: 14px; }
 	#langbar img { height: 36px; }
 	#langText { font-size: 28px; margin: 0; }
 }
@@ -113,18 +113,45 @@ hr
 .buttoncontainer
 {
 	position: absolute;
-	display: flex;
-	top: .15em;
 	right: 0.2em;
-	padding: 0.05em;
+	display: flex;
+	align-content: center;
 }
 
-.fakebutton
+.fakebutton_minimize
 {
 	font-family: "Marlett", "Webdings";
-	font-weight: bold;
 	color: black;
 	text-align: center;
+	font-weight: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 1px 0 1px;
+}
+
+.fakebutton_maximize
+{
+	font-family: "Marlett", "Webdings";
+	color: black;
+	text-align: center;
+	font-weight: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 1px 0 1px;
+}
+
+.fakebutton_close
+{
+	font-family: "Marlett", "Webdings";
+	color: black;
+	text-align: center;
+	font-weight: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 1px 0 1px;
 }
 
 @media (orientation: landscape)
@@ -288,8 +315,8 @@ nav a, nav a:hover, nav a:visited
 	height: auto;
 }
 
-/* ??? */
+/* Style selector */
 #styleselector
 {
-	display: none;
+	display: block;
 }

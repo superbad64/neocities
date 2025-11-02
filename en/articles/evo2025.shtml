@@ -21,7 +21,9 @@
 				<div class="titlebar">
 					<label class="title">Foreword</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton">r</label>
+						<label class="fakebutton_minimize">0</label>
+						<label class="fakebutton_maximize">1</label>
+						<label class="fakebutton_close">r</label>
 					</div>
 				</div>
 				
@@ -44,7 +46,9 @@
 				<div class="titlebar">
 					<label class="title">Welcome to the show</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton">r</label>
+						<label class="fakebutton_minimize">0</label>
+						<label class="fakebutton_maximize">1</label>
+						<label class="fakebutton_close">r</label>
 					</div>
 				</div>
 				
@@ -100,7 +104,9 @@
 				<div class="titlebar">
 					<label class="title">Headhunting</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton">r</label>
+						<label class="fakebutton_minimize">0</label>
+						<label class="fakebutton_maximize">1</label>
+						<label class="fakebutton_close">r</label>
 					</div>
 				</div>
 				
@@ -128,7 +134,9 @@
 				<div class="titlebar">
 					<label class="title">The tale of the random guy who doesn't give a shit</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton">r</label>
+						<label class="fakebutton_minimize">0</label>
+						<label class="fakebutton_maximize">1</label>
+						<label class="fakebutton_close">r</label>
 					</div>
 				</div>
 				<script src="/common/elements/fakemenu.js"></script>
@@ -164,7 +172,9 @@
 				<div class="titlebar">
 					<label class="title">So what went wrong ?</label>
 					<div class="buttoncontainer">
-						<label class="fakebutton">r</label>
+						<label class="fakebutton_minimize">0</label>
+						<label class="fakebutton_maximize">1</label>
+						<label class="fakebutton_close">r</label>
 					</div>
 				</div>
 				

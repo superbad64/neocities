@@ -19,9 +19,30 @@
 			</div>
 			<article class="blogpost">
 				<div class="titlebar">
+					<label class="title">Site launch - 30/09/2025 21:21</label>
+					<div class="buttoncontainer">
+					<label class="fakebutton_minimize">0</label>
+					<label class="fakebutton_maximize">1</label>
+					<label class="fakebutton_close">r</label>
+					</div>
+				</div>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					Well, here we are. I'm (finally) launching this website I've been bothering pretty much everyone about for the past five months or so.<br>
+					<br>
+					It's been an eventful road. I'm not a developer, much less a web developer (if anything I mostly write either administration scripts or low level code for embedded microcontrollers). The design alone took quite a lot of time. I created two stylesheets, one themed around Windows 9x and one around Windows XP. Still not entirely sure which one looks best.<br>
+					<br>
+					Either way, that's that. Hope you enjoy your stay !
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<div class="titlebar">
 					<label class="title">Hello, World ! - 30/09/2025 13:33</label>
 					<div class="buttoncontainer">
-					<label class="fakebutton">r</label>
+					<label class="fakebutton_minimize">0</label>
+					<label class="fakebutton_maximize">1</label>
+					<label class="fakebutton_close">r</label>
 					</div>
 				</div>
 				<script src="/common/elements/fakemenu.js"></script>
@@ -34,7 +55,7 @@
 				</p>
 			</article>
 			<script src="/common/elements/footer.js"></script>
-			<script>document.getElementsByClassName("content")[0].getElementsByTagName("h3")[0].style.marginTop = document.getElementsByClassName("nav")[0].getBoundingClientRect().top + "px"</script>
+			<script>window.onload = () => { document.getElementsByClassName("content")[0].getElementsByTagName("h3")[0].style.marginTop = document.getElementByTagName("nav")[0].getBoundingClientRect().top + "px"; }</script>
 		</section>
 	</body>
 </html>

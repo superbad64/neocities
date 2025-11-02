@@ -21,6 +21,7 @@ for line in sys.stdin:
     body += line
 
 body = body.replace('\n', "<br>\n")
+body = body[:-1]
 
 with open(f"{outputFolder}/{f}", "w") as outFile:
     for line in body:

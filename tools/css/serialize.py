@@ -4,19 +4,14 @@
 
 import sys
 
+args = ""
+
 with open(sys.argv[1]) as f:
-    while True:
-        c = f.read(1)
-        if not c:
-            break
+    for line in f.readlines():
+        args += line
 
-        if c in [ '\n' ]:
-            print(" ", sep="", end="")
-        elif c in [ '\r', '\t' ]:
-            continue
-        elif c in [ '"' ]:
-            print("\\\"", sep="", end="")
-        else:
-            print(c, sep="", end="")
-
-print("")
+args = args.replace('\n', ' ')
+args = args.replace('\t', ' ')
+args = args.replace("  ", ' ')
+args = args.replace('\"', "\\\"")
+print(f"extrastyle.innerHTML = \"{args[:-1]}\";")

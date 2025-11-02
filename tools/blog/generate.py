@@ -6,14 +6,23 @@ import datetime
 import glob
 from math import ceil
 import os
+import time
 
 class Post():
     # A Post. Formatted and ready to go
     def __init__(self, path):
         # Creates a post using the file name as a title, file ctime as post date, and file contents as the post body
         self.path = path
-        self.date = datetime.datetime.fromtimestamp(os.path.getctime(self.path)).strftime("%d/%m/%Y %H:%M")
-        self.title = os.path.basename(path).rsplit('.')[0] + " - " + self.date
+        
+        self.splitpath = self.path.split("/")
+        self.year = self.splitpath[1]
+        self.month = self.splitpath[2]
+        self.day = self.splitpath[3]
+        self.date = f"{self.day}/{self.month}/{self.year}"
+        self.filename = self.splitpath[4].split(".shtml")[0]
+        self.ctime = time.strftime("%H:%M", time.strptime(time.ctime(os.path.getctime(path))))
+
+        self.title = f"{self.filename} - {self.date} {self.ctime}"
         # Build content as a string
         with open(self.path, 'r') as file:
             self.content = file.read()
@@ -26,7 +35,9 @@ class Post():
         html += "\t\t\t\t<div class=\"titlebar\">\n"
         html += "\t\t\t\t\t<label class=\"title\">" + self.title + "</label>\n"
         html += "\t\t\t\t\t<div class=\"buttoncontainer\">\n"
-        html += "\t\t\t\t\t<label class=\"fakebutton\">r</label>\n"
+        html += "\t\t\t\t\t<label class=\"fakebutton_minimize\">0</label>\n"
+        html += "\t\t\t\t\t<label class=\"fakebutton_maximize\">1</label>\n"
+        html += "\t\t\t\t\t<label class=\"fakebutton_close\">r</label>\n"
         html += "\t\t\t\t\t</div>\n"
         html += "\t\t\t\t</div>\n"
         #html += "\t\t\t\t<!--#include virtual=\"/common/elements/fakemenu.shtml\"-->\n"
@@ -39,6 +50,9 @@ class Post():
         html += "\t\t\t</article>\n"
 
         return html
+
+    def get_publication_time(self):
+        return datetime.datetime.strptime(self.date, "%d/%m/%Y")
 
 def navigationWidget(pageNumber, maxPages):
     # Old-style chevron based navigation widget
@@ -87,7 +101,7 @@ fileStart = ''.join(fileStart)
 
 #fileEnd = "\t\t\t<!--#include virtual=\"/common/elements/footer.shtml\"-->\n"
 fileEnd = "\t\t\t<script src=\"/common/elements/footer.js\"></script>\n"
-fileEnd += "\t\t\t<script>document.getElementsByClassName(\"content\")[0].getElementsByTagName(\"h3\")[0].style.marginTop = document.getElementsByClassName(\"nav\")[0].getBoundingClientRect().top + \"px\"</script>\n"
+fileEnd += "\t\t\t<script>window.onload = () => { document.getElementsByClassName(\"content\")[0].getElementsByTagName(\"h3\")[0].style.marginTop = document.getElementByTagName(\"nav\")[0].getBoundingClientRect().top + \"px\"; }</script>\n"
 fileEnd += "\t\t</section>\n"
 fileEnd += "\t</body>\n"
 fileEnd += "</html>"
@@ -95,12 +109,12 @@ fileEnd += "</html>"
 # Seek all posts
 posts = []
 files = glob.glob("posts/*/*/*/*.shtml", recursive=True)
-files = list(reversed(sorted(files, key=os.path.getctime)))
 
 print(f"Found {len(files)} posts")
 
 for file in files:
     posts.append(Post(file))
+posts = list(reversed(sorted(posts, key=Post.get_publication_time)))
 
 # Clear the working dir
 print("Clearing the workdir")

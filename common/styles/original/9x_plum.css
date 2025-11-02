@@ -23,10 +23,27 @@ html {
 	display: none;
 }
 
-.fakebutton {
+.fakebutton_minimize {
 	background-color: #a89890;
 	font-family: "Marlett", "Webdings", "W95Font";
-	font-weight: bold;
+	color: black;
+	border: 2px outset;
+	border-radius: 0;
+	text-align: center;
+}
+
+.fakebutton_maximize {
+	background-color: #a89890;
+	font-family: "Marlett", "Webdings", "W95Font";
+	color: black;
+	border: 2px outset;
+	border-radius: 0;
+	text-align: center;
+}
+
+.fakebutton_close {
+	background-color: #a89890;
+	font-family: "Marlett", "Webdings", "W95Font";
 	color: black;
 	border: 2px outset;
 	border-radius: 0;
