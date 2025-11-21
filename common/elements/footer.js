@@ -9,26 +9,29 @@ document.write('}');
 document.write('</style>');
 document.write('<section class="footer">');
 document.write('	<hr>');
+/*
 document.write('	<div class="badges">');
 document.write('		<img src=/common/images/badges/firefoxnow.gif />&nbsp;');
 document.write('		<img src=/common/images/badges/netscapenow.gif />&nbsp; ');
-document.write('		<img src=/common/images/badges/php.gif />&nbsp;');
 document.write('		<img src=/common/images/badges/geocities.gif />&nbsp;');
-document.write('		<img src=/common/images/badges/neocities.gif />&nbsp;');
+document.write('		<img src=/common/images/badges/neocities-now.gif />&nbsp;');
 document.write('		<img src=/common/images/badges/vim.gif />');
 document.write('	</div>');
+*/
 
 var lang = document.location.href.split("/")[3];
 
 var footerStrings = {
     "en": {
-        "mobileWarning": "Best viewed on a computer with a display at least 1920x1080; Mobile support is an afterthought at best",
+        //"mobileWarning": "Best viewed on a computer with a display at least 1920x1080; Mobile support is an afterthought at best",
+        "mobileWarning": "",
         "copyrightNotice": "And remember...",
         "toTop": "Back to top",
         "stylePrompt": "Pick a style ! "
     },
     "fr": {
-        "mobileWarning": "Site conçu pour être navigable sur un PC avec une résolution de 1920 par 1080 pixels; Support mobile partiel",
+        //"mobileWarning": "Site conçu pour être navigable sur un PC avec une résolution de 1920 par 1080 pixels; Support mobile partiel",
+        "mobileWarning": "",
         "copyrightNotice": "Et n'oubliez pas...",
         "toTop": "Haut de page",
         "stylePrompt": "Choisis ton style ! "
@@ -60,6 +63,7 @@ document.write('		<option value="xp_silver">XP Silver</option>');
 document.write('		<option value="xp_royale_noir">XP Royale Noir</option>');
 document.write('		<option value="watercolor">Whistler Watercolor</option>');
 document.write('		<option value="cde">Common Desktop Environment</option>');
+document.write('		<option value="neocities">GeoCities Classic</option>');
 document.write('	</select>');
 document.write('</section>');
 document.write('<style id="extrastyle"></style>');

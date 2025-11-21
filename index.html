@@ -3,35 +3,69 @@
 	<head>
 		<title>Bad64's Corner</title>
 		<link rel="stylesheet" href="/common/styles/layout.css">
-		<link rel="stylesheet" href="/common/styles/styles.css">
+		<link rel="stylesheet" href="/common/styles/original/bios.css">
 		<meta charset="UTF-8">
 	</head>
-	<body>
-		<script src="/common/elements/langbar.js"></script>
-		<script src="/common/elements/nav.js"></script>
-
-		<section class="content">
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">&nbsp;</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
+	<body style="display: flex; flex-direction: column;">
+		<pre>
+<span style="color: red">   ▄███▀▀     ▄█▄  </span>
+<span style="color: red"> ▄██▀       ▄████  </span>
+<span style="color: red"> ██████▄  ▄██▀ ██  </span>    BadBIOS v0.6.4 pre-alpha [Build <span style="color: lightskyblue">1337</span>]
+<span style="color: red"> ██▀  ▀██ ██▀  ██  </span>     © 2025 Bad64 Industries, all rights reserved
+<span style="color: red"> ██▄  ▄██ ▀███████▀</span>
+<span style="color: red">  ▀████▀       ▀█  </span>
+		</pre>
+		<p>
+			CLIENT MAC ADDR: 00 00 1B AD D0 0D	GUID: FE64E7A9-D47B-494E-9AEA-66D41D9B4090<br>
+			PXE bootstrap successful !<br>
+			<br>
+			<br>
+			Local ROM test... [ <span style="color: lightgreen; font-weight: bold;">OK</span> ]<br>
+			Local RAM test... [ <span style="color: lightgreen; font-weight: bold">OK</span> ]<br>
+			<br>
+		</p>
+		<div style="display: flex; flex-direction: row; justify-content: space-evenly; width: 98%;">
+			<div class="bios_box">
+				<div id="textEN">
+					<p>
+						This site is very experimental, very personal, and prone to change on a whim. Expect the following content warnings to apply site-wide:
+					</p>
+					<ul>
+						<li><b>Strong language</b> (I swear like a sailor and I'm almost proud of it)</li>
+						<li><b>Heavy themes</b> that I will hide behind buttons &amp; trigger warnings, so you can choose whether to view them or not</li>
+						<li><b>Complete and utter disregard</b> for modern site-building codes</li>
+						<li>A lot of <b>Easter Eggs</b> and other hidden content</li>
+					</ul>
+					<p>
+						Best viewed on a computer with a display at least 1920x1080; Mobile support is an afterthought at best !
+					</p>
 				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
-
-				<script>window.location.href = "/en/blog/1.shtml";</script>
-				<p>
-					Hi ! If you see this page, I have severely misconfigured something. Please click on any link in the menu and pretend this didn't happen !
+				<p style="text-align: center">
+					<a href="en/home.shtml"><span class="cursor">C</span>lick here for the English speaking site !</a>
 				</p>
-
-			</article>
-			<script src="/common/elements/footer.js"></script>
-		</section>
+			</div>
+			<div class="bios_box">
+				<div id="textFR">
+					<p>
+						Ce site est très expérimental, très personnel, et prompt à changer de tronche au gré de mes humeurs. Les avertissements de contenu suivants peuvent s'appliquer à tout le site:
+					</p>
+					<ul>
+						<li><b>Langage inapproprié</b> (J'écris comme je parle, c'est à dire pas très bien)</li>
+						<li><b>Thèmes dérangeants</b> que je prendrai soin de cacher derrière des boutons afin de ne pas déranger la navigation de ceux qui ne souhaitent pas engager avec ce genre de contenu</li>
+						<li><b>Un gros majeur tendu</b> aux codes de développement d'UI modernes</li>
+						<li>Plein <b>d'Easter Eggs</b> et d'autres petites surprises</li>
+					</ul>
+					<p>
+						Site conçu pour être navigable sur un PC avec une résolution de 1920 par 1080 pixels; Support mobile partiel !
+					</p>
+				</div>
+				<p style="text-align: center">
+					<a href="fr/home.shtml"><span class="cursor">C</span>liquez ici pour visiter le site en Français !</a>
+				</p>
+			</div>
+		</div>
 	</body>
+	<script src="/common/elements/scripts.js"></script>
 </html>
 
 

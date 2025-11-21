@@ -51,7 +51,25 @@
 				I'm well aware that responsiveness is inherently "immersion-breaking"; after all, there were no smartphones before 2007, and WAP accessible websites were... yeah you know what, let's not go there. I'm still reeling from some of these experiences. But anyway, I deemed it a fair trade that <i>some</i> modern amenities should be implemented, if only to broaden my potential reach a little bit. I have only done very limited testing on the mobile version with my own phone, and at the time of this writing, this here website does <i>not</i> like auto-rotate. Fortunately this is the only issue I have noticed (again, the PRs are going to disagree very soon I believe !)
 				</p>
 				<p>
-				At this point in time, I feel I have most of the basic functionalities down (maybe add a gallery widget for the projects ?), and expect any further developments to focus almost entirely on writing content. Ironically, I feel I could turn it into its own light framework, as I've taken great care of splitting the CSS files into a layered architecture, with the layout and the actual appearance almost entirely independant. Maybe I'll do a Watercolor theme some day ? Who knows ! Either way, I hope you'll enjoy your short stay here, and the code if you're brave enough to check it !<br>
+				At this point in time, I feel I have most of the basic functionalities down (maybe add a gallery widget for the projects ?), and expect any further developments to focus almost entirely on writing content. Ironically, I feel I could turn it into its own light framework, as I've taken great care of splitting the CSS files into a layered architecture, with the layout and the actual appearance almost entirely independant. Maybe I'll do a Watercolor theme some day ? Who knows ! Either way, I hope you'll enjoy your short stay here, and the code if you're brave enough to check it 
+				</p>
+				<p>
+					Update 5/11/25: The styles inspiration are as follows:
+				</p>
+				<ul>
+					<li><b>9x Standard</b>: Iconic Windows 95/98 theme</li>
+					<li><b>9x Plum</b>: Blend of 9x Plum color scheme and <i>After Dark</i> Flying Toasters screensaver, used here as a background</li>
+					<li><b>9x Matrix</b>: (Very) high contrast theme influenced by a certain movie</li>
+					<li><b>9x Mystery</b>: Famous <i>Microsoft Windows 95 PLUS!</i> theme</li>
+					<li><b>XP Classic</b>: Fallback 9x-like theme</li>
+					<li><b>XP Luna</b>: Default theme, based on Windows XP Luna Blue</li>
+					<li><b>XP Olive</b>: Technically it should be XP <i>Luna</i> Olive</li>
+					<li><b>XP Silver</b>: Same as above but in metallic silver</li>
+					<li><b>XP Royale Noir</b>: Popular unreleased theme for Windows XP. Eventually became XP Zune in 2006</li>
+					<li><b>Whistler Watercolor</b>: (Loosely) based on the scrapped Watercolor theme from pre-release versions of Windows XP</li>
+					<li><b>Common Desktop Environment</b>: The only *NIX theme of the list, based on the eponymous CDE, itself based on (Open)Motif</li>
+					<li><b>GeoCities Classic</b>: Original theme reprising the oft-used tiled star background</li>
+				</ul>
 				<div class="signature">- Bad64</div>
 				<hr>
 				<p class="footnotes">

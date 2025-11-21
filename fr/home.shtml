@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Le coin à Bad64</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<script src="/common/elements/langbar.js"></script>
+		<script src="/common/elements/nav.js"></script>
+
+		<section class="content">
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">Page d'accueil</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton_minimize">&#128469;</label>
+						<label class="fakebutton_maximize">&#128470;</label>
+						<label class="fakebutton_close">&#128473;</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/fakemenu.js"></script>
+
+				<p>
+					Hej ! Bienvenue au <b>coin à Bad64</b><sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup>. Ici vous trouverez <a href="/en/articles.shtml">divers monologues</a> sur des trucs que je trouve intéressants, <a href="/en/projects.shtml">certains de mes projets</a> qui me font passer le tems, <a href="/en/about.shtml">et même une p'tite biographie</a> ! Installez vous, prenez un truc à boire, et profitez de l'ambiance !
+				</p>
+				<div class="signature">- Bad64</div>
+				<hr>
+				<p class="footnotes">
+					<a href="footnote-1-orig">1</a>: Oui je sais que je devrais dire "le coin <i>de</i> Bad64" mais j'aime être chiant
+				</p>
+			</article>
+			
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">Quoi d'neuf ?</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton_minimize">&#128469;</label>
+						<label class="fakebutton_maximize">&#128470;</label>
+						<label class="fakebutton_close">&#128473;</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/fakemenu.js"></script>
+
+				<div style="display: flex; flex-direction: row; justify-content: space-between;">
+					<p style="max-width: 40%;">
+						Comme beaucoup de gens j'aime bien avoir une playlist en fond sonore pour m'aider à me concentrer, ou même juste pour les rares fois où je dois aller en centre-ville et que le seul truc qui m'empêche de me rouler en boule dans un coin à cause de la surstimulation est mon vieux &amp;&amp; fidèle Corsair HS70. Ces temps-ci je dose pas mal les longues playlist sur Youtube, en particulier celle-là:
+					</p>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/F4nRB_I84D8?si=uB9J3z4VCsfmcrWN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</article>
+			<script src="/common/elements/footer.js"></script>
+		</section>
+	</body>
+</html>

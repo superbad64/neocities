@@ -33,6 +33,12 @@
 						<li><a href="articles/evo2025.shtml">13/10/2025 - I went to EVO !</a> <strong>(Some TW content, spoiler-tagged)</strong></li>
 					</ul>
 				</section>
+				<section style="margin-left: 0.5em;">
+					<h2>Rants and babblings</h2>
+					<ul>
+						<li><a href="articles/myjob.shtml">04/11/2025 - Job woes</a></li>
+					</ul>
+				</section>
 			</article>
 			<script src="/common/elements/footer.js"></script>
 		</section>

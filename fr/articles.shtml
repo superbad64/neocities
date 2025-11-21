@@ -33,6 +33,12 @@
 						<li><a href="articles/evo2025.shtml">13/10/2025 - Je suis allé à l'EVO !</a> <strong>(TW caché derrière un spoiler)</strong></li>
 					</ul>
 				</section>
+				<section style="margin-left: 0.5em;">
+					<h2>Tirades &amp; billevesées</h2>
+					<ul>
+						<li><a href="articles/myjob.shtml">04/11/2025 - Perspectives d'emploi</a></li>
+					</ul>
+				</section>
 			</article>
 			<script src="/common/elements/footer.js"></script>
 		</section>

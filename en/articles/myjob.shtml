@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Job woes - Bad64's Corner</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<script src="/common/elements/langbar.js"></script>
+		<script src="/common/elements/nav.js"></script>
+
+		<section class="content">
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">Job woes</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton_minimize">&#128469;</label>
+						<label class="fakebutton_maximize">&#128470;</label>
+						<label class="fakebutton_close">&#128473;</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/fakemenu.js"></script>
+
+				<p>
+					I tend to yap a lot about my crappy job situation, to the point it might be beneficial for me to write a big old "what the hecc is happening" type of post somewhere that I can reference everytime I bring the subject up with someone new.<br>
+                    <br>
+                    <b>Tl;dr: I am softlocked in a loop of "No job experience; need a job to acquire experience; need experience to obtain job"</b><br>
+                </p>
+                <hr>
+                <p>
+                    Ready ? Here we go.<br>
+                    <br>
+                    I'm a systems administrator by trade, more specifically a Linux specialist. My focus is open-source infrastructure (both cloud and/or on-premises, and even as far as cloud goes I'm basically platform agnostic), and most of my professional experience is split between operational maintenance and Innfrastructure as a Service (or <i>IaaS</i> for short) through (para-)virtualization. I do not have a ton of hands-on experience with Windows Server, and actually zero when it comes to on-the-job experience. This will become important in a minute.<br>
+                    <br>
+                    My first job lasted for just short of four years and mostly consisted on doing routine maintenance on a couple of small server clusters in a Google Cloud instance, most of which I've automated to one extent or the other<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup>. The rest was spent between end user support, virtualization tasks, phone server administration, and whatever miscellaneous things needed to be done by Someone Technical<sup>TM</sup>. Due to the nature of my work I wasn't able to produce any tangible report (besides, you know, <i>the company's infrastructure actually working</i>), which gave rise to a bad situation with the C-level; when everything worked, they wondered what I was being paid for. When something broke, they wondered what I was being paid for. Mounting tensions led me to leave a job I otherwise liked in a really great place. Only real problem was the pay.<br>
+                    <br>
+                    You'd think a Linux systems administrator would find work easily given our (over-)reliance on Internet-based things in this day and age, and quite honestly so did I. But reality rapidly came a-knockin'. In my area, <i>everybody</i> uses Windows Server. Linux is somehow a minority, even for small businesses (which I think is real stupid considering the license costs - but hey, not my money, not my problem), and if anything, hybrid environments are the standard<sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup>.<br>
+                    <br>
+                    So, yeah, remember that thing I said two paragraphs ago about not having on-the-job Windows Server experience ? That's the thing kneecapping me here. <i>Nobody</i> doubts my Linux skills (thank <i>&lt;insert deity of choice here&gt;</i>); the problem is almost completely centered on the fact that I have no Windows Server job experience. So how do I gain experience ? By finding a job with a Windows Server component. But I can't find one because I have no experience ! <i>Welcome to the Vicious Cycle of Job Requirements.</i> And no, there isn't anything like a certification I could earn to prove that yes, I know what Windows Server is, and I can use it competently in a professional setting. As of this writing the closest thing would be a Windows Server Hybrid Administrator Associate, and even this requires <i>multiple</i> years of experience in a professional environment (at least according to Microsoft) !<br>
+                    <br>
+                    People have previously asked me, "Bad, why don't you just move to a better area then ?"<br>
+                    Here's the problem: to relocate, I need money. To obtain money, I need a job. To get a job, I need to either magically obtain experience in the thing I want to work with (see paragraph above), or move out which requires money (back to step 1). Branching cycle, but still vicious cycle. Kind of the shittiest "Choose Your Own Adventure" book.<br>
+                    <br>
+                    Surprisingly, AI has very little to do with my unemployment, as systems administration isn't (yet) quite as prone to be "vibeified" like coding was. I'd have thought the opposite initially though; AI seems to be pretty decent at generating Dockerfiles and nginx reverse proxy configs. I guess network topology is still out of its grasp (but that also can be said of a lot of humans as well. After all we didn't develop broadcast storm protection for nothing, did we ?), and maybe DevOps tasks, but I have "good faith" that the AI reaper will come for my job too sooner or later. It's just that, statistically, we need far more developers than sysadmins, so AI agent developers are naturally more inclined to go after that share of the market, at least for now I believe.<br>
+                    <br>
+                    Anyways, that's the gist of it. The French job market hierarchy roughly goes degrees, then experience, then I guess vibes, nothing, actual skills, and then finally learning ability, to the point nothing I know is worth anything here. I'm still not sure how, or even <i>if</i> I will get out of this.
+                </p>
+                <div class="signature">- Bad64</div>
+                <hr>
+                <p class="footnotes">
+                    <a id="footnote-1" href="#footnote-1-orig">1:</a> "Good engineers are lazy engineers"<br>
+                    <a id="footnote-2" href="#footnote-2-orig">2:</a> I honestly wouldn't mind a hybrid environment, I only object to full Windows Server because I still wish to market myself as a primarily Linux sysadmin<br>
+                </p>
+			</article>
+			<script src="/common/elements/footer.js"></script>
+		</section>
+	</body>
+</html>

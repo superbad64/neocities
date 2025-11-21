@@ -47,7 +47,25 @@
 				<br>
 				J'ai bien conscience qu'avoir de la responsivité sur un site de ce genre est, en soi, une brisure dans l'immersion, mais je considère que c'est un prix honnête à payer pour augmenter le nombre de vues potentielles en augmentant la compatibilité avec différent types de terminaux (non pas que j'aie quoi que ce soit à en tirer à part de la micro-célébrité, on s'entend). Il y a toujours deux trois trucs qui marchent pas fort, genre au hasard le site n'aime pas les changements d'orientation sur mobile, mais bon. Pourrait être bien pire.<br>
 				<br>
-				Sur la version Anglaise que j'ai choisi de ne pas éditer à posteriori, j'ai écrit une immense connerie pour dire en gros que je n'ai plus de features à ajouter. Comme chez <i>tous</i> les développeurs, cette phrase a été immédiatement suivie de deux semaines d'ajout de features. Comme quoi, mieux vaut ne pas vendre la peau de l'ours dans les orties, ou un truc comme ça !<br>
+				Sur la version Anglaise que j'ai choisi de ne pas éditer à posteriori, j'ai écrit une immense connerie pour dire en gros que je n'ai plus de features à ajouter. Comme chez <i>tous</i> les développeurs, cette phrase a été immédiatement suivie de deux semaines d'ajout de features. Comme quoi, mieux vaut ne pas vendre la peau de l'ours dans les orties, ou un truc comme ça !
+				</p>
+				<p>
+					MàJ 5/11/25: Les inspirations utilisées sont les suivantes:
+				</p>
+				<ul>
+					<li><b>9x Standard</b>: Style classique de Windows 95/98</li>
+					<li><b>9x Plum</b>: Un mix du thème Plum de Windows 95 et de l'économiseur d'écran <i>Flying Toasters</i> d'<i>After Dark</i></li>
+					<li><b>9x Matrix</b>: Thème à (très) haut contraste inspiré par Matrix</li>
+					<li><b>9x Mystery</b>: Thème iconique de <i>Microsoft Plus! 95</i></li>
+					<li><b>XP Classic</b>: Thème "de secours" sur Windows XP</li>
+					<li><b>XP Luna</b>: Thème par défaut, basé sur Luna Blue de Windows XP</li>
+					<li><b>XP Olive</b>: Techniquement je devrais l'appeler "XP <i>Luna</i> Olive"</li>
+					<li><b>XP Silver</b>: Idem mais en gris métallisé</li>
+					<li><b>XP Royale Noir</b>: Thème populaire jamais sorti officiellement, qui deviendra par la suite XP Zune en 2006</li>
+					<li><b>Whistler Watercolor</b>: Basé sur le thème éponyme de Windows Whistler</li>
+					<li><b>Common Desktop Environment</b>: Le seul thème d'origine *NIX, basé sur CDE, lui même basé sur (Open)Motif</li>
+					<li><b>GeoCities Classic</b>: Style original implémentant le fameux fond étoilé typique de GeoCities</li>
+				</ul>
 				<div class="signature">- Bad64</div>
 				<hr>
 				<p class="footnotes">

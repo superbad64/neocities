@@ -102,7 +102,7 @@ fileStart = ''.join(fileStart)
 
 # Now the end of the file
 fileEnd = "\t\t\t<script src=\"/common/elements/footer.js\"></script>\n"
-fileEnd += "\t\t\t<script>window.onload = () => { document.getElementsByClassName(\"content\")[0].getElementsByTagName(\"h3\")[0].style.marginTop = document.getElementByTagName(\"nav\")[0].getBoundingClientRect().top + \"px\"; }</script>\n"
+fileEnd += "\t\t\t<script>window.onload = () => { document.getElementsByClassName(\"content\")[0].getElementsByTagName(\"h3\")[0].style.marginTop = document.getElementsByTagName(\"nav\")[0].getBoundingClientRect().top + \"px\"; }</script>\n"
 fileEnd += "\t\t</section>\n"
 fileEnd += "\t</body>\n"
 fileEnd += "</html>"

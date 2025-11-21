@@ -21,9 +21,9 @@
 				<div class="titlebar">
 					<label class="title">Translation done and some other things - 02/11/2025 15:03</label>
 					<div class="buttoncontainer">
-					<label class="fakebutton_minimize">&#128469;</label>
-					<label class="fakebutton_maximize">&#128470;</label>
-					<label class="fakebutton_close">&#128473;</label>
+					<label class="fakebutton_minimize">0</label>
+					<label class="fakebutton_maximize">1</label>
+					<label class="fakebutton_close">r</label>
 					</div>
 				</div>
 				<script src="/common/elements/fakemenu.js"></script>
@@ -38,9 +38,9 @@
 				<div class="titlebar">
 					<label class="title">French translation incoming - 24/10/2025 12:50</label>
 					<div class="buttoncontainer">
-					<label class="fakebutton_minimize">&#128469;</label>
-					<label class="fakebutton_maximize">&#128470;</label>
-					<label class="fakebutton_close">&#128473;</label>
+					<label class="fakebutton_minimize">0</label>
+					<label class="fakebutton_maximize">1</label>
+					<label class="fakebutton_close">r</label>
 					</div>
 				</div>
 				<script src="/common/elements/fakemenu.js"></script>
@@ -53,9 +53,9 @@
 				<div class="titlebar">
 					<label class="title">Roaming around - 20/10/2025 16:38</label>
 					<div class="buttoncontainer">
-					<label class="fakebutton_minimize">&#128469;</label>
-					<label class="fakebutton_maximize">&#128470;</label>
-					<label class="fakebutton_close">&#128473;</label>
+					<label class="fakebutton_minimize">0</label>
+					<label class="fakebutton_maximize">1</label>
+					<label class="fakebutton_close">r</label>
 					</div>
 				</div>
 				<script src="/common/elements/fakemenu.js"></script>
@@ -68,9 +68,9 @@
 				<div class="titlebar">
 					<label class="title">I went to EVO ! - 13/10/2025 15:02</label>
 					<div class="buttoncontainer">
-					<label class="fakebutton_minimize">&#128469;</label>
-					<label class="fakebutton_maximize">&#128470;</label>
-					<label class="fakebutton_close">&#128473;</label>
+					<label class="fakebutton_minimize">0</label>
+					<label class="fakebutton_maximize">1</label>
+					<label class="fakebutton_close">r</label>
 					</div>
 				</div>
 				<script src="/common/elements/fakemenu.js"></script>
@@ -83,9 +83,9 @@
 				<div class="titlebar">
 					<label class="title">Small update - 03/10/2025 21:53</label>
 					<div class="buttoncontainer">
-					<label class="fakebutton_minimize">&#128469;</label>
-					<label class="fakebutton_maximize">&#128470;</label>
-					<label class="fakebutton_close">&#128473;</label>
+					<label class="fakebutton_minimize">0</label>
+					<label class="fakebutton_maximize">1</label>
+					<label class="fakebutton_close">r</label>
 					</div>
 				</div>
 				<script src="/common/elements/fakemenu.js"></script>
@@ -97,7 +97,7 @@
 				</p>
 			</article>
 			<script src="/common/elements/footer.js"></script>
-			<script>window.onload = () => { document.getElementsByClassName("content")[0].getElementsByTagName("h3")[0].style.marginTop = document.getElementByTagName("nav")[0].getBoundingClientRect().top + "px"; }</script>
+			<script>window.onload = () => { document.getElementsByClassName("content")[0].getElementsByTagName("h3")[0].style.marginTop = document.getElementsByTagName("nav")[0].getBoundingClientRect().top + "px"; }</script>
 		</section>
 	</body>
 </html>

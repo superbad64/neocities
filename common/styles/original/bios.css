@@ -1,0 +1,31 @@
+@font-face {
+	font-family: W95Font;
+	src: url("/common/W95font.otf");
+}
+
+html {
+    background-color: black;
+    color: white;
+    font-family: "W95Font";
+}
+
+.bios_box {
+    width: 40%;
+    box-sizing: content-box;
+    border: 5px double white;
+    display: flex;
+    flex-direction: column;
+    background-color: unset;
+    color: white;
+}
+
+.cursor {
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+}
+
+a, a:hover, a:visited
+{
+	color: white;
+}

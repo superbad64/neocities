@@ -221,6 +221,7 @@ nav a, nav a:hover, nav a:visited
 .horizontalmenu
 {
 	margin-left: 0.5em;
+	min-width: 200px;
 }
 
 .verticalmenu
@@ -319,4 +320,29 @@ nav a, nav a:hover, nav a:visited
 #styleselector
 {
 	display: block;
+}
+
+/* Badges */
+.badges
+{
+	width: 98%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.navbadges
+{
+	position: absolute;
+	bottom: 2px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.navbadges img
+{
+	width: 88px;
+	height: 31px;
 }

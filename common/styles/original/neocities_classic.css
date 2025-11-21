@@ -1,0 +1,54 @@
+html {
+	background-color: #00A;
+	background-image: url("/common/images/stars.gif");
+	background-attachment: fixed;
+	background-size: auto;
+	background-repeat: repeat;
+	color: white;
+}
+
+a, a:hover, a:visited {
+	color: white;
+}
+
+.titlebar {
+	background-image: linear-gradient(to right, #ddd, #999);
+	color: black;
+	font-weight: bold;
+	border-radius: 6px 6px 0 0;
+}
+
+.fakemenu {
+	display: none;
+}
+
+.fakebutton_minimize {
+	display: none;
+}
+
+.fakebutton_maximize {
+	display: none;
+}
+
+.fakebutton_close {
+	display: none;
+}
+
+nav {
+	border: 3px outset #ddd;
+	border-radius: 10px;
+	background-color: unset;
+	color: white;
+}
+
+nav a, nav a:hover, nav a:visited
+{
+	color: white;
+}
+
+.blogpost {
+	border: 3px outset #ddd;
+	border-radius: 10px;
+	background-color: unset;
+	color: white;
+}
