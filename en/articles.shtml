@@ -30,14 +30,23 @@
 
 				<section style="margin-left: 0.5em;">
 					<h2>Life experiences</h2>
+					<p>In which I chat about things happening in my day to day life</p>
 					<ul>
 						<li><a href="articles/evo2025.shtml">13/10/2025 - I went to EVO !</a> <strong>(Some TW content, spoiler-tagged)</strong></li>
 					</ul>
 				</section>
 				<section style="margin-left: 0.5em;">
 					<h2>Rants and babblings</h2>
+					<p>Let me talk your ear off (or eyes, I guess ?) about literally anything that crosses my mind</p>
 					<ul>
 						<li><a href="articles/myjob.shtml">04/11/2025 - Job woes</a></li>
+					</ul>
+				</section>
+				<section style="margin-left: 0.5em;">
+					<h2>Game Reviews</h2>
+					<p>I play a lot of games; let me try and recommend you some !</p>
+					<ul>
+						<li><a href="articles/b3313.shtml">21/11/2025 - Super Mario 64: B3313</a></li>
 					</ul>
 				</section>
 			</article>

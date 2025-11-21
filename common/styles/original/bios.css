@@ -1,12 +1,12 @@
 @font-face {
-	font-family: W95Font;
-	src: url("/common/W95font.otf");
+    font-family: "Perfect DOS VGA 437"; 
+    src: url("/common/Perfect DOS VGA 437.ttf"); 
 }
 
 html {
     background-color: black;
     color: white;
-    font-family: "W95Font";
+    font-family: "Perfect DOS VGA 437";
 }
 
 .bios_box {

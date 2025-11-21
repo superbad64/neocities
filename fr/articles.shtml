@@ -30,14 +30,23 @@
 
 				<section style="margin-left: 0.5em;">
 					<h2>Ma vie en général</h2>
+					<p>Des trucs qui rendent mon quotidien moins ordinaire</p>
 					<ul>
 						<li><a href="articles/evo2025.shtml">13/10/2025 - Je suis allé à l'EVO !</a> <strong>(TW caché derrière un spoiler)</strong></li>
 					</ul>
 				</section>
 				<section style="margin-left: 0.5em;">
 					<h2>Tirades &amp; billevesées</h2>
+					<p>Tout et n'importe quoi</p>
 					<ul>
 						<li><a href="articles/myjob.shtml">04/11/2025 - Perspectives d'emploi</a></li>
+					</ul>
+				</section>
+				<section style="margin-left: 0.5em;">
+					<h2>Tests de jeux</h2>
+					<p>Je joue à pas mal de jeux indés; et si je vous en recommendais un ?</p>
+					<ul>
+						<li><a href="articles/b3313.shtml">21/11/2025 - Super Mario 64: B3313</a></li>
 					</ul>
 				</section>
 			</article>
