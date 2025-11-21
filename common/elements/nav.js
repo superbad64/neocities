@@ -7,8 +7,17 @@ document.write('	');
 document.write('    <script src="/common/elements/fakemenu.js"></script>');
 
 var lang = window.location.href.split("/")[3];
+if (lang == "common") { lang = "en"; };
 
 var navStrings = {
+    "common": {
+        "home": "<a href=\"/en/home.shtml\"><span style=\"text-decoration: underline\">H</span>ome</a>",
+        "aboutMe": "<a href=\"/en/about.shtml\"><span style=\"text-decoration: underline\">A</span>bout me</a>",
+        "articles": "<a href=\"/en/articles.shtml\">A<span style=\"text-decoration: underline\">r</span>ticles</a>",
+        "blog": "<a href=\"/en/blog/1.shtml\"><span style=\"text-decoration: underline\">B</span>log</a>",
+        "faq": "<a href=\"/en/faq.shtml\"><span style=\"text-decoration: underline\">F</span>AQ</a>",
+        "projects": "<a href=\"/en/projects.shtml\"><span style=\"text-decoration: underline\">P</span>rojects</a>"
+    },
     "en": {
         "home": "<a href=\"/en/home.shtml\"><span style=\"text-decoration: underline\">H</span>ome</a>",
         "aboutMe": "<a href=\"/en/about.shtml\"><span style=\"text-decoration: underline\">A</span>bout me</a>",

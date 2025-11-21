@@ -4,6 +4,7 @@
 		<title>Le coin à Bad64</title>
 		<link rel="stylesheet" href="/common/styles/layout.css">
 		<link rel="stylesheet" href="/common/styles/styles.css">
+		<link id="currentStyleSheet" rel="stylesheet" href="">
 		<meta charset="UTF-8">
 	</head>
 	<body>
@@ -51,6 +52,37 @@
 					</p>
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/F4nRB_I84D8?si=uB9J3z4VCsfmcrWN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 				</div>
+			</article>
+
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">À venir</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton_minimize">&#128469;</label>
+						<label class="fakebutton_maximize">&#128470;</label>
+						<label class="fakebutton_close">&#128473;</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/fakemenu.js"></script>
+
+				<p>
+					P'tite liste des choses que je souhaite implémenter dans un futur proche
+				</p>
+				<ul>
+					<li>Plus de styles !</li>
+					<li>Un moyen de choisir le fond d'écran</li>
+					<li>Refaire toutes les icones:</li>
+					<ul>
+						<li>Icone des favoris</li>
+						<li>Accueil</li>
+						<li>À propos</li>
+						<li>Articles</li>
+						<li>Blog</li>
+						<li>FAQ</li>
+						<li>Projets</li>
+					</ul>
+				</ul>
 			</article>
 			<script src="/common/elements/footer.js"></script>
 		</section>

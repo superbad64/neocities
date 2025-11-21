@@ -8,10 +8,7 @@ var prevState = "?";
 var baseFontSize = window.getComputedStyle(html, null).getPropertyValue("font-size").slice(0, -2);
 var lang = window.location.href.split("/")[3];
 var stylemenu = document.getElementById("stylemenu");
-var extrastyle = document.getElementById("extrastyle");
-var loadedstyles = [ "9x_standard", "9x_plum", "9x_matrix", "9x_mystery",
-	"xp_classic", "xp_luna", "xp_olive", "xp_silver", "xp_royale_noir",
-	"watercolor", "candy", "cde" ];
+var currentStyleSheet = document.getElementById("currentStyleSheet");
 
 /* Cookie stuff */
 var cookie = decodeURIComponent(document.cookie).split(";")[0];
@@ -139,73 +136,16 @@ stylemenu.value = cookie.split("=")[1];
 //console.log("Current stylemenu value: " + stylemenu.value);
 
 function styleCallback() {
-	//console.log("Attempting to load style: " + stylemenu.value);
-	switch (stylemenu.value) {
-		// 9x styles
-		case "9x_standard":
-			extrastyle.innerHTML = "@font-face { font-family: W95Font; src: url(\"/common/W95font.otf\"); } html { background-color: #008080; background-image: unset; background-attachment: fixed; background-size: cover; font-family: \"W95Font\"; } .titlebar { background-image: linear-gradient(to right, #000080, #000080); color: white; font-weight: bold; border-radius: 0; } .fakemenu { display: none; } .fakebutton_minimize { background-color: #AAAAAA; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: black; border: 2px outset; border-radius: 0; text-align: center; } .fakebutton_maximize { background-color: #AAAAAA; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: black; border: 2px outset; border-radius: 0; text-align: center; } .fakebutton_close { background-color: #AAAAAA; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: black; border: 2px outset; border-radius: 0; text-align: center; } nav { border: 3px solid grey; border-radius: 0; background-color: #AAAAAA; } .blogpost { background-color: #AAAAAA; color: black; border: 3px solid grey; border-radius: 0; }";
-			break;
-		case "9x_plum":
-			extrastyle.innerHTML = "@font-face { font-family: W95Font; src: url(\"/common/W95font.otf\"); } html { background-color: #000000; background-image: unset; background-attachment: fixed; background-size: cover; font-family: \"W95Font\"; color: white; } .titlebar { background-image: linear-gradient(to right, #484060, #484060); color: white; font-weight: bold; border-radius: 0; } .fakemenu { display: none; } .fakebutton_minimize { background-color: #a89890; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: black; border: 2px outset; border-radius: 0; text-align: center; } .fakebutton_maximize { background-color: #a89890; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: black; border: 2px outset; border-radius: 0; text-align: center; } .fakebutton_close { background-color: #a89890; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: black; border: 2px outset; border-radius: 0; text-align: center; } nav { border: 3px solid #756964; border-radius: 0; background-color: #a89890; } .blogpost { background-color: #a89890; color: black; border: 3px solid #756964; border-radius: 0; }";
-			try {
-				document.getElementById("bgCanvas").style.display = "block";
-				document.getElementById("bgCanvas").width = window.innerWidth;
-				document.getElementById("bgCanvas").height = window.innerHeight;
-				//console.log("Displaying canvas !");
-			} catch {
-				//console.log("Oops I tried to do things to a canvas that doesn't exist !");
-			}
-			break;
-		case "9x_matrix":
-			extrastyle.innerHTML = "@font-face { font-family: W95Font; src: url(\"/common/W95font.otf\"); } html { background-color: #000000; background-image: unset; background-attachment: fixed; background-size: cover; font-family: \"W95Font\"; color: #00FF00; } a, a:hover, a:visited { color: #00FF00; } .titlebar { background-image: linear-gradient(to right, #00ff00, #00ff00); color: black; font-weight: bold; border-radius: 0; } .fakemenu { display: none; } .fakebutton_minimize { background-color: #000000; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; font-weight: normal; color: #00FF00; border: 1px solid #00FF00; border-radius: 0; text-align: center; } .fakebutton_maximize { background-color: #000000; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; font-weight: normal; color: #00FF00; border: 1px solid #00FF00; border-radius: 0; text-align: center; } .fakebutton_close { background-color: #000000; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; font-weight: normal; color: #00FF00; border: 1px solid #00FF00; border-radius: 0; text-align: center; } nav { border: 3px solid #00FF00; border-radius: 0; background-color: #000000; } nav a, nav a:hover, nav a:visited { color: #00FF00; } .topnav a, .topnav a:hover, .topnav a:visited { color: #00FF00; } .blogpost { background-color: #000000; color: #00FF00; border: 3px solid #00FF00; border-radius: 0; }";
-			break;
-		case "9x_mystery":
-			extrastyle.innerHTML = "@font-face { font-family: W95Font; src: url(\"/common/W95font.otf\"); } html { background-color: #008080; background-image: url(\"/common/images/mystery.jpg\"); background-attachment: fixed; background-size: cover; background-position-y: -25em; font-family: \"W95Font\"; } .titlebar { background-image: linear-gradient(to right, #503840, #503840); color: white; font-weight: bold; border-radius: 0; } .fakemenu { display: none; } .fakebutton_minimize { background-color: #687868; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: black; border: 2px outset; border-radius: 0; text-align: center; } .fakebutton_maximize { background-color: #687868; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: black; border: 2px outset; border-radius: 0; text-align: center; } .fakebutton_close { background-color: #687868; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: black; border: 2px outset; border-radius: 0; text-align: center; } nav { border: 3px solid grey; border-radius: 0; background-color: #687868; } .blogpost { background-color: #687868; color: black; border: 3px solid grey; border-radius: 0; ";
-			html.style.backgroundSize = "cover";
-			break;
-		// XP styles
-		case "xp_classic":
-			extrastyle.innerHTML = "html { background-color: #202020; background-image: url(\"/common/images/bliss.png\"); background-attachment: fixed; background-size: cover; font-family: \"Tahoma\"; } .titlebar { background-image: linear-gradient(to right, #000080, #a3c6ed); color: white; font-weight: bold; border-radius: 0; } .fakemenu { display: block; background-color: #d4d0c8; box-sizing: border-box; border-bottom: 1px groove darkgray; } .fakebutton_minimize { background-color: #AAAAAA; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: black; border: 2px outset; border-radius: 0; text-align: center; } .fakebutton_maximize { background-color: #AAAAAA; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: black; border: 2px outset; border-radius: 0; text-align: center; } .fakebutton_close { background-color: #AAAAAA; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: black; border: 2px outset; border-radius: 0; text-align: center; } nav { border: 3px solid #a19d97; border-radius: 0 0 0; background-color: #d4d0c8; } .blogpost { background-color: #FFFFFF; color: black; border: 3px outset #a19d97; border-radius: 0; }";
-			break;
-		case "xp_luna":
-			extrastyle.innerHTML = "html { background-color: #202020; background-image: url(\"/common/images/bliss.png\"); background-attachment: fixed; background-size: cover; font-family: \"Tahoma\"; } .titlebar { background-image: linear-gradient(to top, #0042b6, #0055ea, #0042b6); border-radius: 6px 6px 0 0; color: white; } .fakemenu { display: block; } .fakebutton_minimize { background-color: #0055ea; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: white; border: 1px solid white; border-radius: 3px; text-align: center; } .fakebutton_maximize { background-color: #0055ea; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: white; border: 1px solid white; border-radius: 3px; text-align: center; } .fakebutton_close { background-color: #f66e51; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: white; border: 1px solid white; border-radius: 3px; text-align: center; }  nav { border: 3px solid #0042b6; border-radius: 10px 10px 0 0; background-color: #667ad8; } .blogpost { background-color: #FFFFFF; color: black; border: 3px solid #0042b6; border-radius: 10px 10px 0 0; }";
-			break;
-		case "xp_olive":
-			extrastyle.innerHTML = "html { background-color: #202020; background-image: url(\"/common/images/bliss.png\"); background-attachment: fixed; background-size: cover; font-family: \"Tahoma\"; } .titlebar { background-image: linear-gradient(to top, #8b956a, #bbc98f, #8b956a); border-radius: 6px 6px 0 0; color: white; } .fakemenu { display: block; } .fakebutton_minimize { background-color: #bbc98f; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: white; border: 1px solid white; border-radius: 3px; text-align: center; } .fakebutton_maximize { background-color: #bbc98f; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: white; border: 1px solid white; border-radius: 3px; text-align: center; } .fakebutton_close { background-color: #f66e51; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: white; border: 1px solid white; border-radius: 3px; text-align: center; } nav { border: 3px solid #8b956a; border-radius: 10px 10px 0 0; background-color: #bbc98f; } .blogpost { background-color: #FFFFFF; color: black; border: 3px solid #8b956a; border-radius: 10px 10px 0 0; }";
-			break;
-		case "xp_silver":
-			extrastyle.innerHTML = "html { background-color: #202020; background-image: url(\"/common/images/bliss.png\"); background-attachment: fixed; background-size: cover; font-family: \"Tahoma\"; } .titlebar { background-image: linear-gradient(to top, #FFFFFF, #b2b2b2, #b2b2b2); border-radius: 6px 6px 0 0; color: black; } .fakemenu { display: block; } .fakebutton_minimize { background-color: #b2b2b2; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: white; border: 1px solid #333333; border-radius: 3px; text-align: center; } .fakebutton_maximize { background-color: #b2b2b2; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: white; border: 1px solid #333333; border-radius: 3px; text-align: center; } .fakebutton_close { background-color: #f66e51; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: white; border: 1px solid #333333; border-radius: 3px; text-align: center; } nav { border: 3px solid #b2b2b2; border-radius: 10px 10px 0 0; background-color: #e7e6ee; } .blogpost { background-color: #FFFFFF; color: black; border: 3px solid #b2b2b2; border-radius: 10px 10px 0 0; }";
-			break;
-		case "xp_royale_noir":
-			extrastyle.innerHTML = "html { background-color: #202020; background-image: url(\"/common/images/energybliss.png\"); background-attachment: fixed; background-size: cover; font-family: \"Tahoma\"; } .titlebar { background-image: linear-gradient(to top, #161d2d, #556271); border-radius: 6px 6px 0 0; color: white; } .fakemenu { display: block; background-color: #f0eef1 } .fakebutton_minimize { background-color: #161d2d; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: white; border: unset; border-radius: 3px; text-align: center; } .fakebutton_maximize { background-color: #161d2d; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: white; border: unset; border-radius: 3px; text-align: center; } .fakebutton_close { background-color: #f66e51; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: white; border: unset; border-radius: 3px; text-align: center; } nav { border: 3px solid #556271; border-radius: 10px 10px 0 0; background-color: #707a82; } .blogpost { background-color: #FFFFFF; color: black; border: 3px solid #556271; border-radius: 10px 10px 0 0; }";
-			html.style.backgroundSize = window.innerWidth + "px " + window.innerHeight + "px";
-			break;
-		// Other styles
-		case "watercolor":
-			extrastyle.innerHTML = "html { background-color: #004e98; background-image: unset; background-attachment: fixed; background-size: cover; font-family: \"Tahoma\"; } .titlebar { background-image: linear-gradient(to right, #5094f8, #5094f8, #5094f8, #3573d6); color: white; font-weight: bold; border-radius: 0; } .fakemenu { display: block; background-color: #f4f4f0; } .fakebutton_minimize { background-color: #5094f8; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: lightblue; border: 1px solid; border-radius: 0; text-align: center; } .fakebutton_maximize { background-color: #5094f8; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: lightblue; border: 1px solid; border-radius: 0; text-align: center; } .fakebutton_close { background-color: #5094f8; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; color: lightblue; border: 1px solid; border-radius: 0; text-align: center; } nav { border: 3px solid #5094f8; border-radius: 0; background-color: #FFF; } .blogpost { background-color: #FFF; color: black; border: 3px solid #5094f8; border-radius: 0; }";
-			break;
-		case "candy":
-			// TODO
-			break;
-		case "cde":
-			extrastyle.innerHTML = "html { background-color: #008080; background-image: unset; background-attachment: fixed; background-size: cover; font-family: \"Lucida Console\"; } .titlebar { background-image: linear-gradient(to right, #eda870, #eda870); color: white; font-weight: unset; border-radius: 0; text-align: center; } .fakemenu { display: block; background-color: #4991a7; color: white; } .fakebutton_minimize { display: hidden; } .fakebutton_maximize { display: hidden; } .fakebutton_close { background-color: #eda870; font-family: \"Marlett\", \"Webdings\", \"W95Font\"; font-weight: bold; color: #eda870; border: 3px outset; border-radius: 0; text-align: center; } nav { border: 3px solid #eda870; border-radius: 0; background-color: #C6B2A8; } .blogpost { background-color: #C6B2A8; color: black; border: 3px solid #eda870; border-radius: 0; }";
-			break;
-		case "neocities":
-			extrastyle.innerHTML = "html { background-color: #00A; background-image: url(\"/common/images/stars.gif\"); background-attachment: fixed; background-size: auto; background-repeat: repeat; color: white; } a, a:hover, a:visited { color: white; } .titlebar { background-image: linear-gradient(to right, #ddd, #999); color: black; font-weight: bold; border-radius: 6px 6px 0 0; } .fakemenu { display: none; } .fakebutton_minimize { display: none; } .fakebutton_maximize { display: none; } .fakebutton_close { display: none; } nav { border: 3px outset #ddd; border-radius: 10px; background-color: unset; color: white; } nav a, nav a:hover, nav a:visited { color: white; } .blogpost { border: 3px outset #ddd; border-radius: 10px; background-color: unset; color: white; }";
-			break;
-		default:
-			break;
-	}
+	currentStyleSheet.href = "/common/styles/original/" + stylemenu.value + ".css";
 
-	// Hide/show canvas
+	// Extra per-style stuff
 	if (stylemenu.value == "9x_plum") {
 		try {
 			document.getElementById("bgCanvas").style.display = "block";
 		} catch {
 			//console.log("Oops I tried to show a canvas that doesn't exist !");
 		}
-	}
-	else {
+	} else {
 		try {
 			document.getElementById("bgCanvas").style.display = "none";
 			//console.log("Hiding canvas !");
@@ -215,7 +155,7 @@ function styleCallback() {
 	}
 
 	// Adjust background
-	if (stylemenu.value == "neocities") {
+	if (stylemenu.value == "neocities_classic") {
 		html.style.backgroundSize = "auto";
 		html.style.backgroundRepeat = "repeat";
 	}

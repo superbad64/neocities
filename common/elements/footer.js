@@ -22,23 +22,23 @@ document.write('	</div>');
 var lang = document.location.href.split("/")[3];
 
 var footerStrings = {
+    "common": {
+        "copyrightNotice": "And remember...",
+        "toTop": "Back to top",
+        "stylePrompt": "Pick a style ! "
+    },
     "en": {
-        //"mobileWarning": "Best viewed on a computer with a display at least 1920x1080; Mobile support is an afterthought at best",
-        "mobileWarning": "",
         "copyrightNotice": "And remember...",
         "toTop": "Back to top",
         "stylePrompt": "Pick a style ! "
     },
     "fr": {
-        //"mobileWarning": "Site conçu pour être navigable sur un PC avec une résolution de 1920 par 1080 pixels; Support mobile partiel",
-        "mobileWarning": "",
         "copyrightNotice": "Et n'oubliez pas...",
         "toTop": "Haut de page",
         "stylePrompt": "Choisis ton style ! "
     }
 }
 
-document.write('	<p style="text-align: center;">' + footerStrings[lang]["mobileWarning"] + '</p>');
 document.write('	<p style="text-align: center;">© Bad64 2025<br>' + footerStrings[lang]["copyrightNotice"] + '</p>');
 document.write('	<div class="badges">');
 document.write('		<img src=/common/images/badges/chromevil.gif />');
@@ -61,9 +61,9 @@ document.write('		<option selected="selected" value="xp_luna">XP Luna (default)<
 document.write('		<option value="xp_olive">XP Olive</option>');
 document.write('		<option value="xp_silver">XP Silver</option>');
 document.write('		<option value="xp_royale_noir">XP Royale Noir</option>');
-document.write('		<option value="watercolor">Whistler Watercolor</option>');
-document.write('		<option value="cde">Common Desktop Environment</option>');
-document.write('		<option value="neocities">GeoCities Classic</option>');
+document.write('		<option value="whistler_watercolor">Whistler Watercolor</option>');
+document.write('		<option value="common_desktop_environment">Common Desktop Environment</option>');
+document.write('		<option value="neocities_classic">GeoCities Classic</option>');
 document.write('	</select>');
 document.write('</section>');
 document.write('<style id="extrastyle"></style>');

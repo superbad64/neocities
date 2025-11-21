@@ -4,6 +4,7 @@
 		<title>Bad64's Corner</title>
 		<link rel="stylesheet" href="/common/styles/layout.css">
 		<link rel="stylesheet" href="/common/styles/styles.css">
+		<link id="currentStyleSheet" rel="stylesheet" href="">
 		<meta charset="UTF-8">
 	</head>
 	<body>
@@ -47,6 +48,37 @@
 					</p>
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/F4nRB_I84D8?si=uB9J3z4VCsfmcrWN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 				</div>
+			</article>
+
+			<article class="blogpost">
+				<div class="titlebar">
+					<label class="title">What's next ?</label>
+					<div class="buttoncontainer">
+						<label class="fakebutton_minimize">&#128469;</label>
+						<label class="fakebutton_maximize">&#128470;</label>
+						<label class="fakebutton_close">&#128473;</label>
+					</div>
+				</div>
+				
+				<script src="/common/elements/fakemenu.js"></script>
+
+				<p>
+					Here's my TODO list for the foreseeable future:
+				</p>
+				<ul>
+					<li>More styles !</li>
+					<li>A wallpaper selector ?</li>
+					<li>Remake all the icons:</li>
+					<ul>
+						<li>Favicon</li>
+						<li>Home</li>
+						<li>About</li>
+						<li>Articles</li>
+						<li>Blog</li>
+						<li>FAQ</li>
+						<li>Projects</li>
+					</ul>
+				</ul>
 			</article>
 			<script src="/common/elements/footer.js"></script>
 		</section>

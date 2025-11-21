@@ -4,6 +4,7 @@
 		<title>Flying Toasters - Le coin à Bad64</title>
 		<link rel="stylesheet" href="/common/styles/layout.css">
 		<link rel="stylesheet" href="/common/styles/styles.css">
+		<link id="currentStyleSheet" rel="stylesheet" href="">
 		<meta charset="UTF-8">
 	</head>
 	<body>
