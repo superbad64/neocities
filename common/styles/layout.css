@@ -177,7 +177,7 @@ hr
 /* Nav menu */
 nav
 {
-	min-width: 10em;
+	min-width: 200px;
 	height: 0;
 }
 
@@ -186,7 +186,7 @@ nav
 	nav
 	{
 		position: fixed;
-		min-width: 10em;
+		min-width: 200px;
 		width: 10%;
 		height: 98%;
 		left: 15%;
@@ -236,12 +236,14 @@ nav a, nav a:hover, nav a:visited
 @media (orientation: landscape)
 {
 	.horizontalmenu	{ display: block; }
+	.navbadges { display: block; }
 	.verticalmenu {	display: none; }
 }
 
 @media (orientation: portrait)
 {
 	.horizontalmenu	{ display: none; }
+	.navbadges { display: none; }
 	.verticalmenu {	display: flex; }
 }
 
@@ -320,6 +322,19 @@ nav a, nav a:hover, nav a:visited
 #styleselector
 {
 	display: block;
+	padding-bottom: 5em;
+}
+
+@media (orientation: landscape)
+{
+	#styleselector { font-size: 14px; }
+	#stylemenu { height: auto; }
+}
+
+@media (orientation: portrait)
+{
+	#styleselector { font-size: 24px; }
+	#stylemenu { height: auto; }
 }
 
 /* Badges */

@@ -4,6 +4,7 @@ var content = document.getElementsByClassName("content")[0];
 var nav = document.getElementsByTagName("nav")[0];
 var horizontalMenu = document.getElementsByClassName("horizontalmenu")[0];
 var verticalMenu = document.getElementsByClassName("verticalmenu")[0];
+var navBadges = document.getElementsByClassName("navbadges")[0];
 var prevState = "?";
 var baseFontSize = window.getComputedStyle(html, null).getPropertyValue("font-size").slice(0, -2);
 var lang = window.location.href.split("/")[3];
@@ -79,6 +80,7 @@ function recalculateLayout() {
 		content.style.top = 0;
 		content.style.left = (navRect.right + 10) + "px";
 		content.style.width = "50%";
+		navBadges.style.display = "block";
 
 		if (prevState != "landscape") {
 			prevState = "landscape";
@@ -90,6 +92,7 @@ function recalculateLayout() {
 	} else if (window.matchMedia("(orientation: portrait)").matches) {
 		content.style.left = "1%";
 		content.style.width = "98%";
+		navBadges.style.display = "none";
 
 		if (prevState != "portrait") {
 			prevState = "portrait";

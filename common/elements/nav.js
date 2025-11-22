@@ -46,6 +46,7 @@ document.write('		<dt><img src="/common/images/icons/notepad-5.png" />&nbsp;' + 
 document.write('		<dt><img src="/common/images/icons/directory_open_file_mydocs-4.png" />&nbsp;' + navStrings[lang]["projects"] + '</dt>');
 document.write('	</dl>');
 document.write('	<div class="verticalmenu">');
+document.write('		<div><img src="/common/images/icons/world-4.png" />&nbsp;' + navStrings[lang]["home"] + '</div>');
 document.write('		<div><img src="/common/images/icons/help_book_cool-4.png" />&nbsp;' + navStrings[lang]["aboutMe"] + '</div>');
 document.write('		<div><img src="/common/images/icons/keyboard-5.png" />&nbsp;' + navStrings[lang]["articles"] + '</div>');
 document.write('		<div><img src="/common/images/icons/computer_explorer-4.png" />&nbsp;' + navStrings[lang]["blog"] + '</div>');
