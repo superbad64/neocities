@@ -26,7 +26,7 @@
 				<p class="back"><a href="/fr/projects.shtml">&lt; Retour aux Projets</a></p> 
 
 				<div class="picture" style="align-items: center;">
-					<iframe id="DOS" src="/common/gadgets/bad-dos/repl.shtml" width="400" height="300"></iframe>
+					<iframe id="DOS" src="/common/gadgets/bad-dos/dos/repl.shtml" width="400" height="300"></iframe>
 					<p>
 						Probablement moins beau sur mobile
 					</p>
@@ -37,7 +37,7 @@
 				</p>
 
 				<p>
-					<i>Note: Pour des raisons techniques, ce projet ne fonctionne qu'en Anglais. Désolé !</i>
+					<i>Note: Pour des raisons techniques, ce projet ne fonctionne qu'en Anglais et sur PC. Désolé !</i>
 				</p>
 
 				<p>
@@ -65,10 +65,18 @@
 				
 				document.getElementById("DOS").onload = (event) => {
 					window.addEventListener("message", event => {
-						if (event.origin !== "http://localhost:8080") { return; }
-						//if (event.origin !== "https:/bad64.neocities.org") { return; }
-
-						window.location.href = url.slice(0, 4).join("/") + "/styles.shtml";
+						//if (event.origin !== "http://localhost:8080") { return; }
+						if (event.origin !== "https:/bad64.neocities.org") { return; }
+						else {
+							console.log(event.message);
+							switch (event.message) {
+								case "Execute order 66":
+									// Do something ?
+									break;
+								default:
+									break;
+							}
+						}
 					});
 				};
 			</script>

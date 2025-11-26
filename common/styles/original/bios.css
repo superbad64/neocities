@@ -9,6 +9,14 @@ html {
     font-family: "Perfect DOS VGA 437";
 }
 
+.bios_copyrightnotice {
+    font-family: "Perfect DOS VGA 437";
+}
+
+pre {
+    font-family: "Perfect DOS VGA 437";
+}
+
 .bios_box {
     width: 40%;
     box-sizing: content-box;

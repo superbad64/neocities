@@ -26,7 +26,7 @@
 				<p class="back"><a href="/en/projects.shtml">&lt; Back to the Projects</a></p> 
 
 				<div class="picture" style="align-items: center;">
-					<iframe id="DOS" src="/common/gadgets/bad-dos/repl.shtml" width="400" height="300"></iframe>
+					<iframe id="DOS" src="/common/gadgets/bad-dos/dos/repl.shtml" width="400" height="300"></iframe>
 					<p>
 						This probably doesn't look that good on mobile
 					</p>
@@ -34,6 +34,10 @@
 
 				<p>
 					<a href="https://github.com/superbad64/bad-dos">Find the code on GitHub !</a>
+				</p>
+
+				<p>
+					<i>Note: Due to technical reasons, this gadget does not work on mobile !</i>
 				</p>
 
 				<p>
@@ -61,10 +65,18 @@
 				
 				document.getElementById("DOS").onload = (event) => {
 					window.addEventListener("message", event => {
-						if (event.origin !== "http://localhost:8080") { return; }
-						//if (event.origin !== "https://bad64.neocities.org") { return; }
-
-						window.location.href = url.slice(0, 4).join("/") + "/styles.shtml";
+						//if (event.origin !== "http://localhost:8080") { return; }
+						if (event.origin !== "https:/bad64.neocities.org") { return; }
+						else {
+							console.log(event.message);
+							switch (event.message) {
+								case "Execute order 66":
+									// Do something ?
+									break;
+								default:
+									break;
+							}
+						}
 					});
 				};
 			</script>
