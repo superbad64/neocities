@@ -1,20 +1,20 @@
 @font-face {
-    font-family: "Perfect DOS VGA 437"; 
-    src: url("/common/Perfect DOS VGA 437.ttf"); 
+    font-family: "Perfect DOS VGA 437 Win"; 
+    src: url("/common/Perfect DOS VGA 437 Win.ttf"); 
 }
 
 html {
     background-color: black;
     color: white;
-    font-family: "Perfect DOS VGA 437";
+    font-family: "Perfect DOS VGA 437 Win";
 }
 
 .bios_copyrightnotice {
-    font-family: "Perfect DOS VGA 437";
+    font-family: "Perfect DOS VGA 437 Win";
 }
 
 pre {
-    font-family: "Perfect DOS VGA 437";
+    font-family: "Perfect DOS VGA 437 Win";
 }
 
 .bios_box {

@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Perfect DOS VGA 437 Win"; 
+    src: url("/common/Perfect DOS VGA 437 Win.ttf"); 
+}
+
+html {
+	background-color: #000000;
+	background-image: unset;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: "Perfect DOS VGA 437 Win";
+	color: white;
+}
+
+.titlebar {
+	background-image: unset;
+	color: white;
+	font-weight: bold;
+	border-radius: 0;
+	border-bottom: 3px double white;
+}
+
+.fakemenu {
+	display: none;
+}
+
+.fakebutton_minimize {
+	display: none;
+}
+
+.fakebutton_maximize {
+	display: none;
+}
+
+.fakebutton_close {
+	display: none;
+}
+
+nav {
+	border: 3px double white;
+	border-radius: 0;
+	background-color: unset;
+}
+
+a, a:hover, a:visited, nav a, nav a:hover, nav a:visited {
+	color: white;
+}
+
+.blogpost {
+	border: 3px double white;
+	border-radius: 0;
+	background-color: unset;
+	color: white;
+}

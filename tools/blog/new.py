@@ -20,7 +20,7 @@ body = ""
 for line in sys.stdin:
     body += line
 
-body += "<div class\"signature\">- Bad64</div>"
+body += "<div class=\"signature\">- Bad64</div>"
 body = body.replace('\n', "<br>\n")
 
 with open(f"{outputFolder}/{f}", "w") as outFile:

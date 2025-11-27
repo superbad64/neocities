@@ -20,6 +20,24 @@
 			</div>
 			<article class="blogpost">
 				<div class="titlebar">
+					<label class="title">Some news - 27/11/2025 04:31</label>
+					<div class="buttoncontainer">
+					<label class="fakebutton_minimize">0</label>
+					<label class="fakebutton_maximize">1</label>
+					<label class="fakebutton_close">r</label>
+					</div>
+				</div>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					Hey, been a month already huh ? Time does fly when I work on the things y'all can't really see on this site hehe.<br>
+					I mean you <i>can</i> sorta see some of them, like the new landing page with language selection and the DOS-like style I added... But there's also a lot more going on like a new (and much cleaner) way to load stylesheets in what passes as the back-end. Not that it should really impact your navigation experience, it just makes things easier to maintain and expand on my end, mostly !<br>
+					<br>
+					Either way, we're closing in on November, and the holiday cheer is well and truly present around here. Hope everything goes well this season too. Let's try to not drink too much hot cocoa ! (No chance lmao)<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<div class="titlebar">
 					<label class="title">Translation done and some other things - 02/11/2025 15:03</label>
 					<div class="buttoncontainer">
 					<label class="fakebutton_minimize">0</label>
@@ -77,23 +95,6 @@
 				<script src="/common/elements/fakemenu.js"></script>
 				<p>
 					As the title says, I even wrote <a href="/en/articles/evo2025.shtml">an article</a> about it ! Go peek it !<br>
-					<div class="signature">- Bad64</div>
-				</p>
-			</article>
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">Small update - 03/10/2025 21:53</label>
-					<div class="buttoncontainer">
-					<label class="fakebutton_minimize">0</label>
-					<label class="fakebutton_maximize">1</label>
-					<label class="fakebutton_close">r</label>
-					</div>
-				</div>
-				<script src="/common/elements/fakemenu.js"></script>
-				<p>
-					I've cleaned up the actual website a little bit, and touched up the CSS to slightly better match the XP aesthetic. On the GitHub repo I've uploaded a bunch of new styles too.<br>
-					<br>
-					I should go back to my EVO training now ! Hopefully I'll get to write about my experience there !<br>
 					<div class="signature">- Bad64</div>
 				</p>
 			</article>
