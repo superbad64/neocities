@@ -5,6 +5,12 @@
 		<link rel="stylesheet" href="/common/styles/layout.css">
 		<link rel="stylesheet" href="/common/styles/original/bios.css">
 		<meta charset="UTF-8">
+		<link rel="icon" type="image/png" href="/common/images/icons/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/common/images/icons/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/common/images/icons/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/common/images/icons/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="Bad64's Corner" />
+		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
 	</head>
 	<body style="display: flex; flex-direction: column;">
 		<pre>

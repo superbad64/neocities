@@ -80,7 +80,7 @@ function recalculateLayout() {
 		content.style.top = 0;
 		content.style.left = (navRect.right + 10) + "px";
 		content.style.width = "50%";
-		navBadges.style.display = "block";
+		navBadges.style.display = "flex";
 
 		if (prevState != "landscape") {
 			prevState = "landscape";

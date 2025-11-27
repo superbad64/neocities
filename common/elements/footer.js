@@ -67,7 +67,6 @@ document.write('		<option value="common_desktop_environment">Common Desktop Envi
 document.write('		<option value="neocities_classic">GeoCities Classic</option>');
 document.write('	</select>');
 document.write('</section>');
-document.write('<style id="extrastyle"></style>');
 document.write('');
 document.write('<script src="/common/elements/scripts.js"></script>');
 document.write('<script src="/common/gadgets/toasters/canvas.js"></script>');
