@@ -1,64 +1,65 @@
 @font-face {
-	font-family: W95Font;
-	src: url("/common/W95font.otf");
-}
-
-html {
-	background-color: #000000;
-	background-image: unset;
-	background-attachment: fixed;
-	background-size: cover;
-	font-family: "W95Font";
-	color: white;
-}
-
-.titlebar {
-	background-image: linear-gradient(to right, #484060, #484060);
-	color: white;
-	font-weight: bold;
-	border-radius: 0;
-}
-
-.fakemenu {
-	display: none;
-}
-
-.fakebutton_minimize {
-	background-color: #a89890;
-	font-family: "Marlett", "Webdings", "W95Font";
-	color: black;
-	border: 2px outset;
-	border-radius: 0;
-	text-align: center;
-}
-
-.fakebutton_maximize {
-	background-color: #a89890;
-	font-family: "Marlett", "Webdings", "W95Font";
-	color: black;
-	border: 2px outset;
-	border-radius: 0;
-	text-align: center;
-}
-
-.fakebutton_close {
-	background-color: #a89890;
-	font-family: "Marlett", "Webdings", "W95Font";
-	color: black;
-	border: 2px outset;
-	border-radius: 0;
-	text-align: center;
-}
-
-nav {
-	border: 3px solid #756964;
-	border-radius: 0;
-	background-color: #a89890;
+  font-family: W95Font;
+  src: url("/common/W95font.otf");
 }
 
 .blogpost {
-	background-color: #a89890;
-	color: black;
-	border: 3px solid #756964;
-	border-radius: 0;
+  background-color: #a89890;
+  border-radius: 0;
+  border: 3px solid #756964;
+  color: black;
+}
+
+.fakebutton_close {
+  background-color: #a89890;
+  border-radius: 0;
+  border: 2px outset;
+  color: black;
+  font-family: "Marlett", "Webdings", "W95Font";
+  text-align: center;
+}
+
+.fakebutton_maximize {
+  background-color: #a89890;
+  border-radius: 0;
+  border: 2px outset;
+  color: black;
+  font-family: "Marlett", "Webdings", "W95Font";
+  text-align: center;
+}
+
+.fakebutton_minimize {
+  background-color: #a89890;
+  border-radius: 0;
+  border: 2px outset;
+  color: black;
+  font-family: "Marlett", "Webdings", "W95Font";
+  text-align: center;
+}
+
+.fakemenu {
+  display: none;
+}
+
+.titlebar {
+  background-image: linear-gradient(to right, #484060, #484060);
+  border-bottom: unset;
+  border-radius: 0;
+  color: white;
+  font-weight: bold;
+}
+
+html {
+  background-attachment: fixed;
+  background-color: #000000;
+  background-image: unset;
+  background-size: cover;
+  color: white;
+  font-family: "W95Font";
+}
+
+nav {
+  background-color: #a89890;
+  border-radius: 0;
+  border: 3px solid #756964;
 }

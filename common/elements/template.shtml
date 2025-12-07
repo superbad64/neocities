@@ -14,27 +14,41 @@
 		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
 	</head>
 	<body>
-		<script src="/common/elements/langbar.js"></script>
-		<script src="/common/elements/nav.js"></script>
+        <div id="wrapper">
+            <table id="main">
+                <tbody>
+                    <tr id="selectorsRow">
+                        <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                    </tr>
+                    <tr id="portraitMenu">
+                        <td><script src="/common/elements/portraitmenu.js"></script></td>
+                    </tr>
+                    <tr id="content">
+                        <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                        <td colspan="2" id="articles">
+                            <!--Blog post generator start flag-->
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Post</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
 
-		<section class="content">
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">Uh... What are you doing here ?</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
-
-				<p>
-					You probably only have knowledge of this page because you follow my GitHub. I don't really mind but there really is nothing else ! Thanks for watching my repo though :-D
-                </p>
-			</article>
-			<script src="/common/elements/footer.js"></script>
-		</section>
+                                <p>
+                                    Content
+                                </p>
+                            </article>
+                            <!--Blog post generator end flag-->
+                            <script src="/common/elements/footer.js"></script>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 	</body>
 </html>

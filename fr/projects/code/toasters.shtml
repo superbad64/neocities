@@ -14,56 +14,69 @@
 		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
 	</head>
 	<body>
-		<script src="/common/elements/langbar.js"></script>
-		<script src="/common/elements/nav.js"></script>
+		<div id="wrapper">
+            <table id="main">
+                <tbody>
+                    <tr id="selectorsRow">
+                        <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                    </tr>
+                    <tr id="portraitMenu">
+                        <td><script src="/common/elements/portraitmenu.js"></script></td>
+                    </tr>
+                    <tr id="content">
+                        <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                        <td colspan="2" id="articles">
+                            <!--Blog post generator start flag-->
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Flying Toasters !</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+								<p class="back"><a href="/fr/projects.shtml">&lt; Retour aux Projets</a></p> 
 
-		<section class="content">
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">Flying Toasters !</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
-				<p class="back"><a href="/fr/projects.shtml">&lt; Retour aux Projets</a></p> 
+								<div class="picture" style="align-items: center;">
+									<iframe id="iframe" src="/common/gadgets/toasters/canvas.shtml" width="400" height="400"></iframe>
+									<p>
+										Ca sent le pain grillé, non ?
+									</p>
+								</div>
 
-				<div class="picture" style="align-items: center;">
-					<iframe id="iframe" src="/common/gadgets/toasters/canvas.shtml" width="400" height="400"></iframe>
-					<p>
-						Ca sent le pain grillé, non ?
-					</p>
-				</div>
+								<p>
+									<a href="https://github.com/superbad64/toasters">Code disponible sur GitHub !</a>
+								</p>
 
-				<p>
-					<a href="https://github.com/superbad64/toasters">Code disponible sur GitHub !</a>
-				</p>
-
-				<p>
-					Voici ma version de l'économiseur d'écran "<i>Flying Toasters</i>" disponible dans <i>After Dark</i>. Tout est fait main, ce qui cause pas mal de différences avec l'original. Par exemple, aucun objet n'a de collision (je sais que les grille-pain ont une collision entre eux dans l'original, mais je me souviens plus pour les toasts), et le look est un peu différent vu que j'ai refait tous les modèles sous Blender.<br>
-					<br>
-					Je pensais que ça allait être un projet simple considérant sa nature. C'est juste un canevas, une fonction en callback, et trois objets (et une animation). Vous avez peut-être déjà reconnu ici les premiers signes de l'hubris, et je peux maintenant vous affirmer que c'est pas faux ! J'ai assez vite découvert que les canevas HTML ne supportent pas d'animation au format GIF<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup>, APNG ou même WEBP), donc j'ai dû séparer toutes les trames d'animation du grille-pain et les charger dans un tableau une à une.<br>
-					<br>
-					Pour être tout à fait honnête, je n'aime pas la distribution pseudoaléatoire utilisée pour faire apparaître les objets, je trouve qu'ils sont trop rapprochés. Mais y'a bien pire comme problème, et j'ai appris à me contenter du "bien" plutôt que du "parfait".<br>
-					<br>
-					J'ai jamais eu <i>After Dark</i> moi-même; c'était un pote à moi qui mee l'avait montré à l'époque sur son Macintosh<sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup> vers 2002. J'avais passé un moment à chercher la version Windows, mais sans succès. J'ai appris tout récemment que la version anniversaire 10 ans a été upload sur la Internet Archive, mais malheureusement ça marche évidemment pas sur un OS "moderne"...<br>
-					<br>
-					Je vais surement faire d'autres gadgets de ce genre pour passer le temps et faire la propagande de la nostalgie !<br>
-					<div class="signature">- Bad64</div>
-					<hr>
-					<p class="footnotes">
-						<a id="footnote-1" href="#footnote-1-orig">1</a>: "Guif". Non-négociable.<br>
-						<a id="footnote-2" href="#footnote-2-orig">1</a>: Un "vrai" Mac rétro, pas les iMac G3 (magnifiques, d'ailleurs) qui étaient plus courants à l'époque<br>
-					</p>
-                </p>
-			</article>
-			<script src="/common/elements/footer.js"></script>
-			<script>
-				window.onload = function () { document.getElementById("iframe").contentWindow.document.body.children[0].style.display = "block"; };
-			</script>
-		</section>
+								<p>
+									Voici ma version de l'économiseur d'écran "<i>Flying Toasters</i>" disponible dans <i>After Dark</i>. Tout est fait main, ce qui cause pas mal de différences avec l'original. Par exemple, aucun objet n'a de collision (je sais que les grille-pain ont une collision entre eux dans l'original, mais je me souviens plus pour les toasts), et le look est un peu différent vu que j'ai refait tous les modèles sous Blender.<br>
+									<br>
+									Je pensais que ça allait être un projet simple considérant sa nature. C'est juste un canevas, une fonction en callback, et trois objets (et une animation). Vous avez peut-être déjà reconnu ici les premiers signes de l'hubris, et je peux maintenant vous affirmer que c'est pas faux ! J'ai assez vite découvert que les canevas HTML ne supportent pas d'animation au format GIF<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup>, APNG ou même WEBP), donc j'ai dû séparer toutes les trames d'animation du grille-pain et les charger dans un tableau une à une.<br>
+									<br>
+									Pour être tout à fait honnête, je n'aime pas la distribution pseudoaléatoire utilisée pour faire apparaître les objets, je trouve qu'ils sont trop rapprochés. Mais y'a bien pire comme problème, et j'ai appris à me contenter du "bien" plutôt que du "parfait".<br>
+									<br>
+									J'ai jamais eu <i>After Dark</i> moi-même; c'était un pote à moi qui mee l'avait montré à l'époque sur son Macintosh<sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup> vers 2002. J'avais passé un moment à chercher la version Windows, mais sans succès. J'ai appris tout récemment que la version anniversaire 10 ans a été upload sur la Internet Archive, mais malheureusement ça marche évidemment pas sur un OS "moderne"...<br>
+									<br>
+									Je vais surement faire d'autres gadgets de ce genre pour passer le temps et faire la propagande de la nostalgie !<br>
+									<div class="signature">- Bad64</div>
+									<hr>
+									<p class="footnotes">
+										<a id="footnote-1" href="#footnote-1-orig">1</a>: "Guif". Non-négociable.<br>
+										<a id="footnote-2" href="#footnote-2-orig">1</a>: Un "vrai" Mac rétro, pas les iMac G3 (magnifiques, d'ailleurs) qui étaient plus courants à l'époque<br>
+									</p>
+								</p>
+							</article>
+							<script src="/common/elements/footer.js"></script>
+							<script>
+								window.onload = function () { document.getElementById("iframe").contentWindow.document.body.children[0].style.display = "block"; };
+							</script>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</body>
 </html>

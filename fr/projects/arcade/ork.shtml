@@ -14,42 +14,55 @@
 		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
 	</head>
 	<body>
-		<script src="/common/elements/langbar.js"></script>
-		<script src="/common/elements/nav.js"></script>
+		<div id="wrapper">
+            <table id="main">
+                <tbody>
+                    <tr id="selectorsRow">
+                        <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                    </tr>
+                    <tr id="portraitMenu">
+                        <td><script src="/common/elements/portraitmenu.js"></script></td>
+                    </tr>
+                    <tr id="content">
+                        <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                        <td colspan="2" id="articles">
+                            <!--Blog post generator start flag-->
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">L'Ork</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+								<p class="back"><a href="/projects.shtml">&lt; Retour aux Projets</a></p>
 
-		<section class="content">
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">L'Ork</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
-				<p class="back"><a href="/projects.shtml">&lt; Retour aux Projets</a></p>
+								<div class="picture">
+									<img src="/common/images/projects/builds/ork/ork.png">
+									<p></p>
+								</div>
 
-				<div class="picture">
-					<img src="/common/images/projects/builds/ork/ork.png">
-					<p></p>
-				</div>
+								<p>
+									<a href="https://github.com/superbad64/OpenFighter/tree/main/Ork">Dispo sur GitHub !</a>
+								</p>
 
-				<p>
-					<a href="https://github.com/superbad64/OpenFighter/tree/main/Ork">Dispo sur GitHub !</a>
-                </p>
-
-				<p>
-					En vrai j'ai pas grand chose à dire sur ce chassis, mais c'est loin d'être une mauvaise chose hein ! C'est juste ce que je considère comme "la base" quand il s'agit de construire un stick arcade. J'ai fait pas mal de révisions de ce truc, notamment parce qu'à la toute base je voulais l'imprimer d'une traite sur ma vieille Sovol SV06+ qui a un volume de 300 par 300.<br>
-					<br>
-					Ce chassis supporte des boutons vissables de 24mm (30 ça devient un peu gros) et des joysticks avec et sans collier. C'est pas très spacieux comme build, mais tout le nécéssaire rentre (avec un peu de conviction :-p) et c'est ça qui compte.<br>
-					<br>
-					Avec tout juste 550g de filament, c'est p'têtre un de mes chassis les moins chers ! Alors, on attend quoi pour l'imprimer ?!
-                </p>
-				<div class="signature">- Bad64</div>
-			</article>
-			<script src="/common/elements/footer.js"></script>
-		</section>
+								<p>
+									En vrai j'ai pas grand chose à dire sur ce chassis, mais c'est loin d'être une mauvaise chose hein ! C'est juste ce que je considère comme "la base" quand il s'agit de construire un stick arcade. J'ai fait pas mal de révisions de ce truc, notamment parce qu'à la toute base je voulais l'imprimer d'une traite sur ma vieille Sovol SV06+ qui a un volume de 300 par 300.<br>
+									<br>
+									Ce chassis supporte des boutons vissables de 24mm (30 ça devient un peu gros) et des joysticks avec et sans collier. C'est pas très spacieux comme build, mais tout le nécéssaire rentre (avec un peu de conviction :-p) et c'est ça qui compte.<br>
+									<br>
+									Avec tout juste 550g de filament, c'est p'têtre un de mes chassis les moins chers ! Alors, on attend quoi pour l'imprimer ?!
+								</p>
+								<div class="signature">- Bad64</div>
+							</article>
+							<script src="/common/elements/footer.js"></script>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</body>
 </html>

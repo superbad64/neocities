@@ -14,50 +14,63 @@
 		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
 	</head>
 	<body>
-		<script src="/common/elements/langbar.js"></script>
-		<script src="/common/elements/nav.js"></script>
+		<div id="wrapper">
+            <table id="main">
+                <tbody>
+                    <tr id="selectorsRow">
+                        <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                    </tr>
+                    <tr id="portraitMenu">
+                        <td><script src="/common/elements/portraitmenu.js"></script></td>
+                    </tr>
+                    <tr id="content">
+                        <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                        <td colspan="2" id="articles">
+                            <!--Blog post generator start flag-->
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Articles</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
 
-		<section class="content">
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">Articles</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
+								<p>
+								Je suis pas forcément quelqu'un de bavard, ou en tout cas pas tout le temps. Ca, c'est ce qui arrive quand j'ai des choses à dire.
+								</p>
 
-				<p>
-				Je suis pas forcément quelqu'un de bavard, ou en tout cas pas tout le temps. Ca, c'est ce qui arrive quand j'ai des choses à dire.
-                </p>
-
-				<section style="margin-left: 0.5em;">
-					<h2>Ma vie en général</h2>
-					<p>Des trucs qui rendent mon quotidien moins ordinaire</p>
-					<ul>
-						<li><a href="articles/evo2025.shtml">13/10/2025 - Je suis allé à l'EVO !</a> <strong>(TW caché derrière un spoiler)</strong></li>
-					</ul>
-				</section>
-				<section style="margin-left: 0.5em;">
-					<h2>Tirades &amp; billevesées</h2>
-					<p>Tout et n'importe quoi</p>
-					<ul>
-						<li><a href="articles/myjob.shtml">04/11/2025 - Perspectives d'emploi</a></li>
-					</ul>
-				</section>
-				<section style="margin-left: 0.5em;">
-					<h2>Tests de jeux</h2>
-					<p>Je joue à pas mal de jeux indés; et si je vous en recommendais un ?</p>
-					<ul>
-						<li><a href="articles/b3313.shtml">21/11/2025 - Super Mario 64: B3313</a></li>
-					</ul>
-				</section>
-			</article>
-			<script src="/common/elements/footer.js"></script>
-		</section>
+								<section style="margin-left: 0.5em;">
+									<p class="heading">Ma vie en général</p>
+									<p>Des trucs qui rendent mon quotidien moins ordinaire</p>
+									<ul>
+										<li><a href="articles/evo2025.shtml">13/10/2025 - Je suis allé à l'EVO !</a> <strong>(TW caché derrière un spoiler)</strong></li>
+									</ul>
+								</section>
+								<section style="margin-left: 0.5em;">
+									<p class="heading">Tirades &amp; billevesées</p>
+									<p>Tout et n'importe quoi</p>
+									<ul>
+										<li><a href="articles/myjob.shtml">04/11/2025 - Perspectives d'emploi</a></li>
+									</ul>
+								</section>
+								<section style="margin-left: 0.5em;">
+									<p class="heading">Tests de jeux</p>
+									<p>Je joue à pas mal de jeux indés; et si je vous en recommendais un ?</p>
+									<ul>
+										<li><a href="articles/b3313.shtml">21/11/2025 - Super Mario 64: B3313</a></li>
+									</ul>
+								</section>
+							</article>
+							<script src="/common/elements/footer.js"></script>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</body>
 </html>
 

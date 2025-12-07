@@ -14,8 +14,6 @@
 		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
 	</head>
 	<body>
-		<script src="/common/elements/langbar.js"></script>
-		<script src="/common/elements/nav.js"></script>
 		<script>
 			function showTWContent() {
 				document.getElementById("revealTW").style = "display: none;";
@@ -23,180 +21,196 @@
 			}
 		</script>
 
-		<section class="content">
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">Avertissement</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
+		<div id="wrapper">
+            <table id="main">
+                <tbody>
+                    <tr id="selectorsRow">
+                        <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                    </tr>
+                    <tr id="portraitMenu">
+                        <td><script src="/common/elements/portraitmenu.js"></script></td>
+                    </tr>
+                    <tr id="content">
+                        <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                        <td colspan="2" id="articles">
+                            <!--Blog post generator start flag-->
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Avertissement</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
 
-				<p>
-					Cet article contient:
-				</p>
-				<ul>
-					<li>Langage fleuri (Parental Advisory: Explicit Lyrics)</li>
-					<li>Ma trogne</li>
-					<li>Un truc <b>vraiment</b> naze (caché dans la dernière section pour ne pas choquer les gens)</li>
-				</ul>
-			</article>
+								<p>
+									Cet article contient:
+								</p>
+								<ul>
+									<li>Langage fleuri (Parental Advisory: Explicit Lyrics)</li>
+									<li>Ma trogne</li>
+									<li>Un truc <b>vraiment</b> naze (caché dans la dernière section pour ne pas choquer les gens)</li>
+								</ul>
+							</article>
 
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">Welcome to the show</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
+							<article class="blogpost">
+								<div class="titlebar">
+									<label class="title">Welcome to the show</label>
+									<div class="buttoncontainer">
+										<label class="fakebutton_minimize">&#128469;</label>
+										<label class="fakebutton_maximize">&#128470;</label>
+										<label class="fakebutton_close">&#128473;</label>
+									</div>
+								</div>
+								
+								<script src="/common/elements/fakemenu.js"></script>
 
-				<p>
-					J'étais méga hype d'enfin aller à mon premier major ! Si tu m'avais dit y'a à peine un an que l'EVO allait débarquer au pays (et surtout, pas à Paris), je t'aurai certainement pas cru !
-                </p>
+								<p>
+                                    <a href="../articles.shtml">&lt; Retour aux articles !</a>
+                                </p>
 
-				<div class="gridview">
-					<img src="/common/images/articles/evo2025/IMG_20251011_133204.jpg">
-					<img src="/common/images/articles/evo2025/IMG_20251010_092913.jpg">
-					<img src="/common/images/articles/evo2025/IMG_20251010_093026.jpg">
-					<img src="/common/images/articles/evo2025/IMG_20251010_113715.jpg">
-				</div>
-				<p>
-					Sur le stand Tekken, on pouvait tester Armor King en avant première. J'ai pas eu beaucoup de temps pour le lab mais il a l'air ok-tier !
-				</p>
+								<p>
+									J'étais méga hype d'enfin aller à mon premier major ! Si tu m'avais dit y'a à peine un an que l'EVO allait débarquer au pays (et surtout, pas à Paris), je t'aurai certainement pas cru !
+								</p>
 
-				<div class="gridview">
-					<img src="/common/images/articles/evo2025/IMG_20251010_113929.jpg">
-					<img src="/common/images/articles/evo2025/IMG_20251012_191056.jpg">
-				</div>
-				<p>
-					J'ai passé le plus clair de mon temps dans la zone arcade. Beaucoup de ST<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup> et Third Strike. Le 2e jour j'ai même rencontré un mec cool de Taiwan sur qui j'ai pu dump l'intégralité de mes connaissances sur Super Turbo pendant quelques heures. J'espère qu'il va bien savater ses potes quand il rentrera !
-				</p>
+								<div class="gridview">
+									<img src="/common/images/articles/evo2025/IMG_20251011_133204.jpg">
+									<img src="/common/images/articles/evo2025/IMG_20251010_092913.jpg">
+									<img src="/common/images/articles/evo2025/IMG_20251010_093026.jpg">
+									<img src="/common/images/articles/evo2025/IMG_20251010_113715.jpg">
+								</div>
+								<p>
+									Sur le stand Tekken, on pouvait tester Armor King en avant première. J'ai pas eu beaucoup de temps pour le lab mais il a l'air ok-tier !
+								</p>
 
-				<div class="gridview">
-					<img src="/common/images/articles/evo2025/IMG_20251010_124909.jpg">
-					<img src="/common/images/articles/evo2025/IMG_20251010_124921_1.jpg">
-					<img src="/common/images/articles/evo2025/IMG_20251010_124937.jpg">
-					<img src="/common/images/articles/evo2025/IMG_20251010_124946.jpg">
-					<img src="/common/images/articles/evo2025/IMG_20251010_124957.jpg">
-					<img src="/common/images/articles/evo2025/IMG_20251010_125045.jpg">
-				</div>
-				<p>
-					Ils ont mis une mini-expo sur l'histoire des sticks arcade. Beaucoup de vieilleries iconiques, même si il en manquait (notamment le matos pour la SNES et la N64, mais bon après c'est Sony, fallait s'y attendre), et même un Virtua Stick High Grade qui avait l'air d'être la version Dreamcast !
-				</p>
+								<div class="gridview">
+									<img src="/common/images/articles/evo2025/IMG_20251010_113929.jpg">
+									<img src="/common/images/articles/evo2025/IMG_20251012_191056.jpg">
+								</div>
+								<p>
+									J'ai passé le plus clair de mon temps dans la zone arcade. Beaucoup de ST<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup> et Third Strike. Le 2e jour j'ai même rencontré un mec cool de Taiwan sur qui j'ai pu dump l'intégralité de mes connaissances sur Super Turbo pendant quelques heures. J'espère qu'il va bien savater ses potes quand il rentrera !
+								</p>
 
-				<div class="gridview">
-					<img src="/common/images/articles/evo2025/IMG_20251012_195812.jpg">
-				</div>
-				<p>
-					Un gars avait même fait une Suzuki GSX-8R aux couleurs de Juri, du coup <i>évidemment</i> fallait que j'aille crâner dessus !
-				</p>
+								<div class="gridview">
+									<img src="/common/images/articles/evo2025/IMG_20251010_124909.jpg">
+									<img src="/common/images/articles/evo2025/IMG_20251010_124921_1.jpg">
+									<img src="/common/images/articles/evo2025/IMG_20251010_124937.jpg">
+									<img src="/common/images/articles/evo2025/IMG_20251010_124946.jpg">
+									<img src="/common/images/articles/evo2025/IMG_20251010_124957.jpg">
+									<img src="/common/images/articles/evo2025/IMG_20251010_125045.jpg">
+								</div>
+								<p>
+									Ils ont mis une mini-expo sur l'histoire des sticks arcade. Beaucoup de vieilleries iconiques, même si il en manquait (notamment le matos pour la SNES et la N64, mais bon après c'est Sony, fallait s'y attendre), et même un Virtua Stick High Grade qui avait l'air d'être la version Dreamcast !
+								</p>
 
-				<p>
-					Côté perfs, c'est un 2-2 sur Tekken, je me suis fait sortir par une Nina bien balèze parce que je connais pas le matchup. Sur Street c'est un 1-2, mon second match était un mirror (ma hantise !) et en losers j'ai pris un Sagat sur la tronche... pas un super MU pour Honda hélas ! Mais c'pas grave, je suis plutôt saucé par la perf au final. Plus qu'à s'entraîner pour l'année prochaine !
-				</p>
-				<hr>
-				<p class="footnotes">
-					<a id="footnote-1" href="#footnote-1-orig">1</a>: Chez nous on l'appelle "2X" parce qu'on est des gros weebs et qu'on veut imiter les Japonais. Si tu parles de "2X" à un Américain y va te regarder comme si t'avais dit du mal de sa daronne
-				</p>
-			</article>
+								<div class="gridview">
+									<img src="/common/images/articles/evo2025/IMG_20251012_195812.jpg">
+								</div>
+								<p>
+									Un gars avait même fait une Suzuki GSX-8R aux couleurs de Juri, du coup <i>évidemment</i> fallait que j'aille crâner dessus !
+								</p>
 
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">Opération "Photographiez-les tous"</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
+								<p>
+									Côté perfs, c'est un 2-2 sur Tekken, je me suis fait sortir par une Nina bien balèze parce que je connais pas le matchup. Sur Street c'est un 1-2, mon second match était un mirror (ma hantise !) et en losers j'ai pris un Sagat sur la tronche... pas un super MU pour Honda hélas ! Mais c'pas grave, je suis plutôt saucé par la perf au final. Plus qu'à s'entraîner pour l'année prochaine !
+								</p>
+								<hr>
+								<p class="footnotes">
+									<a id="footnote-1" href="#footnote-1-orig">1</a>: Chez nous on l'appelle "2X" parce qu'on est des gros weebs et qu'on veut imiter les Japonais. Si tu parles de "2X" à un Américain y va te regarder comme si t'avais dit du mal de sa daronne
+								</p>
+							</article>
 
-				<p>
-					La bonne tradition des gros tournois, collectionner les selfies avec les célébrités ! Malheureusement j'ai découvert que ma caméra frontale est exactement derrière une fissure de mon protecteur d'écran, donc j'ai des gros reflets sa mère...
-                </p>
-				<div class="gridview">
-					<img src="/common/images/articles/evo2025/IMG_20251010_190514.jpg">
-					<img src="/common/images/articles/evo2025/IMG_20251011_133601.jpg">
-					<img src="/common/images/articles/evo2025/IMG_20251011_150140.jpg">
-					<img src="/common/images/articles/evo2025/IMG_20251011_150530.jpg">
-					<img src="/common/images/articles/evo2025/IMG_20251011_172210.jpg">
-					<img src="/common/images/articles/evo2025/IMG_20251011_204323.jpg">
-					<img src="/common/images/articles/evo2025/IMG_20251012_141712.jpg" style="object-fit: contain; height: 100%;">
-					<img src="/common/images/articles/evo2025/20251011_205705.jpg" style="object-fit: contain; height: 100%;">
-				</div>
-				<p>
-					Dans l'ordre: ItaZan (que j'ai <i>presque</i> tapé en poules sur SF6), Kayane, Tokido, PunkDaGod, (la pire photo jamais prise de) Daigo, JWong le GOAT, Mister Quaraté, et Harada-san !!
-				</p>
-			</article>
+							<article class="blogpost">
+								<div class="titlebar">
+									<label class="title">Opération "Photographiez-les tous"</label>
+									<div class="buttoncontainer">
+										<label class="fakebutton_minimize">&#128469;</label>
+										<label class="fakebutton_maximize">&#128470;</label>
+										<label class="fakebutton_close">&#128473;</label>
+									</div>
+								</div>
+								
+								<script src="/common/elements/fakemenu.js"></script>
 
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">L'histoire du p'tit con qui en a rien à foutre</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				<script src="/common/elements/fakemenu.js"></script>
+								<p>
+									La bonne tradition des gros tournois, collectionner les selfies avec les célébrités ! Malheureusement j'ai découvert que ma caméra frontale est exactement derrière une fissure de mon protecteur d'écran, donc j'ai des gros reflets sa mère...
+								</p>
+								<div class="gridview">
+									<img src="/common/images/articles/evo2025/IMG_20251010_190514.jpg">
+									<img src="/common/images/articles/evo2025/IMG_20251011_133601.jpg">
+									<img src="/common/images/articles/evo2025/IMG_20251011_150140.jpg">
+									<img src="/common/images/articles/evo2025/IMG_20251011_150530.jpg">
+									<img src="/common/images/articles/evo2025/IMG_20251011_172210.jpg">
+									<img src="/common/images/articles/evo2025/IMG_20251011_204323.jpg">
+									<img src="/common/images/articles/evo2025/IMG_20251012_141712.jpg" style="object-fit: contain; height: 100%;">
+									<img src="/common/images/articles/evo2025/20251011_205705.jpg" style="object-fit: contain; height: 100%;">
+								</div>
+								<p>
+									Dans l'ordre: ItaZan (que j'ai <i>presque</i> tapé en poules sur SF6), Kayane, Tokido, PunkDaGod, (la pire photo jamais prise de) Daigo, JWong le GOAT, Mister Quaraté, et Harada-san !!
+								</p>
+							</article>
 
-				<div class="picture">
-					<img src="/common/images/articles/evo2025/20251010_165944.jpg" alt="Moi qui me tape avec Arslan Ash">
+							<article class="blogpost">
+								<div class="titlebar">
+									<label class="title">L'histoire du p'tit con qui en a rien à foutre</label>
+									<div class="buttoncontainer">
+										<label class="fakebutton_minimize">&#128469;</label>
+										<label class="fakebutton_maximize">&#128470;</label>
+										<label class="fakebutton_close">&#128473;</label>
+									</div>
+								</div>
+								<script src="/common/elements/fakemenu.js"></script>
 
-					<p>
-					À droite: un mec cohérent qu'a gagné l'EVO 7 fois au total. À gauche: un gougnafier (2025, colorisé)
-					</p>
-				</div>
+								<div class="picture">
+									<img src="/common/images/articles/evo2025/20251010_165944.jpg" alt="Moi qui me tape avec Arslan Ash">
 
-				<p>
-					Cette image contient du lore.<br>
-					<br>
-					Après m'être fait démolir au premier jour, je suis allé faire du free play à l'étage. Quand soudain, un mec random demande si il peut nous rejoindre. Mon adversaire du moment lui laisse gracieusement sa place, et notre nouvel arrivant sort donc un Qanba Obsidian littéralement doré.<br>
-					<br>
-					Et là mes trois neurones se concertent (fait très rare de nos jours). S'avère que je crois qu'il y a une possibilité non nulle qu'il existe une vague trace de probabilité statistique qui dit globalement que j'ai déjà vu <i>ce</i> stick en particulier. Que genre que ça s'rait-y pas le stick que c'est que tu gagnes quand tu remportes l'EVO, y paraît.<br>
-					<br>
-					J'regarde Hellios et je lui fait part de cette réflexion. J'ai oublié ce qu'il m'a dit exactement, mais c'était généralement dans le ton d'un <i>"keep pushing, you can do it, it's a racing car"</i> (j'espère que vous l'avez)<br>
-					<br>
-					C'est là qu'y commence à bien me savater comme il faut. Genre je cligne des yeux, j'ai pris un double perfect. Le mec est pas juste bon, il est dans une classe de balèzitude dont j'avais même pas conscience jusqu'à il y a environ vingt secondes. Bon. On finit le set, p'tit fist bump du respect, et là con que je suis j'y demande, "Hé frère t'as dis c'est quoi ton nom déjà ?"<br>
-					<br>
-					Et c'est comme ça que j'ai tapé un set contre <i>Arslan Ash</i>, 7 fois champion de l'EVO !
-                </p>
-			</article>
+									<p>
+									À droite: un mec cohérent qu'a gagné l'EVO 7 fois au total. À gauche: un gougnafier (2025, colorisé)
+									</p>
+								</div>
 
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">Et du coup, y s'est passé quoi ?</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
+								<p>
+									Cette image contient du lore.<br>
+									<br>
+									Après m'être fait démolir au premier jour, je suis allé faire du free play à l'étage. Quand soudain, un mec random demande si il peut nous rejoindre. Mon adversaire du moment lui laisse gracieusement sa place, et notre nouvel arrivant sort donc un Qanba Obsidian littéralement doré.<br>
+									<br>
+									Et là mes trois neurones se concertent (fait très rare de nos jours). S'avère que je crois qu'il y a une possibilité non nulle qu'il existe une vague trace de probabilité statistique qui dit globalement que j'ai déjà vu <i>ce</i> stick en particulier. Que genre que ça s'rait-y pas le stick que c'est que tu gagnes quand tu remportes l'EVO, y paraît.<br>
+									<br>
+									J'regarde Hellios et je lui fait part de cette réflexion. J'ai oublié ce qu'il m'a dit exactement, mais c'était généralement dans le ton d'un <i>"keep pushing, you can do it, it's a racing car"</i> (j'espère que vous l'avez)<br>
+									<br>
+									C'est là qu'y commence à bien me savater comme il faut. Genre je cligne des yeux, j'ai pris un double perfect. Le mec est pas juste bon, il est dans une classe de balèzitude dont j'avais même pas conscience jusqu'à il y a environ vingt secondes. Bon. On finit le set, p'tit fist bump du respect, et là con que je suis j'y demande, "Hé frère t'as dis c'est quoi ton nom déjà ?"<br>
+									<br>
+									Et c'est comme ça que j'ai tapé un set contre <i>Arslan Ash</i>, 7 fois champion de l'EVO !
+								</p>
+							</article>
 
-				<p>
-					<strong>TW: C'est bien d'la merde. Vraiment. Considérez vous avertis.</strong>
-                </p>
-				<button id="revealTW" onclick="showTWContent()" style="margin: 1em;">Show</button>
-				<p id="TWContent" style="display: none;">
-					Littéralement 10mn avant que je parte pour l'aéroport le 9 Octobre, j'ai reçu un appel d'une de mes tantes à qui j'ai pas parlé depuis à peu près 10 piges, pour m'annoncer que mon père a été placé dans un coma artficiel parce que son cancer a décidé de se généraliser. Il est parti pour de bon le 10 Octobre 2025 au petit matin.<br>
-					<br>
-					J'ai mis pas mal de temps avant de commencer à traduire mon site (parce que je voulais pas, hein), du coup j'écris ça environ une semaine après les funérailles. J'ai eu le temps de digérer un peu le choc, mais clairement pendant l'EVO, mon cerveau il était dans les Backrooms.<br>
-					<br>
-					C'est toujours un peu la merde en toute franchise, pas mal de conneries administratives qu'il nous a laissé (comme si je pouvais lui en vouloir pour ça hein) mais "ça va". Comme dit le père Sylvain, on <i>"keep pushing"</i>, pas vraiment d'autre choix.
-				</p>
-			</article>
-			<script src="/common/elements/footer.js"></script>
-		</section>
+							<article class="blogpost">
+								<div class="titlebar">
+									<label class="title">Et du coup, y s'est passé quoi ?</label>
+									<div class="buttoncontainer">
+										<label class="fakebutton_minimize">&#128469;</label>
+										<label class="fakebutton_maximize">&#128470;</label>
+										<label class="fakebutton_close">&#128473;</label>
+									</div>
+								</div>
+								
+								<script src="/common/elements/fakemenu.js"></script>
+
+								<p>
+									<strong>TW: C'est bien d'la merde. Vraiment. Considérez vous avertis.</strong>
+								</p>
+								<button id="revealTW" onclick="showTWContent()" style="margin: 1em;">Show</button>
+								<p id="TWContent" style="display: none;">
+									Littéralement 10mn avant que je parte pour l'aéroport le 9 Octobre, j'ai reçu un appel d'une de mes tantes à qui j'ai pas parlé depuis à peu près 10 piges, pour m'annoncer que mon père a été placé dans un coma artficiel parce que son cancer a décidé de se généraliser. Il est parti pour de bon le 10 Octobre 2025 au petit matin.<br>
+									<br>
+									J'ai mis pas mal de temps avant de commencer à traduire mon site (parce que je voulais pas, hein), du coup j'écris ça environ une semaine après les funérailles. J'ai eu le temps de digérer un peu le choc, mais clairement pendant l'EVO, mon cerveau il était dans les Backrooms.<br>
+									<br>
+									C'est toujours un peu la merde en toute franchise, pas mal de conneries administratives qu'il nous a laissé (comme si je pouvais lui en vouloir pour ça hein) mais "ça va". Comme dit le père Sylvain, on <i>"keep pushing"</i>, pas vraiment d'autre choix.
+								</p>
+							</article>
+							<script src="/common/elements/footer.js"></script>
+						</section>
 	</body>
 </html>

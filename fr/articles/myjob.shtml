@@ -14,55 +14,68 @@
 		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
 	</head>
 	<body>
-		<script src="/common/elements/langbar.js"></script>
-		<script src="/common/elements/nav.js"></script>
+		<div id="wrapper">
+            <table id="main">
+                <tbody>
+                    <tr id="selectorsRow">
+                        <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                    </tr>
+                    <tr id="portraitMenu">
+                        <td><script src="/common/elements/portraitmenu.js"></script></td>
+                    </tr>
+                    <tr id="content">
+                        <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                        <td colspan="2" id="articles">
+                            <!--Blog post generator start flag-->
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Perspectives d'emploi</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
 
-		<section class="content">
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">Perspectives d'emploi</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
-
-				<p>
-					Je parle pas mal de ma situation professionnelle, au point où je me dis que ça peut être cohérent de faire un résumé quelquepart que je peux envoyer à chaque nouvelle personne qui me pose la question.<br>
-                    <br>
-                    <b>Tl;dr: Je suis coincé dans une boucle à base de "Besoin d'un job pour obtenir de l'expérience; Besoin d'expérience pour décrocher un job"</b><br>
-                </p>
-                <hr>
-                <p>
-                    Prêts, les enfants ?<br>
-                    <br>
-                    Je suis administrateur systèmes de profession, plus précisément spécialiste Linux. Mon focus est principalement sur les infrastructures open-source (qu'elles soient cloud ou on-premises, et en ce qui concerne le cloud, je ne me limite pas à un seul provisionneur), et la majeure partie de mon expérience professionnelle se partage entre la maintenance en conditions opérationnelles et l'infrastructure en tant que service (ou IaaS) via la (para-)virtualisation. Je n'ai pas beaucoup d'expérience pratique avec Windows Server, et même aucune expérience professionnelle tout court. Ce point sera important dans un instant.<br>
-                    <br>
-                    Mon premier taf a duré un tout petit peu moins de 4 ans, et consistait principalement à faire de la maintenance routinière sur des petits clusters hébergés dans Google Cloud, que j'avais largement automatisé<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup>. Le reste était réparti entre le support utilisateur, la virtualisation (environnements de tests, pipeline CI/CD, etc), administration du serveur de téléphonie (plus tard migré vers Google Phone),, et des p'tites tâches aléatoires qui requiéraient un genre d'expertise technique. À cause de la nature de mon poste, j'avais pas vraiment la possibilité de produire un rapport mensuel, ou quoi que ce soit de tangible qui montre les fruits de mon travail (à part le fait que <i>l'infra de la boîte tourne</i>, en fait). Ca a fini par créer une situation bien chiante avec les directeurs, où en gros quand tout marchait, ils se demandaient à quoi j'étais payé, et quand un truc marchait pô, ils se demandaient aussi à quoi j'étais payé. Ca a fini par créer des tensions, au point où je me suis barré de ce qui était en dehors de ça (et la paye, hein, on va pas se le cacher) mon "job de rêve".<br>
-                    <br>
-                    En théorie, un admin sys Linux, ça devrait trouver facilement du taf vu que tout est en ligne. En tout cas c'est ce que je pensais. Mais j'ai assez vite déchanté: <i>tout le monde</i> ici utilise Windows Server, même les PME/TPE (ce qui fait assez peu de sens pour moi vu les coûts que ça implique, Azure c'est pas donné hein. Mais bon - pas mon fric, pas mon problème), et on trouve énormément d'environnements hybrides sur le marché.<sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup>.<br>
-                    <br>
-                    Vous vous souvenez de ce que j'ai dit y'a deux paragraphes ? À propos du fait que j'ai pas d'expérience professionnelle en Windows Server ? Ben c'est ça qui me bloque. <i>Personne</i> ne doute de mes compétences en Linux (encore heureux !), mais cette absence susmentionnée me met dans une sauce cyclique, car pour obtenir de l'expérience je dois trouver un boulot; or, pour trouver du boulot, il me faut de l'expérience. <i>Bienvenue dans le cercle vicieux de l'emploi en France !</i> Nous espérons que vous appréciez le voyage, vous êtes ici pour longtemps.<br>
-                    Il n'existe pas de certification que je peux passer en indépendant avec mon compte CPF pour montrer aux recruteurs que je sais ce qu'est Windows Server, la plus proche étant la Windows Server Hybrid Administrator Associate, qui elle-même part du postulat que j'ai plusieurs années d'expérience. D'après Microsoft, en tout cas.<br>
-                    <br>
-                    On m'a déjà demandé "Mais Bad, pourquoi tu déménages pas ?"<br>
-                    Pour bouger, me faut des thunes. Pour avoir des thunes, me faut du taf. Pour avoir du taf, me faut soit de la thune pour bouger, soit de l'expérience. On en revient au point de départ au final; c'est pas parce qu'il y a une branche que c'est pas une boucle.<br>
-                    <br>
-                    Étrangement, l'IA n'a absolument rien à voir avec ma situation. L'administration système ne se "vibe" pas aussi bien que le développement, ce qui est assez paradoxal considérant que les agents IA sont pas horribles pour générer des fichiers de configuration Docker ou nginx. J'imagine que la topologie réseau est encore un peu hors de leur portée, mais je sais que les heures sont comptées avant qu'on passe nous aussi à la casserole; c'est juste que d'un point de vue purement statistique, on a plus besoin de développeurs que d'admin sys, et donc les développeurs de modèles se penchent surtout sur ce marché pour le moment.<br>
-                    <br>
-                    Vu que la hiérarchie du marché du travail en France est complètement flinguée (diplôme &gt; expérience &gt; vibes &gt; le néant &gt; compétences réelles &gt; capacité d'apprendre, en gros), rien de ce que je peux ou sais faire ne sert à quoi que ce soit. J'en suis au point où je doute de pouvoir m'en sortir.
-                </p>
-                <div class="signature">- Bad64</div>
-                <hr>
-                <p class="footnotes">
-                    <a id="footnote-1" href="#footnote-1-orig">1:</a> "Les bons ingénieurs sont des flemmards", dit-on<br>
-                    <a id="footnote-2" href="#footnote-2-orig">2:</a> J'aurai même pas d'objection à bosser dans un environnement hybride tant qu'il y a du Linux<br>
-                </p>
-			</article>
-			<script src="/common/elements/footer.js"></script>
-		</section>
+								<p>
+									Je parle pas mal de ma situation professionnelle, au point où je me dis que ça peut être cohérent de faire un résumé quelquepart que je peux envoyer à chaque nouvelle personne qui me pose la question.<br>
+									<br>
+									<b>Tl;dr: Je suis coincé dans une boucle à base de "Besoin d'un job pour obtenir de l'expérience; Besoin d'expérience pour décrocher un job"</b><br>
+								</p>
+								<hr>
+								<p>
+									Prêts, les enfants ?<br>
+									<br>
+									Je suis administrateur systèmes de profession, plus précisément spécialiste Linux. Mon focus est principalement sur les infrastructures open-source (qu'elles soient cloud ou on-premises, et en ce qui concerne le cloud, je ne me limite pas à un seul provisionneur), et la majeure partie de mon expérience professionnelle se partage entre la maintenance en conditions opérationnelles et l'infrastructure en tant que service (ou IaaS) via la (para-)virtualisation. Je n'ai pas beaucoup d'expérience pratique avec Windows Server, et même aucune expérience professionnelle tout court. Ce point sera important dans un instant.<br>
+									<br>
+									Mon premier taf a duré un tout petit peu moins de 4 ans, et consistait principalement à faire de la maintenance routinière sur des petits clusters hébergés dans Google Cloud, que j'avais largement automatisé<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup>. Le reste était réparti entre le support utilisateur, la virtualisation (environnements de tests, pipeline CI/CD, etc), administration du serveur de téléphonie (plus tard migré vers Google Phone),, et des p'tites tâches aléatoires qui requiéraient un genre d'expertise technique. À cause de la nature de mon poste, j'avais pas vraiment la possibilité de produire un rapport mensuel, ou quoi que ce soit de tangible qui montre les fruits de mon travail (à part le fait que <i>l'infra de la boîte tourne</i>, en fait). Ca a fini par créer une situation bien chiante avec les directeurs, où en gros quand tout marchait, ils se demandaient à quoi j'étais payé, et quand un truc marchait pô, ils se demandaient aussi à quoi j'étais payé. Ca a fini par créer des tensions, au point où je me suis barré de ce qui était en dehors de ça (et la paye, hein, on va pas se le cacher) mon "job de rêve".<br>
+									<br>
+									En théorie, un admin sys Linux, ça devrait trouver facilement du taf vu que tout est en ligne. En tout cas c'est ce que je pensais. Mais j'ai assez vite déchanté: <i>tout le monde</i> ici utilise Windows Server, même les PME/TPE (ce qui fait assez peu de sens pour moi vu les coûts que ça implique, Azure c'est pas donné hein. Mais bon - pas mon fric, pas mon problème), et on trouve énormément d'environnements hybrides sur le marché.<sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup>.<br>
+									<br>
+									Vous vous souvenez de ce que j'ai dit y'a deux paragraphes ? À propos du fait que j'ai pas d'expérience professionnelle en Windows Server ? Ben c'est ça qui me bloque. <i>Personne</i> ne doute de mes compétences en Linux (encore heureux !), mais cette absence susmentionnée me met dans une sauce cyclique, car pour obtenir de l'expérience je dois trouver un boulot; or, pour trouver du boulot, il me faut de l'expérience. <i>Bienvenue dans le cercle vicieux de l'emploi en France !</i> Nous espérons que vous appréciez le voyage, vous êtes ici pour longtemps.<br>
+									Il n'existe pas de certification que je peux passer en indépendant avec mon compte CPF pour montrer aux recruteurs que je sais ce qu'est Windows Server, la plus proche étant la Windows Server Hybrid Administrator Associate, qui elle-même part du postulat que j'ai plusieurs années d'expérience. D'après Microsoft, en tout cas.<br>
+									<br>
+									On m'a déjà demandé "Mais Bad, pourquoi tu déménages pas ?"<br>
+									Pour bouger, me faut des thunes. Pour avoir des thunes, me faut du taf. Pour avoir du taf, me faut soit de la thune pour bouger, soit de l'expérience. On en revient au point de départ au final; c'est pas parce qu'il y a une branche que c'est pas une boucle.<br>
+									<br>
+									Étrangement, l'IA n'a absolument rien à voir avec ma situation. L'administration système ne se "vibe" pas aussi bien que le développement, ce qui est assez paradoxal considérant que les agents IA sont pas horribles pour générer des fichiers de configuration Docker ou nginx. J'imagine que la topologie réseau est encore un peu hors de leur portée, mais je sais que les heures sont comptées avant qu'on passe nous aussi à la casserole; c'est juste que d'un point de vue purement statistique, on a plus besoin de développeurs que d'admin sys, et donc les développeurs de modèles se penchent surtout sur ce marché pour le moment.<br>
+									<br>
+									Vu que la hiérarchie du marché du travail en France est complètement flinguée (diplôme &gt; expérience &gt; vibes &gt; le néant &gt; compétences réelles &gt; capacité d'apprendre, en gros), rien de ce que je peux ou sais faire ne sert à quoi que ce soit. J'en suis au point où je doute de pouvoir m'en sortir.
+								</p>
+								<div class="signature">- Bad64</div>
+								<hr>
+								<p class="footnotes">
+									<a id="footnote-1" href="#footnote-1-orig">1:</a> "Les bons ingénieurs sont des flemmards", dit-on<br>
+									<a id="footnote-2" href="#footnote-2-orig">2:</a> J'aurai même pas d'objection à bosser dans un environnement hybride tant qu'il y a du Linux<br>
+								</p>
+							</article>
+							<script src="/common/elements/footer.js"></script>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</body>
 </html>

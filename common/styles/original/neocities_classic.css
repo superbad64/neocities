@@ -1,54 +1,46 @@
-html {
-	background-color: #00A;
-	background-image: url("/common/images/stars.gif");
-	background-attachment: fixed;
-	background-size: auto;
-	background-repeat: repeat;
-	color: white;
+.blogpost {
+  border: 3px outset #ddd;
+  border-radius: 10px;
+  background-color: unset;
+  color: white;
 }
 
-a, a:hover, a:visited {
-	color: white;
+.fakebutton_close,
+.fakebutton_maximize,
+.fakebutton_minimize,
+.fakemenu {
+  display: none;
 }
 
 .titlebar {
-	background-image: linear-gradient(to right, #ddd, #999);
-	color: black;
-	font-weight: bold;
-	border-radius: 6px 6px 0 0;
+  background-image: linear-gradient(to right, #ddd, #999);
+  border-bottom: unset;
+  color: black;
+  font-weight: bold;
+  border-radius: 6px 6px 0 0;
 }
 
-.fakemenu {
-	display: none;
+a,
+a:hover,
+a:visited,
+nav a,
+nav a:hover,
+nav a:visited {
+  color: white;
 }
 
-.fakebutton_minimize {
-	display: none;
-}
-
-.fakebutton_maximize {
-	display: none;
-}
-
-.fakebutton_close {
-	display: none;
+html {
+  background-color: #00a;
+  background-image: url("/common/images/stars.gif");
+  background-attachment: fixed;
+  background-size: auto;
+  background-repeat: repeat;
+  color: white;
 }
 
 nav {
-	border: 3px outset #ddd;
-	border-radius: 10px;
-	background-color: unset;
-	color: white;
-}
-
-nav a, nav a:hover, nav a:visited
-{
-	color: white;
-}
-
-.blogpost {
-	border: 3px outset #ddd;
-	border-radius: 10px;
-	background-color: unset;
-	color: white;
+  border: 3px outset #ddd;
+  border-radius: 10px;
+  background-color: unset;
+  color: white;
 }

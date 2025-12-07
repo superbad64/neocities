@@ -14,202 +14,218 @@
 		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
 	</head>
 	<body>
-		<script src="/common/elements/langbar.js"></script>
-		<script src="/common/elements/nav.js"></script>
+		<div id="wrapper">
+        <table id="main">
+            <tbody>
+                <tr id="selectorsRow">
+                    <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                </tr>
+                <tr id="portraitMenu">
+                    <td><script src="/common/elements/portraitmenu.js"></script></td>
+                </tr>
+                <tr id="content">
+                    <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                    <td colspan="2" id="articles">
+                        <article class="blogpost">
+                            <table class="titlebar">
+                                <tr>
+                                    <td><label class="title">Super Mario 64: B3313</label></td>
+                                    <td class="buttoncontainer">
+                                        <script src="/common/elements/fakebuttons.js"></script>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <script src="/common/elements/fakemenu.js"></script>
 
-		<section class="content">
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">Super Mario 64: B3313</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
+                            <p>
+                                <a href="../articles.shtml">&lt; Back to the articles !</a>
+                            </p>
 
-				<div class="picture">
-                    <img src="/common/images/articles/b3313/castle.png">
-                    <p>Fresh coat of paint, huh ?</p>
-                </div>
+                            <div class="picture">
+                                <img src="/common/images/articles/b3313/castle.png">
+                                <p>Fresh coat of paint, huh ?</p>
+                            </div>
 
-                <p>
-                    <i>B3313</i> is a romhack of Super Mario 64, centered around beta/unused content and the various legends about every copy being personalized<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup> by a rogue AI. (Kind of topical, isn't it ?)<br>
-                    It looks, sounds, and plays like a fever dream, in almost all the good ways, and a few bad ones too. The patch is available at <a href="https://romhacking.com/hack/b3313-super-mario-64-internal-plexus">RomHacking.com</a> and a few other places too.<br>
-                    <br>
-                    This is my first review and I'm already going to go off the rails for a minute; Normally this is where I'd say if the review will contain spoilers or not, but considering the non-linear nature of the game, it's really hard to determine what is and isn't a spoiler (besides the endgame I suppose). I expect everyone to have a very different experience from mine, but will otherwise assume that nothing I show or talk about is actually a spoiler. So, let's dive in.
-                </p>
-                <h2 style="padding-left: 0.5em;">Beginnings</h2>
-                <p>
-                    As per the norm in Mario games (at least official ones), our jolly Italian plumber sets out on an adventure to rescue Princess Peach from the claws of Bowser (whom in this hack goes by his Japanese name of Kuppa, but this is largely irrelevant anyway). To do so, Mario will have to traverse a number of perilous stages, and we'll come back to that in a moment.<br>
-                    <br>
-                    People like me will rapidly notice a few things are off compared to the vanilla experience; the Peach stained glass window has been replaced by what appears to be a handless clock, Lakitu isn't on the bridge, <i>Mario cannot longjump</i> (OH NOES)<sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup>, and, uh, there is a backyard now ??
-                </p>
+                            <p>
+                                <i>B3313</i> is a romhack of Super Mario 64, centered around beta/unused content and the various legends about every copy being personalized<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup> by a rogue AI. (Kind of topical, isn't it ?)<br>
+                                It looks, sounds, and plays like a fever dream, in almost all the good ways, and a few bad ones too. The patch is available at <a href="https://romhacking.com/hack/b3313-super-mario-64-internal-plexus">RomHacking.com</a> and a few other places too.<br>
+                                <br>
+                                This is my first review and I'm already going to go off the rails for a minute; Normally this is where I'd say if the review will contain spoilers or not, but considering the non-linear nature of the game, it's really hard to determine what is and isn't a spoiler (besides the endgame I suppose). I expect everyone to have a very different experience from mine, but will otherwise assume that nothing I show or talk about is actually a spoiler. So, let's dive in.
+                            </p>
+                            <p class="heading">Beginnings</p>
+                            <p>
+                                As per the norm in Mario games (at least official ones), our jolly Italian plumber sets out on an adventure to rescue Princess Peach from the claws of Bowser (whom in this hack goes by his Japanese name of Kuppa, but this is largely irrelevant anyway). To do so, Mario will have to traverse a number of perilous stages, and we'll come back to that in a moment.<br>
+                                <br>
+                                People like me will rapidly notice a few things are off compared to the vanilla experience; the Peach stained glass window has been replaced by what appears to be a handless clock, Lakitu isn't on the bridge, <i>Mario cannot longjump</i> (OH NOES)<sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup>, and, uh, there is a backyard now ??
+                            </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/backyard.png">
-                    <p>The golden Toad statue might be a bit much, though</p>
-                </div>
+                            <div class="picture">
+                                <img src="/common/images/articles/b3313/backyard.png">
+                                <p>The golden Toad statue might be a bit much, though</p>
+                            </div>
 
-                <p>
-                    There is a backyard now I guess, sure, why not. I'm not going there for the time being for the sake of having some sort of logical continuity in this review. I will just say that, of all things, Yoshi is greeting us in here:
-                </p>
+                            <p>
+                                There is a backyard now I guess, sure, why not. I'm not going there for the time being for the sake of having some sort of logical continuity in this review. I will just say that, of all things, Yoshi is greeting us in here:
+                            </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/yoshi.png">
-                    <p>At least I don't need 120 stars to see you this time</p>
-                </div>
+                            <div class="picture">
+                                <img src="/common/images/articles/b3313/yoshi.png">
+                                <p>At least I don't need 120 stars to see you this time</p>
+                            </div>
 
-                <p>
-                    Let's (literally) circle back to the front door. There is some more stuff in the backyard (a lot, in fact), but I want to show you what a first timer is going to go through when playing this. Entering the lobby we are greeted by a message from... no-one ?
-                </p>
+                            <p>
+                                Let's (literally) circle back to the front door. There is some more stuff in the backyard (a lot, in fact), but I want to show you what a first timer is going to go through when playing this. Entering the lobby we are greeted by a message from... no-one ?
+                            </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/lobby.png">
-                    <p>Welcome To The Show</p>
-                </div>
+                            <div class="picture">
+                                <img src="/common/images/articles/b3313/lobby.png">
+                                <p>Welcome To The Show</p>
+                            </div>
 
-                <p>
-                    The show in question is, I believe, the <i>Nintendo Shoshinkai 1995</i>. This was the first unveiling of Super Mario 64, and by proxy of the Nintendo 64 as a whole, still called the Ultra 64 back then.<br>
-                    <br>
-                    The numbers you see on the doors (well the one in the screenshot) aren't actually tied to the number of stars you need to enter like in the vanilla game (and I actually don't know what they mean); in fact, since all doors are open, let's check out <i>Whomp's Fortress</i> first !
-                </p>
+                            <p>
+                                The show in question is, I believe, the <i>Nintendo Shoshinkai 1995</i>. This was the first unveiling of Super Mario 64, and by proxy of the Nintendo 64 as a whole, still called the Ultra 64 back then.<br>
+                                <br>
+                                The numbers you see on the doors (well the one in the screenshot) aren't actually tied to the number of stars you need to enter like in the vanilla game (and I actually don't know what they mean); in fact, since all doors are open, let's check out <i>Whomp's Fortress</i> first !
+                            </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/notwhomp.png">
-                    <p>That is not Whomp's Fortress</p>
-                </div>
+                            <div class="picture">
+                                <img src="/common/images/articles/b3313/notwhomp.png">
+                                <p>That is not Whomp's Fortress</p>
+                            </div>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/notlll.png">
-                    <p>As a matter of fact, where am I ?? This isn't Lethal Lava Land either !</p>
-                </div>
+                            <div class="picture">
+                                <img src="/common/images/articles/b3313/notlll.png">
+                                <p>As a matter of fact, where am I ?? This isn't Lethal Lava Land either !</p>
+                            </div>
 
-                <p>
-                    As one might expect of a romhack, the levels are not really in their place, so to speak. This appears to be an early version of <i>Lethal Lava Land</i>, which in itself shouldn't even be in the lobby.<br>
-                    Now, pause. Really. I'm going to stop pretending I'm discovering the game for one second and ask you a question:<br>
-                    <br>
-                    What do you think will happen if I reset the game at this point and re-enter the castle ?
-                </p>
+                            <p>
+                                As one might expect of a romhack, the levels are not really in their place, so to speak. This appears to be an early version of <i>Lethal Lava Land</i>, which in itself shouldn't even be in the lobby.<br>
+                                Now, pause. Really. I'm going to stop pretending I'm discovering the game for one second and ask you a question:<br>
+                                <br>
+                                What do you think will happen if I reset the game at this point and re-enter the castle ?
+                            </p>
 
-                <h2 style="padding-left: 0.5em;">Trust no one</h2>
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/wronglobby.png">
-                    <p>*BEEP* Wrong !</p>
-                </div>
+                            <p class="heading">Trust no one</p>
+                            <div class="picture">
+                                <img src="/common/images/articles/b3313/wronglobby.png">
+                                <p>*BEEP* Wrong !</p>
+                            </div>
 
-                <p>
-                    Everything but one door is gone. Oh and you can't hear it but the music is gone too. Spooky.<br>
-                    Behind this door is a painting of a bucholic scene with mountains and paw-printed mushrooms ? Okay sure why not.
-                </p>
+                            <p>
+                                Everything but one door is gone. Oh and you can't hear it but the music is gone too. Spooky.<br>
+                                Behind this door is a painting of a bucholic scene with mountains and paw-printed mushrooms ? Okay sure why not.
+                            </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/stillnotwhomp.png">
-                    <p>Probably going to drop me in a flower field I suppose</p>
-                </div>
+                            <div class="picture">
+                                <img src="/common/images/articles/b3313/stillnotwhomp.png">
+                                <p>Probably going to drop me in a flower field I suppose</p>
+                            </div>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/wf64.png">
-                    <p>If you've played the original game this is probably anxiety inducing</p>
-                </div>
+                            <div class="picture">
+                                <img src="/common/images/articles/b3313/wf64.png">
+                                <p>If you've played the original game this is probably anxiety inducing</p>
+                            </div>
 
-                <p>
-                    Uhhhh... Okay. I didn't screenshot it but the game tells me that my objective is to get a star (big news), so let's head to the top.
-                </p>
+                            <p>
+                                Uhhhh... Okay. I didn't screenshot it but the game tells me that my objective is to get a star (big news), so let's head to the top.
+                            </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/topofthetower.png">
-                    <p>Really there's nothing ominous at all here</p>
-                </div>
+                            <div class="picture">
+                                <img src="/common/images/articles/b3313/topofthetower.png">
+                                <p>Really there's nothing ominous at all here</p>
+                            </div>
 
-                <p>
-                    And this is where things go weird. Getting near the star warped me to a version of <i>Whomp's Fortress</i> shrouded in darkness, with a timer urging me to get the star <b>fast</b>. I used to speedrun this game so I don't have too much trouble, but just for the sake of experimenting, I let the timer run out (about 40 seconds) and... immediately die. (That should have been a count <i>down</i> rather than up, but at this point I'm not even sure SM64 had countdowns in the first place)<br>
-                    <br>
-                    I'm not going to tell you what happened when I <i>did</i> get the star though; that is for you to experience by playing this hack. And so, regardless of whether you decide to take the plunge, or keep on reading:<br>
-                    Welcome to insanity.
-                </p>
-            
-                <h2 style="padding-left: 0.5em;">Lose Yourself</h2>
-                <p>
-                    To call the game labyrinthine would be quite an understatement. Things change according to the time of the day<sup id="footnote-3-orig"><a href="#footnote-3">3</a></sup>, sometimes doubling back through a door or pipe leads you to a completely different location, and for you completionists out there, there is a whopping <b>460 STARS ???</b> Four hundred and sixty god damned stars ??? HELLO ??? I have played for 21 hours and barely got 160 !<br>
-                    <br>
-                    Ahem. Sorry. Sometimes I overreact to things.<br>
-                    <br>
-                    Here's where things get wild: The game <i>absolutely</i> does not hold your hand at any point. Literally Yoshi tells you to let it happen "like a dream".
-                </p>
+                            <p>
+                                And this is where things go weird. Getting near the star warped me to a version of <i>Whomp's Fortress</i> shrouded in darkness, with a timer urging me to get the star <b>fast</b>. I used to speedrun this game so I don't have too much trouble, but just for the sake of experimenting, I let the timer run out (about 40 seconds) and... immediately die. (That should have been a count <i>down</i> rather than up, but at this point I'm not even sure SM64 had countdowns in the first place)<br>
+                                <br>
+                                I'm not going to tell you what happened when I <i>did</i> get the star though; that is for you to experience by playing this hack. And so, regardless of whether you decide to take the plunge, or keep on reading:<br>
+                                Welcome to insanity.
+                            </p>
+                        
+                            <h2 style="padding-left: 0.5em;">Lose Yourself</h2>
+                            <p>
+                                To call the game labyrinthine would be quite an understatement. Things change according to the time of the day<sup id="footnote-3-orig"><a href="#footnote-3">3</a></sup>, sometimes doubling back through a door or pipe leads you to a completely different location, and for you completionists out there, there is a whopping <b>460 STARS ???</b> Four hundred and sixty god damned stars ??? HELLO ??? I have played for 21 hours and barely got 160 !<br>
+                                <br>
+                                Ahem. Sorry. Sometimes I overreact to things.<br>
+                                <br>
+                                Here's where things get wild: The game <i>absolutely</i> does not hold your hand at any point. Literally Yoshi tells you to let it happen "like a dream".
+                            </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/likeadream.png">
-                    <p>Feels more like doing acid while high to me than a dream</p>
-                </div>
+                            <div class="picture">
+                                <img src="/common/images/articles/b3313/likeadream.png">
+                                <p>Feels more like doing acid while high to me than a dream</p>
+                            </div>
 
-                <p>
-                    The "hub areas" in the game are all interconnected in very obscure ways that sometimes make no sense (like having a castle inside of the castle), and quite frankly I'm not sure how one is supposed to find the path to the end of the game other than by a winning-the-lottery-several-times-in-a-row kind of luck. The stars themselves are mostly straightforward to get, with the highest execution requirement I found being the ability to do backwards wall jumps (not very hard at all in case you never did it yourself). This actually tends to work against the game, namely because there is no internal star tracker (Parallel has one, but in-game none of the levels are actually named so you <i>have</i> to rely on either it or the wiki), which only adds to the generally confusing atmosphere.<br>
-                    <br>
-                    Oh and yeah, let's talk about the atmosphere now !
-                </p>
+                            <p>
+                                The "hub areas" in the game are all interconnected in very obscure ways that sometimes make no sense (like having a castle inside of the castle), and quite frankly I'm not sure how one is supposed to find the path to the end of the game other than by a winning-the-lottery-several-times-in-a-row kind of luck. The stars themselves are mostly straightforward to get, with the highest execution requirement I found being the ability to do backwards wall jumps (not very hard at all in case you never did it yourself). This actually tends to work against the game, namely because there is no internal star tracker (Parallel has one, but in-game none of the levels are actually named so you <i>have</i> to rely on either it or the wiki), which only adds to the generally confusing atmosphere.<br>
+                                <br>
+                                Oh and yeah, let's talk about the atmosphere now !
+                            </p>
 
-                <h2 style="padding-left: 0.5em;">Ayahuasca</h2>
-                <p>
-                    The levels can be broadly split into three aesthetic categories: Comfy/Beta,
-                </p>
+                            <p class="heading">Ayahuasca</p>
+                            <p>
+                                The levels can be broadly split into three aesthetic categories: Comfy/Beta,
+                            </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/floor4.png">
-                    <p>The only thing this will hurt might be your eyes</p>
-                </div>
+                            <div class="picture">
+                                <img src="/common/images/articles/b3313/floor4.png">
+                                <p>The only thing this will hurt might be your eyes</p>
+                            </div>
 
-                <p>
-                    Spooky,
-                </p>
+                            <p>
+                                Spooky,
+                            </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/darkhallway.png">
-                    <p>nopenopenopenopenopenopenope</p>
-                </div>
+                            <div class="picture">
+                                <img src="/common/images/articles/b3313/darkhallway.png">
+                                <p>nopenopenopenopenopenopenope</p>
+                            </div>
 
-                <p>
-                    and what I want to call "Fuck":
-                </p>
+                            <p>
+                                and what I want to call "Fuck":
+                            </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/polygonalchaos.png">
-                    <p>Yeah that's about as accurate a descriptor as I can muster</p>
-                </div>
+                            <div class="picture">
+                                <img src="/common/images/articles/b3313/polygonalchaos.png">
+                                <p>Yeah that's about as accurate a descriptor as I can muster</p>
+                            </div>
 
-                <p>
-                    The vibes are pretty good overall, and the audio perfectly fills its role to reinforce this. A lot of the soundtrack consist in off-key renditions of familiar tunes, going hand in hand with the overall theme of "Something is wrong", but there are a few original pieces out there. Special shout out to "Dire, Dire Victory", which plays in the closing sections of the game and is a dark and depressing cover of the credits theme.
-                </p>
+                            <p>
+                                The vibes are pretty good overall, and the audio perfectly fills its role to reinforce this. A lot of the soundtrack consist in off-key renditions of familiar tunes, going hand in hand with the overall theme of "Something is wrong", but there are a few original pieces out there. Special shout out to "Dire, Dire Victory", which plays in the closing sections of the game and is a dark and depressing cover of the credits theme.
+                            </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/fakelobby.png">
-                    <p>See if you can spot the difference</p>
-                </div>
+                            <div class="picture">
+                                <img src="/common/images/articles/b3313/fakelobby.png">
+                                <p>See if you can spot the difference</p>
+                            </div>
 
-                <p>
-                    On the spooky side of things, the game is positively filled with <i>intentional</i> crashes, zones that are designed to trap you (and in fact disallow warping out in the first place) with some light jumpscares (no gore, no screams, just mildly disturbing imagery). Some of which require you to really go out of your way to find, and to be honest they serve no real purpose other than force you to reset (or load an earlier save state since the game only runs on emulators). Almost all of them are echoes in one way or the other to something in the Super Mario 64 Iceberg, so if you know where to tread you should be avoiding them fairly easily.
-                </p>
+                            <p>
+                                On the spooky side of things, the game is positively filled with <i>intentional</i> crashes, zones that are designed to trap you (and in fact disallow warping out in the first place) with some light jumpscares (no gore, no screams, just mildly disturbing imagery). Some of which require you to really go out of your way to find, and to be honest they serve no real purpose other than force you to reset (or load an earlier save state since the game only runs on emulators). Almost all of them are echoes in one way or the other to something in the Super Mario 64 Iceberg, so if you know where to tread you should be avoiding them fairly easily.
+                            </p>
 
-                <h2 style="padding-left: 0.5em;">Conclusion</h2>
-                <p>
-                    Despite the absolute lunacy involved in progressing through the game (as in towards any of the endings), it's pretty good. The level design is mostly average, making up for quality with quantity (if anything the hub areas are far better designed than the actual levels), and if you intend on doing a 100% run you'll be here for a long time<sup id="footnote-4-orig"><a href="#footnote-4">4</a></sup>. Just keep in mind that every playthrough, while not exactly personalized, will probably be different.<br>
-                    <br>
-                    <b>Graphics:</b> 8/10, it's Mario but weirdcore<br>
-                    <b>Music:</b> 8/10, the remixes do get tiring after a while but fortunately besides Peach's Castle you probably won't hear them for that long anyway<br>
-                    <b>Gameplay:</b> 5/10, you <i>really</i> need a map, this is Metroidvania levels of map design<br>
-                    <b>Overall: 14/20</b>
-                </p>
-                <hr>
-                <p class="footnotes">
-                    <a id="footnote-1" href="#footnote-1-orig">1</a>: Yep, it's <i>that</i> iceberg<br>
-                    <a id="footnote-2" href="#footnote-2-orig">2</a>: Laugh all you want, I used to speedrun Mario 64. I physically cannot schmoove without longjumping<br>
-                    <a id="footnote-3" href="#footnote-3-orig">3</a>: According to your OS's clock. I'm frankly puzzled as to how they coded that in a N64 ROM<br>
-                    <a id="footnote-4" href="#footnote-4-orig">4</a>: <i>Allegedly</i> the any% run requires 15 stars or so, but saying any more counts as spoilers
-                </p>
-			</article>
-			<script src="/common/elements/footer.js"></script>
-		</section>
+                            <p class="heading">Conclusion</p>
+                            <p>
+                                Despite the absolute lunacy involved in progressing through the game (as in towards any of the endings), it's pretty good. The level design is mostly average, making up for quality with quantity (if anything the hub areas are far better designed than the actual levels), and if you intend on doing a 100% run you'll be here for a long time<sup id="footnote-4-orig"><a href="#footnote-4">4</a></sup>. Just keep in mind that every playthrough, while not exactly personalized, will probably be different.<br>
+                                <br>
+                                <b>Graphics:</b> 8/10, it's Mario but weirdcore<br>
+                                <b>Music:</b> 8/10, the remixes do get tiring after a while but fortunately besides Peach's Castle you probably won't hear them for that long anyway<br>
+                                <b>Gameplay:</b> 5/10, you <i>really</i> need a map, this is Metroidvania levels of map design<br>
+                                <b>Overall: 14/20</b>
+                            </p>
+                            <hr>
+                            <p class="footnotes">
+                                <a id="footnote-1" href="#footnote-1-orig">1</a>: Yep, it's <i>that</i> iceberg<br>
+                                <a id="footnote-2" href="#footnote-2-orig">2</a>: Laugh all you want, I used to speedrun Mario 64. I physically cannot schmoove without longjumping<br>
+                                <a id="footnote-3" href="#footnote-3-orig">3</a>: According to your OS's clock. I'm frankly puzzled as to how they coded that in a N64 ROM<br>
+                                <a id="footnote-4" href="#footnote-4-orig">4</a>: <i>Allegedly</i> the any% run requires 15 stars or so, but saying any more counts as spoilers
+                            </p>
+                        </article>
+			            <script src="/common/elements/footer.js"></script>
+                    </td>
+                </tr>
+            </tbody>
+		</table>
+        </div>
 	</body>
 </html>

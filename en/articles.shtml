@@ -1,64 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Articles</title>
-		<link rel="stylesheet" href="/common/styles/layout.css">
-		<link rel="stylesheet" href="/common/styles/styles.css">
-		<link id="currentStyleSheet" rel="stylesheet" href="">
-		<meta charset="UTF-8">
-		<link rel="icon" type="image/png" href="/common/images/icons/favicon/favicon-96x96.png" sizes="96x96" />
-		<link rel="icon" type="image/svg+xml" href="/common/images/icons/favicon/favicon.svg" />
-		<link rel="shortcut icon" href="/common/images/icons/favicon/favicon.ico" />
-		<link rel="apple-touch-icon" sizes="180x180" href="/common/images/icons/favicon/apple-touch-icon.png" />
-		<meta name="apple-mobile-web-app-title" content="Bad64's Corner" />
-		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
-	</head>
-	<body>
-		<script src="/common/elements/langbar.js"></script>
-		<script src="/common/elements/nav.js"></script>
+  <head>
+    <title>Articles</title>
+    <link rel="stylesheet" href="/common/styles/layout.css" />
+    <link rel="stylesheet" href="/common/styles/styles.css" />
+    <link id="currentStyleSheet" rel="stylesheet" href="" />
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/common/images/icons/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/common/images/icons/favicon/favicon.svg"
+    />
+    <link rel="shortcut icon" href="/common/images/icons/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/common/images/icons/favicon/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="Bad64's Corner" />
+    <link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <table id="main">
+        <tbody>
+          <tr id="selectorsRow">
+            <td colspan="3"><script src="/common/elements/header.js"></script></td>
+          </tr>
+          <tr id="portraitMenu">
+            <td><script src="/common/elements/portraitmenu.js"></script></td>
+          </tr>
+          <tr id="content">
+            <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+            <td colspan="2" id="articles">
+              <!--Blog post generator start flag-->
+              <article class="blogpost">
+                <table class="titlebar">
+                  <tr>
+                    <td><label class="title">Post</label></td>
+                    <td class="buttoncontainer">
+                      <script src="/common/elements/fakebuttons.js"></script>
+                    </td>
+                  </tr>
+                </table>
 
-		<section class="content">
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">Articles</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
+                <script src="/common/elements/fakemenu.js"></script>
 
-				<p>
-				I'm usually a man of relatively few words, but sometimes I do yap a little more than usual. These are said times.
+                <p>
+                I'm usually a man of relatively few words, but sometimes I do yap a
+                little more than usual. These are said times.
                 </p>
 
-				<section style="margin-left: 0.5em;">
-					<h2>Life experiences</h2>
-					<p>In which I chat about things happening in my day to day life</p>
-					<ul>
-						<li><a href="articles/evo2025.shtml">13/10/2025 - I went to EVO !</a> <strong>(Some TW content, spoiler-tagged)</strong></li>
-					</ul>
-				</section>
-				<section style="margin-left: 0.5em;">
-					<h2>Rants and babblings</h2>
-					<p>Let me talk your ear off (or eyes, I guess ?) about literally anything that crosses my mind</p>
-					<ul>
-						<li><a href="articles/myjob.shtml">04/11/2025 - Job woes</a></li>
-					</ul>
-				</section>
-				<section style="margin-left: 0.5em;">
-					<h2>Game Reviews</h2>
-					<p>I play a lot of games; let me try and recommend you some !</p>
-					<ul>
-						<li><a href="articles/b3313.shtml">21/11/2025 - Super Mario 64: B3313</a></li>
-					</ul>
-				</section>
-			</article>
-			<script src="/common/elements/footer.js"></script>
-		</section>
-	</body>
+                <section style="margin-left: 0.5em">
+                  <p class="heading">Life experiences</p>
+                  <p>
+                    In which I chat about things happening in my day to day life
+                  </p>
+                  <ul>
+                    <li>
+                      <a href="articles/evo2025.shtml">13/10/2025 - I went to EVO !</a>
+                      <strong>(Some TW content, spoiler-tagged)</strong>
+                    </li>
+                  </ul>
+                </section>
+                <section style="margin-left: 0.5em">
+                  <p class="heading">Rants and babblings</p>
+                  <p>
+                    Let me talk your ear off (or eyes, I guess ?) about literally
+                    anything that crosses my mind
+                  </p>
+                    <ul>
+                      <li><a href="articles/myjob.shtml">04/11/2025 - Job woes</a></li>
+                    </ul>
+                </section>
+                <section style="margin-left: 0.5em">
+                <p class="heading">Game Reviews</p>
+                  <p>
+                    I play a lot of games; let me try and recommend you some !
+                  </p>
+                  <ul>
+                    <li>
+                      <a href="articles/b3313.shtml">21/11/2025 - Super Mario 64: B3313</a>
+                    </li>
+                  </ul>
+                </section>
+              </article>
+              <script src="/common/elements/footer.js"></script>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
 </html>
-
-

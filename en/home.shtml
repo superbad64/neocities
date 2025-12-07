@@ -14,79 +14,92 @@
 		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
 	</head>
 	<body>
-		<script src="/common/elements/langbar.js"></script>
-		<script src="/common/elements/nav.js"></script>
+		<div id="wrapper">
+			<table id="main">
+                <tbody>
+                    <tr id="selectorsRow">
+                        <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                    </tr>
+                    <tr id="portraitMenu">
+                        <td><script src="/common/elements/portraitmenu.js"></script></td>
+                    </tr>
+                    <tr id="content">
+                        <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                        <td colspan="2" id="articles">
+                            <!--Blog post generator start flag-->
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Welcome</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
 
-		<section class="content">
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">Welcome</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
+								<p>
+									Hi ! Welcome to <b>Bad64's Corner</b>. Here you shall find the <a href="/en/articles.shtml">ramblings of an old fool</a>, <a href="/en/blog/1.shtml">short blog notes reflecting my thoughts and mood</a>, and even <a href="/en/projects.shtml">a gaggle of projects</a> that help me pass the time. Or if you want to, you can even <a href="/en/about.shtml">read about me</a> ! So grab yourself a bev, load a cozy playlist, and let the nostalgia get you for a minute !
+								</p>
+								<div class="signature">- Bad64</div>
+							</article>
+							
+							<article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">What's up ?</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+								
+								<script src="/common/elements/fakemenu.js"></script>
 
-				<p>
-					Hi ! Welcome to <b>Bad64's Corner</b>. Here you shall find the <a href="/en/articles.shtml">ramblings of an old fool</a>, <a href="/en/blog/1.shtml">short blog notes reflecting my thoughts and mood</a>, and even <a href="/en/projects.shtml">a gaggle of projects</a> that help me pass the time. Or if you want to, you can even <a href="/en/about.shtml">read about me</a> ! So grab yourself a bev, load a cozy playlist, and let the nostalgia get you for a minute !
-				</p>
-				<div class="signature">- Bad64</div>
-			</article>
-			
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">What's up ?</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
+								<div style="display: flex; flex-direction: row; justify-content: space-between;">
+									<p style="max-width: 40%;">
+										Whenever I'm working, I usually either have stream VODs or long playlists as a backing noise. This is one of the latter. I really enjoy putting on one of those long form "videos" and fully focus on whatever it is that I'm doing (most of the time 3D modeling, or building the resulting prints thereof). Almost a zen-like experience in my opinion !
+									</p>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/F4nRB_I84D8?si=uB9J3z4VCsfmcrWN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+								</div>
+							</article>
 
-				<div style="display: flex; flex-direction: row; justify-content: space-between;">
-					<p style="max-width: 40%;">
-						Whenever I'm working, I usually either have stream VODs or long playlists as a backing noise. This is one of the latter. I really enjoy putting on one of those long form "videos" and fully focus on whatever it is that I'm doing (most of the time 3D modeling, or building the resulting prints thereof). Almost a zen-like experience in my opinion !
-					</p>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/F4nRB_I84D8?si=uB9J3z4VCsfmcrWN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-			</article>
+							<article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">What's next ?</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+								
+								<script src="/common/elements/fakemenu.js"></script>
 
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">What's next ?</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
-
-				<p>
-					Here's my TODO list for the foreseeable future:
-				</p>
-				<ul>
-					<li>More styles !</li>
-					<li>A wallpaper selector ?</li>
-					<li>Remake all the icons:</li>
-					<ul>
-						<li><s>Favicon</s></li>
-						<li>Home</li>
-						<li>About</li>
-						<li>Articles</li>
-						<li>Blog</li>
-						<li>FAQ</li>
-						<li>Projects</li>
-					</ul>
-				</ul>
-			</article>
-			<script src="/common/elements/footer.js"></script>
-		</section>
+								<p>
+									Here's my TODO list for the foreseeable future:
+								</p>
+								<ul>
+									<li>More styles !</li>
+									<li>A wallpaper selector ?</li>
+									<li>Remake all the icons:</li>
+									<ul>
+										<li><s>Favicon</s></li>
+										<li>Home</li>
+										<li>About</li>
+										<li>Articles</li>
+										<li>Blog</li>
+										<li>FAQ</li>
+										<li>Projects</li>
+									</ul>
+								</ul>
+							</article>
+							<script src="/common/elements/footer.js"></script>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</body>
 </html>

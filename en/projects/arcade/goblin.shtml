@@ -14,58 +14,71 @@
 		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
 	</head>
 	<body>
-		<script src="/common/elements/langbar.js"></script>
-		<script src="/common/elements/nav.js"></script>
+		<div id="wrapper">
+            <table id="main">
+                <tbody>
+                    <tr id="selectorsRow">
+                        <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                    </tr>
+                    <tr id="portraitMenu">
+                        <td><script src="/common/elements/portraitmenu.js"></script></td>
+                    </tr>
+                    <tr id="content">
+                        <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                        <td colspan="2" id="articles">
+                            <!--Blog post generator start flag-->
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">The Goblin</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+								<p class="back"><a href="/en/projects.shtml">&lt; Back to the Projects</a></p>
 
-		<section class="content">
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">The Goblin</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
-				<p class="back"><a href="/en/projects.shtml">&lt; Back to the Projects</a></p>
+								<div class="picture">
+									<img src="/common/images/projects/builds/goblin/goblin.png">
+									<p>Riding on the "Flatbox" trend</p>
+								</div>
 
-				<div class="picture">
-					<img src="/common/images/projects/builds/goblin/goblin.png">
-					<p>Riding on the "Flatbox" trend</p>
-				</div>
+								<p>
+									<a href="https://github.com/superbad64/OpenFighter/tree/main/Goblin">Find it on GitHub !</a>
+								</p>
 
-				<p>
-					<a href="https://github.com/superbad64/OpenFighter/tree/main/Goblin">Find it on GitHub !</a>
-                </p>
+								<p>
+								The Goblin was born out of a mostly commercial necessity, originally envisioned as a Smash-oriented controller and later brought "down" to something more reasonable and easy to build. Part of me want to say this is a really uncomplicated build with very few caveats, but the reality is that whether you elect to solder directly to your switch pins or to hotswap sockets, well you still have to solder, innit ? And the ground chain is always a bit hard to get right in my experience. I find that solid core wire makes it a <i>little</i> easier if you solder to bare pins, as you can bend it into "hooks" or "eye holes" that you can wrap around the pins to hold the wire in place while you solder, but to each their own; at the end of the day, as long as there is reliable continuity between all the pins, I don't think there is a wrong way to do it.
+								</p>
 
-				<p>
-				The Goblin was born out of a mostly commercial necessity, originally envisioned as a Smash-oriented controller and later brought "down" to something more reasonable and easy to build. Part of me want to say this is a really uncomplicated build with very few caveats, but the reality is that whether you elect to solder directly to your switch pins or to hotswap sockets, well you still have to solder, innit ? And the ground chain is always a bit hard to get right in my experience. I find that solid core wire makes it a <i>little</i> easier if you solder to bare pins, as you can bend it into "hooks" or "eye holes" that you can wrap around the pins to hold the wire in place while you solder, but to each their own; at the end of the day, as long as there is reliable continuity between all the pins, I don't think there is a wrong way to do it.
-				</p>
+								<p>
+								The case is made for housing Cherry MX style switches, friction fit into the button holes<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup>. For the caps, you can use SiTong caps (you can find them on AliExpress, and I can 100% recommend them) or print <a href="https://github.com/OpenStickCommunity/Hardware/tree/main/3D%20Prints/OSBMX%20v2">TheTrain's OSBMX v2</a> button caps. Also, on the GitHub page, I say that I use M4x20 Chicago bolts, which yes they do work just fine (just take care to not overtighten them as the case is actually 25mm), but in all fairness any M4 screw with a washer should work just as well if you're willing to contend with the nuts protruding out of the bottom plate. The acrylic is <i>technically</i> optional as you can use any 3mm thick material to match the plunger length on the switches, including printed plates if need be.
+								</p>
 
-				<p>
-				The case is made for housing Cherry MX style switches, friction fit into the button holes<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup>. For the caps, you can use SiTong caps (you can find them on AliExpress, and I can 100% recommend them) or print <a href="https://github.com/OpenStickCommunity/Hardware/tree/main/3D%20Prints/OSBMX%20v2">TheTrain's OSBMX v2</a> button caps. Also, on the GitHub page, I say that I use M4x20 Chicago bolts, which yes they do work just fine (just take care to not overtighten them as the case is actually 25mm), but in all fairness any M4 screw with a washer should work just as well if you're willing to contend with the nuts protruding out of the bottom plate. The acrylic is <i>technically</i> optional as you can use any 3mm thick material to match the plunger length on the switches, including printed plates if need be.
-				</p>
+								<p>
+								The <i>one</i> thing that is a little non-standard and potentially hard(er) to source is the metal rods. They actually do a lot to stabilize the build and prevent flexing, as this is unfortunately something inherent to multipart prints, and while they're also technically optional I still recommend adding them just for peace of mind. Adds to the BOM but the benefits are clearly worth it.
+								</p>
 
-				<p>
-				The <i>one</i> thing that is a little non-standard and potentially hard(er) to source is the metal rods. They actually do a lot to stabilize the build and prevent flexing, as this is unfortunately something inherent to multipart prints, and while they're also technically optional I still recommend adding them just for peace of mind. Adds to the BOM but the benefits are clearly worth it.
-				</p>
+								<p>
+								On the side of electronics, I would recommend a Waveshare RP2040-Zero due to having native USB-C (something the base Raspberry Pi Pico bafflingly lacks), though I suspect the case can also accomodate an Advanced Breakout Board with minimal modification. Just make sure to pick a long cable and to run it through the strain relief posts.
+								</p>
 
-				<p>
-				On the side of electronics, I would recommend a Waveshare RP2040-Zero due to having native USB-C (something the base Raspberry Pi Pico bafflingly lacks), though I suspect the case can also accomodate an Advanced Breakout Board with minimal modification. Just make sure to pick a long cable and to run it through the strain relief posts.
-				</p>
-
-				<p>
-				Overall, just like I say over on GitHub, it's a great weekend build: very easy and fast to print (supports aren't too bad even if yes they still count as filament waste in the end), very straightforward to assemble, even the soldering is something one should be able to tackle without much hassle I believe. It's a good first build whether you're just getting into the hobby of DIY leverless controllers or simply want a budget-conscious option that doesn't compromise on quality.
-				</p>
-				<div class="signature">- Bad64</div>
-				<hr>
-				<p class="footnotes">
-					<a id="footnote-1" href="#footnote-1-orig">1</a>: You can use layers of painter's tape around the switch base if the fit isn't good enough
-				</p>
-			</article>
-			<script src="/common/elements/footer.js"></script>
-		</section>
+								<p>
+								Overall, just like I say over on GitHub, it's a great weekend build: very easy and fast to print (supports aren't too bad even if yes they still count as filament waste in the end), very straightforward to assemble, even the soldering is something one should be able to tackle without much hassle I believe. It's a good first build whether you're just getting into the hobby of DIY leverless controllers or simply want a budget-conscious option that doesn't compromise on quality.
+								</p>
+								<div class="signature">- Bad64</div>
+								<hr>
+								<p class="footnotes">
+									<a id="footnote-1" href="#footnote-1-orig">1</a>: You can use layers of painter's tape around the switch base if the fit isn't good enough
+								</p>
+							</article>
+							<script src="/common/elements/footer.js"></script>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</body>
 </html>

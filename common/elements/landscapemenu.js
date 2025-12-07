@@ -1,11 +1,3 @@
-document.write('<!-- The sidebar navigation menu device thingy -->');
-document.write('<nav>');
-document.write('	<div class="titlebar">');
-document.write('		<label class="title">Menu</label>');
-document.write('	</div>');
-document.write('	');
-document.write('    <script src="/common/elements/fakemenu.js"></script>');
-
 var lang = window.location.href.split("/")[3];
 if (lang == "common") { lang = "en"; };
 
@@ -36,8 +28,23 @@ var navStrings = {
     }
 };
 
+document.write('<!-- The sidebar navigation menu device thingy -->');
+document.write('<nav style="height: 100%;">');
+document.write('	<table class="titlebar">');
+document.write('        <tbody>');
+document.write('		    <td><label class="title">Menu</label></td>');
+document.write('		    <td class="buttoncontainer">');
+document.write('                <label class="fakebutton_minimize" style="display: none;">&#128469;</label>');
+document.write('                <label class="fakebutton_maximize" style="display: none;">&#128470;</label>');
+document.write('                <label class="fakebutton_close" style="display: none;">&#128473;</label>');
+document.write('		    </td>');
+document.write('        </tbody>');
+document.write('	</table>');
 document.write('	');
-document.write('	<dl class="horizontalmenu">');
+document.write('    <script src="/common/elements/fakemenu.js"></script>');
+document.write('	');
+document.write('    <div style="display: flex; flex-direction: column; justify-content: space-around">')
+document.write('	<dl>');
 document.write('		<dt><img src="/common/images/icons/world-4.png" />&nbsp;' + navStrings[lang]["home"] + '</dt>');
 document.write('		<dt><img src="/common/images/icons/help_book_cool-4.png" />&nbsp;' + navStrings[lang]["aboutMe"] + '</dt>');
 document.write('		<dt><img src="/common/images/icons/keyboard-5.png" />&nbsp;' + navStrings[lang]["articles"] + '</dt>');
@@ -45,14 +52,9 @@ document.write('		<dt><img src="/common/images/icons/computer_explorer-4.png" />
 document.write('		<dt><img src="/common/images/icons/notepad-5.png" />&nbsp;' + navStrings[lang]["faq"] + '</dt>');
 document.write('		<dt><img src="/common/images/icons/directory_open_file_mydocs-4.png" />&nbsp;' + navStrings[lang]["projects"] + '</dt>');
 document.write('	</dl>');
-document.write('	<div class="verticalmenu">');
-document.write('		<div><img src="/common/images/icons/world-4.png" />&nbsp;' + navStrings[lang]["home"] + '</div>');
-document.write('		<div><img src="/common/images/icons/help_book_cool-4.png" />&nbsp;' + navStrings[lang]["aboutMe"] + '</div>');
-document.write('		<div><img src="/common/images/icons/keyboard-5.png" />&nbsp;' + navStrings[lang]["articles"] + '</div>');
-document.write('		<div><img src="/common/images/icons/computer_explorer-4.png" />&nbsp;' + navStrings[lang]["blog"] + '</div>');
-document.write('		<div><img src="/common/images/icons/notepad-5.png" />&nbsp;' + navStrings[lang]["faq"] + '</div>');
-document.write('		<div><img src="/common/images/icons/directory_open_file_mydocs-4.png" />&nbsp;' + navStrings[lang]["projects"] + '</div>');
-document.write('	</div>');
+
+document.write('    <div>');
+document.write('    </div>');
 
 document.write('    <table class=\"navbadges\">');
 document.write('        <tr>');
@@ -88,5 +90,6 @@ document.write('            <td><img src=/common/images/badges/fspeech.gif /></t
 document.write('            <td><img src=/common/images/badges/y2ks.gif /></td>');
 document.write('        </tr>');
 document.write('    </table>');
+document.write('    </div>')
 
 document.write('</nav>');

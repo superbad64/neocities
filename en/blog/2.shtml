@@ -14,25 +14,48 @@
 		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
 	</head>
 	<body>
-		<script src="/common/elements/langbar.js"></script>
-		<script src="/common/elements/nav.js"></script>
+        <div id="wrapper">
+            <table id="main">
+                <tbody>
+                    <tr id="selectorsRow">
+                        <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                    </tr>
+                    <tr id="portraitMenu">
+                        <td><script src="/common/elements/portraitmenu.js"></script></td>
+                    </tr>
+                    <tr id="content">
+                        <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                        <td colspan="2" id="articles">
 
-		<section class="content">
-
-			<h3>Blog</h3>
-
+			<div class="heading">Blog</div>
+			<!--Old school navigation widget-->
 			<div style="display: flex; flex-wrap: wrap; justify-content: center;">
 				&nbsp;<a href="1.shtml">&lt;</a>&nbsp;				&nbsp;<a href="1.shtml">1</a>&nbsp;				&nbsp;<strong>2</strong>&nbsp;
 			</div>
 			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">Small update - 03/10/2025 21:53</label>
-					<div class="buttoncontainer">
-					<label class="fakebutton_minimize">0</label>
-					<label class="fakebutton_maximize">1</label>
-					<label class="fakebutton_close">r</label>
-					</div>
-				</div>
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">I went to EVO ! - 13/10/2025 15:02</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					As the title says, I even wrote <a href="/en/articles/evo2025.shtml">an article</a> about it ! Go peek it !<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Small update - 03/10/2025 21:53</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
 				<script src="/common/elements/fakemenu.js"></script>
 				<p>
 					I've cleaned up the actual website a little bit, and touched up the CSS to slightly better match the XP aesthetic. On the GitHub repo I've uploaded a bunch of new styles too.<br>
@@ -42,14 +65,14 @@
 				</p>
 			</article>
 			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">Site launch - 30/09/2025 21:21</label>
-					<div class="buttoncontainer">
-					<label class="fakebutton_minimize">0</label>
-					<label class="fakebutton_maximize">1</label>
-					<label class="fakebutton_close">r</label>
-					</div>
-				</div>
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Site launch - 30/09/2025 21:21</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
 				<script src="/common/elements/fakemenu.js"></script>
 				<p>
 					Well, here we are. I'm (finally) launching this website I've been bothering pretty much everyone about for the past five months or so.<br>
@@ -61,14 +84,14 @@
 				</p>
 			</article>
 			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">Hello, World ! - 30/09/2025 13:33</label>
-					<div class="buttoncontainer">
-					<label class="fakebutton_minimize">0</label>
-					<label class="fakebutton_maximize">1</label>
-					<label class="fakebutton_close">r</label>
-					</div>
-				</div>
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Hello, World ! - 30/09/2025 13:33</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
 				<script src="/common/elements/fakemenu.js"></script>
 				<p>
 					Ayo ? This thing on ?<br>
@@ -78,8 +101,16 @@
 					<div class="signature">- Bad64</div>
 				</p>
 			</article>
-			<script src="/common/elements/footer.js"></script>
-			<script>window.onload = () => { document.getElementsByClassName("content")[0].getElementsByTagName("h3")[0].style.marginTop = document.getElementsByTagName("nav")[0].getBoundingClientRect().top + "px"; }</script>
-		</section>
+			<!--Old school navigation widget-->
+			<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+				&nbsp;<a href="1.shtml">&lt;</a>&nbsp;				&nbsp;<a href="1.shtml">1</a>&nbsp;				&nbsp;<strong>2</strong>&nbsp;
+			</div>
+                            <!--Blog post generator end flag-->
+                            <script src="/common/elements/footer.js"></script>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 	</body>
 </html>

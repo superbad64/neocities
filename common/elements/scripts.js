@@ -1,15 +1,32 @@
-/* Globals */
+/* Viewport dimensions */
+var vpHeight = window.innerHeight;
+var vpWidth = window.innerWidth;
+
+/* Elements */
 var html = document.getElementsByTagName("html")[0];
-var content = document.getElementsByClassName("content")[0];
-var nav = document.getElementsByTagName("nav")[0];
-var horizontalMenu = document.getElementsByClassName("horizontalmenu")[0];
-var verticalMenu = document.getElementsByClassName("verticalmenu")[0];
-var navBadges = document.getElementsByClassName("navbadges")[0];
-var prevState = "?";
-var baseFontSize = window.getComputedStyle(html, null).getPropertyValue("font-size").slice(0, -2);
-var lang = window.location.href.split("/")[3];
-var stylemenu = document.getElementById("stylemenu");
-var currentStyleSheet = document.getElementById("currentStyleSheet");
+var selectorsRow = document.getElementById("selectorsRow");
+var portraitMenu = document.getElementById("portraitMenu");
+var content = document.getElementById("content");
+var landscapeMenu = document.getElementById("landscapeMenu");
+var articles = document.getElementById("articles");
+
+/* Set table element sizes */
+html.style.height = vpHeight + "px";
+selectorsRow.style.height = (vpHeight * (5/100)) + "px";
+
+content.style.height = ((vpHeight - portraitMenu.getBoundingClientRect().height - selectorsRow.getBoundingClientRect().height) * (97.5/100)) + "px";
+
+landscapeMenu.style.height = content.style.height;
+portraitMenu.style.width = document.getElementById("articles").style.width + "px";
+articles.style.height = content.style.height;
+
+/* Set button size */
+for (const buttoncontainer of document.getElementsByClassName("buttoncontainer")) {
+    for (const button of buttoncontainer.children) {
+		button.style.height = button.getBoundingClientRect().height + "px";
+        button.style.width = button.getBoundingClientRect().height + "px";
+    }
+}
 
 /* Cookie stuff */
 var cookie = decodeURIComponent(document.cookie).split(";")[0];
@@ -41,100 +58,7 @@ if (getCookieParam(cookie, "style") == false)
 	//console.log("Loaded cookie: " + cookie);
 }
 
-/* Layout stuff */
-function recalculateFonts() {
-	/* Resizes the fonts according to the main content font size */
-	baseFontSize = window.getComputedStyle(html, null).getPropertyValue("font-size").slice(0, -2);
-
-	// Title bars
-	for (let e of document.getElementsByClassName("title")) { e.style.fontSize = (parseInt(baseFontSize) * 1.25) + "px"; }
-
-	// Nav menu
-	for (let e of document.getElementsByClassName("horizontalmenu")) { e.style.fontSize = (parseInt(baseFontSize) * 1.25) + "px"; }
-	for (let e of document.getElementsByClassName("verticalmenu")) { e.style.fontSize = (parseInt(baseFontSize) * 1.25) + "px"; }
-
-	// Sup elements
-	for (let e of document.getElementsByTagName("sup")) { e.style.fontSize = (parseInt(baseFontSize) * 0.75) + "px"; }
-
-	// Picture widget
-	for (let e of document.getElementsByClassName("picture")) { e.style.fontSize = (parseInt(baseFontSize) * 0.8) + "px"; }
-
-	// Pseudo menu bar
-	for (let e of document.getElementsByClassName("fakemenu")) { e.style.fontSize = (parseInt(baseFontSize) * 0.8) + "px"; }
-
-	// Footnotes
-	for (let e of document.getElementsByClassName("footnotes")) { e.style.fontSize = (parseInt(baseFontSize) * 0.8) + "px";	}
-}
-recalculateFonts();
-
-function recalculateLayout() {
-	/* Changes the layout according to viewport dimensions */
-	try {
-		var navRect = nav.getBoundingClientRect();
-	}
-	catch (e) {
-		var navRect = new DOMRect(0, 0, 0,);
-	}
-
-	if (window.matchMedia("(orientation: landscape)").matches) {
-		content.style.top = 0;
-		content.style.left = (navRect.right + 10) + "px";
-		content.style.width = "50%";
-		navBadges.style.display = "flex";
-
-		if (prevState != "landscape") {
-			prevState = "landscape";
-			recalculateFonts();
-
-			/* Adjust margin from topmost article */
-			document.getElementsByTagName("article")[0].style.marginTop = "10px";
-		}
-	} else if (window.matchMedia("(orientation: portrait)").matches) {
-		content.style.left = "1%";
-		content.style.width = "98%";
-		navBadges.style.display = "none";
-
-		if (prevState != "portrait") {
-			prevState = "portrait";
-			recalculateFonts();
-
-			/* Reinstate margin to topmost article */
-			document.getElementsByTagName("article")[0].style.marginTop = "0.5em";
-		}
-	}
-
-	/* Set background canvas size */
-	try {
-		document.getElementById("bgCanvas").width = window.innerWidth;
-		document.getElementById("bgCanvas").height = window.innerHeight;
-	} catch {
-		
-	}
-
-	/* Set title bars */
-	var titlebarSize = (parseInt(baseFontSize) * 1.25) + 5;
-	for (let e of document.getElementsByClassName("titlebar")) { e.style.height = titlebarSize + "px"; }
-
-	/* Set buttons */
-	for (let t of [ "fakebutton_minimize", "fakebutton_maximize", "fakebutton_close" ]) {
-		for (let e of document.getElementsByClassName(t)) {
-			var btnHeight = parseInt(baseFontSize) * 1.1;
-
-			e.style.height = btnHeight + "px"
-			e.style.width = btnHeight + "px" ;
-		}
-	}
-
-	/* Set button container offset */
-	var btnrect = document.getElementsByClassName("fakebutton_close")[0].getBoundingClientRect();
-	//var btnContainerOffset = (titlebarSize - (btnrect.bottom - btnrect.top)) / 2;
-	var btnContainerOffset = 2;
-	for (let e of document.getElementsByClassName("buttoncontainer")) { e.style.top = btnContainerOffset + "px"; }
-}
-window.onresize = recalculateLayout;
-recalculateLayout();
-
-/* Style changer callback function stuff */
+/* Style changer */
 stylemenu.value = cookie.split("=")[1];
 //console.log("Current stylemenu value: " + stylemenu.value);
 

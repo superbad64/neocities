@@ -1,39 +1,40 @@
 @font-face {
-    font-family: "Perfect DOS VGA 437 Win"; 
-    src: url("/common/Perfect DOS VGA 437 Win.ttf"); 
-}
-
-html {
-    background-color: black;
-    color: white;
-    font-family: "Perfect DOS VGA 437 Win";
-}
-
-.bios_copyrightnotice {
-    font-family: "Perfect DOS VGA 437 Win";
-}
-
-pre {
-    font-family: "Perfect DOS VGA 437 Win";
+  font-family: "Perfect DOS VGA 437 Win";
+  src: url("/common/Perfect DOS VGA 437 Win.ttf");
 }
 
 .bios_box {
-    width: 40%;
-    box-sizing: content-box;
-    border: 5px double white;
-    display: flex;
-    flex-direction: column;
-    background-color: unset;
-    color: white;
+  background-color: unset;
+  border: 5px double white;
+  box-sizing: content-box;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.bios_copyrightnotice {
+  font-family: "Perfect DOS VGA 437 Win";
 }
 
 .cursor {
-    background-color: grey;
-    color: black;
-    font-weight: bold;
+  background-color: grey;
+  color: black;
+  font-weight: bold;
 }
 
-a, a:hover, a:visited
-{
-	color: white;
+a,
+a:hover,
+a:visited {
+  color: white;
+}
+
+html {
+  background-color: black;
+  color: white;
+  font-family: "Perfect DOS VGA 437 Win";
+}
+
+pre {
+  font-family: "Perfect DOS VGA 437 Win";
 }

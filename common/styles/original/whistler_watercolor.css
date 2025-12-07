@@ -1,59 +1,50 @@
-html {
-	background-color: #004e98;
-	background-image: unset;
-	background-attachment: fixed;
-	background-size: cover;
-	font-family: "Tahoma";
+.blogpost {
+  background-color: #fff;
+  border-radius: 0;
+  border: 3px solid #5094f8;
+  color: black;
 }
 
-.titlebar {
-	background-image: linear-gradient(to right, #5094f8, #5094f8, #5094f8, #3573d6);
-	color: white;
-	font-weight: bold;
-	border-radius: 0;
+.fakebutton_close,
+.fakebutton_maximize,
+.fakebutton_minimize {
+  background-color: #5094f8;
+  border-radius: 0;
+  border: 1px solid;
+  color: lightblue;
+  font-family: "Marlett", "Webdings", "W95Font";
+  text-align: center;
 }
 
 .fakemenu {
-	display: block;
-	background-color: #f4f4f0;
+  background-color: #f4f4f0;
+  display: block;
 }
 
-.fakebutton_minimize {
-	background-color: #5094f8;
-	font-family: "Marlett", "Webdings", "W95Font";
-	color: lightblue;
-	border: 1px solid;
-	border-radius: 0;
-	text-align: center;
+.titlebar {
+  background-image: linear-gradient(
+    to right,
+    #5094f8,
+    #5094f8,
+    #5094f8,
+    #3573d6
+  );
+  border-bottom: unset;
+  border-radius: 0;
+  color: white;
+  font-weight: bold;
 }
 
-.fakebutton_maximize {
-	background-color: #5094f8;
-	font-family: "Marlett", "Webdings", "W95Font";
-	color: lightblue;
-	border: 1px solid;
-	border-radius: 0;
-	text-align: center;
-}
-
-.fakebutton_close {
-	background-color: #5094f8;
-	font-family: "Marlett", "Webdings", "W95Font";
-	color: lightblue;
-	border: 1px solid;
-	border-radius: 0;
-	text-align: center;
+html {
+  background-attachment: fixed;
+  background-color: #004e98;
+  background-image: unset;
+  background-size: cover;
+  font-family: "Tahoma";
 }
 
 nav {
-	border: 3px solid #5094f8;
-	border-radius: 0;
-	background-color: #FFF;
-}
-
-.blogpost {
-	background-color: #FFF;
-	color: black;
-	border: 3px solid #5094f8;
-	border-radius: 0;
+  background-color: #fff;
+  border-radius: 0;
+  border: 3px solid #5094f8;
 }

@@ -1,24 +1,3 @@
-document.write('<!-- The site footer, with badges, copyright, and other fun stuff -->');
-document.write('<style>');
-document.write('.badges');
-document.write('{');
-document.write('	display: flex;');
-document.write('	justify-content: center;');
-document.write('	flex-wrap: wrap;');
-document.write('}');
-document.write('</style>');
-document.write('<section class="footer">');
-document.write('	<hr>');
-/*
-document.write('	<div class="badges">');
-document.write('		<img src=/common/images/badges/firefoxnow.gif />&nbsp;');
-document.write('		<img src=/common/images/badges/netscapenow.gif />&nbsp; ');
-document.write('		<img src=/common/images/badges/geocities.gif />&nbsp;');
-document.write('		<img src=/common/images/badges/neocities-now.gif />&nbsp;');
-document.write('		<img src=/common/images/badges/vim.gif />');
-document.write('	</div>');
-*/
-
 var lang = document.location.href.split("/")[3];
 
 var footerStrings = {
@@ -39,34 +18,20 @@ var footerStrings = {
     }
 }
 
+document.write('<!-- The site footer, with badges, copyright, and other fun stuff -->');
+document.write('<section class="footer">');
+document.write('	<hr>');
+
 document.write('	<p style="text-align: center;">© Bad64 2025<br>' + footerStrings[lang]["copyrightNotice"] + '</p>');
-document.write('	<div class="badges">');
+document.write('	<div class="footerBadges">');
 document.write('		<img src=/common/images/badges/chromevil.gif />');
 document.write('	</div>');
-document.write('	<p style="text-align: center;"><a href="#">' + footerStrings[lang]["toTop"] + '</a></p>');
-document.write('</section>');
-document.write('');
-
-
-document.write('<section id="styleselector">');
-document.write('	<label for="stylemenu">' + footerStrings[lang]["stylePrompt"] + '</label>');
-document.write('');
-document.write('	<select id="stylemenu" onchange="styleCallback()">');
-document.write('		<option value="dos-like">DOS-like</option>');
-document.write('		<option value="9x_standard">9x Standard</option>');
-document.write('		<option value="9x_plum">9x Plum</option>');
-document.write('		<option value="9x_matrix">9x Matrix</option>');
-document.write('		<option value="9x_mystery">9x Mystery</option>');
-document.write('		<option value="xp_classic">XP Classic</option>');
-document.write('		<option selected="selected" value="xp_luna">XP Luna (default)</option>');
-document.write('		<option value="xp_olive">XP Olive</option>');
-document.write('		<option value="xp_silver">XP Silver</option>');
-document.write('		<option value="xp_royale_noir">XP Royale Noir</option>');
-document.write('		<option value="whistler_watercolor">Whistler Watercolor</option>');
-document.write('		<option value="common_desktop_environment">Common Desktop Environment</option>');
-document.write('		<option value="neocities_classic">GeoCities Classic</option>');
-document.write('	</select>');
+document.write('	<p style="text-align: center;"><span class="fakelink" onclick="toTop()">' + footerStrings[lang]["toTop"] + '</span></p>');
 document.write('</section>');
 document.write('');
 document.write('<script src="/common/elements/scripts.js"></script>');
 document.write('<script src="/common/gadgets/toasters/canvas.js"></script>');
+
+function toTop() {
+    articles.scrollTop = 0;
+}

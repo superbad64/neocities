@@ -14,74 +14,88 @@
 		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
 	</head>
 	<body>
-		<script src="/common/elements/langbar.js"></script>
-		<script src="/common/elements/nav.js"></script>
+		<div id="wrapper">
+            <table id="main">
+                <tbody>
+                    <tr id="selectorsRow">
+                        <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                    </tr>
+                    <tr id="portraitMenu">
+                        <td><script src="/common/elements/portraitmenu.js"></script></td>
+                    </tr>
+                    <tr id="content">
+                        <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                        <td colspan="2" id="articles">
+                            <!--Blog post generator start flag-->
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Métacommentaire</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+								<p class="back"><a href="/fr/projects.shtml">&lt; Retour aux Projets</a></p> 
 
-		<section class="content">
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">Métacommentaire</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
-				<p class="back"><a href="/fr/projects.shtml">&lt; Retour aux Projets</a></p> 
+								<div class="picture">
+									<img src="/common/images/projects/code/website/hi mom !.png" alt="A screenshot of a beautiful, modern website">
 
-				<div class="picture">
-					<img src="/common/images/projects/code/website/hi mom !.png" alt="A screenshot of a beautiful, modern website">
+									<p>
+									Il y a surement une vanne à faire sur le fait que je parle de mon site sur mon site. Personne va m'en vouloir, hein ? /s<br>
+									(Site v1.0 avec la feuille de style "9x Standard")
+									</p>
+								</div>
 
-					<p>
-					Il y a surement une vanne à faire sur le fait que je parle de mon site sur mon site. Personne va m'en vouloir, hein ? /s<br>
-					(Site v1.0 avec la feuille de style "9x Standard")
-					</p>
-				</div>
-
-				<p>
-				J'ai commencé à écrire le code de ce site en Mai 2025, peu de temps avant d'avoir un job qui malheureusement n'était pas fait pour durer (j'ai tenu deux mois avant de burn-out à force des dailies qui duraient 2h). L'envie m'est venue par une combinaison entre un profond désir d'avoir un espace personnel pour m'exprimer sur la toile, un rejet intégral des codes d'UI/UX modernes, et surtout du désir de faire un peu autre chose que de jouer à des jeux vidéo 14h par jour. J'imagine qu'on peut aussi vaguement considérer ça comme un moyen de "rester vif" sur le dev, même si en réalité je ne compte pas devenir dev web (heureusement)<br>
-				<br>
-				Il y a beaucoup de trucs bizarres dans mon code - certains hacks dont je suis assez fier, d'autres un peu moins. Si vous avez l'estomac bien accroché (ou vide, au choix), mais gardez en tête que je fais les choses de manière très "indépendante", dans le sens où mes talents de dev web sont plus ou moins à l'image du site: coincés danns les années 2000.<br>
-				</p>
-				<p>
-				Le générateur de blog par exemple. Je voulais vraiment un truc qui me dispense d'un backend (limitation de NeoCities pour le coup). Y'a déjà plein de convertisseurs Markdown vers HTML qui existent, mais <i>nooooon</i>, c'est pas comme ça que je fonctionne, évidemment<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup>. Superficiellement, on peut tendre à penser qu'il s'agit d'un script plutot simple(t) dont le seul truc un peu acrobatique est la manière dont il coupe le fichier template afin d'insérer le contenu HTML dans la page. C'est vraisemblablement dû au fait qu'il s'agit d'un script plutot simple(t) dont le seul truc un peu acrobatique est la manière dont il coupe le fichier template afin d'insérer le contenu HTML dans la page.
-				<br>
-				Aux yeux de la plupart des gens, en tout as. Je n'ai pas honte d'admettre avoir passé bien plus de temps que nécéssaire sur le widget de navigation interpages afin qu'il soit identique à ce qu'on pouvait voir sur les Skyblogs de l'époque<sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup>.<br>
-				<br>
-				J'ai essayé de garder l'usage du JavaScript au minimum... pendant environ 10 minutes. Au début, avant d'entendre parler des <i>media queries</i>, je faisais ma responsivité en JS pur, et c'était un peu un carnage (heureusement le code pour ça est un lost media maintenant :-D). Maintenant avec le CSS c'est un peu mieux, heureusement.<br>
-				<br>
-				J'ai bien conscience qu'avoir de la responsivité sur un site de ce genre est, en soi, une brisure dans l'immersion, mais je considère que c'est un prix honnête à payer pour augmenter le nombre de vues potentielles en augmentant la compatibilité avec différent types de terminaux (non pas que j'aie quoi que ce soit à en tirer à part de la micro-célébrité, on s'entend). Il y a toujours deux trois trucs qui marchent pas fort, genre au hasard le site n'aime pas les changements d'orientation sur mobile, mais bon. Pourrait être bien pire.<br>
-				<br>
-				Sur la version Anglaise que j'ai choisi de ne pas éditer à posteriori, j'ai écrit une immense connerie pour dire en gros que je n'ai plus de features à ajouter. Comme chez <i>tous</i> les développeurs, cette phrase a été immédiatement suivie de deux semaines d'ajout de features. Comme quoi, mieux vaut ne pas vendre la peau de l'ours dans les orties, ou un truc comme ça !
-				</p>
-				<p>
-					MàJ 5/11/25: Les inspirations utilisées sont les suivantes:
-				</p>
-				<ul>
-					<li><b>DOS-like</b>: ...ben, DOS. Avec des images quand même</li>
-					<li><b>9x Standard</b>: Style classique de Windows 95/98</li>
-					<li><b>9x Plum</b>: Un mix du thème Plum de Windows 95 et de l'économiseur d'écran <i>Flying Toasters</i> d'<i>After Dark</i></li>
-					<li><b>9x Matrix</b>: Thème à (très) haut contraste inspiré par Matrix</li>
-					<li><b>9x Mystery</b>: Thème iconique de <i>Microsoft Plus! 95</i></li>
-					<li><b>XP Classic</b>: Thème "de secours" sur Windows XP</li>
-					<li><b>XP Luna</b>: Thème par défaut, basé sur Luna Blue de Windows XP</li>
-					<li><b>XP Olive</b>: Techniquement je devrais l'appeler "XP <i>Luna</i> Olive"</li>
-					<li><b>XP Silver</b>: Idem mais en gris métallisé</li>
-					<li><b>XP Royale Noir</b>: Thème populaire jamais sorti officiellement, qui deviendra par la suite XP Zune en 2006</li>
-					<li><b>Whistler Watercolor</b>: Basé sur le thème éponyme de Windows Whistler</li>
-					<li><b>Common Desktop Environment</b>: Le seul thème d'origine *NIX, basé sur CDE, lui même basé sur (Open)Motif</li>
-					<li><b>GeoCities Classic</b>: Style original implémentant le fameux fond étoilé typique de GeoCities</li>
-				</ul>
-				<div class="signature">- Bad64</div>
-				<hr>
-				<p class="footnotes">
-					<a id="footnote-1" href="#footnote-1-orig">1</a>: "Fonctionne" est un terme extrêmement relatif chez moi; la plupart du temps je suis un <i>truc</i> qui cosplay en être humain qui cosplay en administrateur système Linux<br>
-					<a id="footnote-2" href="#footnote-2-orig">2</a>: On a finalement une page 2 !<br>
-				</p>
-			</article>
-			<script src="/common/elements/footer.js"></script>
-		</section>
+								<p>
+								J'ai commencé à écrire le code de ce site en Mai 2025, peu de temps avant d'avoir un job qui malheureusement n'était pas fait pour durer (j'ai tenu deux mois avant de burn-out à force des dailies qui duraient 2h). L'envie m'est venue par une combinaison entre un profond désir d'avoir un espace personnel pour m'exprimer sur la toile, un rejet intégral des codes d'UI/UX modernes, et surtout du désir de faire un peu autre chose que de jouer à des jeux vidéo 14h par jour. J'imagine qu'on peut aussi vaguement considérer ça comme un moyen de "rester vif" sur le dev, même si en réalité je ne compte pas devenir dev web (heureusement)<br>
+								<br>
+								Il y a beaucoup de trucs bizarres dans mon code - certains hacks dont je suis assez fier, d'autres un peu moins. Si vous avez l'estomac bien accroché (ou vide, au choix), mais gardez en tête que je fais les choses de manière très "indépendante", dans le sens où mes talents de dev web sont plus ou moins à l'image du site: coincés danns les années 2000.<br>
+								</p>
+								<p>
+								Le générateur de blog par exemple. Je voulais vraiment un truc qui me dispense d'un backend (limitation de NeoCities pour le coup). Y'a déjà plein de convertisseurs Markdown vers HTML qui existent, mais <i>nooooon</i>, c'est pas comme ça que je fonctionne, évidemment<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup>. Superficiellement, on peut tendre à penser qu'il s'agit d'un script plutot simple(t) dont le seul truc un peu acrobatique est la manière dont il coupe le fichier template afin d'insérer le contenu HTML dans la page. C'est vraisemblablement dû au fait qu'il s'agit d'un script plutot simple(t) dont le seul truc un peu acrobatique est la manière dont il coupe le fichier template afin d'insérer le contenu HTML dans la page.
+								<br>
+								Aux yeux de la plupart des gens, en tout as. Je n'ai pas honte d'admettre avoir passé bien plus de temps que nécéssaire sur le widget de navigation interpages afin qu'il soit identique à ce qu'on pouvait voir sur les Skyblogs de l'époque<sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup>.<br>
+								<br>
+								J'ai essayé de garder l'usage du JavaScript au minimum... pendant environ 10 minutes. Au début, avant d'entendre parler des <i>media queries</i>, je faisais ma responsivité en JS pur, et c'était un peu un carnage (heureusement le code pour ça est un lost media maintenant :-D). Maintenant avec le CSS c'est un peu mieux, heureusement.<br>
+								<br>
+								J'ai bien conscience qu'avoir de la responsivité sur un site de ce genre est, en soi, une brisure dans l'immersion, mais je considère que c'est un prix honnête à payer pour augmenter le nombre de vues potentielles en augmentant la compatibilité avec différent types de terminaux (non pas que j'aie quoi que ce soit à en tirer à part de la micro-célébrité, on s'entend). Il y a toujours deux trois trucs qui marchent pas fort, genre au hasard le site n'aime pas les changements d'orientation sur mobile, mais bon. Pourrait être bien pire.<br>
+								<br>
+								Sur la version Anglaise que j'ai choisi de ne pas éditer à posteriori, j'ai écrit une immense connerie pour dire en gros que je n'ai plus de features à ajouter. Comme chez <i>tous</i> les développeurs, cette phrase a été immédiatement suivie de deux semaines d'ajout de features. Comme quoi, mieux vaut ne pas vendre la peau de l'ours dans les orties, ou un truc comme ça !
+								</p>
+								<p>
+									MàJ 5/11/25: Les inspirations utilisées sont les suivantes:
+								</p>
+								<ul>
+									<li><b>DOS-like</b>: ...ben, DOS. Avec des images quand même</li>
+									<li><b>9x Standard</b>: Style classique de Windows 95/98</li>
+									<li><b>9x Plum</b>: Un mix du thème Plum de Windows 95 et de l'économiseur d'écran <i>Flying Toasters</i> d'<i>After Dark</i></li>
+									<li><b>9x Matrix</b>: Thème à (très) haut contraste inspiré par Matrix</li>
+									<li><b>9x Mystery</b>: Thème iconique de <i>Microsoft Plus! 95</i></li>
+									<li><b>XP Classic</b>: Thème "de secours" sur Windows XP</li>
+									<li><b>XP Luna</b>: Thème par défaut, basé sur Luna Blue de Windows XP</li>
+									<li><b>XP Olive</b>: Techniquement je devrais l'appeler "XP <i>Luna</i> Olive"</li>
+									<li><b>XP Silver</b>: Idem mais en gris métallisé</li>
+									<li><b>XP Royale Noir</b>: Thème populaire jamais sorti officiellement, qui deviendra par la suite XP Zune en 2006</li>
+									<li><b>Whistler Watercolor</b>: Basé sur le thème éponyme de Windows Whistler</li>
+									<li><b>Common Desktop Environment</b>: Le seul thème d'origine *NIX, basé sur CDE, lui même basé sur (Open)Motif</li>
+									<li><b>GeoCities Classic</b>: Style original implémentant le fameux fond étoilé typique de GeoCities</li>
+									<li><b>Flat Material</b>: Monstrosité corporate qui a engendré l'envie de faire ce site</li>
+								</ul>
+								<div class="signature">- Bad64</div>
+								<hr>
+								<p class="footnotes">
+									<a id="footnote-1" href="#footnote-1-orig">1</a>: "Fonctionne" est un terme extrêmement relatif chez moi; la plupart du temps je suis un <i>truc</i> qui cosplay en être humain qui cosplay en administrateur système Linux<br>
+									<a id="footnote-2" href="#footnote-2-orig">2</a>: On a finalement une page 2 !<br>
+								</p>
+							</article>
+							<script src="/common/elements/footer.js"></script>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</body>
 </html>

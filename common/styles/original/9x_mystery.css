@@ -1,64 +1,65 @@
 @font-face {
-	font-family: W95Font;
-	src: url("/common/W95font.otf");
-}
-
-html {
-	background-color: #008080;
-	background-image: url("/common/images/mystery.jpg");
-	background-attachment: fixed;
-	background-size: cover;
-	background-position-y: -25em;
-	font-family: "W95Font";
-}
-
-.titlebar {
-	background-image: linear-gradient(to right, #503840, #503840);
-	color: white;
-	font-weight: bold;
-	border-radius: 0;
-}
-
-.fakemenu {
-	display: none;
-}
-
-.fakebutton_minimize {
-	background-color: #687868;
-	font-family: "Marlett", "Webdings", "W95Font";
-	color: black;
-	border: 2px outset;
-	border-radius: 0;
-	text-align: center;
-}
-
-.fakebutton_maximize {
-	background-color: #687868;
-	font-family: "Marlett", "Webdings", "W95Font";
-	color: black;
-	border: 2px outset;
-	border-radius: 0;
-	text-align: center;
-}
-
-.fakebutton_close {
-	background-color: #687868;
-	font-family: "Marlett", "Webdings", "W95Font";
-	color: black;
-	border: 2px outset;
-	border-radius: 0;
-	text-align: center;
-}
-
-nav {
-	border: 3px solid grey;
-	border-radius: 0;
-	background-color: #687868;
+  font-family: W95Font;
+  src: url("/common/W95font.otf");
 }
 
 .blogpost {
-	background-color: #687868;
-	color: black;
-	border: 3px solid grey;
-	border-radius: 0;
+  background-color: #687868;
+  border-radius: 0;
+  border: 3px solid grey;
+  color: black;
+}
+
+.fakebutton_close {
+  background-color: #687868;
+  border-radius: 0;
+  border: 2px outset;
+  color: black;
+  font-family: "Marlett", "Webdings", "W95Font";
+  text-align: center;
+}
+
+.fakebutton_maximize {
+  background-color: #687868;
+  border-radius: 0;
+  border: 2px outset;
+  color: black;
+  font-family: "Marlett", "Webdings", "W95Font";
+  text-align: center;
+}
+
+.fakebutton_minimize {
+  background-color: #687868;
+  border-radius: 0;
+  border: 2px outset;
+  color: black;
+  font-family: "Marlett", "Webdings", "W95Font";
+  text-align: center;
+}
+
+.fakemenu {
+  display: none;
+}
+
+.titlebar {
+  background-image: linear-gradient(to right, #503840, #503840);
+  border-bottom: unset;
+  border-radius: 0;
+  color: white;
+  font-weight: bold;
+}
+
+html {
+  background-attachment: fixed;
+  background-color: #008080;
+  background-image: url("/common/images/mystery.jpg");
+  background-position-y: -25em;
+  background-size: cover;
+  font-family: "W95Font";
+}
+
+nav {
+  background-color: #687868;
+  border-radius: 0;
+  border: 3px solid grey;
 }

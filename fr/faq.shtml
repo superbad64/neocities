@@ -14,91 +14,104 @@
 		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
 	</head>
 	<body>
-		<script src="/common/elements/langbar.js"></script>
-		<script src="/common/elements/nav.js"></script>
+		<div id="wrapper">
+            <table id="main">
+                <tbody>
+                    <tr id="selectorsRow">
+                        <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                    </tr>
+                    <tr id="portraitMenu">
+                        <td><script src="/common/elements/portraitmenu.js"></script></td>
+                    </tr>
+                    <tr id="content">
+                        <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                        <td colspan="2" id="articles">
+                            <!--Blog post generator start flag-->
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">À propos du site</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
 
-		<section class="content">
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">À propos du site</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
+								<p>
+								<strong>Q: Pourquoi ce thème antédiluvien ?</strong><br>
+								Pour faire court, je hais <i>viscéralement</i> les codes de design d'UI modernes (pas que le web design, c'est généralisé). Je pense que les smartphones nous on fait reculer d'au moins 20 ans en termes d'interface homme machine, et ça me rend ouf ! Le Web 1.0 était tellement plus fun et plein de vie que la merde sur-sanitisée qu'on nous sert algorithmiquement aujourd'hui. Considérez mon site comme étant la manifestation de ce rejet total et une tentative futile mais héroïque de recapturer un peu de la magie d'antan.<br>
+								<br>
+								<strong>Q: Tu sais que c'est pas les bonnes couleurs hein ?</strong><br>
+								Oui, il faut plus voir mon site comme étant un hommage plus qu'une copie conforme.<br>
+								<br>
+								<strong>Q: Tu as utilisé quel framework ?</strong><br>
+								Aucun, c'est du pur HTML, CSS & JS écrit à la main, sans framework, sans IA, et sans problèmes.<br>
+								Et sans backend aussi.<br>
+								</p>
+							</article>
 
-				<p>
-				<strong>Q: Pourquoi ce thème antédiluvien ?</strong><br>
-				Pour faire court, je hais <i>viscéralement</i> les codes de design d'UI modernes (pas que le web design, c'est généralisé). Je pense que les smartphones nous on fait reculer d'au moins 20 ans en termes d'interface homme machine, et ça me rend ouf ! Le Web 1.0 était tellement plus fun et plein de vie que la merde sur-sanitisée qu'on nous sert algorithmiquement aujourd'hui. Considérez mon site comme étant la manifestation de ce rejet total et une tentative futile mais héroïque de recapturer un peu de la magie d'antan.<br>
-				<br>
-				<strong>Q: Tu sais que c'est pas les bonnes couleurs hein ?</strong><br>
-				Oui, il faut plus voir mon site comme étant un hommage plus qu'une copie conforme.<br>
-				<br>
-				<strong>Q: Tu as utilisé quel framework ?</strong><br>
-				Aucun, c'est du pur HTML, CSS & JS écrit à la main, sans framework, sans IA, et sans problèmes.<br>
-				Et sans backend aussi.<br>
-				</p>
-			</article>
+							<article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">À propos de mes projets</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
 
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">À propos de mes projets</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
+								<p>
+								<strong>Q: Où puis-je acheter tes produits ?</strong><br>
+								C'est malheureusement pas encore possible, mais j'y travaille !<br>
+								<br>
+								<strong>Q: Une petite liste des trucs sur lesquels tu bosses ?</strong><br>
+								</p>
+								<ul>
+									<li>D'autres chassis (juste un actuellement)</li>
+									<li>Une manette normale</li>
+									<li>Un modkit pour DualShock 2</li>
+									<li>P'têtre un jour une console d'émulation...</li>
+								</ul>
+								<p>
+								<strong>Q: Pourquoi la DualShock 2 ?</strong><br>
+								C'est ça ou la DS3, et j'en ai jamais vraiment eu...<br>
+								</p>
+							</article>
 
-				<p>
-				<strong>Q: Où puis-je acheter tes produits ?</strong><br>
-				C'est malheureusement pas encore possible, mais j'y travaille !<br>
-				<br>
-				<strong>Q: Une petite liste des trucs sur lesquels tu bosses ?</strong><br>
-				</p>
-				<ul>
-					<li>D'autres chassis (juste un actuellement)</li>
-					<li>Une manette normale</li>
-					<li>Un modkit pour DualShock 2</li>
-					<li>P'têtre un jour une console d'émulation...</li>
-				</ul>
-				<p>
-				<strong>Q: Pourquoi la DualShock 2 ?</strong><br>
-				C'est ça ou la DS3, et j'en ai jamais vraiment eu...<br>
-            	</p>
-			</article>
+							<article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">À propos de moi !</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
 
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">À propos de moi !</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
-
-				<p>
-				<strong>Q: ...Pourquoi ?</strong><br>
-				Ah oui on commence direct avec les questions relou ahah<br>
-				J'imagine que j'ai besoin d'un endroit où m'exprimer et crier mon amour du retrocomputing sur tous les toits virtuels, voila tout.<br>
-				</br>
-				<strong>Q: Des jeux à conseiller ?</strong><br>
-				Hypnospace Outlaw, Stardew Valley, Progressbar95, Elden Ring, et Kingsway !<br>
-				<br>
-				<strong>Q: Pourquoi y'a que des thèmes Windows ? T'es pas censé être un "Linux Guy" ?</strong><br>
-				Disons que Linux a pas <i>vraiment</i> d'UI iconique. Si il faut c'est même l'inverse, c'est l'absence d'UI qui est le plus connu chez Linux. (Et aussi j'ai aucune envie d'implémenter GTK3)<br>
-				</p>
-			</article>
-			<script src="/common/elements/footer.js"></script>
-		</section>
+								<p>
+								<strong>Q: ...Pourquoi ?</strong><br>
+								Ah oui on commence direct avec les questions relou ahah<br>
+								J'imagine que j'ai besoin d'un endroit où m'exprimer et crier mon amour du retrocomputing sur tous les toits virtuels, voila tout.<br>
+								</br>
+								<strong>Q: Des jeux à conseiller ?</strong><br>
+								Hypnospace Outlaw, Stardew Valley, Progressbar95, Elden Ring, et Kingsway !<br>
+								<br>
+								<strong>Q: Pourquoi y'a que des thèmes Windows ? T'es pas censé être un "Linux Guy" ?</strong><br>
+								Disons que Linux a pas <i>vraiment</i> d'UI iconique. Si il faut c'est même l'inverse, c'est l'absence d'UI qui est le plus connu chez Linux. (Et aussi j'ai aucune envie d'implémenter GTK3)<br>
+								</p>
+							</article>
+							<script src="/common/elements/footer.js"></script>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</body>
 </html>
 

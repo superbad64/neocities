@@ -1,61 +1,46 @@
-html {
-	background-color: #202020;
-	background-image: url("/common/images/bliss.png");
-	background-attachment: fixed;
-	background-size: cover;
-	font-family: "Tahoma";
+.blogpost {
+  background-color: #ffffff;
+  border-radius: 0;
+  border: 3px outset #a19d97;
+  color: black;
 }
 
-.titlebar {
-	background-image: linear-gradient(to right, #000080, #a3c6ed);
-	color: white;
-	font-weight: bold;
-	border-radius: 0;
+.fakebutton_close,
+.fakebutton_maximize,
+.fakebutton_minimize {
+  background-color: #aaaaaa;
+  border-radius: 0;
+  border: 2px outset;
+  color: black;
+  font-family: "Marlett", "Webdings", "W95Font";
+  text-align: center;
 }
 
 .fakemenu {
-	display: block;
-	background-color: #d4d0c8;
-	box-sizing: border-box;
-	border-bottom: 1px groove darkgray;
+  background-color: #d4d0c8;
+  border-bottom: 1px groove darkgray;
+  box-sizing: border-box;
+  display: block;
 }
 
-.fakebutton_minimize {
-	background-color: #AAAAAA;
-	font-family: "Marlett", "Webdings", "W95Font";
-	color: black;
-	border: 2px outset;
-	border-radius: 0;
-	text-align: center;
+.titlebar {
+  background-image: linear-gradient(to right, #000080, #a3c6ed);
+  border-bottom: unset;
+  border-radius: 0;
+  color: white;
+  font-weight: bold;
 }
 
-.fakebutton_maximize {
-	background-color: #AAAAAA;
-	font-family: "Marlett", "Webdings", "W95Font";
-	color: black;
-	border: 2px outset;
-	border-radius: 0;
-	text-align: center;
-}
-
-.fakebutton_close {
-	background-color: #AAAAAA;
-	font-family: "Marlett", "Webdings", "W95Font";
-	color: black;
-	border: 2px outset;
-	border-radius: 0;
-	text-align: center;
+html {
+  background-attachment: fixed;
+  background-color: #202020;
+  background-image: url("/common/images/bliss.png");
+  background-size: cover;
+  font-family: "Tahoma";
 }
 
 nav {
-	border: 3px solid #a19d97;
-	border-radius: 0 0 0;
-	background-color: #d4d0c8;
-}
-
-.blogpost {
-	background-color: #FFFFFF;
-	color: black;
-	border: 3px outset #a19d97;
-	border-radius: 0;
+  background-color: #d4d0c8;
+  border-radius: 0 0 0;
+  border: 3px solid #a19d97;
 }

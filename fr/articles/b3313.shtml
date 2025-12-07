@@ -14,206 +14,223 @@
 		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
 	</head>
 	<body>
-		<script src="/common/elements/langbar.js"></script>
-		<script src="/common/elements/nav.js"></script>
+		<div id="wrapper">
+            <table id="main">
+                <tbody>
+                    <tr id="selectorsRow">
+                        <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                    </tr>
+                    <tr id="portraitMenu">
+                        <td><script src="/common/elements/portraitmenu.js"></script></td>
+                    </tr>
+                    <tr id="content">
+                        <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                        <td colspan="2" id="articles">
+                            <!--Blog post generator start flag-->
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Super Mario 64: B3313</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
 
-		<section class="content">
-			<article class="blogpost">
-				<div class="titlebar">
-					<label class="title">Super Mario 64: B3313</label>
-					<div class="buttoncontainer">
-						<label class="fakebutton_minimize">&#128469;</label>
-						<label class="fakebutton_maximize">&#128470;</label>
-						<label class="fakebutton_close">&#128473;</label>
-					</div>
-				</div>
-				
-				<script src="/common/elements/fakemenu.js"></script>
+                                <p>
+                                    <a href="../articles.shtml">&lt; Retour aux articles !</a>
+                                </p>
 
-				<div class="picture">
-                    <img src="/common/images/articles/b3313/castle.png">
-                    <p>Nouveau vieux look</p>
-                </div>
+                                <div class="picture">
+                                    <img src="/common/images/articles/b3313/castle.png">
+                                    <p>Nouveau vieux look</p>
+                                </div>
 
-                <p>
-                    <i>B3313</i> est un romhack de Super Mario 64 fondé sur son contenu bêta/inutilisé et sur les légendes urbaines prétendant que chaque copie est personnalisée<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup> par une intelligence artificielle.<br>
-                    Le jeu a l'air d'un bon gros délire fiévreux, le genre que t'as quand t'as 40 degrés et que mémé t'a filé un "grog maison" pour faire passer tout ça. Le patch se trouve sur <a href="https://romhacking.com/hack/b3313-super-mario-64-internal-plexus">RomHacking.com</a> et quelques autres endroits.<br>
-                    <br>
-                    C'est mon premier test, et je dois déjà sortir des sentiers battus pour une bonne raison; Normalement c'est l'endroit où je dis si le test contient des spoilers ou pas, mais la nature même du hack rend ça quasi impossible. Tout est un spoiler, et rien ne l'est en même temps,, à cause de la non-linéarité des niveaux. Du coup, pour cette fois, je vais faire comme si rien de ce que j'aborde n'en est un !
-                </p>
-                <h2 style="padding-left: 0.5em;">Première plongée</h2>
-                <p>
-                    Nous commençâmes comme dans tout bon jeu Mario (officiel), il faut aller sauver la princesse qui a été kidnappée par Bowser (qui ici pour des raisons dont on se fout utilise son nom Japonais, à savoir Kuppa). Dans ce but, notre cher plombier Italien se targuera de franchir moult niveaux de platforming. Jusqu'ici rien de vraiment extraordinaire.<br>
-                    <br>
-                    Au bout de quatre bonnes secondes, les gens comme moi vont rapidement remarquer quelques petites subtilités; le vitrail représentant Peach au-dessus de l'eentrée du château a été remplacé par un genre d'horloge sans aiguilles, Lakitu ne nous attend pas sur le pont pour nous expliquer comment la caméra 3D fonctionne, <i>Mario ne peut pas longjump (DUN DUN DUNNNNNNNN)</i><sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup>, et, euh, y'a un jardin extérieur maintenant ??
-                </p>
+                                <p>
+                                    <i>B3313</i> est un romhack de Super Mario 64 fondé sur son contenu bêta/inutilisé et sur les légendes urbaines prétendant que chaque copie est personnalisée<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup> par une intelligence artificielle.<br>
+                                    Le jeu a l'air d'un bon gros délire fiévreux, le genre que t'as quand t'as 40 degrés et que mémé t'a filé un "grog maison" pour faire passer tout ça. Le patch se trouve sur <a href="https://romhacking.com/hack/b3313-super-mario-64-internal-plexus">RomHacking.com</a> et quelques autres endroits.<br>
+                                    <br>
+                                    C'est mon premier test, et je dois déjà sortir des sentiers battus pour une bonne raison; Normalement c'est l'endroit où je dis si le test contient des spoilers ou pas, mais la nature même du hack rend ça quasi impossible. Tout est un spoiler, et rien ne l'est en même temps,, à cause de la non-linéarité des niveaux. Du coup, pour cette fois, je vais faire comme si rien de ce que j'aborde n'en est un !
+                                </p>
+                                <p class="heading">Première plongée</p>
+                                <p>
+                                    Nous commençâmes comme dans tout bon jeu Mario (officiel), il faut aller sauver la princesse qui a été kidnappée par Bowser (qui ici pour des raisons dont on se fout utilise son nom Japonais, à savoir Kuppa). Dans ce but, notre cher plombier Italien se targuera de franchir moult niveaux de platforming. Jusqu'ici rien de vraiment extraordinaire.<br>
+                                    <br>
+                                    Au bout de quatre bonnes secondes, les gens comme moi vont rapidement remarquer quelques petites subtilités; le vitrail représentant Peach au-dessus de l'eentrée du château a été remplacé par un genre d'horloge sans aiguilles, Lakitu ne nous attend pas sur le pont pour nous expliquer comment la caméra 3D fonctionne, <i>Mario ne peut pas longjump (DUN DUN DUNNNNNNNN)</i><sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup>, et, euh, y'a un jardin extérieur maintenant ??
+                                </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/backyard.png">
-                    <p>La statue de Toad est p'têtre un peu bling-bling</p>
-                </div>
+                                <div class="picture">
+                                    <img src="/common/images/articles/b3313/backyard.png">
+                                    <p>La statue de Toad est p'têtre un peu bling-bling</p>
+                                </div>
 
-                <p>
-                    Y'a un jardin extérieur maintenant. Ok. Pourquoi pas. Je vais pas y mettre les pieds pour des raisons de continuité (et parce que j'ai envie de vous laisser découvrir des trucs), mais on a Yoshi qui est descendu de son toit pour nous causer un peu:
-                </p>
+                                <p>
+                                    Y'a un jardin extérieur maintenant. Ok. Pourquoi pas. Je vais pas y mettre les pieds pour des raisons de continuité (et parce que j'ai envie de vous laisser découvrir des trucs), mais on a Yoshi qui est descendu de son toit pour nous causer un peu:
+                                </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/yoshi.png">
-                    <p>
-                        "Tu te demandes peut-être par où commencer ?"<br>
-                        Au moins cette fois j'ai pas besoin de faire un triple jump à la noix pour te croiser...
-                    </p>
-                </div>
+                                <div class="picture">
+                                    <img src="/common/images/articles/b3313/yoshi.png">
+                                    <p>
+                                        "Tu te demandes peut-être par où commencer ?"<br>
+                                        Au moins cette fois j'ai pas besoin de faire un triple jump à la noix pour te croiser...
+                                    </p>
+                                </div>
 
-                <p>
-                    Revenons aux portes principales du château. Y'a des trucs à voir dans la cour mais comme dit plus haut, ça sera à vous d'aller fouiner. Prétendons cinq minutes que je découvre le jeu et que de fait, je prenne la première porte qui me tombe sous le nez. Nous entrâmes dans le lobby, et entendâmes un message... du Saint-Esprit, je suppose ?
-                </p>
+                                <p>
+                                    Revenons aux portes principales du château. Y'a des trucs à voir dans la cour mais comme dit plus haut, ça sera à vous d'aller fouiner. Prétendons cinq minutes que je découvre le jeu et que de fait, je prenne la première porte qui me tombe sous le nez. Nous entrâmes dans le lobby, et entendâmes un message... du Saint-Esprit, je suppose ?
+                                </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/lobby.png">
-                    <p>"Cette partie du château est exclusive au show"</p>
-                </div>
+                                <div class="picture">
+                                    <img src="/common/images/articles/b3313/lobby.png">
+                                    <p>"Cette partie du château est exclusive au show"</p>
+                                </div>
 
-                <p>
-                    Le "show" en question est le <i>Nintendo Shoshinkai 1995</i>. C'était la première fois que le public découvrait (officiellement) Super Mario 64, et par extension la Nintendo 64, que jusqu'à présent on connaissait sous le nom de Ultra 64.<br>
-                    <br>
-                    Les chiffres affichés sur les portes (oui parce que y'en a qu'une sur le screenshot, mais y'en a quatre dans le lobby) ne correspondent étrangement pas au nombre d'étoiles nécéssaires pour les ouvrir comme dans le jeu de base. À vrai dire j'ai pas la moindre idée d'à quoi ils servent. Mais puisqu'on est là et que les portes sont ouvertes, allons voir <i>Whomp's Fortress</i> !
-                </p>
+                                <p>
+                                    Le "show" en question est le <i>Nintendo Shoshinkai 1995</i>. C'était la première fois que le public découvrait (officiellement) Super Mario 64, et par extension la Nintendo 64, que jusqu'à présent on connaissait sous le nom de Ultra 64.<br>
+                                    <br>
+                                    Les chiffres affichés sur les portes (oui parce que y'en a qu'une sur le screenshot, mais y'en a quatre dans le lobby) ne correspondent étrangement pas au nombre d'étoiles nécéssaires pour les ouvrir comme dans le jeu de base. À vrai dire j'ai pas la moindre idée d'à quoi ils servent. Mais puisqu'on est là et que les portes sont ouvertes, allons voir <i>Whomp's Fortress</i> !
+                                </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/notwhomp.png">
-                    <p>C'est pas Whomp's Fortress</p>
-                </div>
+                                <div class="picture">
+                                    <img src="/common/images/articles/b3313/notwhomp.png">
+                                    <p>C'est pas Whomp's Fortress</p>
+                                </div>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/notlll.png">
-                    <p>C'est même pas Lethal Lava Land ! Je suis où bordel ?!</p>
-                </div>
+                                <div class="picture">
+                                    <img src="/common/images/articles/b3313/notlll.png">
+                                    <p>C'est même pas Lethal Lava Land ! Je suis où bordel ?!</p>
+                                </div>
 
-                <p>
-                    Sans grande surprise venant d'un romhack, les niveaux sont pas vraiment à leur place habituelle. On dirait une version bêta de  <i>Lethal Lava Land</i>, qui n'a absolument rien à faire dans le lobby.<br>
-                    On va s'arrêter là trente secondes. C'est le moment où j'arrête de prétendre jouer pour la première fois afin de vous poser une question simple:<br>
-                    <br>
-                    À votre avis, il va se passer quoi si je redémarre le jeu et que je re-rentre dans le château ?
-                </p>
+                                <p>
+                                    Sans grande surprise venant d'un romhack, les niveaux sont pas vraiment à leur place habituelle. On dirait une version bêta de  <i>Lethal Lava Land</i>, qui n'a absolument rien à faire dans le lobby.<br>
+                                    On va s'arrêter là trente secondes. C'est le moment où j'arrête de prétendre jouer pour la première fois afin de vous poser une question simple:<br>
+                                    <br>
+                                    À votre avis, il va se passer quoi si je redémarre le jeu et que je re-rentre dans le château ?
+                                </p>
 
-                <h2 style="padding-left: 0.5em;">Ne fais confiance à personne</h2>
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/wronglobby.png">
-                    <p>*BEEP* Perdu !</p>
-                </div>
+                                <p class="heading">Ne fais confiance à personne</p>
+                                <div class="picture">
+                                    <img src="/common/images/articles/b3313/wronglobby.png">
+                                    <p>*BEEP* Perdu !</p>
+                                </div>
 
-                <p>
-                    Tout a foutu le camp à part une porte. Même la musique s'est barrée. Vibes très moyennes jusque là.<br>
-                    Derrière cette porte énigmatique se cache une peinture d'une scène champêtre avec des montagnes et des champignons avec des empruntes de patte de chat. Charmant. Mais ça va où ?
-                </p>
+                                <p>
+                                    Tout a foutu le camp à part une porte. Même la musique s'est barrée. Vibes très moyennes jusque là.<br>
+                                    Derrière cette porte énigmatique se cache une peinture d'une scène champêtre avec des montagnes et des champignons avec des empruntes de patte de chat. Charmant. Mais ça va où ?
+                                </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/stillnotwhomp.png">
-                    <p>Surement un genre de niveau introductoire j'imagine</p>
-                </div>
+                                <div class="picture">
+                                    <img src="/common/images/articles/b3313/stillnotwhomp.png">
+                                    <p>Surement un genre de niveau introductoire j'imagine</p>
+                                </div>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/wf64.png">
-                    <p>Absolument pas</p>
-                </div>
+                                <div class="picture">
+                                    <img src="/common/images/articles/b3313/wf64.png">
+                                    <p>Absolument pas</p>
+                                </div>
 
-                <p>
-                    Uhhhh... Okay. J'ai pas pris de capture d'écran, mais quand je suis arrivé le jeu m'a dit d'aller chercher l'étoile en haut, comme dans WF2.
-                </p>
+                                <p>
+                                    Uhhhh... Okay. J'ai pas pris de capture d'écran, mais quand je suis arrivé le jeu m'a dit d'aller chercher l'étoile en haut, comme dans WF2.
+                                </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/topofthetower.png">
-                    <p>Le concept de "mauvais pressentiment" en une seule image</p>
-                </div>
+                                <div class="picture">
+                                    <img src="/common/images/articles/b3313/topofthetower.png">
+                                    <p>Le concept de "mauvais pressentiment" en une seule image</p>
+                                </div>
 
-                <p>
-                    Et c'est à peu près là que tout devient bizarre. Quand j'ai touché l'étoile, j'ai été téléporté dans une version dark de <i>Whomp's Fortress</i> avec un timer et un message me disant d'aller chercher l'étoile <b>vite</b>. Je faisais du speedrun de SM64, donc c'était pas trop dur pour moi et mon skill de cocker modérément entrainé, mais juste par acquis de conscience, j'ai laissé le timer monter à environ 40 secondes.<br>
-                    <br>
-                    J'ai mouru instantanément. (D'ailleurs ça aurait du être un compte à rebours, mais de tête je crois pas qu'il y en avait dans SM64 Vanilla)<br>
-                    <br>
-                    Je me garderai de vous dire ce qu'il s'est passé quand j'ai obtenu l'étoile pour des raisons de spoil; vraiment je vous enjoins à tester le romhack par vous-mêmes, mais si vous préférez continuer à lire, je ne vous en tiendrai certainement pas rigueur. Au contraire, même, je vous souhaite la bienvenue dans l'antre de la folie.
-                </p>
-            
-                <h2 style="padding-left: 0.5em;"><i>Lose Yourself</i> - Eminem</h2>
-                <p>
-                    Qualifier le jeu de "labyrinthique" revient concrètement à qualifier l'espace de vaste. Les niveaux et même les lobbies changent selon l'heure de la journée<sup id="footnote-3-orig"><a href="#footnote-3">3</a></sup>, parfois reprendre une porte ou un tuyau par lequel vous êtes arrivés vous amènera à un endroit complètement différent, et pour vous les complétionnistes, sachez qu'il y a un total de <b>460 ÉTOILES ???</b> Quatre cent soixante putain de ses grands morts d'étoiles ??? ALLÔ ??? Il m'a fallu 21h pour en avoir à peine 160 !<br>
-                    <br>
-                    Ahem. Pardon. Parfois je surréagis à certains trucs...<br>
-                    <br>
-                    Là où les choses se corsent, c'est que le jeu n'a <i>absolument</i> aucune indication concrète de comment progresser. Yoshi vous dit même de vous laisser porter "comme dans un rêve":
-                </p>
+                                <p>
+                                    Et c'est à peu près là que tout devient bizarre. Quand j'ai touché l'étoile, j'ai été téléporté dans une version dark de <i>Whomp's Fortress</i> avec un timer et un message me disant d'aller chercher l'étoile <b>vite</b>. Je faisais du speedrun de SM64, donc c'était pas trop dur pour moi et mon skill de cocker modérément entrainé, mais juste par acquis de conscience, j'ai laissé le timer monter à environ 40 secondes.<br>
+                                    <br>
+                                    J'ai mouru instantanément. (D'ailleurs ça aurait du être un compte à rebours, mais de tête je crois pas qu'il y en avait dans SM64 Vanilla)<br>
+                                    <br>
+                                    Je me garderai de vous dire ce qu'il s'est passé quand j'ai obtenu l'étoile pour des raisons de spoil; vraiment je vous enjoins à tester le romhack par vous-mêmes, mais si vous préférez continuer à lire, je ne vous en tiendrai certainement pas rigueur. Au contraire, même, je vous souhaite la bienvenue dans l'antre de la folie.
+                                </p>
+                            
+                                <p class="heading"><i>Lose Yourself</i> - Eminem</p>
+                                <p>
+                                    Qualifier le jeu de "labyrinthique" revient concrètement à qualifier l'espace de vaste. Les niveaux et même les lobbies changent selon l'heure de la journée<sup id="footnote-3-orig"><a href="#footnote-3">3</a></sup>, parfois reprendre une porte ou un tuyau par lequel vous êtes arrivés vous amènera à un endroit complètement différent, et pour vous les complétionnistes, sachez qu'il y a un total de <b>460 ÉTOILES ???</b> Quatre cent soixante putain de ses grands morts d'étoiles ??? ALLÔ ??? Il m'a fallu 21h pour en avoir à peine 160 !<br>
+                                    <br>
+                                    Ahem. Pardon. Parfois je surréagis à certains trucs...<br>
+                                    <br>
+                                    Là où les choses se corsent, c'est que le jeu n'a <i>absolument</i> aucune indication concrète de comment progresser. Yoshi vous dit même de vous laisser porter "comme dans un rêve":
+                                </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/likeadream.png">
-                    <p>Frère c'est pas un rêve ça, c'est un trip sous acide quand t'es déjà bourré</p>
-                </div>
+                                <div class="picture">
+                                    <img src="/common/images/articles/b3313/likeadream.png">
+                                    <p>Frère c'est pas un rêve ça, c'est un trip sous acide quand t'es déjà bourré</p>
+                                </div>
 
-                <p>
-                    Les zones de hub sont interconnectées d'une façon obscure et franchement non-euclidienne (genre t'as un château dans le château t'sais), et pour être transparent, je suis pas complètement sur de quel miracle exact est nécéssaire pour trouver le chemin qui fait vraiment avancer dans le jeu. Les étoiles elles-mêmes ne sont pas très dures à atteindre, le truc le plus dur étant de faire un <i>backwards wall jump</i> (vraiment pas dur, faut juste timer le rebond du mur et maintenir le stick vers le mur). C'est un peu un problème considérant que le jeu n'a pas de star tracker interne (Parallel en a un, mais pour le reste faut se démerder avec le wiki), mais en vrai ça joue avec les vibes ultra confusantes du romhack donc c'est pas hyper déroutant (juste un peu relou si on cherche le 100%).<br>
-                    <br>
-                    Bah puisqu'on y est, parlons de l'atmosphère du jeu !
-                </p>
+                                <p>
+                                    Les zones de hub sont interconnectées d'une façon obscure et franchement non-euclidienne (genre t'as un château dans le château t'sais), et pour être transparent, je suis pas complètement sur de quel miracle exact est nécéssaire pour trouver le chemin qui fait vraiment avancer dans le jeu. Les étoiles elles-mêmes ne sont pas très dures à atteindre, le truc le plus dur étant de faire un <i>backwards wall jump</i> (vraiment pas dur, faut juste timer le rebond du mur et maintenir le stick vers le mur). C'est un peu un problème considérant que le jeu n'a pas de star tracker interne (Parallel en a un, mais pour le reste faut se démerder avec le wiki), mais en vrai ça joue avec les vibes ultra confusantes du romhack donc c'est pas hyper déroutant (juste un peu relou si on cherche le 100%).<br>
+                                    <br>
+                                    Bah puisqu'on y est, parlons de l'atmosphère du jeu !
+                                </p>
 
-                <h2 style="padding-left: 0.5em;">Ayahuasca</h2>
-                <p>
-                    Graphiquement, le jeu peut être défini en trois catégories: Cozy/Bêta,
-                </p>
+                                <p class="heading">Ayahuasca</p>
+                                <p>
+                                    Graphiquement, le jeu peut être défini en trois catégories: Cozy/Bêta,
+                                </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/floor4.png">
-                    <p>Belle hauteur sous plafond en tout cas</p>
-                </div>
+                                <div class="picture">
+                                    <img src="/common/images/articles/b3313/floor4.png">
+                                    <p>Belle hauteur sous plafond en tout cas</p>
+                                </div>
 
-                <p>
-                    Flippant,
-                </p>
+                                <p>
+                                    Flippant,
+                                </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/darkhallway.png">
-                    <p>nopenopenopenopenopenopenope</p>
-                </div>
+                                <div class="picture">
+                                    <img src="/common/images/articles/b3313/darkhallway.png">
+                                    <p>nopenopenopenopenopenopenope</p>
+                                </div>
 
-                <p>
-                    et ce que j'ai envie de définir comme "Nardinamouk":
-                </p>
+                                <p>
+                                    et ce que j'ai envie de définir comme "Nardinamouk":
+                                </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/polygonalchaos.png">
-                    <p>Ouais c'est à peu près ça globalement</p>
-                </div>
+                                <div class="picture">
+                                    <img src="/common/images/articles/b3313/polygonalchaos.png">
+                                    <p>Ouais c'est à peu près ça globalement</p>
+                                </div>
 
-                <p>
-                    L'audio n'est évidemment pas en reste, une grande partie de la bande son consiste en des réarrangements des musiques du jeu vanilla en changeant quelques trucs (genre ralentir le tempo ou jouer en clé mineure), renfonrçant parfaitement l'impression que y'a un truc qui cloche. Il y a bien sur quelques pièces qui se démarquent, notamment "Dire, Dire Victory" qui joue vers la fin du jeu, étant naturellement un remix sombre et absolument glacial du thème du staff roll.
-                </p>
+                                <p>
+                                    L'audio n'est évidemment pas en reste, une grande partie de la bande son consiste en des réarrangements des musiques du jeu vanilla en changeant quelques trucs (genre ralentir le tempo ou jouer en clé mineure), renfonrçant parfaitement l'impression que y'a un truc qui cloche. Il y a bien sur quelques pièces qui se démarquent, notamment "Dire, Dire Victory" qui joue vers la fin du jeu, étant naturellement un remix sombre et absolument glacial du thème du staff roll.
+                                </p>
 
-                <div class="picture">
-                    <img src="/common/images/articles/b3313/fakelobby.png">
-                    <p>La vibe générale du jeu: "Y'a un truc qui va pas"</p>
-                </div>
+                                <div class="picture">
+                                    <img src="/common/images/articles/b3313/fakelobby.png">
+                                    <p>La vibe générale du jeu: "Y'a un truc qui va pas"</p>
+                                </div>
 
-                <p>
-                    Le jeu est rempli de crashes <i>intenntionnels</i>, cachés dans des zones crées pour piéger le joueur (qui désactivent même la fonction de voyage rapide) et agrémentés de quelques menus jumpscares. La plupart de ces crashes sont situés dans des zones très obscures et servent concrètement de "fin de partie" ou "fin de branche" pour ainsi dire, et sont quasiment tous une référence à un des nombreux icebergs de Super Mario 64. Si comme moi vous avez consommé une quantité franchement malsaine de ces vidéos, normalement ils sont pas très durs à éviter. Je préconise néanmoins de faire des savestates assez souvent dans le doute.
-                </p>
+                                <p>
+                                    Le jeu est rempli de crashes <i>intenntionnels</i>, cachés dans des zones crées pour piéger le joueur (qui désactivent même la fonction de voyage rapide) et agrémentés de quelques menus jumpscares. La plupart de ces crashes sont situés dans des zones très obscures et servent concrètement de "fin de partie" ou "fin de branche" pour ainsi dire, et sont quasiment tous une référence à un des nombreux icebergs de Super Mario 64. Si comme moi vous avez consommé une quantité franchement malsaine de ces vidéos, normalement ils sont pas très durs à éviter. Je préconise néanmoins de faire des savestates assez souvent dans le doute.
+                                </p>
 
-                <h2 style="padding-left: 0.5em;">Conclusion</h2>
-                <p>
-                    Malgré le fait que progresser dans le jeu requiert d'être soit extrêmement chanceux soit Charles Xavier, en vrai le romhack est assez solide. Le level design est dans la moyenne, même si c'est évident que les devs ont préféré la quantité à la qualité (pour vous donner une idée, les hubs sont globalement mieux désignés que les niveaux auxquels ils sont connectés), et le 100% semble être une quête de plusieurs jours de jeu au bas mot<sup id="footnote-4-orig"><a href="#footnote-4">4</a></sup>. Gardez en tête que chaque joueur aura à n'en pas douter un parcours très différent du mien, même si il n'y a pas d'IA psychopathe en charge de la personnalisation.<br>
-                    <br>
-                    <b>Graphismes:</b> 8/10, c'est Mario mais avec un goût <i>weirdcore</i><br>
-                    <b>Musique:</b> 8/10, les remixes deviennent répétitifs à un certain point, mais vu que les niveaux sont aussi relativement courts ça s'équilibre<br>
-                    <b>Gameplay:</b> 5/10, faut <i>vraiment</i> jouer avec une carte, c'est presque un Metroidvania<br>
-                    <b>Total: 14/20</b>
-                </p>
-                <hr>
-                <p class="footnotes">
-                    <a id="footnote-1" href="#footnote-1-orig">1</a>: Ouep, c'est bien <i>cet</i> Iceberg<br>
-                    <a id="footnote-2" href="#footnote-2-orig">2</a>: Marrez-vous, moi j'arrive pas à jouer à ce jeu sans longjump<br>
-                    <a id="footnote-3" href="#footnote-3-orig">3</a>: En fonction de l'heure indiquée par l'OS. Je suis pas sur de comment ils s'y sont pris pour mettre cette mécanique dans une ROM N64<br>
-                    <a id="footnote-4" href="#footnote-4-orig">4</a>: <i>Apparemment</i> la run any% peut être finie avec seulement 15 étoiles, si tu sais où chercher
-                </p>
-			</article>
-			<script src="/common/elements/footer.js"></script>
-		</section>
+                                <p class="heading">Conclusion</p>
+                                <p>
+                                    Malgré le fait que progresser dans le jeu requiert d'être soit extrêmement chanceux soit Charles Xavier, en vrai le romhack est assez solide. Le level design est dans la moyenne, même si c'est évident que les devs ont préféré la quantité à la qualité (pour vous donner une idée, les hubs sont globalement mieux désignés que les niveaux auxquels ils sont connectés), et le 100% semble être une quête de plusieurs jours de jeu au bas mot<sup id="footnote-4-orig"><a href="#footnote-4">4</a></sup>. Gardez en tête que chaque joueur aura à n'en pas douter un parcours très différent du mien, même si il n'y a pas d'IA psychopathe en charge de la personnalisation.<br>
+                                    <br>
+                                    <b>Graphismes:</b> 8/10, c'est Mario mais avec un goût <i>weirdcore</i><br>
+                                    <b>Musique:</b> 8/10, les remixes deviennent répétitifs à un certain point, mais vu que les niveaux sont aussi relativement courts ça s'équilibre<br>
+                                    <b>Gameplay:</b> 5/10, faut <i>vraiment</i> jouer avec une carte, c'est presque un Metroidvania<br>
+                                    <b>Total: 14/20</b>
+                                </p>
+                                <hr>
+                                <p class="footnotes">
+                                    <a id="footnote-1" href="#footnote-1-orig">1</a>: Ouep, c'est bien <i>cet</i> Iceberg<br>
+                                    <a id="footnote-2" href="#footnote-2-orig">2</a>: Marrez-vous, moi j'arrive pas à jouer à ce jeu sans longjump<br>
+                                    <a id="footnote-3" href="#footnote-3-orig">3</a>: En fonction de l'heure indiquée par l'OS. Je suis pas sur de comment ils s'y sont pris pour mettre cette mécanique dans une ROM N64<br>
+                                    <a id="footnote-4" href="#footnote-4-orig">4</a>: <i>Apparemment</i> la run any% peut être finie avec seulement 15 étoiles, si tu sais où chercher
+                                </p>
+                            </article>
+                            <script src="/common/elements/footer.js"></script>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 	</body>
 </html>

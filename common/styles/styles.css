@@ -1,42 +1,42 @@
- /* Default fallback style */
- /* If you see this applied to the live site post-load something has gone terribly wrong !! */
+/* Default fallback style */
+/* If you see this applied to the live site post-load something has gone terribly wrong !! */
 
- html {
-    background-color: #555555;
-    background-image: unset;
-    background-attachment: fixed;
-    background-size: cover;
+html {
+  background-color: #555555;
+  background-image: unset;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
- .titlebar {
-    background-image: linear-gradient(to right, #555555, #555555);
-    color: black;
-    font-weight: bold;
-    border-radius: 0;
+.titlebar {
+  background-image: linear-gradient(to right, #555555, #555555);
+  color: black;
+  font-weight: bold;
+  border-radius: 0;
 }
 
- .fakemenu {
-    display: none;
+.fakemenu {
+  display: none;
 }
 
- .fakebutton {
-    background-color: #555555;
-    font-family: "Marlett", "Webdings";
-    color: black;
-    border: 1px black;
-    border-radius: 0;
-    text-align: center;
+.fakebutton {
+  background-color: #555555;
+  font-family: "Marlett", "Webdings";
+  color: black;
+  border: 1px solid black;
+  border-radius: 0;
+  text-align: center;
 }
 
- nav {
-    border: 1px solid #555555;
-    border-radius: 0;
-    background-color: #555555;
+nav {
+  border: 1px solid black;
+  border-radius: 0;
+  background-color: #555555;
 }
 
- .blogpost {
-    background-color: #555555;
-    color: black;
-    border: 1px solid black;
-    border-radius: 0;
+.blogpost {
+  background-color: #555555;
+  color: black;
+  border: 1px solid black;
+  border-radius: 0;
 }

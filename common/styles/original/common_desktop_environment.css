@@ -1,54 +1,55 @@
-html {
-	background-color: #008080;
-	background-image: unset;
-	background-attachment: fixed;
-	background-size: cover;
-	font-family: "Lucida Console";
-}
-
-.titlebar {
-	background-image: linear-gradient(to right, #eda870, #eda870);
-	color: white;
-	font-weight: unset;
-	border-radius: 0;
-	text-align: center;
-}
-
-.fakemenu {
-	display: block;
-	background-color: #4991a7;
-	color: white;
-}
-
-.fakebutton_minimize {
-	display: none;
-	color: #eda870;
-}
-
-.fakebutton_maximize {
-	display: none;
-	color: #eda870;
+.blogpost {
+  background-color: #c6b2a8;
+  border-radius: 0;
+  border: 3px solid #eda870;
+  color: black;
 }
 
 .fakebutton_close {
-	background-color: #eda870;
-	font-family: "Marlett", "Webdings";
-	font-weight: bold;
-	color: #eda870;
-	border: 3px outset;
-	border-radius: 0;
-	text-align: center;
+  background-color: #eda870;
+  border-radius: 0;
+  border: 3px outset;
+  color: #eda870;
+  font-family: "Marlett", "Webdings";
+  font-weight: bold;
+  text-align: center;
+}
+
+.fakebutton_maximize {
+  color: #eda870;
+  display: none;
+}
+
+.fakebutton_minimize {
+  color: #eda870;
+  display: none;
+}
+
+.fakemenu {
+  background-color: #4991a7;
+  color: white;
+  display: block;
+}
+
+.titlebar {
+  background-image: linear-gradient(to right, #eda870, #eda870);
+  border-bottom: unset;
+  border-radius: 0;
+  color: white;
+  font-weight: unset;
+  text-align: center;
+}
+
+html {
+  background-attachment: fixed;
+  background-color: #008080;
+  background-image: unset;
+  background-size: cover;
+  font-family: "Lucida Console";
 }
 
 nav {
-	border: 3px solid #eda870;
-	border-radius: 0;
-	background-color: #C6B2A8;
-}
-
-.blogpost {
-	background-color: #C6B2A8;
-	color: black;
-	border: 3px solid #eda870;
-	border-radius: 0;
+  background-color: #c6b2a8;
+  border-radius: 0;
+  border: 3px solid #eda870;
 }

@@ -1,0 +1,48 @@
+.blogpost {
+  background-color: #ffffff;
+  border-radius: 0;
+  border: unset;
+  color: black;
+}
+
+.fakebutton_close,
+.fakebutton_maximize,
+.fakebutton_minimize {
+  display: none;
+}
+
+.fakemenu {
+  display: none;
+}
+
+.titlebar {
+  background-image: linear-gradient(to right, #aa3333, #aa3333);
+  border-bottom: unset;
+  border-radius: 0;
+  color: white;
+  font-weight: bold;
+}
+
+a,
+a:hover,
+a:visited,
+nav a,
+nav a:hover,
+nav a:visited {
+  color: blue;
+}
+
+html {
+  background-attachment: fixed;
+  background-color: #bbbbbb;
+  background-image: unset;
+  background-size: cover;
+  color: black;
+  font-family: "Noto Sans Serif";
+}
+
+nav {
+  background-color: #ffffff;
+  border-radius: 0;
+  border: unset;
+}

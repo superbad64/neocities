@@ -15,11 +15,12 @@ class Post():
         self.path = path
         
         self.splitpath = self.path.split("/")
-        self.year = self.splitpath[1]
-        self.month = self.splitpath[2]
-        self.day = self.splitpath[3]
+        self.lang = self.splitpath[1]
+        self.year = self.splitpath[2]
+        self.month = self.splitpath[3]
+        self.day = self.splitpath[4]
         self.date = f"{self.day}/{self.month}/{self.year}"
-        self.filename = self.splitpath[4].split(".shtml")[0]
+        self.filename = self.splitpath[5].split(".shtml")[0]
         self.ctime = time.strftime("%H:%M", time.strptime(time.ctime(os.path.getctime(path))))
 
         self.title = f"{self.filename} - {self.date} {self.ctime}"
@@ -27,20 +28,20 @@ class Post():
         with open(self.path, 'r') as file:
             self.content = file.read()
         self.content = self.content.split("\n")
-        self.content.pop(-1)
+        if self.content[-1] == "":
+            self.content.pop(-1)
 
     def generate(self):
         # Formats the blog post to be inserted into the HTML template
         html = "\t\t\t<article class=\"blogpost\">\n"
-        html += "\t\t\t\t<div class=\"titlebar\">\n"
-        html += "\t\t\t\t\t<label class=\"title\">" + self.title + "</label>\n"
-        html += "\t\t\t\t\t<div class=\"buttoncontainer\">\n"
-        html += "\t\t\t\t\t<label class=\"fakebutton_minimize\">0</label>\n"
-        html += "\t\t\t\t\t<label class=\"fakebutton_maximize\">1</label>\n"
-        html += "\t\t\t\t\t<label class=\"fakebutton_close\">r</label>\n"
-        html += "\t\t\t\t\t</div>\n"
-        html += "\t\t\t\t</div>\n"
-        #html += "\t\t\t\t<!--#include virtual=\"/common/elements/fakemenu.shtml\"-->\n"
+        html += "\t\t\t\t<table class=\"titlebar\">\n"
+        html += "\t\t\t\t\t<tr>\n"
+        html += "\t\t\t\t\t\t<td><label class=\"title\">" + self.title + "</label></td>\n"
+        html += "\t\t\t\t\t\t<td class=\"buttoncontainer\">\n"
+        html += "\t\t\t\t\t\t\t<script src=\"/common/elements/fakebuttons.js\"></script>\n"
+        html += "\t\t\t\t\t\t</td>\n"
+        html += "\t\t\t\t\t</tr>\n"
+        html += "\t\t\t\t</table>\n"
         html += "\t\t\t\t<script src=\"/common/elements/fakemenu.js\"></script>\n"
         html += "\t\t\t\t<p>\n"
         for line in self.content:
@@ -57,7 +58,8 @@ class Post():
 
 def navigationWidget(pageNumber, maxPages):
     # Old-style chevron based navigation widget
-    navStr = "\n\t\t\t<div style=\"display: flex; flex-wrap: wrap; justify-content: center;\">\n"
+    navStr = "\t\t\t<!--Old school navigation widget-->\n"
+    navStr += "\t\t\t<div style=\"display: flex; flex-wrap: wrap; justify-content: center;\">\n"
 
     # First/Previous
     if pageNumber == 1:
@@ -86,55 +88,60 @@ def navigationWidget(pageNumber, maxPages):
 
 # Split the template
 fileStart = []
+fileEnd = []
 
 with open("../../common/elements/template.shtml", 'r') as t:
+    doNotAppend = False
+    targetArray = "fileStart"
     for line in t:
-        fileStart.append(line)
-        if "section" in line:
-            break
+        if "Blog post generator start flag" in line:
+            doNotAppend = True
+            targetArray = "fileEnd"
+        elif "Blog post generator end flag" in line:
+            doNotAppend = False
+
+        if doNotAppend == False:
+            eval(f"{targetArray}.append(line)")
 
 ## Append title
 fileStart[3] = "\t\t<title>Blog - Bad64's Domain</title>\n"
 
 ## And blog header
-fileStart.append("\n\t\t\t<h3>Blog</h3>\n")
+fileStart.append("\n\t\t\t<div class=\"heading\">Blog</div>\n")
 fileStart = ''.join(fileStart)
+fileEnd = ''.join(fileEnd)
 
-# Now the end of the file
-fileEnd = "\t\t\t<script src=\"/common/elements/footer.js\"></script>\n"
-fileEnd += "\t\t\t<script>window.onload = () => { document.getElementsByClassName(\"content\")[0].getElementsByTagName(\"h3\")[0].style.marginTop = document.getElementsByTagName(\"nav\")[0].getBoundingClientRect().top + \"px\"; }</script>\n"
-fileEnd += "\t\t</section>\n"
-fileEnd += "\t</body>\n"
-fileEnd += "</html>"
+for lang in [ "en", "fr" ]:
+    print(f"Working on the \"{lang}\" blog")
+    # Seek all posts
+    posts = []
+    files = glob.glob(f"posts/{lang}/*/*/*/*.shtml", recursive=True)
 
-# Seek all posts
-posts = []
-files = glob.glob("posts/*/*/*/*.shtml", recursive=True)
+    print(f"Found {len(files)} posts")
 
-print(f"Found {len(files)} posts")
+    # Sort posts by date
+    for file in files:
+        posts.append(Post(file))
+    posts = list(reversed(sorted(posts, key=Post.get_publication_time)))
 
-# Sort posts by date
-for file in files:
-    posts.append(Post(file))
-posts = list(reversed(sorted(posts, key=Post.get_publication_time)))
+    # Clear the working dir
+    print(f"Clearing the workdir: ../../{lang}/blog/*.shtml")
+    for file in glob.glob("../../{lang}/blog/*.shtml"):
+        os.remove(file)
 
-# Clear the working dir
-print("Clearing the workdir")
-for file in glob.glob("../../en/blog/*.shtml"):
-    os.remove(file)
+    # Create pages
+    maxPages = int(ceil((len(posts) / 5)))
 
-# Create pages
-maxPages = int(ceil((len(posts) / 5)))
-
-print(f"Creating a total of {maxPages} pages")
-for i in range(1, maxPages + 1):
-    print(f"Creating page blog/{i}.shtml (out of {maxPages})")
-    with open(f"../../en/blog/{i}.shtml", "w") as f:
-        f.write(fileStart)
-        f.write(navigationWidget(i, maxPages+1))
-        for j in range(len(posts)):
-            print(f"\tWriting blog post {posts[0].title}")
-            f.write(posts.pop(0).generate())
-            if j + 1 == 5:
-                break
-        f.write(fileEnd)
+    print(f"Creating a total of {maxPages} pages")
+    for i in range(1, maxPages + 1):
+        print(f"Creating page {lang}/blog/{i}.shtml (out of {maxPages})")
+        with open(f"../../{lang}/blog/{i}.shtml", "w") as f:
+            f.write(fileStart)
+            f.write(navigationWidget(i, maxPages+1))
+            for j in range(len(posts)):
+                print(f"\tWriting blog post {posts[0].title}")
+                f.write(posts.pop(0).generate())
+                if j + 1 == 5:
+                    break
+            f.write(navigationWidget(i, maxPages+1))
+            f.write(fileEnd)
