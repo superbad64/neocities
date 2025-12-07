@@ -32,7 +32,7 @@
 			<div style="display: flex; flex-wrap: wrap; justify-content: center;">
 				&nbsp;<strong>1</strong>&nbsp;				&nbsp;<a href="2.shtml">2</a>&nbsp;				&nbsp;<a href="2.shtml">&gt;</a>&nbsp;
 			</div>
-			<article class="blogpost">
+<br>			<article class="blogpost">
 				<table class="titlebar">
 					<tr>
 						<td><label class="title">Huge code refactor - 07/12/2025 20:50</label></td>

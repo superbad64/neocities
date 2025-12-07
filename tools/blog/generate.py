@@ -138,6 +138,7 @@ for lang in [ "en", "fr" ]:
         with open(f"../../{lang}/blog/{i}.shtml", "w") as f:
             f.write(fileStart)
             f.write(navigationWidget(i, maxPages+1))
+            f.write("<br>")
             for j in range(len(posts)):
                 print(f"\tWriting blog post {posts[0].title}")
                 f.write(posts.pop(0).generate())
