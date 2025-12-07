@@ -29,7 +29,7 @@ var navStrings = {
 };
 
 document.write('<!-- The sidebar navigation menu device thingy -->');
-document.write('<nav style="height: 100%;">');
+document.write('<nav>');
 document.write('	<table class="titlebar">');
 document.write('        <tbody>');
 document.write('		    <td><label class="title">Menu</label></td>');
@@ -43,7 +43,7 @@ document.write('	</table>');
 document.write('	');
 document.write('    <script src="/common/elements/fakemenu.js"></script>');
 document.write('	');
-document.write('    <div style="display: flex; flex-direction: column; justify-content: space-around">')
+document.write('    <div id="menucontainer" style="display: flex; flex-direction: column; justify-content: space-between;">')
 document.write('	<dl>');
 document.write('		<dt><img src="/common/images/icons/world-4.png" />&nbsp;' + navStrings[lang]["home"] + '</dt>');
 document.write('		<dt><img src="/common/images/icons/help_book_cool-4.png" />&nbsp;' + navStrings[lang]["aboutMe"] + '</dt>');
@@ -56,7 +56,7 @@ document.write('	</dl>');
 document.write('    <div>');
 document.write('    </div>');
 
-document.write('    <table class=\"navbadges\">');
+document.write('    <table id=\"navbadges\">');
 document.write('        <tr>');
 document.write('            <td><img src=/common/images/badges/firefoxnow.gif /></td>');
 document.write('            <td><img src=/common/images/badges/netscapenow.gif /></td>');

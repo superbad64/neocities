@@ -1,7 +1,12 @@
 .blogpost {
   margin-bottom: 1em;
   padding-bottom: 1em;
-  width: 98%;
+  @media (orientation: landscape) {
+    width: 99%;
+  }
+  @media (orientation: portrait) {
+    width: 100%;
+  }
 }
 
 .blogpost p,
@@ -113,14 +118,6 @@
   }
 }
 
-.navbadges {
-  bottom: 2px;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  width: 100%;
-}
-
 .picture {
   display: flex;
   flex-direction: column;
@@ -171,15 +168,24 @@
   }
 }
 
+#articles {
+  height: inherit;
+}
+
 #landscapeMenu {
   max-width: 200px;
   min-width: 200px;
   width: 200px;
+  height: inherit;
   @media (orientation: landscape) {
     display: table-cell;
   }
   @media (orientation: portrait) {
     display: none;
+  }
+
+  & > nav > #menucontainer {
+    height: 95.5%;
   }
 }
 
@@ -190,6 +196,12 @@
   @media (orientation: portrait) {
     width: 99%;
   }
+}
+
+#navbadges {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 #portraitMenu {
@@ -234,6 +246,8 @@ html {
 
 nav {
   border: 1px solid black;
+  box-sizing: border-box;
+  height: inherit;
 
   & > div > dl {
     margin-left: 0.5em;

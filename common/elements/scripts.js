@@ -8,25 +8,29 @@ var selectorsRow = document.getElementById("selectorsRow");
 var portraitMenu = document.getElementById("portraitMenu");
 var content = document.getElementById("content");
 var landscapeMenu = document.getElementById("landscapeMenu");
+var landscapeMenuContainer = document.getElementById("menucontainer");
 var articles = document.getElementById("articles");
 
-/* Set table element sizes */
-html.style.height = vpHeight + "px";
-selectorsRow.style.height = (vpHeight * (5/100)) + "px";
-
-content.style.height = ((vpHeight - portraitMenu.getBoundingClientRect().height - selectorsRow.getBoundingClientRect().height) * (97.5/100)) + "px";
-
-landscapeMenu.style.height = content.style.height;
-portraitMenu.style.width = document.getElementById("articles").style.width + "px";
-articles.style.height = content.style.height;
-
-/* Set button size */
+/* Set (fake) button size */
 for (const buttoncontainer of document.getElementsByClassName("buttoncontainer")) {
-    for (const button of buttoncontainer.children) {
+	for (const button of buttoncontainer.children) {
 		button.style.height = button.getBoundingClientRect().height + "px";
-        button.style.width = button.getBoundingClientRect().height + "px";
-    }
+		button.style.width = button.getBoundingClientRect().height + "px";
+	}
 }
+
+function updateLayout() {
+	/* Set table element sizes */
+	html.style.height = vpHeight + "px";	// Make sure HTML tag uses the entire viewport
+	selectorsRow.style.height = (vpHeight * (5/100)) + "px";
+
+	content.style.height = ((vpHeight - portraitMenu.getBoundingClientRect().height - selectorsRow.getBoundingClientRect().height) * (97.5/100)) + "px";	// That multiplier is mostly arbitrary; make it make sense ?
+	portraitMenu.style.width = document.getElementsByClassName("blogpost")[0].style.width + "px";
+
+	/* Set nav menu area */
+	landscapeMenu.children[1].children[3].style.height = (landscapeMenu.getBoundingClientRect().height - landscapeMenu.children[1].children[0].getBoundingClientRect().height - landscapeMenu.children[1].children[2].getBoundingClientRect().height - 5) + "px"
+}
+updateLayout();
 
 /* Cookie stuff */
 var cookie = decodeURIComponent(document.cookie).split(";")[0];
@@ -96,6 +100,8 @@ function styleCallback() {
 
 	// Update cookie
 	setCookie("style=" + stylemenu.value + ";");
+
+	updateLayout();
 }
 
 stylemenu.onchange = styleCallback;

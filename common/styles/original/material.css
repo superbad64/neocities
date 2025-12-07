@@ -16,11 +16,12 @@
 }
 
 .titlebar {
-  background-image: linear-gradient(to right, #aa3333, #aa3333);
+  background-image: linear-gradient(to right, #bf0000, #bf0000);
   border-bottom: unset;
   border-radius: 0;
   color: white;
   font-weight: bold;
+  padding: 0.5em 0 0.5em 0;
 }
 
 a,
