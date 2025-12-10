@@ -57,16 +57,16 @@
 							</article>
 
 							<article class="blogpost">
-								<div class="titlebar">
-									<label class="title">Welcome to the show</label>
-									<div class="buttoncontainer">
-										<label class="fakebutton_minimize">&#128469;</label>
-										<label class="fakebutton_maximize">&#128470;</label>
-										<label class="fakebutton_close">&#128473;</label>
-									</div>
-								</div>
-								
-								<script src="/common/elements/fakemenu.js"></script>
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Welcome to the show</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
 
 								<p>
                                     <a href="../articles.shtml">&lt; Retour aux articles !</a>
@@ -123,16 +123,16 @@
 							</article>
 
 							<article class="blogpost">
-								<div class="titlebar">
-									<label class="title">Opération "Photographiez-les tous"</label>
-									<div class="buttoncontainer">
-										<label class="fakebutton_minimize">&#128469;</label>
-										<label class="fakebutton_maximize">&#128470;</label>
-										<label class="fakebutton_close">&#128473;</label>
-									</div>
-								</div>
-								
-								<script src="/common/elements/fakemenu.js"></script>
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Opération "Photographiez-les tous"</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
 
 								<p>
 									La bonne tradition des gros tournois, collectionner les selfies avec les célébrités ! Malheureusement j'ai découvert que ma caméra frontale est exactement derrière une fissure de mon protecteur d'écran, donc j'ai des gros reflets sa mère...
@@ -153,15 +153,16 @@
 							</article>
 
 							<article class="blogpost">
-								<div class="titlebar">
-									<label class="title">L'histoire du p'tit con qui en a rien à foutre</label>
-									<div class="buttoncontainer">
-										<label class="fakebutton_minimize">&#128469;</label>
-										<label class="fakebutton_maximize">&#128470;</label>
-										<label class="fakebutton_close">&#128473;</label>
-									</div>
-								</div>
-								<script src="/common/elements/fakemenu.js"></script>
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">L'histoire du p'tit con qui en a rien à foutre</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
 
 								<div class="picture">
 									<img src="/common/images/articles/evo2025/20251010_165944.jpg" alt="Moi qui me tape avec Arslan Ash">
@@ -187,16 +188,16 @@
 							</article>
 
 							<article class="blogpost">
-								<div class="titlebar">
-									<label class="title">Et du coup, y s'est passé quoi ?</label>
-									<div class="buttoncontainer">
-										<label class="fakebutton_minimize">&#128469;</label>
-										<label class="fakebutton_maximize">&#128470;</label>
-										<label class="fakebutton_close">&#128473;</label>
-									</div>
-								</div>
-								
-								<script src="/common/elements/fakemenu.js"></script>
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Et du coup, y s'est passé quoi ?</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
 
 								<p>
 									<strong>TW: C'est bien d'la merde. Vraiment. Considérez vous avertis.</strong>
@@ -212,5 +213,9 @@
 							</article>
 							<script src="/common/elements/footer.js"></script>
 						</section>
+					</td>
+				</tr>
+			</table>
+		</div>
 	</body>
 </html>

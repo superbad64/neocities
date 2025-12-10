@@ -1,4 +1,5 @@
 var lang = document.location.href.split("/")[3];
+if (["en", "fr"].includes(lang) == false) { lang = "common" };
 
 var footerStrings = {
     "common": {

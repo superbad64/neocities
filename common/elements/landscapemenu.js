@@ -1,5 +1,5 @@
 var lang = window.location.href.split("/")[3];
-if (lang == "common") { lang = "en"; };
+if (["en", "fr"].includes(lang) == false) { lang = "common" };
 
 var navStrings = {
     "common": {

@@ -2,7 +2,17 @@ var url = window.location.href.split("/");
 url[0] += "/";
 var lang = url[3];
 
+if (["en", "fr"].includes(lang) == false) { lang = "common" };
+
 var locStrings = {
+  common: {
+    langSelector: "Language:",
+    langSelectorValues: {
+        langFR: "French",
+        langEN: "English"
+    },
+    styleSelector: "Style:"
+  },
   en: {
     langSelector: "Language:",
     langSelectorValues: {
@@ -18,7 +28,7 @@ var locStrings = {
         langEN: "Anglais"
     },
     styleSelector: "Style:"
-  },
+  }
 };
 
 document.write("<!-- The page header with a style and language selector-->")
