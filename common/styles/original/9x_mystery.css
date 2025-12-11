@@ -43,7 +43,7 @@ html {
   background-attachment: fixed;
   background-color: #008080;
   background-image: url("/common/images/mystery.jpg");
-  background-position-y: -25em;
+  background-position: center;
   background-size: cover;
   color: white;
   font-family: "W95Font";

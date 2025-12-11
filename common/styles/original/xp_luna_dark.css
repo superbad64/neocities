@@ -25,6 +25,12 @@
   display: block;
 }
 
+.navigationWidget {
+  & > a {
+    color: white;
+  }
+}
+
 .titlebar {
   background-image: linear-gradient(to top, #0042b6, #0055ea, #0042b6);
   border-bottom: unset;
@@ -35,9 +41,11 @@
 html {
   background-attachment: fixed;
   background-color: #202020;
-  background-image: url("/common/images/bliss.png");
+  background-image: url("/common/images/noch-nebo-zvezdy-pole-holm.jpg");
   /*background-image: unset;*/
+  background-position: center;
   background-size: cover;
+  color: white;
   font-family: "Tahoma";
 }
 

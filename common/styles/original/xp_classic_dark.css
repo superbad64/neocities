@@ -32,12 +32,20 @@
   font-weight: bold;
 }
 
+.navigationWidget {
+  & > a {
+    color: white;
+  }
+}
+
 html {
   background-attachment: fixed;
   background-color: #202020;
-  background-image: url("/common/images/bliss.png");
+  background-image: url("/common/images/noch-nebo-zvezdy-pole-holm.jpg");
   /*background-image: unset*/
+  background-position: center;
   background-size: cover;
+  color: white;
   font-family: "Tahoma";
 }
 

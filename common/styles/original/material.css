@@ -22,7 +22,7 @@
 
 .navigationWidget {
   & > a {
-    color: white;
+    color: black;
   }
 }
 
