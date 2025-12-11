@@ -1,3 +1,4 @@
 /common/gadgets/*
 /tools/blog/posts
 /common/images/articles/*
+/node_modules/.bin/*
