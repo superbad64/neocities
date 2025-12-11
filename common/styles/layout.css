@@ -2,10 +2,10 @@
   margin-bottom: 1em;
   padding-bottom: 1em;
   @media (orientation: landscape) {
-    width: 99%;
+    width: 98%;
   }
   @media (orientation: portrait) {
-    width: 100%;
+    width: 98%;
   }
 }
 
@@ -204,7 +204,7 @@
     width: 60%;
   }
   @media (orientation: portrait) {
-    width: 99%;
+    width: 100%;
   }
 }
 
