@@ -29,10 +29,25 @@
 
 			<div class="heading">Blog</div>
 			<!--Old school navigation widget-->
-			<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+			<div class="navigationWidget">
 				&nbsp;<a href="1.shtml">&lt;</a>&nbsp;				&nbsp;<a href="1.shtml">1</a>&nbsp;				&nbsp;<strong>2</strong>&nbsp;
 			</div>
 <br>			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Roaming around - 20/10/2025 16:38</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					Been exploring tagged websites on NeoCities. There's quite a lot more people than I thought would be who also seem to hold fond memories of the XP Luna Blue style ! Genuinely surprised.<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
 				<table class="titlebar">
 					<tr>
 						<td><label class="title">I went to EVO ! - 13/10/2025 15:02</label></td>
@@ -102,7 +117,7 @@
 				</p>
 			</article>
 			<!--Old school navigation widget-->
-			<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+			<div class="navigationWidget">
 				&nbsp;<a href="1.shtml">&lt;</a>&nbsp;				&nbsp;<a href="1.shtml">1</a>&nbsp;				&nbsp;<strong>2</strong>&nbsp;
 			</div>
                             <!--Blog post generator end flag-->

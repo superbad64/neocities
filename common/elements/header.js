@@ -40,18 +40,23 @@ document.write("              <label for=\"stylemenu\" id=\"styleSelectorLabel\"
 document.write('              <select id="stylemenu" onchange="styleCallback()">');
 document.write('		            <option value="dos-like">DOS-like</option>');
 document.write('		            <option value="9x_standard">9x Standard</option>');
+document.write('		            <option value="9x_standard_dark">9x Standard Dark</option>');
 document.write('		            <option value="9x_plum">9x Plum</option>');
 document.write('		            <option value="9x_matrix">9x Matrix</option>');
 document.write('		            <option value="9x_mystery">9x Mystery</option>');
 document.write('		            <option value="xp_classic">XP Classic</option>');
+document.write('		            <option value="xp_classic_dark">XP Classic Dark</option>');
 document.write('		            <option selected="selected" value="xp_luna">XP Luna (default)</option>');
+document.write('		            <option value="xp_luna_dark">XP Luna Dark</option>');
 document.write('		            <option value="xp_olive">XP Olive</option>');
 document.write('		            <option value="xp_silver">XP Silver</option>');
 document.write('		            <option value="xp_royale_noir">XP Royale Noir</option>');
 document.write('		            <option value="whistler_watercolor">Whistler Watercolor</option>');
+document.write('		            <option value="whistler_watercolor_dark">Whistler Watercolor Dark</option>');
 document.write('		            <option value="common_desktop_environment">Common Desktop Environment</option>');
 document.write('		            <option value="neocities_classic">GeoCities Classic</option>');
 document.write('		            <option value="material">Flat(-ish) Material</option>');
+document.write('		            <option value="material_dark">Flat(-ish) Material Dark</option>');
 document.write('              </select>');
 document.write("            </td>")
 document.write("            <td style=\"text-align: right\">")

@@ -4,10 +4,10 @@
 }
 
 .blogpost {
-  background-color: #ffffff;
+  background-color: #484e51;
   border-radius: 0;
   border: unset;
-  color: black;
+  color: white;
 }
 
 .fakebutton_close,
@@ -37,21 +37,21 @@
 
 html {
   background-attachment: fixed;
-  background-color: #bbbbbb;
+  background-color: #333333;
   background-image: unset;
   background-size: cover;
-  color: black;
+  color: white;
   font-family: "NotoSans-Regular";
 }
 
 nav {
-  background-color: #ffffff;
+  background-color: #484e51;
   border-radius: 0;
   border: unset;
 
   & > dl > dt > a,
   a:hover,
   a:visited {
-    color: black;
+    color: white;
   }
 }

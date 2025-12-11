@@ -29,10 +29,28 @@
 
 			<div class="heading">Blog</div>
 			<!--Old school navigation widget-->
-			<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+			<div class="navigationWidget">
 				&nbsp;<strong>1</strong>&nbsp;				&nbsp;<a href="2.shtml">2</a>&nbsp;				&nbsp;<a href="2.shtml">&gt;</a>&nbsp;
 			</div>
 <br>			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Dark, darker, yet darker - 11/12/2025 01:56</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					(Yeah it's almost 2 in the morning when I'm posting this. Insomnia ahh fueled coding sesh)<br>
+					<br>
+					I added a couple dark styles for those among you whose eyes hurt when looking at something mildly bright on a screen. (I won't blame you, I'm part of that crowd lmao)<br>
+					Also yeah I'm aware the menu is a lil bit borked on mobile at the moment, trying to see why.<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
 				<table class="titlebar">
 					<tr>
 						<td><label class="title">Huge code refactor - 07/12/2025 20:50</label></td>
@@ -99,23 +117,8 @@
 					<div class="signature">- Bad64</div>
 				</p>
 			</article>
-			<article class="blogpost">
-				<table class="titlebar">
-					<tr>
-						<td><label class="title">Roaming around - 20/10/2025 16:38</label></td>
-						<td class="buttoncontainer">
-							<script src="/common/elements/fakebuttons.js"></script>
-						</td>
-					</tr>
-				</table>
-				<script src="/common/elements/fakemenu.js"></script>
-				<p>
-					Been exploring tagged websites on NeoCities. There's quite a lot more people than I thought would be who also seem to hold fond memories of the XP Luna Blue style ! Genuinely surprised.<br>
-					<div class="signature">- Bad64</div>
-				</p>
-			</article>
 			<!--Old school navigation widget-->
-			<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+			<div class="navigationWidget">
 				&nbsp;<strong>1</strong>&nbsp;				&nbsp;<a href="2.shtml">2</a>&nbsp;				&nbsp;<a href="2.shtml">&gt;</a>&nbsp;
 			</div>
                             <!--Blog post generator end flag-->

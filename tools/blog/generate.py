@@ -59,7 +59,7 @@ class Post():
 def navigationWidget(pageNumber, maxPages):
     # Old-style chevron based navigation widget
     navStr = "\t\t\t<!--Old school navigation widget-->\n"
-    navStr += "\t\t\t<div style=\"display: flex; flex-wrap: wrap; justify-content: center;\">\n"
+    navStr += "\t\t\t<div class=\"navigationWidget\">\n"
 
     # First/Previous
     if pageNumber == 1:

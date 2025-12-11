@@ -1,0 +1,54 @@
+.blogpost {
+  background-color: #484e51;
+  border-radius: 0;
+  border: 3px outset #a19d97;
+  color: white;
+}
+
+.fakebutton_close,
+.fakebutton_maximize,
+.fakebutton_minimize {
+  background-color: #aaaaaa;
+  border-radius: 0;
+  border: 2px outset;
+  color: black;
+  font-family: "Marlett", "Webdings", "W95Font";
+  text-align: center;
+}
+
+.fakemenu {
+  background-color: #333333;
+  border-bottom: 1px groove darkgray;
+  box-sizing: border-box;
+  color: white;
+  display: block;
+}
+
+.titlebar {
+  background-image: linear-gradient(to right, #000080, #a3c6ed);
+  border-bottom: unset;
+  border-radius: 0;
+  color: white;
+  font-weight: bold;
+}
+
+html {
+  background-attachment: fixed;
+  background-color: #202020;
+  background-image: url("/common/images/bliss.png");
+  /*background-image: unset*/
+  background-size: cover;
+  font-family: "Tahoma";
+}
+
+nav {
+  background-color: #555555;
+  border-radius: 0 0 0;
+  border: 3px solid #a19d97;
+
+  & > dl > dt > a,
+  a:hover,
+  a:visited {
+    color: white;
+  }
+}

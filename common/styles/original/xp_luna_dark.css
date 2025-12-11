@@ -1,0 +1,54 @@
+.blogpost {
+  background-color: #484e51;
+  border-radius: 10px 10px 0 0;
+  border: 3px solid #0042b6;
+  color: white;
+}
+
+.fakebutton_close {
+  background-color: #f66e51;
+}
+
+.fakebutton_close,
+.fakebutton_maximize,
+.fakebutton_minimize {
+  border-radius: 3px;
+  border: 1px solid white;
+  color: white;
+  font-family: "Marlett", "Webdings", "W95Font";
+  text-align: center;
+}
+
+.fakemenu {
+  background-color: #333333;
+  color: white;
+  display: block;
+}
+
+.titlebar {
+  background-image: linear-gradient(to top, #0042b6, #0055ea, #0042b6);
+  border-bottom: unset;
+  border-radius: 6px 6px 0 0;
+  color: white;
+}
+
+html {
+  background-attachment: fixed;
+  background-color: #202020;
+  background-image: url("/common/images/bliss.png");
+  /*background-image: unset;*/
+  background-size: cover;
+  font-family: "Tahoma";
+}
+
+nav {
+  background-color: #555555;
+  border-radius: 10px 10px 0 0;
+  border: 3px solid #0042b6;
+
+  & > dl > dt > a,
+  a:hover,
+  a:visited {
+    color: white;
+  }
+}

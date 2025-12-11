@@ -30,7 +30,7 @@
                             <article class="blogpost">
                                 <table class="titlebar">
                                     <tr>
-                                        <td><label class="title">Post</label></td>
+                                        <td><label class="title">About me</label></td>
                                         <td class="buttoncontainer">
                                             <script src="/common/elements/fakebuttons.js"></script>
                                         </td>

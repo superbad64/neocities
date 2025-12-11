@@ -41,6 +41,12 @@
   display: none;
 }
 
+.navigationWidget {
+  & > a {
+    color: white;
+  }
+}
+
 .titlebar {
   background-image: linear-gradient(to right, #484060, #484060);
   border-bottom: unset;

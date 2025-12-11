@@ -118,6 +118,16 @@
   }
 }
 
+.navigationWidget {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  & > a {
+    color: blue;
+  }
+}
+
 .picture {
   display: flex;
   flex-direction: column;

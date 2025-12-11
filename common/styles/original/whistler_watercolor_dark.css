@@ -1,0 +1,64 @@
+.blogpost {
+  background-color: #484e51;
+  border-radius: 0;
+  border: 3px solid #5094f8;
+  color: white;
+}
+
+.fakebutton_close,
+.fakebutton_maximize,
+.fakebutton_minimize {
+  background-color: #5094f8;
+  border-radius: 0;
+  border: 1px solid;
+  color: lightblue;
+  font-family: "Marlett", "Webdings", "W95Font";
+  text-align: center;
+}
+
+.fakemenu {
+  background-color: #333333;
+  color: white;
+  display: block;
+}
+
+.navigationWidget {
+  & > a {
+    color: white;
+  }
+}
+
+.titlebar {
+  background-image: linear-gradient(
+    to right,
+    #5094f8,
+    #5094f8,
+    #5094f8,
+    #3573d6
+  );
+  border-bottom: unset;
+  border-radius: 0;
+  color: white;
+  font-weight: bold;
+}
+
+html {
+  background-attachment: fixed;
+  background-color: #00264b;
+  background-image: unset;
+  background-size: cover;
+  color: white;
+  font-family: "Tahoma";
+}
+
+nav {
+  background-color: #484e51;
+  border-radius: 0;
+  border: 3px solid #5094f8;
+
+  & > dl > dt > a,
+  a:hover,
+  a:visited {
+    color: white;
+  }
+}

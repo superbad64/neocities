@@ -15,11 +15,7 @@
   text-align: center;
 }
 
-.fakebutton_maximize {
-  color: #eda870;
-  display: none;
-}
-
+.fakebutton_maximize,
 .fakebutton_minimize {
   color: #eda870;
   display: none;
