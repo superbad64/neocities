@@ -81,7 +81,7 @@ def navigationWidget(pageNumber, maxPages):
     if pageNumber + 1 < maxPages:
         navStr += f"\t\t\t\t&nbsp;<a href=\"{pageNumber+1}.shtml\">&gt;</a>&nbsp;"
     if pageNumber + 2 < maxPages:
-        navStr += f"\t\t\t\t&nbsp;<a href=\"{maxPages}.shtml\">&gt;&gt;</a>&nbsp;"
+        navStr += f"\t\t\t\t&nbsp;<a href=\"{maxPages-1}.shtml\">&gt;&gt;</a>&nbsp;"
 
     navStr += "\n\t\t\t</div>\n"
     return navStr

@@ -30,12 +30,12 @@
 			<div class="heading">Blog</div>
 			<!--Old school navigation widget-->
 			<div class="navigationWidget">
-				&nbsp;<strong>1</strong>&nbsp;
+				&nbsp;<a href="1.shtml">&lt;&lt;</a>&nbsp;				&nbsp;<a href="2.shtml">&lt;</a>&nbsp;				&nbsp;<a href="1.shtml">1</a>&nbsp;				&nbsp;<a href="2.shtml">2</a>&nbsp;				&nbsp;<strong>3</strong>&nbsp;
 			</div>
 <br>			<article class="blogpost">
 				<table class="titlebar">
 					<tr>
-						<td><label class="title">À moyen terme - 19/12/2025 05:43</label></td>
+						<td><label class="title">Hello, World ! - 30/09/2025 13:33</label></td>
 						<td class="buttoncontainer">
 							<script src="/common/elements/fakebuttons.js"></script>
 						</td>
@@ -43,48 +43,16 @@
 				</table>
 				<script src="/common/elements/fakemenu.js"></script>
 				<p>
-					La difficulté à retrouver un emploi me fait sérieusement considérer acheter un utilitaire/van et l'aménager avec mes dernières ressources... Je devrais abandonner la majorité de mes hobbies malheureusement, mais au point où j'en suis je crains de ne pas avoir le choix de toutes façons. C'est ça ou acheter une moto et prier pour retrouver du taf.<br>
-					<div class="signature">- Bad64</div>
-				</p>
-			</article>
-			<article class="blogpost">
-				<table class="titlebar">
-					<tr>
-						<td><label class="title">Trop d4rk tavu - 11/12/2025 01:54</label></td>
-						<td class="buttoncontainer">
-							<script src="/common/elements/fakebuttons.js"></script>
-						</td>
-					</tr>
-				</table>
-				<script src="/common/elements/fakemenu.js"></script>
-				<p>
-					(Oui il est quasiment 2h du mat'... insomnie FTW)<br>
+					Ayo ? This thing on ?<br>
 					<br>
-					Je me suis dit que ça pourrait aider les gens qui ont des yeux fragiles (comme les miens) si j'ajoutais des styles un peu moins criards, notamment pour ceux qui sont sur mobile.<br>
-					D'ailleurs, oui je suis au courant que le menu est <i>un peu</i> cassé sur mobile - j'essaie de voir ce qui cloche !<br>
-					<div class="signature">- Bad64</div>
-				</p>
-			</article>
-			<article class="blogpost">
-				<table class="titlebar">
-					<tr>
-						<td><label class="title">Un, deux, un deux... Test ? - 07/12/2025 20:46</label></td>
-						<td class="buttoncontainer">
-							<script src="/common/elements/fakebuttons.js"></script>
-						</td>
-					</tr>
-				</table>
-				<script src="/common/elements/fakemenu.js"></script>
-				<p>
-					Bon, ben j'imagine que je devrais peut-être me fendre de <i>quelques</i> articles en Français, vu que je ne vais probablement pas tout publier en Anglais.<br>
-					<br>
-					Pour ceux qui font le marché de Noël, que ça soit en simple visiteur ou en tant qu'exposant, force à vous ! Je suis pas particulièrement fan de la saison, mais au moins ça me donnera une excuse pour me gaver de fondue héhé.<br>
+					Good ! If you see this, it means my blog applet is working !<br>
+					I've been hacking at it for days now... Glad to see nothing caught on fire (yet) !<br>
 					<div class="signature">- Bad64</div>
 				</p>
 			</article>
 			<!--Old school navigation widget-->
 			<div class="navigationWidget">
-				&nbsp;<strong>1</strong>&nbsp;
+				&nbsp;<a href="1.shtml">&lt;&lt;</a>&nbsp;				&nbsp;<a href="2.shtml">&lt;</a>&nbsp;				&nbsp;<a href="1.shtml">1</a>&nbsp;				&nbsp;<a href="2.shtml">2</a>&nbsp;				&nbsp;<strong>3</strong>&nbsp;
 			</div>
                             <!--Blog post generator end flag-->
                             <script src="/common/elements/footer.js"></script>

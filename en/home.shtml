@@ -39,10 +39,21 @@
                                 
                                 <script src="/common/elements/fakemenu.js"></script>
 
+								<p style="text-align: center;">Hi ! Welcome to <b>Bad64's Corner</b> !</p>
 								<p>
-									Hi ! Welcome to <b>Bad64's Corner</b>. Here you shall find the <a href="/en/articles.shtml">ramblings of an old fool</a>, <a href="/en/blog/1.shtml">short blog notes reflecting my thoughts and mood</a>, and even <a href="/en/projects.shtml">a gaggle of projects</a> that help me pass the time. Or if you want to, you can even <a href="/en/about.shtml">read about me</a> ! So grab yourself a bev, load a cozy playlist, and let the nostalgia get you for a minute !
+									I decided to create this site out of frustration with the modern Internet. Everything's so bland and flat nowadays ! Where's all the color and whimsy gone ?!<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup><br>
+									<br>
+									Me, well, I'm a massive nerd whose interests can be mostly summed up as video games, arcade machines (of every variety), and generally speaking designing and building stuff for the sake of it. I love DIY projects, whether it's something like programming, woodworking, welding, or 3D printing, and write about them <a href="/en/projects.shtml">over here</a>. I'm going to open-source as much of my stuff as physically possible, even though I don't really know how I'm going to do that for wood and metal stuff yet !<br>
+									<br>
+									I also write <a href="/en/blog/1.shtml">short</a> and <a href="/en/articles.shtml">long</a> form content every once in a while. Usually I try to write a couple blog posts and one long article per month, but no guarantees. It's not really something I'm used to do, you could even say this is an attempt to get out of my comfort zone, but I still need to have something worth going in depth about, y'know ?<br>
+									<br>
+									Anyways, grab yourself a bev, load up a cozy playlist, and make yourself comfortable, aye ? Let's pause the rat race for a minute and enjoy some slow-paced nostalgia. Sounds like everyone could use a break.
 								</p>
 								<div class="signature">- Bad64</div>
+								<hr>
+								<p class="footnotes">
+									<a id="footnote-1" href="#footnote-1-orig">1</a>: Here on NeoCities, apparently (which is a good thing)<br>
+								</p>
 							</article>
 							
 							<article class="blogpost">
@@ -54,46 +65,20 @@
                                         </td>
                                     </tr>
                                 </table>
-								
-								<script src="/common/elements/fakemenu.js"></script>
-
-								<div style="display: flex; flex-direction: row; justify-content: space-between;">
-									<p style="max-width: 40%;">
-										Whenever I'm working, I usually either have stream VODs or long playlists as a backing noise. This is one of the latter. I really enjoy putting on one of those long form "videos" and fully focus on whatever it is that I'm doing (most of the time 3D modeling, or building the resulting prints thereof). Almost a zen-like experience in my opinion !
-									</p>
-									<iframe width="560" height="315" src="https://www.youtube.com/embed/F4nRB_I84D8?si=uB9J3z4VCsfmcrWN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-								</div>
-							</article>
-
-							<article class="blogpost">
-                                <table class="titlebar">
-                                    <tr>
-                                        <td><label class="title">What's next ?</label></td>
-                                        <td class="buttoncontainer">
-                                            <script src="/common/elements/fakebuttons.js"></script>
-                                        </td>
-                                    </tr>
-                                </table>
-								
-								<script src="/common/elements/fakemenu.js"></script>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
 
 								<p>
-									Here's my TODO list for the foreseeable future:
+									Here are the latest site updates:
 								</p>
-								<ul>
-									<li>More styles !</li>
-									<li>A wallpaper selector ?</li>
-									<li>Remake all the icons:</li>
-									<ul>
-										<li><s>Favicon</s></li>
-										<li>Home</li>
-										<li>About</li>
-										<li>Articles</li>
-										<li>Blog</li>
-										<li>FAQ</li>
-										<li>Projects</li>
-									</ul>
-								</ul>
+								<div style="display: flex; flex-direction: row; justify-content: center;">
+									<textarea readonly>
+December 19, 2025:
+- Added this widget
+- New blog post: Medium-term survival
+- Fake buttons have been disabled on mobile due to compatibility issues
+									</textarea>
+								</div>
 							</article>
 							<script src="/common/elements/footer.js"></script>
 						</td>

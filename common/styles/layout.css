@@ -17,8 +17,13 @@
 }
 
 .buttoncontainer {
-  display: flex;
-  justify-content: flex-end;
+  @media (orientation: landscape) {
+    display: flex;
+    justify-content: flex-end;
+  }
+  @media (orientation: portrait) {
+    display: none;
+  }
 }
 
 .buttonlabel {
@@ -272,6 +277,12 @@ nav {
     height: 24px;
     width: auto;
   }
+
+  & > table > tbody > tr > .buttoncontainer {
+    @media (orientation: portrait) {
+      display: none;
+    }
+  }
 }
 
 nav a,
@@ -293,4 +304,19 @@ sup {
 
 tbody {
   vertical-align: top;
+}
+
+textarea {
+  overflow-y: scroll;
+  resize: none;
+  @media (orientation: landscape) {
+    font-size: 14px;
+    height: 150px;
+    width: 60%;
+  }
+  @media (orientation: portrait) {
+    font-size: 22px;
+    height: 300px;
+    width: 95%;
+  }
 }

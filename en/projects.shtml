@@ -50,27 +50,6 @@
 							<article class="blogpost">
 								<table class="titlebar">
                                     <tr>
-                                        <td><label class="title">Woodworking</label></td>
-                                        <td class="buttoncontainer">
-                                            <script src="/common/elements/fakebuttons.js"></script>
-                                        </td>
-                                    </tr>
-                                </table>
-								
-								<script src="/common/elements/fakemenu.js"></script>
-
-								<p>It's not uncommon for me to do woodworking in the warmer parts of the year.</p>
-
-								<p>
-									<ul>
-										<li><i>Coming soon !</i></li>
-									</ul>
-								</p>
-							</article>
-
-							<article class="blogpost">
-								<table class="titlebar">
-                                    <tr>
                                         <td><label class="title">Code</label></td>
                                         <td class="buttoncontainer">
                                             <script src="/common/elements/fakebuttons.js"></script>

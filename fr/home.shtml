@@ -30,7 +30,7 @@
                             <article class="blogpost">
                                 <table class="titlebar">
                                     <tr>
-                                        <td><label class="title">Page d'accueil</label></td>
+                                        <td><label class="title">Bienvenue</label></td>
                                         <td class="buttoncontainer">
                                             <script src="/common/elements/fakebuttons.js"></script>
                                         </td>
@@ -39,16 +39,24 @@
                                 
                                 <script src="/common/elements/fakemenu.js"></script>
 
+								<p style="text-align: center;">Hej ! Bienvenue au <b>Coin à Bad64</b> !</p>
 								<p>
-									Hej ! Bienvenue au <b>coin à Bad64</b><sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup>. Ici vous trouverez <a href="/en/articles.shtml">divers monologues</a> sur des trucs que je trouve intéressants, <a href="/en/projects.shtml">certains de mes projets</a> qui me font passer le tems, <a href="/en/about.shtml">et même une p'tite biographie</a> ! Installez vous, prenez un truc à boire, et profitez de l'ambiance !
+									J'ai décidé de créer ce site à la fois par besoin d'un endroit où m'exprimer, et par frustration avec l'Internet "moderne". Y sont parti où les sites un peu créatifs et stylés ?<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup><br>
+									<br>
+									Moi, ben, je suis essentiellement un nerd passionné de jeux vidéo, machines d'arcade (incluant des trucs genre les flippers, chasse-taupes, etc), et d'une manière générale j'adore les projets DIY<sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup>, qu'on parle de programmation, d'ébénisterie, de métallerie, ou même d'impression 3D, et j'écris des choses à leur sujet <a href="/fr/projects.shtml">par ici</a>. Je rendrai un maximum d'entre eux open-source, même si en toute franchise je sais pas encore trop comment je vais m'y prendre pour les projets bois ou métal !<br>
+									<br>
+									J'écris aussi des formats <a href="/fr/blog/1.shtml">courts</a> et <a href="/fr/articles.shtml">longs</a> de temps à autre. Dans la mesure du possible, j'essaie d'écrire un ou deux posts sur mon blog et un article au format long par mois. C'est pas vraiment quelquechose que je suis habitué à faire, j'essaie de sortir un peu de ma zone de confort, mais faut quand même que je trouve quelquechose qui m'inspire pour pouvoir écrire dessus.<br>
+									<br>
+									Bref, prenez une boisson, mettez une petite musique de fond relax, et détendez vous un peu dans une ambiance rétro. On a tous besoin d'une petite pause, pas vrai ?
 								</p>
 								<div class="signature">- Bad64</div>
 								<hr>
 								<p class="footnotes">
-									<a href="footnote-1-orig">1</a>: Oui je sais que je devrais dire "le coin <i>de</i> Bad64" mais j'aime être chiant
+									<a id="footnote-1" href="#footnote-1-orig">1</a>: Apparemment ici sur NeoCities (bonne chose)<br>
+									<a id="footnote-2" href="#footnote-2-orig">2</a>: <b>D</b>o <b>I</b>t <b>Y</b>ourself, "Faites-le vous-même" en traduction littérale. L'art et surtout la manière de fabriquer des trucs divers et variés<br>
 								</p>
 							</article>
-			
+							
 							<article class="blogpost">
                                 <table class="titlebar">
                                     <tr>
@@ -61,43 +69,17 @@
                                 
                                 <script src="/common/elements/fakemenu.js"></script>
 
-								<div style="display: flex; flex-direction: row; justify-content: space-between;">
-									<p style="max-width: 40%;">
-										Comme beaucoup de gens j'aime bien avoir une playlist en fond sonore pour m'aider à me concentrer, ou même juste pour les rares fois où je dois aller en centre-ville et que le seul truc qui m'empêche de me rouler en boule dans un coin à cause de la surstimulation est mon vieux &amp;&amp; fidèle Corsair HS70. Ces temps-ci je dose pas mal les longues playlist sur Youtube, en particulier celle-là:
-									</p>
-									<iframe width="560" height="315" src="https://www.youtube.com/embed/F4nRB_I84D8?si=uB9J3z4VCsfmcrWN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-								</div>
-							</article>
-
-							<article class="blogpost">
-                                <table class="titlebar">
-                                    <tr>
-                                        <td><label class="title">À venir</label></td>
-                                        <td class="buttoncontainer">
-                                            <script src="/common/elements/fakebuttons.js"></script>
-                                        </td>
-                                    </tr>
-                                </table>
-                                
-                                <script src="/common/elements/fakemenu.js"></script>
-
 								<p>
-									P'tite liste des choses que je souhaite implémenter dans un futur proche
+									Les dernières mises à jour du site ici:
 								</p>
-								<ul>
-									<li>Plus de styles !</li>
-									<li>Un moyen de choisir le fond d'écran</li>
-									<li>Refaire toutes les icones:</li>
-									<ul>
-										<li><s>Icone des favoris</s></li>
-										<li>Accueil</li>
-										<li>À propos</li>
-										<li>Articles</li>
-										<li>Blog</li>
-										<li>FAQ</li>
-										<li>Projets</li>
-									</ul>
-								</ul>
+								<div style="display: flex; flex-direction: row; justify-content: center;">
+									<textarea readonly>
+Décembre 19, 2025:
+- Ajouté ce widget
+- Nouveau post: À moyen terme
+- Les faux contrôles de fenêtre ont été désactivés sur mobile pour des raisons de compatibilité
+									</textarea>
+								</div>
 							</article>
 							<script src="/common/elements/footer.js"></script>
 						</td>

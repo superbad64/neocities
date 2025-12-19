@@ -50,25 +50,6 @@
 							<article class="blogpost">
                                 <table class="titlebar">
                                     <tr>
-                                        <td><label class="title">Ébenisterie</label></td>
-                                        <td class="buttoncontainer">
-                                            <script src="/common/elements/fakebuttons.js"></script>
-                                        </td>
-                                    </tr>
-                                </table>
-                                
-                                <script src="/common/elements/fakemenu.js"></script>
-
-								<p>Sur les périodes plus chaudes de l'année, j'aime m'adonner au travail du bois</p>
-
-								<ul>
-									<li><i>À venir !</i></li>
-								</ul>
-							</article>
-
-							<article class="blogpost">
-                                <table class="titlebar">
-                                    <tr>
                                         <td><label class="title">Code</label></td>
                                         <td class="buttoncontainer">
                                             <script src="/common/elements/fakebuttons.js"></script>
