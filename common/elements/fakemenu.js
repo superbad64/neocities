@@ -1,4 +1,4 @@
-document.write('<!-- A fake but convincing looking menu-bar, only shows up with the XP style -->');
+document.write('<!-- A fake but convincing looking menu-bar-->');
 document.write('<div class="fakemenu">');
 
 var lang = window.location.href.split("/")[3];

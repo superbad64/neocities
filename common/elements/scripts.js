@@ -28,9 +28,7 @@ function updateLayout() {
 	content.style.height = ((vpHeight - portraitMenu.getBoundingClientRect().height - selectorsRow.getBoundingClientRect().height) * (97.5/100)) + "px";	// That multiplier is mostly arbitrary; make it make sense ?
 	
 	/* Set portrait mode menu */
-	portraitMenu.getBoundingClientRect().x = firstArticle.getBoundingClientRect().x;
-	portraitMenu.style.width = firstArticle.getBoundingClientRect().width + "px";
-	portraitMenu.children[0].style.width = firstArticle.getBoundingClientRect().width + "px";
+	portraitMenu.children[0].style.width = (firstArticle.getBoundingClientRect().width - 2) + "px";
 
 	/* Set nav menu area */
 	landscapeMenu.children[1].children[3].style.height = (landscapeMenu.getBoundingClientRect().height - landscapeMenu.children[1].children[0].getBoundingClientRect().height - landscapeMenu.children[1].children[2].getBoundingClientRect().height - 5) + "px"

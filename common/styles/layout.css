@@ -220,12 +220,16 @@
 }
 
 #portraitMenu {
-  width: 99%;
+  width: auto;
   @media (orientation: landscape) {
     display: none;
   }
   @media (orientation: portrait) {
     display: block;
+  }
+
+  & > td {
+    padding: 0;
   }
 }
 
@@ -279,6 +283,9 @@ nav {
   }
 
   & > table > tbody > tr > .buttoncontainer {
+    @media (orientation: landscape) {
+      display: none;
+    }
     @media (orientation: portrait) {
       display: none;
     }
