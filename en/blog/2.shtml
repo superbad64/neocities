@@ -35,6 +35,23 @@
 <br>			<article class="blogpost">
 				<table class="titlebar">
 					<tr>
+						<td><label class="title">Translation done and some other things - 02/11/2025 15:03</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					Finally done translating everything I wrote (so far) in French ! I also globally enabled the style selector rather than relegating it to an easter egg. Makes more sense given that styles now persist across site visits !<br>
+					<br>
+					I also tweaked the styles a little bit more for the occasion. Added some buttons and whatnot. Hope that looks good !<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
 						<td><label class="title">French translation incoming - 24/10/2025 12:50</label></td>
 						<td class="buttoncontainer">
 							<script src="/common/elements/fakebuttons.js"></script>
@@ -91,25 +108,6 @@
 					I've cleaned up the actual website a little bit, and touched up the CSS to slightly better match the XP aesthetic. On the GitHub repo I've uploaded a bunch of new styles too.<br>
 					<br>
 					I should go back to my EVO training now ! Hopefully I'll get to write about my experience there !<br>
-					<div class="signature">- Bad64</div>
-				</p>
-			</article>
-			<article class="blogpost">
-				<table class="titlebar">
-					<tr>
-						<td><label class="title">Site launch - 30/09/2025 21:21</label></td>
-						<td class="buttoncontainer">
-							<script src="/common/elements/fakebuttons.js"></script>
-						</td>
-					</tr>
-				</table>
-				<script src="/common/elements/fakemenu.js"></script>
-				<p>
-					Well, here we are. I'm (finally) launching this website I've been bothering pretty much everyone about for the past five months or so.<br>
-					<br>
-					It's been an eventful road. I'm not a developer, much less a web developer (if anything I mostly write either administration scripts or low level code for embedded microcontrollers). The design alone took quite a lot of time. I created two stylesheets, one themed around Windows 9x and one around Windows XP. Still not entirely sure which one looks best.<br>
-					<br>
-					Either way, that's that. Hope you enjoy your stay !
 					<div class="signature">- Bad64</div>
 				</p>
 			</article>

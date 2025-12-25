@@ -35,6 +35,25 @@
 <br>			<article class="blogpost">
 				<table class="titlebar">
 					<tr>
+						<td><label class="title">Joyeux Noël ! - 25/12/2025 16:37</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					J'espère que le Grand Barbu Hyperluminique vous aura bien gâté et que vous profitez bien de la période des fêtes ! Pour ma part c'est toujours boulot boulot boulot... Stay tuned<br>
+					<div class="picture">
+						<img src="/common/images/blog/2025/12/25/godtier.jpg" />
+						<p>Le genre de vibe que j'amène à la fonction sociale</p>
+					</div>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
 						<td><label class="title">À moyen terme - 19/12/2025 05:43</label></td>
 						<td class="buttoncontainer">
 							<script src="/common/elements/fakebuttons.js"></script>
