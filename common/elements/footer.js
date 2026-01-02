@@ -23,7 +23,7 @@ document.write('<!-- The site footer, with badges, copyright, and other fun stuf
 document.write('<section class="footer">');
 document.write('	<hr>');
 
-document.write('	<p style="text-align: center;">© Bad64 2025<br>' + footerStrings[lang]["copyrightNotice"] + '</p>');
+document.write('	<p style="text-align: center;">© Bad64 2025-2026<br>' + footerStrings[lang]["copyrightNotice"] + '</p>');
 document.write('	<div class="footerBadges">');
 document.write('		<img src=/common/images/badges/chromevil.gif />');
 document.write('	</div>');

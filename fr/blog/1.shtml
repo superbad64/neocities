@@ -35,6 +35,22 @@
 <br>			<article class="blogpost">
 				<table class="titlebar">
 					<tr>
+						<td><label class="title">Bonne année ! - 02/01/2026 19:19</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					Bonne année 2026 ! Meilleurs voeux, la santé, tout ça, je pense que vous connaissez la chanson. Croisons les doigts pour que cette année soit un peu meilleure que la précédente !<br>
+					<div class="picture"><img src="/common/images/blog/2026/01/02/hbd.png"><p>Pour ma part j'ai autre chose à fêter !</p></div>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
 						<td><label class="title">Joyeux Noël ! - 25/12/2025 16:37</label></td>
 						<td class="buttoncontainer">
 							<script src="/common/elements/fakebuttons.js"></script>

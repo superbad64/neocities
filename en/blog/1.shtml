@@ -35,6 +35,22 @@
 <br>			<article class="blogpost">
 				<table class="titlebar">
 					<tr>
+						<td><label class="title">Happy new year ! - 02/01/2026 19:21</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					Happy new year everybody ! Best wishes, may fortune and health smile upon you, blah blah blah, I think you know the drill by this point. Hopefully 2026 will suck a little less than 2025 !<br>
+					<div class="picture"><img src="/common/images/blog/2026/01/02/hbd.png"><p>As for me, I have something else to celebrate today !</p></div><br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
 						<td><label class="title">Merry Christmas ! - 25/12/2025 16:38</label></td>
 						<td class="buttoncontainer">
 							<script src="/common/elements/fakebuttons.js"></script>
@@ -98,24 +114,6 @@
 					Not that it should be very visible to most of you, but I changed most of the code that runs the site, mostly for layout consistency across devices and eventually frameworking. Took me most of the day, so definitely up there in terms of productive uses of my time lmao<br>
 					<br>
 					Anyways, hope y'all enjoying the Christmas season ! Not particularly fond of it myself for <i>reasons</i>, but don't let that stop you. I'm not the Grinch !<br>
-					<div class="signature">- Bad64</div>
-				</p>
-			</article>
-			<article class="blogpost">
-				<table class="titlebar">
-					<tr>
-						<td><label class="title">Some news - 27/11/2025 04:31</label></td>
-						<td class="buttoncontainer">
-							<script src="/common/elements/fakebuttons.js"></script>
-						</td>
-					</tr>
-				</table>
-				<script src="/common/elements/fakemenu.js"></script>
-				<p>
-					Hey, been a month already huh ? Time does fly when I work on the things y'all can't really see on this site hehe.<br>
-					I mean you <i>can</i> sorta see some of them, like the new landing page with language selection and the DOS-like style I added... But there's also a lot more going on like a new (and much cleaner) way to load stylesheets in what passes as the back-end. Not that it should really impact your navigation experience, it just makes things easier to maintain and expand on my end, mostly !<br>
-					<br>
-					Either way, we're closing in on November, and the holiday cheer is well and truly present around here. Hope everything goes well this season too. Let's try to not drink too much hot cocoa ! (No chance lmao)<br>
 					<div class="signature">- Bad64</div>
 				</p>
 			</article>
