@@ -40,3 +40,28 @@ nav {
   border: 1px solid black;
   border-radius: 0;
 }
+
+.dialog {
+  background-color: #555555;
+  color: black;
+  border: 1px solid black;
+  border-radius: 0;
+  margin: auto;
+  width: 64%;
+
+  & > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    & > * {
+      padding: 0.5em;
+    }
+  }
+
+  & > table > tbody > tr > td.buttoncontainer > label.fakebutton_minimize
+  & > table > tbody > tr > td.buttoncontainer > label.fakebutton_maximize {
+    display: none;
+  }
+}

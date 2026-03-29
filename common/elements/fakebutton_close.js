@@ -1,0 +1,1 @@
+document.write('<label class="fakebutton_close"><div class="buttonlabel">&#128473;</div></label>');

@@ -35,6 +35,48 @@
 <br>			<article class="blogpost">
 				<table class="titlebar">
 					<tr>
+						<td><label class="title">Hypersomnia - 29/03/2026 16:26</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					You ever had one of those days where you sleep for like 20 hours straight ?<br>
+					<br>
+					It's been happening to me lately. The feeling of having an entire day go *poof* is very unsettling, to say the least. So far, no one really know what's causing this (can't be my medication since I haven't changed my intake since January). It's not that concerning yet, but might be whenever I start working again.<br>
+					<br>
+					In other news I'm cooking a little something that I want to share for April fools. The PCBs are late however, so I'm not sure if I'll be able to. Stay tuned !<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">January news ! - 30/01/2026 12:57</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					So much for "2 posts and an article a month" eh ? Well here's the thing: I've done <i>fuck all</i> this month. There's two big reasons.<br>
+					<br>
+					The first one is that I've started taking antidepressants, and to be completely honest, they've been wrecking me. I know it takes time to get used to them so I'm not too worried, but the end result is still that I can barely spare the energy to do much of anything. On the upside though, I've been sleeping like a log, which is a very welcome change of pace from my usual bouts of insomnia.<br>
+					<br>
+					The second is that I've ran into a tiny bit of financial snag which left basically nothing in terms of disposable income for this month. I've run out of filament a while ago and have been printing nothing but test pieces for the past couple weeks, using "scrap" filament (like neon pink for example), so progress has been very limited on the stick-making front. I hope to be able to make one next month.<br>
+					<br>
+					Due to shenanigans I've also had my internet cut off for a couple weeks or so. Currently running on 4G internet, with my phone cosplaying as a router since mid-January. The service quality isn't bad per se, but it still sucks that I essentially can't use my phone to look for work etc. Rough start to 2026, right ? (And that's not even mentioning all the BS happening around)<br>
+					<br>
+					Anyways, enough whining for one post. I'll see you guys on February, hopefully with a new build !<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
 						<td><label class="title">Happy new year ! - 02/01/2026 19:21</label></td>
 						<td class="buttoncontainer">
 							<script src="/common/elements/fakebuttons.js"></script>
@@ -79,41 +121,6 @@
 				<script src="/common/elements/fakemenu.js"></script>
 				<p>
 					Lack of employment perspectives (mainly due to my current state of existence) is making me heavily consider using my last funds to buy a truck and turn it into a camper of sorts. This would involve letting go of most of my hobbies (can't really 3D print on a car battery, can I ?), but at this point I feel like I don't have any choice either way. It's that or a motorcycle and a prayer that I can find some work real soon.<br>
-					<div class="signature">- Bad64</div>
-				</p>
-			</article>
-			<article class="blogpost">
-				<table class="titlebar">
-					<tr>
-						<td><label class="title">Dark, darker, yet darker - 11/12/2025 01:56</label></td>
-						<td class="buttoncontainer">
-							<script src="/common/elements/fakebuttons.js"></script>
-						</td>
-					</tr>
-				</table>
-				<script src="/common/elements/fakemenu.js"></script>
-				<p>
-					(Yeah it's almost 2 in the morning when I'm posting this. Insomnia ahh fueled coding sesh)<br>
-					<br>
-					I added a couple dark styles for those among you whose eyes hurt when looking at something mildly bright on a screen. (I won't blame you, I'm part of that crowd lmao)<br>
-					Also yeah I'm aware the menu is a lil bit borked on mobile at the moment, trying to see why.<br>
-					<div class="signature">- Bad64</div>
-				</p>
-			</article>
-			<article class="blogpost">
-				<table class="titlebar">
-					<tr>
-						<td><label class="title">Huge code refactor - 07/12/2025 20:50</label></td>
-						<td class="buttoncontainer">
-							<script src="/common/elements/fakebuttons.js"></script>
-						</td>
-					</tr>
-				</table>
-				<script src="/common/elements/fakemenu.js"></script>
-				<p>
-					Not that it should be very visible to most of you, but I changed most of the code that runs the site, mostly for layout consistency across devices and eventually frameworking. Took me most of the day, so definitely up there in terms of productive uses of my time lmao<br>
-					<br>
-					Anyways, hope y'all enjoying the Christmas season ! Not particularly fond of it myself for <i>reasons</i>, but don't let that stop you. I'm not the Grinch !<br>
 					<div class="signature">- Bad64</div>
 				</p>
 			</article>

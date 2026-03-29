@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Memoires d'un vieux gamer - Bad64's Corner</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<link id="currentStyleSheet" rel="stylesheet" href="">
+		<meta charset="UTF-8">
+		<link rel="icon" type="image/png" href="/common/images/icons/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/common/images/icons/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/common/images/icons/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/common/images/icons/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="Bad64's Corner" />
+		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
+	</head>
+	<body>
+        <div id="wrapper">
+            <table id="main">
+                <tbody>
+                    <tr id="selectorsRow">
+                        <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                    </tr>
+                    <tr id="portraitMenu">
+                        <td><script src="/common/elements/portraitmenu.js"></script></td>
+                    </tr>
+                    <tr id="content">
+                        <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                        <td colspan="2" id="articles">
+                            <!--Blog post generator start flag-->
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Memoires d'un vieux gamer</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+
+                                <p>
+                                    C'est Noël ! (Oui ok j'ai quelques jours de retard)<br>
+                                    À défaut de cadeaux et de jouets par milliers, je vous propose quelques petites anecdotes liées au gaming dont j'ai eu l'expérience au cours de mes pérégrinations sur cette planète ! Je peux malheureusement pas garantir la chronologie exacte de toutes les anecdotes, mais dans la mesure du possible, je vais vous les présenter par décénnie, dans l'ordre dont je me souviens. Bonne lecture !<br>
+                                    <br>
+                                    Ce post contient:
+                                </p>
+                                <ul>
+                                    <li>Beaucoup (trop) de jargon de versus</li>
+                                    <li>Vraisemblablement des trucs qui feraient cancel mes parents sur X, anciennement Twitter</li>
+                                </ul>
+                            </article>
+
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">1990s</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+
+                                <p>
+                                    J'ai largement hérité de la passion du jeu vidéo via Cousin FPS<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup>. Principalement parce que j'ai aussi hérité de ses jeux et consoles quand il changeait de plateforme, en tout cas au début.<br>
+                                    <br>
+                                    <b><i><u>Date inconnue (quelquepart entre 1992 et 1994)</u></i></b> - Sans grande surprise mon tout premier jeu vidéo a été Super Mario Bros., spécifiquement la cartouche combinée avec Duck Hunt. C'est d'ailleurs sur celle-là que dans un des très rares souvenirs que j'ai avec ma soeur, on a découvert que brancher une manette dans le port 2 permettait de contrôler les canards !<br>
+                                    <br>
+                                    <b><i><u>Entre l'été 1995 et fin 1997</u></i></b> - Par des circonstances dont je ne me souviens absolument pas (4 ans hein), j'ai obtenu une Super Nintendo avec une plâtrée de jeux; Super Mario World, Donkey Kong Country, Mortal Kombat 1 et 2, mais surtout Street Fighter 2 ! C'était mon premier jeu de baston, au début je jouais Guile mais j'ai pris des années à comprendre comment sortir un Sonic Boom ou un Flash Kick... (j'avais le jeu en loose, donc sans manuel)<br>
+                                    J'ai des souvenirs assez variés de poncer le jeu avec les copains de l'époque, notamment y'en avais un qui lui avait compris comment jouer Guile (c'est-à-dire qu'il maintenait bas-arrière globalement) et qui était juste concrètement invincible. Personne dans notre groupe ne connaissait l'existence des <i>proximity throws</i><sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup> et le <i>pushback</i><sup id="footnote-3-orig"><a href="#footnote-3">3</a></sup> était notoirement énorme à l'époque, et personne pouvait vraiment le toucher jusqu'à ce qu'un pote décide de doser Dhalsim et de jouer tous les matches au timeout en le clippant avec c.HP dès qu'y balançait un Sonic Boom.<br>
+                                    C'était pas "vraiment" de la compétition au sens premier, on voulait juste voir qui cassait le plus la gueule des gens dans le village hein, mais le fait qu'on ait eu essentiellement une mini-méta qui se crée dans la cour de récré a dû être un de mes premiers contacts avec la notion de jeu compétitif.<br>
+                                    Quelquepart, je trouve ça fantastique que pendant presque 3 ans, tous les samedi aprem on se retrouvait dans ma chambre avec les copains pour se mettre des mandales du futur. Un jour on avait même tenté d'organiser un p'tit tournoi avec le bled d'à côté, mais ils ont triché, ils ont ramené un Grand Frère (il devait avoir genre 10-11 ans ?) qui connaissait le jeu, il nous a tous marrave avec son Zangief...<br>
+                                    <br>
+                                    <b><i><u>Février 1996</u></i></b> - Cousin FPS m'a prêté sa cartouche de Mortal Kombat 2. Y'a du sang, c'est trop stylé. J'apprends des trucs vraiment débiles genre la Fatality de Shang Tsung<sup id="footnote-4-orig"><a href="#footnote-4">4</a></sup> où, m'avait-on dit à l'époque, fallait maintenir Low Kick pendant <i>tout le round</i><sup id="footnote-5-orig"><a href="#footnote-5">5</a></sup>. Ma mère me surprend en train de faire la dite Fatality. Ma mère devient soudainement experte en Muay Thai et me défonce parce que je joue à un jeu violent. J'ai encore la cartouche, d'ailleurs.<br>
+                                    <br>
+                                </p>
+                                <hr>
+                                <p class="footnotes">
+                                    <a id="footnote-1" href="#footnote-1-orig">1</a>: Le même qui m'avait fourni des disquettes de DOOM<br>
+                                    <a id="footnote-2" href="#footnote-2-orig">2</a>: Un type de projection archaïque qui se déclenche sous deux conditions: le chevauchement de deux hitboxes spécifiques (aka "grab boxes") &amp;&amp; une combinaison de type direction + bouton. Le souci principal c'est que non seulement ces hitboxes sont infernales à aligner proprement, mais aussi que les <i>softening</i> (introduits dans je sais plus quelle révision de SF2) requièrent un input spécifique par perso<br>
+                                    <a id="footnote-3" href="#footnote-3-orig">3</a>: Quand tu prends un coup dans la garde, le jeu te fait reculer quand même un peu histoire que par exemple ton adversaire puisse pas te mettre dans le coin et te bolosser gratuitement (bon dans le cas du coin c'était l'adversaire qui reculait mais l'idée étant de mettre de la distance dans tous les cas). Ben sur SF2 vanilla, le <i>pushback</i> il était très énervé, tu reculais beaucoup trop ce qui rendait les stratégies à base de spammer les boules de feu hyper viables, particulièrement dans le cas de Guile<br>
+                                    <a id="footnote-4" href="#footnote-4-orig">4</a>: RIP Cary-Hiroyuki Tagawa<br>
+                                    <a id="footnote-5" href="#footnote-5-orig">5</a>: Je crois que c'est une conflation avec la méthode pour affronter Jade, où il faut gagner un match sur le stage du Portail en utilisant uniquement le bouton Low Kick. Impossible à dire de nos jours<br>
+                                </p>
+                            </article>
+
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">2000 - 2010</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+
+                                <p>
+                                    
+                                </p>
+                            </article>
+                            <!--Blog post generator end flag-->
+                            <script src="/common/elements/footer.js"></script>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+	</body>
+</html>

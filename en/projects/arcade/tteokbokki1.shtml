@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>The Tteokbokki Saga - Building the shell - Bad64's Corner</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<link id="currentStyleSheet" rel="stylesheet" href="">
+		<meta charset="UTF-8">
+		<link rel="icon" type="image/png" href="/common/images/icons/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/common/images/icons/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/common/images/icons/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/common/images/icons/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="Bad64's Corner" />
+		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
+	</head>
+	<body>
+        <div id="wrapper">
+            <table id="main">
+                <tbody>
+                    <tr id="selectorsRow">
+                        <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                    </tr>
+                    <tr id="portraitMenu">
+                        <td><script src="/common/elements/portraitmenu.js"></script></td>
+                    </tr>
+                    <tr id="content">
+                        <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                        <td colspan="2" id="articles">
+                            <!--Blog post generator start flag-->
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Ranting about the design</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+                                <p class="back"><a href="/en/projects.shtml">&lt; Back to the Projects</a></p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/tteokbokki.png">
+                                    <p>Praise the high collar</p>
+                                </div>
+
+                                <p>
+                                    Project Tteokbokki was inspired by two and a half things: my enjoyment of the dish of the same name (Korean rice cakes), and the desire to get either an Etokki Omni, or a Virtua Stick High Grade<sup><a id="footnote-1-orig" href="#footnote-1">1</a></sup>. Seeing as I'm currently turbo broke and unemployed, but still in possession of a 3D printer, I decided to invest time, effort, blood, sweat, tears, and the few savings I had to just print my own project. In the end it's about 99.9% Etokki Omni, and .1% VSHG, but at some point this is out of my hand. Can't really help it if the Omni is just a better base overall !<br>
+                                    <br>
+                                    As I <i>always</i> do for some reason, the first build is going to be an extended version of the "normal" thing. In this case, we're going to have 8 option slots instead of 6, a layout that is a unholy combination of pretty much everything I have ever used, and a (sadly not quick release) appropriately Korean lever, namely the first Knee lever, as the literal centerpiece.<br>
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/wideboi.png">
+                                    <p>Everything and the kitchen sink</p>
+                                </div>
+
+                                <p>
+                                    Here's some intel for you, nerds !
+                                </p>
+                                <ul>
+                                    <li>Printed on <b>ELEGOO Centauri Carbon</b> using <b>ELEGOO Matte Black PLA</b> and <b>Extrudr BioFusion Blue Fire</b></li>
+                                    <li>Total print time: around <b>15h</b></li>
+                                    <li>Total print weight: around <b>600g</b> (frankly I didn't count)</li>
+                                    <li>Filament wasted on supports: <b>50g</b></li>
+                                    <li>
+                                        Hardware list:
+                                        <ul>
+                                            <li>14x M3S Ruthex heat-set inserts</li>
+                                            <li>4x 6x30mm dowels (wood or stainless steel)</li>
+                                            <li>8x DIN 7991/ISO 10642 M3x8 hex socket countersunk screws for the top panel halves</li>
+                                            <li>4x DIN 7991/ISO 10642 M3x12 hex socket countersunk screws to mount the lever</li>
+                                            <li>6x ISO 7380 M3x8 hex socket button head screws for the acrylic</li>
+                                            <li>2x DIN 912/ISO 4672 M3x30 hex socket head cap screws for the Neutrik</li>
+                                            <li>16x DIN 912/ISO 4672 M3x20 hex socket head cap screws for the front plates</li>
+                                            <li>M3 washers and nuts (honestly just get as much as you can,, better have extras)</li>
+                                            <li>8 or 12x 15 by 3 millimeters disc-shaped magnets (I find 8 to be largely enough but you do you)</li>
+                                            <li>Neoprene glue/contact cement</li>
+                                            <li>A soldering iron</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <p>
+                                    Also, I apologize for the messy workbench and the more-than-dubious quality of the pictures. I just <i>really suck</i> at photography. And to be honest, my interior lighting is less than ideal...
+                                </p>
+                                <hr>
+                                <p class="footnotes">
+                                    <a id="footnote-1" href="#footnote-1-orig">1</a>: Knowing myself, both.<br>
+                                </p>
+                            </article>
+
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Building the chassis</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <script src="/common/elements/fakemenu.js"></script>
+
+                                <p>
+                                    So the first thing I did was to pop by my local fablab to get a 2mm acrylic cut with their laser. It's actually a hair larger than the underlying plates to provide extra stability <s>&nbsp;and totally not because of a measuring error on my end&nbsp;</s>, and just like on the Etokki Omni, this is going to sit proud off of the top of the chassis. At 2mm thick, this really isn't much of an issue, at least for me.
+                                </p>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/laser.gif">
+                                    <p>A 10 FPS GIF ? In 2026 ?! Preposterous !</p>
+                                </div>
+
+                                <div class="dialog">
+                                    <table class="titlebar">
+                                        <tr>
+                                            <td><label class="title">Question</label></td>
+                                            <td class="buttoncontainer">
+                                                <script src="/common/elements/fakebutton_close.js"></script>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <div style="display: flex; flex-direction: row;">
+                                        <img src="/common/images/icons/msg_question-0.png">
+                                        <p>
+                                            But Bad, isn't that cheating ?
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p>
+                                    Much to my chagrin, I cannot <i>actually</i> make everything myself with the tools I am allowed to have in my tiny apartment. I'm pretty sure if I were to operate even the tiniest CNC in there, my neighbors would actually end me.<br>
+                                    So the next best thing is to support a local business and makerspace by periodically borrowing something I am unable to safely acquire or use in other conditions ! (You should do it too, if you have a fablab nearby. Otherwise online shops are fine, I'm just all-in for supporting locals)
+                                </p>
+
+                                <p>
+                                    To start building the frame, I first add 12 of the 14 heat-set inserts to the top panel, specifically all but the two center posts. The top panels, once screwed in, will add mechanical constraints to the frame, keeping it steady while the glue dries.
+                                </p>
+                                <div class="dialog">
+                                    <table class="titlebar">
+                                        <tr>
+                                            <td><label class="title">Information</label></td>
+                                            <td class="buttoncontainer">
+                                                <script src="/common/elements/fakebutton_close.js"></script>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <div style="display: flex; flex-direction: row;">
+                                        <img src="/common/images/icons/msg_information-0.png">
+                                        <p>
+                                            The case isn't glued yet, I just forgot to take it apart while doing the heat-set inserts
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_173615.jpg">
+                                    <p>More blur than in <i>Modern Life is Rubbish</i></p>
+                                </div>
+
+                                <p>
+                                    Using the dowels and some neoprene glue, we join both halves of the frame. I didn't take a picture of it but once the glue sets in, I add the two remaining inserts to be able to screw down the top panels.
+                                </p>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_172633.jpg">
+                                </div>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_173042.jpg">
+                                </div>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_174854.jpg">
+                                    <p>Abracadabra, your case is now 50% dust (yay workbench)</p>
+                                </div>
+
+                                <p>
+                                    Now that the top plates are screwed in and the case is (somewhat) rigidified, I take the opportunity to plastic weld the halves together. I didn't weld the panels to the frame in case I ever need to change them.
+                                </p>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_180033.jpg">
+                                    <p>This is the best picture I was able to take of me doing the welding. Do note I am not even touching the plastic because I was really struggling to hold the phone, the light, <i>and</i> the iron at the same time.</p>
+                                </div>
+
+                                <p>
+                                    I also take this opportunity to screw on the acrylic. Yeah, I will have to take it off when I'll put the lever in, but since that won't happen anytime soon, I figure it's not that much of an issue. Worst case scenario, it will be a mild annoyance for Future Bad64.
+                                </p>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_175510.jpg">
+                                    <p>Hey, it's almost shaped like a not-cursed thing !</p>
+                                </div>
+
+                                <p>
+                                    Let's set this part of the frame aside and start working on the magnetically attached bottom plate. First I have to glue all the elements together:
+                                </p>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_180509.jpg">
+                                    <p>Welcome to the show where we use a reasonable amount of neoprene glue</p>
+                                </div>
+
+                                <p>
+                                    I then do a <i>truly</i> horrible job at welding the elements together for extra ridigity.
+                                </p>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_181629.jpg">
+                                    <p>Fun fact: I seriously contemplated using my "Click to reveal" widget due to how NSFL this picture is</p>
+                                </div>
+
+                                <p>
+                                    I glue the magnets inside the holes of the bottom panel,
+                                </p>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_182155.jpg">
+                                </div>
+                                <div class="dialog">
+                                    <table class="titlebar">
+                                        <tr>
+                                            <td><label class="title">Information</label></td>
+                                            <td class="buttoncontainer">
+                                                <script src="/common/elements/fakebutton_close.js"></script>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <div style="display: flex; flex-direction: row;">
+                                        <img src="/common/images/icons/msg_information-0.png">
+                                        <p>
+                                            There are extra magnet holes in case I find the four pairs to not be particularly stable. I think they're a bit overkill, but I'd rather have them and not need them, than not have them and need them. Does that make sense ?
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p>then add <i>still more glue</i> to the chassis, and then press them together.</p>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_182501.jpg">
+                                </div>
+
+                                <p>
+                                    And that's it for that part of the build log ! See you in about a month for the electronics !
+                                    <div class="signature">- Bad64</div>
+                                </p>
+                            </article>
+                            <!--Blog post generator end flag-->
+                            <script src="/common/elements/footer.js"></script>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+	</body>
+</html>

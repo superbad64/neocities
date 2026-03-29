@@ -44,6 +44,12 @@
 								<ul>
 									<li><a href="projects/arcade/goblin.shtml">Le Goblin</a>: Un petit build parfait pour un projet dominical</li>
 									<li><a href="projects/arcade/ork.shtml">L'Ork</a>: Boitier standard plus costaud que le Goblin</li>
+									<li>La saga du Tteokbokki:
+										<ul>
+											<li>Partie 1: <a href="projects/arcade/tteokbokki1.shtml">Le châssis</a></li>
+											<li>Partie 2: <a href="projects/arcade/tteokbokki2.shtml">L'éléctronique</a></li>
+										</ul>
+									</li>
 								</ul>
 							</article>
 

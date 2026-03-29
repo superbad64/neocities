@@ -10,6 +10,13 @@
   color: black;
 }
 
+.dialog {
+  background-color: #a89890;
+  border-radius: 0;
+  border: 3px solid #756964;
+  color: black;
+}
+
 .fakebutton_close {
   background-color: #a89890;
   border-radius: 0;

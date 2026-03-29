@@ -38,7 +38,7 @@
                                 </table>
                                 
                                 <script src="/common/elements/fakemenu.js"></script>
-								<p class="back"><a href="/projects.shtml">&lt; Retour aux Projets</a></p>
+								<p class="back"><a href="/fr/projects.shtml">&lt; Retour aux Projets</a></p>
 
 								<div class="picture">
 									<img src="/common/images/projects/builds/goblin/goblin.png">

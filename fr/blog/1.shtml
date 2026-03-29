@@ -30,9 +30,51 @@
 			<div class="heading">Blog</div>
 			<!--Old school navigation widget-->
 			<div class="navigationWidget">
-				&nbsp;<strong>1</strong>&nbsp;
+				&nbsp;<strong>1</strong>&nbsp;				&nbsp;<a href="2.shtml">2</a>&nbsp;				&nbsp;<a href="2.shtml">&gt;</a>&nbsp;
 			</div>
 <br>			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Hypersomnie - 29/03/2026 16:29</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					Vous avez déjà dormi pendant plus de 20 heures de suite ?<br>
+					<br>
+					Moi oui, ça m'est arrivé y'a quelques jours. Le fait d'avoir une journée qui s'évapore complètement est assez dérangeant, sans parler des acrobaties nécéssaires pour se remettre dans un cycle à peu près normal après. Personne sait vraiment ce qu'il m'arrive - ça peut juste pas logiquement être mes antidépresseurs vu que j'ai pas changé de posologie depuis Janvier.<br>
+					<br>
+					Bref, je bosse sur un autre truc sympa que j'espère pouvoir publier d'ici au premier Avril, mais les cartes éléctroniques que j'ai commandées sont à la bourre... Affaire à suivre.<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Nouvelles de Janvier ! - 30/01/2026 13:27</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					Manifestement, le rythme de 2 posts + un article par mois a pas tenu du tout... J'ai absolument rien fait ce mois-ci, pour deux raisons (à vous de me dire si c'en est des bonnes):<br>
+					<br>
+					La première est que j'ai commmencé à prendre des antidépresseurs. Comme dans toutes les périodes d'adaptation, les premières semaines sont assez rudes sur mon corps, et de fait je me retrouve assez léthargique pour le moment. Le côté positif, c'est que au moins je dors. Ca me change beaucoup de mes crises d'insomnie habituelles, mais d'un autre côté j'aime pas non plus particulièrement me lever à midi, j'ai toujours cette impression de gâcher ma journée quand ça arrive.<br>
+					<br>
+					La seconde raison est qu'à cause de problèmes dont je ne peux pas trop parler, je me suis retrouvé sans accès à Internet pendant une douzaine de jours. A l'heure où j'écris ce post, je tourne en 4G, avec mon téléphone portable ayant pris le rôle permanent de modem. Donc je peux plus l'utiliser pour, genre, chercher du boulot. Je vais fix ça dès que possible mais pour changer, les problèmes de logistiques sont pas de mon côté, donc là pour le moment je ne peux rien faire d'autre que prendre mon mal en patience...<br>
+					<br>
+					Ces galères d'Internet m'ont également forcé à dépenser de la thune que je n'avais pas vraiment et donc pour la première fois depuis assez longtemps dans ma période de chômage prolongé, j'ai fait un mois dans le rouge (dans le sens où j'ai dépensé + que ce que je n'ai gagné ce mois-ci, pas dans le sens où j'ai plus un rond et suis à découvert). De fait, je n'ai pas pu investir dans des loisirs comme l'impression 3D. L'année commence bien, hein ?<br>
+					<br>
+					Bref. Je vous retrouve en Février, espérons le avec un nouveau build.<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
 				<table class="titlebar">
 					<tr>
 						<td><label class="title">Bonne année ! - 02/01/2026 19:19</label></td>
@@ -82,44 +124,9 @@
 					<div class="signature">- Bad64</div>
 				</p>
 			</article>
-			<article class="blogpost">
-				<table class="titlebar">
-					<tr>
-						<td><label class="title">Trop d4rk tavu - 11/12/2025 01:54</label></td>
-						<td class="buttoncontainer">
-							<script src="/common/elements/fakebuttons.js"></script>
-						</td>
-					</tr>
-				</table>
-				<script src="/common/elements/fakemenu.js"></script>
-				<p>
-					(Oui il est quasiment 2h du mat'... insomnie FTW)<br>
-					<br>
-					Je me suis dit que ça pourrait aider les gens qui ont des yeux fragiles (comme les miens) si j'ajoutais des styles un peu moins criards, notamment pour ceux qui sont sur mobile.<br>
-					D'ailleurs, oui je suis au courant que le menu est <i>un peu</i> cassé sur mobile - j'essaie de voir ce qui cloche !<br>
-					<div class="signature">- Bad64</div>
-				</p>
-			</article>
-			<article class="blogpost">
-				<table class="titlebar">
-					<tr>
-						<td><label class="title">Un, deux, un deux... Test ? - 07/12/2025 20:46</label></td>
-						<td class="buttoncontainer">
-							<script src="/common/elements/fakebuttons.js"></script>
-						</td>
-					</tr>
-				</table>
-				<script src="/common/elements/fakemenu.js"></script>
-				<p>
-					Bon, ben j'imagine que je devrais peut-être me fendre de <i>quelques</i> articles en Français, vu que je ne vais probablement pas tout publier en Anglais.<br>
-					<br>
-					Pour ceux qui font le marché de Noël, que ça soit en simple visiteur ou en tant qu'exposant, force à vous ! Je suis pas particulièrement fan de la saison, mais au moins ça me donnera une excuse pour me gaver de fondue héhé.<br>
-					<div class="signature">- Bad64</div>
-				</p>
-			</article>
 			<!--Old school navigation widget-->
 			<div class="navigationWidget">
-				&nbsp;<strong>1</strong>&nbsp;
+				&nbsp;<strong>1</strong>&nbsp;				&nbsp;<a href="2.shtml">2</a>&nbsp;				&nbsp;<a href="2.shtml">&gt;</a>&nbsp;
 			</div>
                             <!--Blog post generator end flag-->
                             <script src="/common/elements/footer.js"></script>

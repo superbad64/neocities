@@ -10,6 +10,13 @@
   color: white;
 }
 
+.dialog {
+  background-color: #484e51;
+  border-radius: 0;
+  border: 3px outset darkgrey;
+  color: white;
+}
+
 .fakebutton_close,
 .fakebutton_maximize,
 .fakebutton_minimize {

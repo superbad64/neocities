@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>La saga du Tteokbokki - Le châssis - Bad64's Corner</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<link id="currentStyleSheet" rel="stylesheet" href="">
+		<meta charset="UTF-8">
+		<link rel="icon" type="image/png" href="/common/images/icons/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/common/images/icons/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/common/images/icons/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/common/images/icons/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="Bad64's Corner" />
+		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
+	</head>
+	<body>
+        <div id="wrapper">
+            <table id="main">
+                <tbody>
+                    <tr id="selectorsRow">
+                        <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                    </tr>
+                    <tr id="portraitMenu">
+                        <td><script src="/common/elements/portraitmenu.js"></script></td>
+                    </tr>
+                    <tr id="content">
+                        <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                        <td colspan="2" id="articles">
+                            <!--Blog post generator start flag-->
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">On va yap un peu sur le design</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+                                <p class="back"><a href="/fr/projects.shtml">&lt; Retour aux Projets</a></p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/tteokbokki.png">
+                                    <p>Loué soit le haut collier !</p>
+                                </div>
+
+                                <p>
+                                    Le projet Tteokbokki a été inspiré par deux choses et demi: mon appréciation pour le plat éponyme (des gâteaux de riz épicés d'origine Coréenne), et mon désir d'obtenir soit un Etokki Omni, soit un Virtua Stick High Grade<sup><a id="footnote-1-orig" href="#footnote-1">1</a></sup>. Vu que je suis toujours au FC Chômage, mais néanmoins toujours pourvu d'une imprimante 3D, j'ai décidé d'y investir mes derniers shekels. On est sur à peu près 99.9% d'origine Etokki Omni et 0.1% d'origine VSHG, mais à un moment donné j'y peux rien si le Omni est juste une meilleure base !<br>
+                                    <br>
+                                    Comme j'ai tendance à toujours faire, le premier build sera une version augmentée qui pousse tous les curseurs au max. 8 slots d'option au lieu de 6, un layout qui combine à peu près tout ce que j'ai utilisé, et un levier Coréen (mais pas quick-release, malheureusement) en tant que pièce maîtresse. Ici, un Knee v1, parce que c'est tout ce qu'il me reste.<br>
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/wideboi.png">
+                                    <p>Toutes options, et plus encore</p>
+                                </div>
+
+                                <p>
+                                    Observez les données techniques !
+                                </p>
+                                <ul>
+                                    <li>Imprimé sur une <b>ELEGOO Centauri Carbon</b> avec du <b>ELEGOO Matte Black PLA</b> et du <b>Extrudr BioFusion Blue Fire</b></li>
+                                    <li>Temps d'impression total: +/- <b>15h</b></li>
+                                    <li>Poids total imprimé: +/- <b>600g</b> (en vrai j'ai pas compté)</li>
+                                    <li>Filament dédié aux supports: <b>50g</b></li>
+                                    <li>
+                                        Liste de matériel:
+                                        <ul>
+                                            <li>14x M3S Ruthex inserts à chaud</li>
+                                            <li>4x Tourillons 6x30mm (bois ou inox)</li>
+                                            <li>8x DIN 7991/ISO 10642 vis à tête fraisée à six pans M3x8 pour les panneaux transversaux</li>
+                                            <li>4x DIN 7991/ISO 10642 vis à tête fraisée à six pans M3x12 pour le levier</li>
+                                            <li>6x ISO 7380 vis à tête bombée à six pans M3x8 pour le plexi</li>
+                                            <li>2x DIN 912/ISO 4672 vis à tête cylindrique à six pans M3x30 pour le Neutrik</li>
+                                            <li>16x DIN 912/ISO 4672 vis à tête cylindrique à six pans M3x20 pour les options</li>
+                                            <li>Rondelles et écrous M3 (un max)</li>
+                                            <li>8 ou 12x aimants disque 15mm par 3mm (moi je trouve que 8 ça marche déjà bien mais après c'est à vous de voir)</li>
+                                            <li>Colle néoprène (prévoyez un tube entier au cas où)</li>
+                                            <li>Fer à souder</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <p>
+                                    D'avance, toutes mes excuses pour l'établi en bordel (mais si il est rangé c'est pas un établi hein ?) et pour la qualité un peu douteuse des photos.
+                                </p>
+                                <hr>
+                                <p class="footnotes">
+                                    <a id="footnote-1" href="#footnote-1-orig">1</a>: Me connaissant, les deux<br>
+                                </p>
+                            </article>
+
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Construire le châssis</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <script src="/common/elements/fakemenu.js"></script>
+
+                                <p>
+                                    La première étape a été d'aller à mon fablab local pour me faire découper au laser une plaque d'acrylique de 2mm d'épaisseur. Elle est légèrement plus large que les plaques de support en dessous pour des questions de stabilité <s>&nbsp;et pas du tout parce que j'ai ultra biglé quand j'ai pris mes cotes&nbsp;</s>, et exactement comme sur l'Omni, le plexi dépassera du châssis. De deux millimètres. Franchement c'est pas inconfortable.
+                                </p>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/laser.gif">
+                                    <p>Un GIF en 10 IPS ? En 2026 ?! Quelle absurdité !</p>
+                                </div>
+
+                                <div class="dialog">
+                                    <table class="titlebar">
+                                        <tr>
+                                            <td><label class="title">Question</label></td>
+                                            <td class="buttoncontainer">
+                                                <script src="/common/elements/fakebutton_close.js"></script>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <div style="display: flex; flex-direction: row;">
+                                        <img src="/common/images/icons/msg_question-0.png">
+                                        <p>
+                                            Mais Bad, ça serait pas un peu d'la triche ?!
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p>
+                                    À mon plus grand et sincère regret, je ne peux malheureusement pas <i>tout</i> faire moi même. Sinon vu le boucan de certaines machines (genre une CNC) j'aurais de sacrés problèmes de voisinage. Le fait d'avoir un fablab qui m'est facilement accessible est une vraie bénédiction, me faites pas dire le contraire, mais je leur rend bien en supportant une entreprise (et surtout un makerspace) local. Rien contre les services en ligne du style PlaquePlexi, juste vu que j'ai l'opportunité, je préfère au moins usiner local quand ça m'est possible.
+                                </p>
+
+                                <p>
+                                    Pour commencer, je vais mettre 12 des 14 inserts à chaud (tous sauf les deux au centre; je les ferai plus tard) dans les deux moitiés du châssis. Le but ici étant de pouvoir utiliser les panneaux transversaux pour rigidifier l'assemblage pendant le séchage de la colle que l'on va ajouter à l'étape suivante.
+                                </p>
+                                <div class="dialog">
+                                    <table class="titlebar">
+                                        <tr>
+                                            <td><label class="title">Information</label></td>
+                                            <td class="buttoncontainer">
+                                                <script src="/common/elements/fakebutton_close.js"></script>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <div style="display: flex; flex-direction: row;">
+                                        <img src="/common/images/icons/msg_information-0.png">
+                                        <p>
+                                            Le châssis n'est pas encore collé ! J'ai juste oublié de séparer les moitiés avant de faire les inserts
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_173615.jpg">
+                                    <p>Tellement flou qu'on dirait du Angèle</p>
+                                </div>
+
+                                <p>
+                                    À l'aide des tourillons et de la colle néoprène, je colle les deux moitiés du châssis ensemble, puis je visse les panneaux transversaux.<br>
+                                    J'ai oublié de prendre la photo relevante mais une fois quelques minutes passées, je démonte les panneaux et j'ajoute les deux derniers inserts à chaud afin de pouvoir attacher le plexi.
+                                </p>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_172633.jpg">
+                                </div>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_173042.jpg">
+                                </div>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_174854.jpg">
+                                    <p>Abracadabra, ton châssis est maintenant constitué de 50% de poussière (je vous avais dit que c'était le dawa)</p>
+                                </div>
+
+                                <p>
+                                    Maintenant que le châssis est (un peu) rigide, j'en profite pour "souder" les deux moitiés ensemble. Je n'ai pas attaché les panneaux au châssis, des fois que j'aie besoin de les changer par la suite.
+                                </p>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_180033.jpg">
+                                    <p>C'est le mieux que j'aie pu faire en termes de photo. Notez que je ne touche même pas le plastique parce que je galérais à prendre la photo tout en tenant mon portable, la lampe, et le fer à souder en même temps...</p>
+                                </div>
+
+                                <p>
+                                    J'ajoute le panneau de plexi. Faudra que je l'enlève quand je mettrai le levier, mais vu que je compte pas le faire maintenant, ça sera un problème pour Bad Du Futur.
+                                </p>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_175510.jpg">
+                                    <p>Hé, on dirait presque un truc pas maudit !</p>
+                                </div>
+
+                                <p>
+                                    Je mets le châssis de côté car il est temps de passer au panneau du fond. D'abord, il faut que je colle les trois éléments ensemble:
+                                </p>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_180509.jpg">
+                                    <p>Bienvenue à l'endroit où on utilise une quantité raisonnable de colle néoprène</p>
+                                </div>
+
+                                <p>
+                                    Pis là ben je me défèque <i>bien</i> dessus quand il s'agit de souder les éléments ensemble. (En vrai je m'en tape vu que ça sera à l'intérieur, je veux juste que ça soit bien rigide)
+                                </p>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_181629.jpg">
+                                    <p>La police des gens qui font fondre du plastoc vont m'arrêter pour ça</p>
+                                </div>
+
+                                <p>
+                                    Je colle les aimants dans les receptacles prévus à cet effet,
+                                </p>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_182155.jpg">
+                                </div>
+                                <div class="dialog">
+                                    <table class="titlebar">
+                                        <tr>
+                                            <td><label class="title">Information</label></td>
+                                            <td class="buttoncontainer">
+                                                <script src="/common/elements/fakebutton_close.js"></script>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <div style="display: flex; flex-direction: row;">
+                                        <img src="/common/images/icons/msg_information-0.png">
+                                        <p>
+                                            Comme dit plus haut, y'a des trous pour 6 paires, mais j'en utilise que 4 et j'estime que y'a déjà assez de résistance comme ça. Libre à vous de changer ça
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p>et on ajoute <i>encore plus</i> de colle pour l'autre côté.</p>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/IMG_20260213_182501.jpg">
+                                </div>
+
+                                <p>
+                                    Et c'est tout pour cette partie ! On s'revoit le mois prochain pour l'éléctronique :)
+                                    <div class="signature">- Bad64</div>
+                                </p>
+                            </article>
+                            <!--Blog post generator end flag-->
+                            <script src="/common/elements/footer.js"></script>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+	</body>
+</html>

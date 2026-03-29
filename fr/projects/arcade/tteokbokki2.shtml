@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>La saga du Tteokbokki - Faire de la magie - Bad64's Corner</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<link id="currentStyleSheet" rel="stylesheet" href="">
+		<meta charset="UTF-8">
+		<link rel="icon" type="image/png" href="/common/images/icons/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/common/images/icons/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/common/images/icons/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/common/images/icons/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="Bad64's Corner" />
+		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
+	</head>
+	<body>
+        <div id="wrapper">
+            <table id="main">
+                <tbody>
+                    <tr id="selectorsRow">
+                        <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                    </tr>
+                    <tr id="portraitMenu">
+                        <td><script src="/common/elements/portraitmenu.js"></script></td>
+                    </tr>
+                    <tr id="content">
+                        <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                        <td colspan="2" id="articles">
+                            <!--Blog post generator start flag-->
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Les règles de l'art</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+                                <p class="back"><a href="/fr/projects.shtml">&lt; Retour aux Projets</a></p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/tteokbokki_windows.png">
+                                    <p>Précédemment, dans <s>&nbsp;Dragon Ball Z&nbsp;</s> l'Atelier de Bad64...</p>
+                                </div>
+
+                                <div class="dialog">
+                                    <table class="titlebar">
+                                        <tr>
+                                            <td><label class="title">Erreur</label></td>
+                                            <td class="buttoncontainer">
+                                                <script src="/common/elements/fakebutton_close.js"></script>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <div style="display: flex; flex-direction: row;">
+                                        <img src="/common/images/icons/msg_error-0.png">
+                                        <p>
+                                            Hé, c'est pas du tout là qu'on s'est arrêtés !
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p>
+                                    Ok, ok, j'ai ajouté trois quatre bricoles sans prendre de photos. Z'avez pas loupé grand chose mais voila un p'tit résumé:
+                                </p>
+                                <ul>
+                                    <li>Comme dit dans l'épisode précédent, j'ai monté mon levier, un Knee v1. À cause de, euh, ma philosophie de design <i>franchement discutable</i>, j'ai remplacé la batte rouge translucide ROX avec une batte plus neutre à effet givre (je suis même pas sur que ça soit la bonne trad' mais allez on roule)</li>
+                                    <li>Bien sûr, l'artwork. C'est juste du papier à couper au cutter, rien de particulier à détailler à mon avis</li>
+                                    <li>Et un truc pas visible dans cette image: j'ai rajouté les platines de montage optionnelles sur la face avant du stick</li>
+                                </ul>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/tteokbokki_plates.jpg">
+                                    <p>C'est à peu près là qu'on s'était arrêtés</p>
+                                </div>
+
+                                <p>
+                                    Les plus observateurs parmi vous auront sans doute noté la présence de choses peu communes sur un stick arcade, nominalement ces ouïes rectangulaires destinées à accueillir des commutateurs. Afin de rester un maximum dans la légalité au regard des jeux de règles en vigueur dans les différents tournois auxquels je participe (malgré le fait d'avoir un monstre avec 20 boutons), tous les inputs redondants sont commutables via les dits commutateurs.<br>
+                                    <br>
+                                    Les gros tournois comme l'EVO ont des règles concernant ce qu'un bouton peut ou ne peut pas faire. Par exemple, il est interdit d'avoir le même input (en jeu) affecté à plusieurs boutons au niveau hardware; et de même il est aussi interdit de mapper un bouton à plusieurs inputs (hors du menu de paramétrage de la manette du jeu lui même qui permet certaines macros genre 1+2 ou PPP). Pour l'instant, je vais me contenter de monter les boutons au panneau principal; J'imagine que vous savez à peu près tous visser un bouton, donc je vais pas m'éterniser dessus.
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/underside.jpg">
+                                    <p>J'ai fini par tourner tous les boutons d'un quart de tour vers la droite pour faciliter le câblage des masses plus tard</p>
+                                </div>
+                            </article>
+
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Petit cours d'éléctronique</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+
+                                <div class="picture">
+                                    <img style="width: 20%; height: auto;" src="/common/images/projects/builds/tteokbokki/switch.jpg">
+                                    <p>Le début des emmerdes</p>
+                                </div>
+
+                                <p>
+                                    Ca, c'est un commutateur. Je présume - peut-être naïvement - que vous avez dû en voir deux trois dans votre vie, au hasard pour allumer la lumière chez vous.<br>
+                                    <br>
+                                    Celui là en particulier est ce qu'on appelle un commutateur SPST, pour <b>S</b>ingle <b>P</b>ole, <b>S</b>ingle <b>T</b>hrow. Ou "unipolaire unidirectionnel" en Français. Ca fait pas énormément de sens.<br>
+                                    "Single Pole"/Unipolaire ici veut dire que cet commutateur peut contrôler un seul circuit.<br>
+                                    "Single Throw"/Unidirectionnel dit que cet commutateur n'a que... deux positions. Honnêtement je sais pas pourquoi. En gros cet commutateur a les positions "on" et "off", même si c'est pas <i>tout à fait</i> la réalité.<br>
+                                    <br>
+                                    Ce commutateur là est ce qu'on appelle un "On-On", c'est à dire que la broche du milieu est commune aux deux positions, et le commutateur sert juste à séléctionner quelle broche est connectée à la précédente. Et ce choix a amené plusieurs fois une question intéressante:
+                                </p>
+
+                                <div class="dialog">
+                                    <table class="titlebar">
+                                        <tr>
+                                            <td><label class="title">Question</label></td>
+                                            <td class="buttoncontainer">
+                                                <script src="/common/elements/fakebutton_close.js"></script>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <div style="display: flex; flex-direction: row;">
+                                        <img src="/common/images/icons/msg_question-0.png">
+                                        <p>
+                                            Pourquoi tu n'utilises pas un commutateur DPDT ? Ca te permettrait de tout activer en même temps, non ?
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                <p>
+                                    Et c'est vrai, ça me permettrait en effet de tout activer en même temps. Et bien que ça soit très convénient, ça ouvre aussi la possibilité d'accidentellement enfreindre les règles (par exemple si je venais à oublier que l'un des commutateurs est dans la position qui active tout). Avec un SPST On-On, je peux <b>garantir</b> que ça n'arrivera pas, puisque c'est mécaniquement impossible. Donc ça me rassure moi, et ça rassure les TOs aussi.<sup><a id="footnote-1-orig" href="#footnote-1">1</a></sup>.<br>
+                                    <br>
+                                    Revenons justement à ce commutateur SPST. J'en ai trois: Un pour séléctionner quel bouton correspond à la direction Haut en mode leverless, un qui switch entre le joystick et le mode leverless, et le dernier est là pour switcher entre les clusters L3/R3. J'espère que vous aimez les captures d'écran de KiCAD; voici le premier switch !
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/kicad_sw1.png">
+                                    <p>Note: Techniquement le symbole utilisé pour l'commutateur est celui d'un DPDT, pour des questions de flemme et de clarté</p>
+                                </div>
+
+                                <p>
+                                    Je vais vous expliquer ce schéma, vous inquiétez pas.<br>
+                                    <br>
+                                    D'abord, nous avons un signal venant de <i>GPIO_x</i> (sur la carte que j'ai utilisé, une ABB de chez Smallcab, c'est simplement le terminal marqué "UP"). Dans les faits, j'ai mis deux fils dans ce terminal allant respectivement vers SW2 et SW3 (les deux étant des Crown SDB 202 largement interchangeables de toutes façons). Tant que la connection est stable, c'est tout ce qui compte.<br>
+                                    <br>
+                                    Ces fils là vont donc dans un terminal de leur bouton respectif, et de l'autre côté en sort la masse. La masse c'est un peu chiant à vulgariser pour moi alors je vais vous demander de juste me faire confiance là dessus. (Sachez juste que c'est pas le concept de masse qu'on a en physique)<br>
+                                    Quand t'appuies sur un bouton, tu crées une connection entre les contacts internes, ce qui ferme le circuit entre la broche GPIO et la masse, qui représente un input aux yeux de la carte mère. (La raison pour laquelle la carte considère que mettre un voltage à zéro est un input est pas forcément relevante et probablement mieux expliquée par quelqu'un d'autre que moi sur Youtube)<br>
+                                    <br>
+                                    Ces masses viennent ensuite se brancher sur <b><i>LE COMMUTATEUR</i></b> sur les broches 1 et 3. 2 est la broche commune comme dit plus haut. Donc dépendant de la position du commutateur, soit la broche 1 soit la broche 3 est connectée à la masse, et donc en mesure de compléter le circuit relevant à cet input.<br>
+                                    <br>
+                                    Passons au second commutateur: Lever/Leverless !
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/kicad_sw2.png">
+                                    <p>En toute simplicité</p>
+                                </div>
+
+                                <p>
+                                    Si vous avez lu tout ce que j'ai débité au dessus, vous devriez capter assez facilement. Concrètement: les masses rentrent sur 1 et 3 et ressortent sur 2. Les signaux du cluster leverless sont connectés aux borniers à vis sur la carte, et le joystick lui est connecté aux broches en 2x10. C'est juste une question de convénience si jamais je veux changer de levier (non pas que j'y compte, mais l'appel du haut collier reste fort)<br>
+                                    <br>
+                                    Dernier commutateur: L3/R3 !
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/kicad_sw3.png">
+                                    <p>Same but with more stuff</p>
+                                </div>
+
+                                <p>
+                                    C'est plus ou moins la combinaison des deux commutateurs précédents: on a deux inputs en chaîne (L3 et R3), deux fois deux boutons reliés à la même masse ensemble, et un commutateur pour choisir quel circuit est actif. Ca a l'air un peu chaud mais en vrai ça devrait rester très compréhensible.
+                                    <br>
+                                    Mais tout ça, c'est la théorie. Voyons c'que donne la pratique.
+                                </p>
+                                <hr>
+                                <p class="footnotes">
+                                    <a id="footnote-1" href="#footnote-1-orig">1</a>: Quand j'étais à l'EVO, un très gentil TO de Street Fighter 6 a failli faire une syncope en voyant mon stick du moment, largement moins compliqué
+                                </p>
+                            </article>
+
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Bob le Bricoleur (du dimanche)</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/innards.jpg">
+                                    <p>WHAT THE FUCK</p>
+                                </div>
+
+                                <p>
+                                    Dans l'éventualité où cette image n'arrive pas à proprement expliciter la situation: je suis nul en cable management. J'ai essayé avec des serre-câbles, et j'ai même serti mon propre jumper pour le joystick:
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/harness.jpg">
+                                    <p>Tant que ça tient...</p>
+                                </div>
+
+                                <p>
+                                    Vous vous souvenez des boutons L3 et R3 ? J'ai mis en lumière les circuits respectifs (L3 en rose, R3 en bleu) pour que vous puissiez un peu mieux visualiser comment je les ai câblés.
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/l3r3highlight.png">
+                                    <p>J'espère que vous avez des yeux de X-Men</p>
+                                </div>
+
+                                <p>
+                                    À partir de ce point là, tout redevient à peu près normal. On câble les masses ensemble, on connecte les fils de signal et les masses à la carte, etc. Rien de bien folichon, jusqu'à obtenir éventuellement ceci:
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/tteokbokki/tteokbokki_finished.jpg">
+                                    <p>Internet c'était vraiment mieux avant...</p>
+                                </div>
+
+                                <p>
+                                    Et vu que tout marche comme prévu, je peux reprendre mes entraînements (juste avant la Saison 3 de Tekken, yay) et commencer à réfléchir à mon prochain build ! Ou alors je peux ajouter un port Nunchuk à celui là aussi...<br>
+                                    <br>
+                                    Bref, c'est tout pour ce build. J'espère que vous avez apprécié !
+                                    <div class="signature">- Bad64</div>
+                                </p>
+                            </article>
+                            <!--Blog post generator end flag-->
+                            <script src="/common/elements/footer.js"></script>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+	</body>
+</html>

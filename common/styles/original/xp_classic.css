@@ -5,6 +5,13 @@
   color: black;
 }
 
+.dialog {
+  background-color: #d4d0c8;
+  border-radius: 0;
+  border: 3px outset #a19d97;
+  color: black;
+}
+
 .fakebutton_close,
 .fakebutton_maximize,
 .fakebutton_minimize {
