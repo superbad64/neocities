@@ -73,6 +73,9 @@
 								</p>
 								<div style="display: flex; flex-direction: row; justify-content: center;">
 									<textarea readonly>
+April 10th, 2026:
+- Lots of new articles
+- New Aero stylesheet
 January 2nd, 2026:
 - Updated copyright
 - New blog post
@@ -85,6 +88,9 @@ December 19, 2025:
 - Fake buttons have been disabled on mobile due to compatibility issues
 									</textarea>
 								</div>
+								<p>
+								To be honest I don't really know what to put on this page. A site summary is neat and all, but I don't update often enough to actually warrant a "Recent stuff" style widget like this. At least I think so right now.
+								</p>
 							</article>
 							<script src="/common/elements/footer.js"></script>
 						</td>

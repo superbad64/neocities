@@ -74,6 +74,9 @@
 								</p>
 								<div style="display: flex; flex-direction: row; justify-content: center;">
 									<textarea readonly>
+10 Avril 2026:
+- Plein de nouveaux articles et posts
+- Thèmes Aero et Aero (Win7) ajoutés
 02 Janvier 2026:
 - Mis à jour le copyright
 - Nouveau post
@@ -86,6 +89,9 @@
 - Les faux contrôles de fenêtre ont été désactivés sur mobile pour des raisons de compatibilité
 									</textarea>
 								</div>
+								<p>
+									Pour être franc je sais pas trop quoi mettre sur cette page, j'update pas assez pour justifier d'un tel widget !
+								</p>
 							</article>
 							<script src="/common/elements/footer.js"></script>
 						</td>

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Le BadPad - Bad64's Corner</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<link id="currentStyleSheet" rel="stylesheet" href="">
+		<meta charset="UTF-8">
+		<link rel="icon" type="image/png" href="/common/images/icons/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/common/images/icons/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/common/images/icons/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/common/images/icons/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="Bad64's Corner" />
+		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
+	</head>
+	<body>
+        <div id="wrapper">
+            <table id="main">
+                <tbody>
+                    <tr id="selectorsRow">
+                        <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                    </tr>
+                    <tr id="portraitMenu">
+                        <td><script src="/common/elements/portraitmenu.js"></script></td>
+                    </tr>
+                    <tr id="content">
+                        <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                        <td colspan="2" id="articles">
+                            <!--Blog post generator start flag-->
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Quand la portabilité l'emporte</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+
+                                <p class="back"><a href="/en/projects.shtml">&lt; Retour aux Projets</a></p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/badpad.png">
+                                    <p>Mon père, j'ai pêché</p>
+                                </div>
+
+                                <p>
+                                    ...Je peux tout expliquer.<br>
+                                    <br>
+                                    Pour le 1er avril (donc hier par rapport au moment où j'écris ces lignes), je voulais faire une manette à peu près normale au lieu d'un truc de style arcade comme je fais d'habitude. Malheureusement, les cartes éléctroniques m'ont été livrées ce matin, donc j'ai un tout petit peu le seum =D
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/package1.jpg">
+                                    <p></p>
+                                </div>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/package2.jpg">
+                                    <p>J'adore recevoir des colis</p>
+                                </div>
+
+                                <p>
+                                    J'avais déjà essayé quelques pads 6 boutons par le passé, mais ils étaient quasiment tous inadaptés pour moi, parfois c'était le plastique qui était juste trop fragile, parfois c'était les boutons qui étaient trop mous, parfois c'était le dpad... Bref, vous l'aurez compris, j'ai fait du grand Bad64 tout craché, à savoir de l'ingéniérie digne des Ork Mekboyz !
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/start.jpg">
+                                    <p>Recette pour un fightpad</p>
+                                </div>
+
+                                <ul>
+                                    <li>13x 6x6x4.3mm interrupteurs tactiles</li>
+                                    <li>2x boutons LB/RB de manette Xbox (je connais pas la vraie nomenclature de la pièce, désolé)</li>
+                                    <li>1x Waveshare RP2040-Zero</li>
+                                    <li>4x DIN 7991/ISO 10642 M3x20 vis à tête fraisée à six pans</li>
+                                    <li>Matos de soudure habituel</li>
+                                    <li>1x carte BadPad (quand elle sera publiée)</li>
+                                </ul>
+
+                                <div class="dialog">
+                                    <table class="titlebar">
+                                        <tr>
+                                            <td><label class="title">Question</label></td>
+                                            <td class="buttoncontainer">
+                                                <script src="/common/elements/fakebutton_close.js"></script>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <div style="display: flex; flex-direction: row;">
+                                        <img src="/common/images/icons/msg_question-0.png">
+                                        <p>
+                                            T'as vraiment fait imprimer des platines custom pour ça ??
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p>
+                                    <i>Techniquement</i> les platines ne sont pas nécéssaires, c'est juste une façon convéniente de monter tous les composants.<br>
+                                    <br>
+                                    Mais, ouais.<br>
+                                    <br>
+                                    J'ai pas fait de carte éléctronique depuis un moment, et pour des raisons économiques j'ai décidé d'y embarquer un RP2040-Zero, monté à l'envers, pour économiser un max sur les coûts de fabrication<sup><a id="footnote-1-orig" href="footnote-1">1</a></sup>. Les RP2040-Zero sont assez peu chers, donc pour moi en tant que petit artisan hobbyiste ça vaut grave le coup (et le coût). Si t'as envie de faire ça de manière chiante, rien ne t'empêche d'imprimer une platine de montage en 3D et de router manuellement tous les switches !<br>
+                                    <br>
+                                    Bref. On va déjà assembler les composants. Un peu de zikmu en fond (aujourd'hui on part sur <i>Chuck Person's Eccojams Volume 1</i>) et c'est tipar:
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/populated.jpg">
+                                    <p></p>
+                                </div>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/snag1.jpg">
+                                    <p>Eeeeeeeet c'est un nouveau record du monde pour le joueur Français dans la catégorie "Problème de merde le plus rapide" !</p>
+                                </div>
+
+                                <p>
+                                    Immédiatement, je me rends compte que les boutons à 90° sont un peu fat des pattes arrière et ne rentrent pas sans aplatir les jambes à la pince. Bon, au moins c'est pas un problème relou.
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/snag2.jpg">
+                                    <p>Si seulement tout était aussi simple</p>
+                                </div>
+
+                                <p>
+                                    Je passe maintenant à la partie la plus critique du build, à savoir l'apport d'un alliage d'étain et de cuivre par application contrôlée de haute température dans le but de créer une jonction mécanique et éléctronique stable (c'est du LinkedInien pour dire "Je soude")
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/solder1.jpg">
+                                    <p></p>
+                                </div>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/solder2.jpg">
+                                    <p>Faites comme moi: toujours chier dans la colle quand vous soudez les masses au plan pour pouvoir dire que c'est la faute de votre panne méga rouillée et ne pas assumer que vous savez juste pas braser en fait</p>
+                                </div>
+
+                                <p>
+                                    Jusque là c'est que des boutons. Peuvent rien faire sans avoir un microcontrôleur. Faisons entrer le RP2040-Zero dans le mix:
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/snag3.jpg">
+                                    <p>Evidemment y rentre pas à genre 0.5mm près</p>
+                                </div>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/noreset.jpg">
+                                    <p>Balek, pas besoin d'un bouton reset pour une manette</p>
+                                </div>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/tape.jpg">
+                                    <p>Gork et Mork bénissent le gaffeur, meilleur truc pour faire tenir des composants en surface avant la soudure</p>
+                                </div>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/fullysoldered.jpg">
+                                    <p>Même là les soudures sont mieux que sur les pattes des interrupteurs</p>
+                                </div>
+
+                                <p>
+                                    À ce point, le BadPad fonctionne d'un point de vue technique; vu que j'ai du PETG dans le séchoir et encore quelques heures à tuer, je me dis que je vais upload le firmware (GP2040-CE) et tester si tout marche.
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/nothing.gif">
+                                    <p>Uh-oh. Là j'appuie sur des boutons, hein.</p>
+                                </div>
+
+                                <p>
+                                    Vous avez peut être remarqué un sacré paquet de <i>que dalle</i> dans le GIF ci-dessus. C'est parce que c'est exactement ce que voit le RP2040-Zero. C'qui peut être causé par plusieurs trucs:
+                                </p>
+
+                                <ol type="1">
+                                    <li>J'ai tellement foiré mes soudures que y'a pas de continuité entre aucune masse</li>
+                                    <li>Mon RP2040-Zero est cliniquement mort (c'est peu probable vu que je viens de foutre le FW dessus)</li>
+                                    <li>J'ai absolument chié dans la colle quand j'ai fait mon circuit et du coup les masses de la carte sont pas liées à la masse du RP2040-Zero</li>
+                                </ol>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/moron.png">
+                                    <p>Y'a des jours</p>
+                                </div>
+
+                                <p>
+                                    C'est... moyen. Heureusement pour moi c'est aussi facile à rectifier pour une fois; j'ai juste à souder un fil entre les masses et le problème est réglé !
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/hack.jpg">
+                                    <p>Au pire on s'en fout, c'est dans le pad lui même</p>
+                                </div>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/output.gif">
+                                    <p>J'ai quand même eu une descente d'organes</p>
+                                </div>
+
+                                <p>
+                                    Maintenant... on imprime !
+                                </p>
+                                <hr>
+                                <p class="footnotes">
+                                    <a id="footnote-1" href="footnote-1-orig">1</a>: Genre environ 40€ pour une run de 5 cartes. J'ai pas le matos (ou la dextérité) pour assembler des ports USB-C moi-même hélas
+                                </p>
+                            </article>
+
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">C'est dans la boîte</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+
+                                <p>
+                                    Pour ne pas changer des bonnes habitudes, j'ai décidé de faire ma diva et de faire des panneaux en bois découpés au laser:
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/varnish.jpg">
+                                    <p>Avec un p'tit vernis acajou pour cette sublime teinte rougeâtre</p>
+                                </div>
+
+                                <p>
+                                    Une fois le vernis sec, je colle le panneau frontal avec de la colle néoprène. Je préfèrerais m'en passer, mais n'ayant pas de CNC pour usiner les indentations dans le bois, j'ai pas trop le choix. J'y fous des serre-joints et je laisse ça de côté pour la nuit.
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/assembly1.jpg">
+                                    <p>J'aurais du l'imprimer en rouge pour qu'elle aille plus vite /s</p>
+                                </div>
+
+                                <p>
+                                    Côté châssis, rien de particulièrement hors norme, on est sur un petit bloc de 25mm donc déjà assez fin comparé à d'autres manettes. Tant que c'est confortable en main, c'est pas un problème.<br>
+                                    <br>
+                                    Les boutons (ainsi que le reste du châssis) sont imprimés en PETG, avec ironing pour les boutons pour essayer de les lisser un peu afin qu'ils n'accrochent pas trop à ma peau. Je considère assez fortement commander une série en résine pour le confort et le look.
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/assembly2.jpg">
+                                    <p></p>
+                                </div>
+
+                                <p>
+                                    La manette est facile à assembler, j'ai juste eu à rajouter deux boulons M3 sur les vis à l'arrière pour stabiliser la carte à l'intérieur. 
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/complete.jpg">
+                                    <p>Tada~</p>
+                                </div>
+                            </article>
+
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Et ça donne quoi en jeu ?</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/kazuya.gif">
+                                    <p>Note: Je suis pas un joueur de Mishima, pas d'EWGF aujourd'hui</p>
+                                </div>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/ak.gif">
+                                    <p>Armor King c'est un peu plus dans mes cordes par contre</p>
+                                </div>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/honda.gif">
+                                    <p>Oui je mash comme un taré sur Street Fighter, problème ?</p>
+                                </div>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/zangief2.gif">
+                                    <p>Même le 720 buffered passe crème</p>
+                                </div>
+                            </article>
+
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Postmortem</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+
+                                <p>
+                                    Pour une première manette, c'est pas parfait, mais c'est pas mal non plus. J'ai quelques améliorations en tête, notamment les boutons en résine dont j'ai parlé plus haut, mais aussi peut-être changer les gâchettes pour un design à poussoir plutot qu'un bras articulé.<br>
+                                    <br>
+                                    Niveau éléctronique va falloir que je révise la carte pour laisser passer le bouton RESET, et à part ça peut être ajouter des points de test/rajouter les inputs actuellement inutilisés genre L3 et R3 pour plus de flexibilité.<br>
+                                    <br>
+                                    Bref, c'est tout pour moi aujourd'hui. La manette est franchement cool et j'uploaderai les fichiers sur GitHub sous peu !
+                                    <div class="signature">- Bad64</div>
+                                </p>
+                            </article>
+                            <!--Blog post generator end flag-->
+                            <script src="/common/elements/footer.js"></script>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+	</body>
+</html>

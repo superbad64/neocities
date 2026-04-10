@@ -30,9 +30,26 @@
 			<div class="heading">Blog</div>
 			<!--Old school navigation widget-->
 			<div class="navigationWidget">
-				&nbsp;<strong>1</strong>&nbsp;				&nbsp;<a href="2.shtml">2</a>&nbsp;				&nbsp;<a href="3.shtml">3</a>&nbsp;				&nbsp;<a href="2.shtml">&gt;</a>&nbsp;				&nbsp;<a href="3.shtml">&gt;&gt;</a>&nbsp;
+				&nbsp;<strong>1</strong>&nbsp;				&nbsp;<a href="2.shtml">2</a>&nbsp;				&nbsp;<a href="3.shtml">3</a>&nbsp;				&nbsp;<a href="4.shtml">4</a>&nbsp;				&nbsp;<a href="2.shtml">&gt;</a>&nbsp;				&nbsp;<a href="4.shtml">&gt;&gt;</a>&nbsp;
 			</div>
 <br>			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Aero cometh - 10/04/2026 15:59</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					Finally got off my lazy butt and tried my hand at an Aero-inspired stylesheet. As usual, I favor "done" over "perfect", but that won't stop me from revisiting it down the line if need be.<br>
+					<br>
+					Aero is such a wonderful design language. Most of my negative opinions on modern design is how bland, neutral and generally uninspired it is overall. All done in an effort to uniformize the web to better display it on pocket-sized terminals. Convenience has cost us so much, and for so little in return. Hecc phones.<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
 				<table class="titlebar">
 					<tr>
 						<td><label class="title">Hypersomnia - 29/03/2026 16:26</label></td>
@@ -109,24 +126,9 @@
 					<div class="signature">- Bad64</div>
 				</p>
 			</article>
-			<article class="blogpost">
-				<table class="titlebar">
-					<tr>
-						<td><label class="title">Medium-term survival - 19/12/2025 05:42</label></td>
-						<td class="buttoncontainer">
-							<script src="/common/elements/fakebuttons.js"></script>
-						</td>
-					</tr>
-				</table>
-				<script src="/common/elements/fakemenu.js"></script>
-				<p>
-					Lack of employment perspectives (mainly due to my current state of existence) is making me heavily consider using my last funds to buy a truck and turn it into a camper of sorts. This would involve letting go of most of my hobbies (can't really 3D print on a car battery, can I ?), but at this point I feel like I don't have any choice either way. It's that or a motorcycle and a prayer that I can find some work real soon.<br>
-					<div class="signature">- Bad64</div>
-				</p>
-			</article>
 			<!--Old school navigation widget-->
 			<div class="navigationWidget">
-				&nbsp;<strong>1</strong>&nbsp;				&nbsp;<a href="2.shtml">2</a>&nbsp;				&nbsp;<a href="3.shtml">3</a>&nbsp;				&nbsp;<a href="2.shtml">&gt;</a>&nbsp;				&nbsp;<a href="3.shtml">&gt;&gt;</a>&nbsp;
+				&nbsp;<strong>1</strong>&nbsp;				&nbsp;<a href="2.shtml">2</a>&nbsp;				&nbsp;<a href="3.shtml">3</a>&nbsp;				&nbsp;<a href="4.shtml">4</a>&nbsp;				&nbsp;<a href="2.shtml">&gt;</a>&nbsp;				&nbsp;<a href="4.shtml">&gt;&gt;</a>&nbsp;
 			</div>
                             <!--Blog post generator end flag-->
                             <script src="/common/elements/footer.js"></script>

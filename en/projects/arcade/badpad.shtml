@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>The BadPad - Bad64's Corner</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<link id="currentStyleSheet" rel="stylesheet" href="">
+		<meta charset="UTF-8">
+		<link rel="icon" type="image/png" href="/common/images/icons/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/common/images/icons/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/common/images/icons/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/common/images/icons/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="Bad64's Corner" />
+		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
+	</head>
+	<body>
+        <div id="wrapper">
+            <table id="main">
+                <tbody>
+                    <tr id="selectorsRow">
+                        <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                    </tr>
+                    <tr id="portraitMenu">
+                        <td><script src="/common/elements/portraitmenu.js"></script></td>
+                    </tr>
+                    <tr id="content">
+                        <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                        <td colspan="2" id="articles">
+                            <!--Blog post generator start flag-->
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Smaller rectangle hours</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+
+                                <p class="back"><a href="/en/projects.shtml">&lt; Back to the Projects</a></p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/badpad.png">
+                                    <p>Forgive me, father, for I have strayed from the path</p>
+                                </div>
+
+                                <p>
+                                    ...I can explain.<br>
+                                    <br>
+                                    So for April Fools, aka yesterday when I'm writing this article, I wanted to make a regular controller instead of a giant arcade-style rectangular abommination. My luck stat being what it is, I ended up getting the boards delivered on April 2nd. I guess <i>I</i> am the fool today !
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/package1.jpg">
+                                    <p></p>
+                                </div>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/package2.jpg">
+                                    <p>Mail time !</p>
+                                </div>
+
+                                <p>
+                                    I have tried a few six button pads a while back, and none of them ended up being good for me. Either the plastic was too shoddy (like the original Hori Fighting Commander), the buttons were mushy, or the d-pad was total assballs. So I decided to do what I do best in those cases: Ork Mekboy-style Engineering !
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/start.jpg">
+                                    <p>For this recipe, we will need: all this crap and more</p>
+                                </div>
+
+                                <ul>
+                                    <li>13x 6x6x4.3mm through-hole tactile switches</li>
+                                    <li>2x Xbox shoulder button switches (I'm pretty sure they do have a canon part name but I don't know it)</li>
+                                    <li>1x Waveshare RP2040-Zero</li>
+                                    <li>4x DIN 7991/ISO 10642 M3x20 countersunk hex bolts</li>
+                                    <li>6x M3 hex nuts</li>
+                                    <li>Usual soldering stuff (iron, tin, wire, desoldering pump...)</li>
+                                    <li>1x fine BadPad board (it's going to be on the repo)</li>
+                                </ul>
+
+                                <div class="dialog">
+                                    <table class="titlebar">
+                                        <tr>
+                                            <td><label class="title">Question</label></td>
+                                            <td class="buttoncontainer">
+                                                <script src="/common/elements/fakebutton_close.js"></script>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <div style="display: flex; flex-direction: row;">
+                                        <img src="/common/images/icons/msg_question-0.png">
+                                        <p>
+                                            Hold the phone. You got boards fabbed for this ?
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p>
+                                    <i>Technically</i> the boards aren't necessary, they're just a glorified carrier to facilitate wiring the buttons to the Zero.<br>
+                                    <br>
+                                    But yes.<br>
+                                    <br>
+                                    I hadn't designed a board in a while, and for Cost Efficiency<sup>TM</sup> I decided to make a Zero carrier board, with a reverse mount style, so I could save a ton on having a USB-C connector and assorted hardware<sup><a id="footnote-1-orig" href="footnote-1">1</a></sup>. The Zeroes are super cheap and easy to work with, so as far as I'm concerned, it's a win-win in my book. If you really want to make things omega hard for yourselves, nothing prevents you from 3D printing a mounting plate onto which you'll mount the switches and then use regular wire to connect to the Zero. No idea how you would mount the Zero itself though !<br>
+                                    <br>
+                                    Anyways, let's put them buttons in place. I put on some background music (today's flavor is <i>Chuck Person's Eccojams Volume 1</i> if you're interested) and get to work:
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/populated.jpg">
+                                    <p></p>
+                                </div>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/snag1.jpg">
+                                    <p>Aaaaaand it's a World Record for the fastest SNAFU from the French player !</p>
+                                </div>
+
+                                <p>
+                                    I immediately run into the first snag of this project: for whatever reason the Xbox shoulder button switches are a lil' chonky on the rear legs, so I straighten them away with some pliers. And now they fit like a glove !
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/snag2.jpg">
+                                    <p>If only everything was this simple (subtle foreshadowing)</p>
+                                </div>
+
+                                <p>
+                                    You can very probably guess what's next. If not, lemme spell it out for you: addition of a mixture of tin and copper in molten form through careful application of localized heating in order to form a coherent mechanical and electrical connection between the components and the board. (Which is LinkedIn speak for "soldering")
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/solder1.jpg">
+                                    <p></p>
+                                </div>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/solder2.jpg">
+                                    <p>Always do a horrible job at soldering grounds so you have an excuse to blame your turbo oxidized tip instead of your shoddy technique</p>
+                                </div>
+
+                                <p>
+                                    But of course, these are only buttons. They can't do nuthin' without a brain to control them. Enter the Zero, reverse-mounted, to serve as the true mastermind of the entire operation.
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/snag3.jpg">
+                                    <p>Of course it barely does not fit</p>
+                                </div>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/noreset.jpg">
+                                    <p>Whatever. Don't need a reset button anyway</p>
+                                </div>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/tape.jpg">
+                                    <p>Gork and Mork bless the painter's tape, best way to hold surface mounted things in place while you solder them</p>
+                                </div>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/fullysoldered.jpg">
+                                    <p>Somehow I've done a far better job on the Zero than I did on the buttons</p>
+                                </div>
+
+                                <p>
+                                    At this point the BadPad is technically working, so I guess it's time to upload the GP2040-CE firmware and test if everything works. (I have PETG cooking in the filament dryer anyway so I've got some hours to spare)
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/nothing.gif">
+                                    <p>Uh-oh. I am pressing buttons here.</p>
+                                </div>
+
+                                <p>
+                                    You might be noticing a whole lotta <i>fuck-all</i> in the GIF above. That is because it is the precise amount of things happening as far as the Zero is concerned. Which can mean a few different things:
+                                </p>
+
+                                <ol type="1">
+                                    <li>I have done such a terrible soldering job that literally none of the grounds are actually connected to the board</li>
+                                    <li>I have a dead RP2040-Zero (can't be it since I managed to upload firmware on it)</li>
+                                    <li>I have made a critical mistake in my schematics and the board ground isn't actually connected to the Zero's ground</li>
+                                </ol>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/moron.png">
+                                    <p>GUESS WHAT.</p>
+                                </div>
+
+                                <p>
+                                    That's... bad. And not in a me way. Fortunately this is also a human-correctable error: All I have to do is bodge a wire between the Zero's ground pin and any other ground connected to the buttons, and unless option number one is also true, that should fix it.
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/hack.jpg">
+                                    <p>Jank is the spice of engineering after all</p>
+                                </div>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/output.gif">
+                                    <p>Saved by the hack</p>
+                                </div>
+
+                                <p>
+                                    Now... it's printing time !!
+                                </p>
+                                <hr>
+                                <p class="footnotes">
+                                    <a id="footnote-1" href="footnote-1-orig">1</a>: Seriously it saves like 40€ over a batch of 5. USB-C assembly is super expensive and I don't have a hot air station to do it myself
+                                </p>
+                            </article>
+
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Time to box</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+
+                                <p>
+                                    Being <i>a little</i> extra, I decided to get my top and bottom plates made out of laser cut plywood.
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/varnish.jpg">
+                                    <p>With a touch of Mahogany varnish for that dark sultry tone</p>
+                                </div>
+
+                                <p>
+                                    After letting the coat of varnish dry on the underside of the top panel, I'mma neoprene glue this on top, and close everything out with the countersunk hex bolts. I'd rather dispense myself of glue to be honest, but wood being wood, I don't really have a choice on this particular matter. Anyways, I clamp the wood on and tuck in for the night.
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/assembly1.jpg">
+                                    <p>Shoulda made it red so it polls faster /s</p>
+                                </div>
+
+                                <p>
+                                    On the chassis side, nothing really exciting. The controller could be a lot thinner if I really tried, but at 25 millimeters I consider it already a little on the thin side of things. Doesn't bother me as long as it fits right in the hand though.<br>
+                                    <br>
+                                    Buttons are printed in PETG with ironing on top just to make sure they're sorta smooth to glide on. I don't expect to pull slide manoeuvers considering the stair stepping on them, but if they at least don't catch my thumb, I'll go with that for now. I might get some resin printed ones down the line, who knows.
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/assembly2.jpg">
+                                    <p></p>
+                                </div>
+
+                                <p>
+                                    Assembly is a breeze - I only have to add some nuts on the back screws to properly space out the board (weird, I was pretty sure I fixed that in an earlier chassis revision, but oh well) and thread the triggers in.
+                                </p>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/complete.jpg">
+                                    <p>Tada~</p>
+                                </div>
+                            </article>
+
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">But how does it perform ?</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/kazuya.gif">
+                                    <p>Note: I am not a Mishima player, I practiced about 35 seconds, therefore no EWGF</p>
+                                </div>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/ak.gif">
+                                    <p>AK's more my style but pressing 2+4 is still iffy... Need more practice</p>
+                                </div>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/honda.gif">
+                                    <p>Yes I mash with reckless abandon on Street Fighter, get over it already</p>
+                                </div>
+                                <div class="picture">
+                                    <img src="/common/images/projects/builds/badpad/zangief2.gif">
+                                    <p>Even the buffered 720 is easy</p>
+                                </div>
+                            </article>
+
+                            <article class="blogpost">
+                                <table class="titlebar">
+                                    <tr>
+                                        <td><label class="title">Postmortem</label></td>
+                                        <td class="buttoncontainer">
+                                            <script src="/common/elements/fakebuttons.js"></script>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <script src="/common/elements/fakemenu.js"></script>
+
+                                <p>
+                                    Of course for a first handheld gamepad build, it's far from perfect. It works a lot better than I imagined it would though, which I'll gladly take as a W, but at least I've got some ideas for improvement (should that day ever come). First in line would obviously be resin printed buttons for enhanced comfort, but also maybe rework the triggers to not be fully hinged, instead relying on a linear plunger type design.<br>
+                                    <br>
+                                    As far as the electronics go, well I do need to figure out a way to widen the cutout to no longer have to toss the RESET button from the Waveshare RP2040-Zero. Not that I need it anyway, but it's still one less operation on my end, and less waste as I personally have no use for SMD tact switches. I should also probably add test pads and/or break out the so far unused I/O to add things like L3 and R3.<br>
+                                    <br>
+                                    Either way, that'll be all for me today. I will publish the files on GitHub soon-ish !
+                                    <div class="signature">- Bad64</div>
+                                </p>
+                            </article>
+                            <!--Blog post generator end flag-->
+                            <script src="/common/elements/footer.js"></script>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+	</body>
+</html>

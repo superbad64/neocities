@@ -35,6 +35,23 @@
 <br>			<article class="blogpost">
 				<table class="titlebar">
 					<tr>
+						<td><label class="title">On a Aero à la maison - 10/04/2026 16:04</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					J'ai enfin pris mon courage à deux mains pour tenter de coder une feuille de style inspirée par le cultissime langage Aero. Étant de nature à préférer "fini" plutôt que "parfait", ce n'est donc pas une copie 1 pour 1, mais si un jour j'en ai l'envie je tenterai une reproduction plus fidèle.<br>
+					<br>
+					Comme pas mal de millenials, j'éprouve une énorme nostalgie pour ce langage de design. La plupart des choses que je reproche au web moderne sont surtout des points de comparaison par rapport à Aero (et le Vieux Web par extension): aseptisé, trop neutre, sans individualité. Tout ça pour essayer d'uniformiser le web pour l'afficher sur une armée de terminaux de poche dont le niveau de standardisation tend à s'arrêter largement au noyau utilisé. J'ai l'impression que ça nous a coûté énormément en matière de personnalité...<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
 						<td><label class="title">Hypersomnie - 29/03/2026 16:29</label></td>
 						<td class="buttoncontainer">
 							<script src="/common/elements/fakebuttons.js"></script>
@@ -106,21 +123,6 @@
 						<img src="/common/images/blog/2025/12/25/godtier.jpg" />
 						<p>Le genre de vibe que j'amène à la fonction sociale</p>
 					</div>
-					<div class="signature">- Bad64</div>
-				</p>
-			</article>
-			<article class="blogpost">
-				<table class="titlebar">
-					<tr>
-						<td><label class="title">À moyen terme - 19/12/2025 05:43</label></td>
-						<td class="buttoncontainer">
-							<script src="/common/elements/fakebuttons.js"></script>
-						</td>
-					</tr>
-				</table>
-				<script src="/common/elements/fakemenu.js"></script>
-				<p>
-					La difficulté à retrouver un emploi me fait sérieusement considérer acheter un utilitaire/van et l'aménager avec mes dernières ressources... Je devrais abandonner la majorité de mes hobbies malheureusement, mais au point où j'en suis je crains de ne pas avoir le choix de toutes façons. C'est ça ou acheter une moto et prier pour retrouver du taf.<br>
 					<div class="signature">- Bad64</div>
 				</p>
 			</article>

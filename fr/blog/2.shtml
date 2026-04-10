@@ -35,6 +35,21 @@
 <br>			<article class="blogpost">
 				<table class="titlebar">
 					<tr>
+						<td><label class="title">À moyen terme - 19/12/2025 05:43</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					La difficulté à retrouver un emploi me fait sérieusement considérer acheter un utilitaire/van et l'aménager avec mes dernières ressources... Je devrais abandonner la majorité de mes hobbies malheureusement, mais au point où j'en suis je crains de ne pas avoir le choix de toutes façons. C'est ça ou acheter une moto et prier pour retrouver du taf.<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
 						<td><label class="title">Trop d4rk tavu - 11/12/2025 01:54</label></td>
 						<td class="buttoncontainer">
 							<script src="/common/elements/fakebuttons.js"></script>
