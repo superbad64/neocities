@@ -3,26 +3,26 @@ if (["en", "fr"].includes(lang) == false) { lang = "common" };
 
 var navStrings = {
     "common": {
-        "home": "<a href=\"/en/home.shtml\"><span style=\"text-decoration: underline\">H</span>ome</a>",
+        "home": "<a href=\"/en/home/1.shtml\"><span style=\"text-decoration: underline\">B</span>log</a>",
         "aboutMe": "<a href=\"/en/about.shtml\"><span style=\"text-decoration: underline\">A</span>bout me</a>",
         "articles": "<a href=\"/en/articles.shtml\">A<span style=\"text-decoration: underline\">r</span>ticles</a>",
-        "blog": "<a href=\"/en/blog/1.shtml\"><span style=\"text-decoration: underline\">B</span>log</a>",
+        //"blog": "<a href=\"/en/blog/1.shtml\"><span style=\"text-decoration: underline\">B</span>log</a>",
         "faq": "<a href=\"/en/faq.shtml\"><span style=\"text-decoration: underline\">F</span>AQ</a>",
         "projects": "<a href=\"/en/projects.shtml\"><span style=\"text-decoration: underline\">P</span>rojects</a>"
     },
     "en": {
-        "home": "<a href=\"/en/home.shtml\"><span style=\"text-decoration: underline\">H</span>ome</a>",
+        "home": "<a href=\"/en/home/1.shtml\"><span style=\"text-decoration: underline\">B</span>log</a>",
         "aboutMe": "<a href=\"/en/about.shtml\"><span style=\"text-decoration: underline\">A</span>bout me</a>",
         "articles": "<a href=\"/en/articles.shtml\">A<span style=\"text-decoration: underline\">r</span>ticles</a>",
-        "blog": "<a href=\"/en/blog/1.shtml\"><span style=\"text-decoration: underline\">B</span>log</a>",
+        //"blog": "<a href=\"/en/blog/1.shtml\"><span style=\"text-decoration: underline\">B</span>log</a>",
         "faq": "<a href=\"/en/faq.shtml\"><span style=\"text-decoration: underline\">F</span>AQ</a>",
         "projects": "<a href=\"/en/projects.shtml\"><span style=\"text-decoration: underline\">P</span>rojects</a>"
     },
     "fr": {
-        "home": "<a href=\"/fr/home.shtml\">A<span style=\"text-decoration: underline\">c</span>cueil</a>",
+        "home": "<a href=\"/fr/home/1.shtml\"><span style=\"text-decoration: underline\">B</span>log</a>",
         "aboutMe": "<a href=\"/fr/about.shtml\"><span style=\"text-decoration: underline\">À</span> propos</a>",
         "articles": "<a href=\"/fr/articles.shtml\">A<span style=\"text-decoration: underline\">r</span>ticles</a>",
-        "blog": "<a href=\"/fr/blog/1.shtml\"><span style=\"text-decoration: underline\">B</span>log</a>",
+        //"blog": "<a href=\"/fr/blog/1.shtml\"><span style=\"text-decoration: underline\">B</span>log</a>",
         "faq": "<a href=\"/fr/faq.shtml\"><span style=\"text-decoration: underline\">F</span>.A.Q.</a>",
         "projects": "<a href=\"/fr/projects.shtml\"><span style=\"text-decoration: underline\">P</span>rojets</a>"
     }
@@ -43,10 +43,11 @@ document.write('    <script src="/common/elements/fakemenu.js"></script>');
 document.write('	');
 document.write('    <div id="menucontainer" style="display: flex; flex-direction: column; justify-content: space-between;">')
 document.write('	<dl>');
-document.write('		<dt><img src="/common/images/icons/world-4.png" />&nbsp;' + navStrings[lang]["home"] + '</dt>');
+//document.write('		<dt><img src="/common/images/icons/world-4.png" />&nbsp;' + navStrings[lang]["home"] + '</dt>');
+document.write('		<dt><img src="/common/images/icons/computer_explorer-4.png" />&nbsp;' + navStrings[lang]["home"] + '</dt>');
 document.write('		<dt><img src="/common/images/icons/help_book_cool-4.png" />&nbsp;' + navStrings[lang]["aboutMe"] + '</dt>');
 document.write('		<dt><img src="/common/images/icons/keyboard-5.png" />&nbsp;' + navStrings[lang]["articles"] + '</dt>');
-document.write('		<dt><img src="/common/images/icons/computer_explorer-4.png" />&nbsp;' + navStrings[lang]["blog"] + '</dt>');
+//document.write('		<dt><img src="/common/images/icons/computer_explorer-4.png" />&nbsp;' + navStrings[lang]["blog"] + '</dt>');
 document.write('		<dt><img src="/common/images/icons/notepad-5.png" />&nbsp;' + navStrings[lang]["faq"] + '</dt>');
 document.write('		<dt><img src="/common/images/icons/directory_open_file_mydocs-4.png" />&nbsp;' + navStrings[lang]["projects"] + '</dt>');
 document.write('	</dl>');

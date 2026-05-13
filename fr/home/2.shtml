@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Blog - Bad64's Domain</title>
+		<title>Home - Bad64's Domain</title>
 		<link rel="stylesheet" href="/common/styles/layout.css">
 		<link rel="stylesheet" href="/common/styles/styles.css">
 		<link id="currentStyleSheet" rel="stylesheet" href="">
@@ -26,96 +26,94 @@
                     <tr id="content">
                         <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
                         <td colspan="2" id="articles">
-
-			<div class="heading">Blog</div>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Bonne année ! - 02/01/2026 19:19</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					Bonne année 2026 ! Meilleurs voeux, la santé, tout ça, je pense que vous connaissez la chanson. Croisons les doigts pour que cette année soit un peu meilleure que la précédente !<br>
+					<div class="picture"><img src="/common/images/blog/2026/01/02/hbd.png"><p>Pour ma part j'ai autre chose à fêter !</p></div>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Joyeux Noël ! - 25/12/2025 16:37</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					J'espère que le Grand Barbu Hyperluminique vous aura bien gâté et que vous profitez bien de la période des fêtes ! Pour ma part c'est toujours boulot boulot boulot... Stay tuned<br>
+					<div class="picture">
+						<img src="/common/images/blog/2025/12/25/godtier.jpg" />
+						<p>Le genre de vibe que j'amène à la fonction sociale</p>
+					</div>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">À moyen terme - 19/12/2025 05:43</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					La difficulté à retrouver un emploi me fait sérieusement considérer acheter un utilitaire/van et l'aménager avec mes dernières ressources... Je devrais abandonner la majorité de mes hobbies malheureusement, mais au point où j'en suis je crains de ne pas avoir le choix de toutes façons. C'est ça ou acheter une moto et prier pour retrouver du taf.<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Trop d4rk tavu - 11/12/2025 01:54</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					(Oui il est quasiment 2h du mat'... insomnie FTW)<br>
+					<br>
+					Je me suis dit que ça pourrait aider les gens qui ont des yeux fragiles (comme les miens) si j'ajoutais des styles un peu moins criards, notamment pour ceux qui sont sur mobile.<br>
+					D'ailleurs, oui je suis au courant que le menu est <i>un peu</i> cassé sur mobile - j'essaie de voir ce qui cloche !<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Un, deux, un deux... Test ? - 07/12/2025 20:46</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					Bon, ben j'imagine que je devrais peut-être me fendre de <i>quelques</i> articles en Français, vu que je ne vais probablement pas tout publier en Anglais.<br>
+					<br>
+					Pour ceux qui font le marché de Noël, que ça soit en simple visiteur ou en tant qu'exposant, force à vous ! Je suis pas particulièrement fan de la saison, mais au moins ça me donnera une excuse pour me gaver de fondue héhé.<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
 			<!--Old school navigation widget-->
 			<div class="navigationWidget">
-				&nbsp;<a href="1.shtml">&lt;&lt;</a>&nbsp;				&nbsp;<a href="2.shtml">&lt;</a>&nbsp;				&nbsp;<a href="1.shtml">1</a>&nbsp;				&nbsp;<a href="2.shtml">2</a>&nbsp;				&nbsp;<strong>3</strong>&nbsp;				&nbsp;<a href="4.shtml">4</a>&nbsp;				&nbsp;<a href="4.shtml">&gt;</a>&nbsp;
-			</div>
-<br>			<article class="blogpost">
-				<table class="titlebar">
-					<tr>
-						<td><label class="title">French translation incoming - 24/10/2025 12:50</label></td>
-						<td class="buttoncontainer">
-							<script src="/common/elements/fakebuttons.js"></script>
-						</td>
-					</tr>
-				</table>
-				<script src="/common/elements/fakemenu.js"></script>
-				<p>
-					I've started translating what I've written so far while it's still manageable. Expect a few things to break over the course of the next few days as I work things out for the code to support multiple languages !<br>
-					<div class="signature">- Bad64</div>
-				</p>
-			</article>
-			<article class="blogpost">
-				<table class="titlebar">
-					<tr>
-						<td><label class="title">Roaming around - 20/10/2025 16:38</label></td>
-						<td class="buttoncontainer">
-							<script src="/common/elements/fakebuttons.js"></script>
-						</td>
-					</tr>
-				</table>
-				<script src="/common/elements/fakemenu.js"></script>
-				<p>
-					Been exploring tagged websites on NeoCities. There's quite a lot more people than I thought would be who also seem to hold fond memories of the XP Luna Blue style ! Genuinely surprised.<br>
-					<div class="signature">- Bad64</div>
-				</p>
-			</article>
-			<article class="blogpost">
-				<table class="titlebar">
-					<tr>
-						<td><label class="title">I went to EVO ! - 13/10/2025 15:02</label></td>
-						<td class="buttoncontainer">
-							<script src="/common/elements/fakebuttons.js"></script>
-						</td>
-					</tr>
-				</table>
-				<script src="/common/elements/fakemenu.js"></script>
-				<p>
-					As the title says, I even wrote <a href="/en/articles/evo2025.shtml">an article</a> about it ! Go peek it !<br>
-					<div class="signature">- Bad64</div>
-				</p>
-			</article>
-			<article class="blogpost">
-				<table class="titlebar">
-					<tr>
-						<td><label class="title">Small update - 03/10/2025 21:53</label></td>
-						<td class="buttoncontainer">
-							<script src="/common/elements/fakebuttons.js"></script>
-						</td>
-					</tr>
-				</table>
-				<script src="/common/elements/fakemenu.js"></script>
-				<p>
-					I've cleaned up the actual website a little bit, and touched up the CSS to slightly better match the XP aesthetic. On the GitHub repo I've uploaded a bunch of new styles too.<br>
-					<br>
-					I should go back to my EVO training now ! Hopefully I'll get to write about my experience there !<br>
-					<div class="signature">- Bad64</div>
-				</p>
-			</article>
-			<article class="blogpost">
-				<table class="titlebar">
-					<tr>
-						<td><label class="title">Site launch - 30/09/2025 21:21</label></td>
-						<td class="buttoncontainer">
-							<script src="/common/elements/fakebuttons.js"></script>
-						</td>
-					</tr>
-				</table>
-				<script src="/common/elements/fakemenu.js"></script>
-				<p>
-					Well, here we are. I'm (finally) launching this website I've been bothering pretty much everyone about for the past five months or so.<br>
-					<br>
-					It's been an eventful road. I'm not a developer, much less a web developer (if anything I mostly write either administration scripts or low level code for embedded microcontrollers). The design alone took quite a lot of time. I created two stylesheets, one themed around Windows 9x and one around Windows XP. Still not entirely sure which one looks best.<br>
-					<br>
-					Either way, that's that. Hope you enjoy your stay !
-					<div class="signature">- Bad64</div>
-				</p>
-			</article>
-			<!--Old school navigation widget-->
-			<div class="navigationWidget">
-				&nbsp;<a href="1.shtml">&lt;&lt;</a>&nbsp;				&nbsp;<a href="2.shtml">&lt;</a>&nbsp;				&nbsp;<a href="1.shtml">1</a>&nbsp;				&nbsp;<a href="2.shtml">2</a>&nbsp;				&nbsp;<strong>3</strong>&nbsp;				&nbsp;<a href="4.shtml">4</a>&nbsp;				&nbsp;<a href="4.shtml">&gt;</a>&nbsp;
+				&nbsp;<a href="1.shtml">&lt;</a>&nbsp;				&nbsp;<a href="1.shtml">1</a>&nbsp;				&nbsp;<strong>2</strong>&nbsp;
 			</div>
                             <!--Blog post generator end flag-->
                             <script src="/common/elements/footer.js"></script>

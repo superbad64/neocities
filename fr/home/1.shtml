@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Home - Bad64's Domain</title>
+		<link rel="stylesheet" href="/common/styles/layout.css">
+		<link rel="stylesheet" href="/common/styles/styles.css">
+		<link id="currentStyleSheet" rel="stylesheet" href="">
+		<meta charset="UTF-8">
+		<link rel="icon" type="image/png" href="/common/images/icons/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/common/images/icons/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/common/images/icons/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/common/images/icons/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="Bad64's Corner" />
+		<link rel="manifest" href="/common/images/icons/favicon/site.webmanifest" />
+	</head>
+	<body>
+        <div id="wrapper">
+            <table id="main">
+                <tbody>
+                    <tr id="selectorsRow">
+                        <td colspan="3"><script src="/common/elements/header.js"></script></td>
+                    </tr>
+                    <tr id="portraitMenu">
+                        <td><script src="/common/elements/portraitmenu.js"></script></td>
+                    </tr>
+                    <tr id="content">
+                        <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
+                        <td colspan="2" id="articles">
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Bienvenue dans la jungle !</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					J'ai décidé de créer ce site à la fois par besoin d'un endroit où m'exprimer, et par frustration avec l'Internet "moderne". Y sont parti où les sites un peu créatifs et stylés ?<sup id="footnote-1-orig"><a href="#footnote-1">1</a></sup><br>
+					<br>
+					Moi, ben, je suis essentiellement un nerd passionné de jeux vidéo, machines d'arcade (incluant des trucs genre les flippers, chasse-taupes, etc), et d'une manière générale j'adore les projets DIY<sup id="footnote-2-orig"><a href="#footnote-2">2</a></sup>, qu'on parle de programmation, d'ébénisterie, de métallerie, ou même d'impression 3D, et j'écris des choses à leur sujet <a href="/fr/projects.shtml">par ici</a>. Je rendrai un maximum d'entre eux open-source, même si en toute franchise je sais pas encore trop comment je vais m'y prendre pour les projets bois ou métal !<br>
+					<br>
+					J'écris aussi des formats <a href="/fr/blog/1.shtml">courts</a> et <a href="/fr/articles.shtml">longs</a> de temps à autre. Dans la mesure du possible, j'essaie d'écrire un ou deux posts sur mon blog et un article au format long par mois. C'est pas vraiment quelquechose que je suis habitué à faire, j'essaie de sortir un peu de ma zone de confort, mais faut quand même que je trouve quelquechose qui m'inspire pour pouvoir écrire dessus.<br>
+					<br>
+					Bref, prenez une boisson, mettez une petite musique de fond relax, et détendez vous un peu dans une ambiance rétro. On a tous besoin d'une petite pause, pas vrai ?<br>
+					<div class="signature">- Bad64</div>
+					<hr>
+					<p class="footnotes">
+					    <a id="footnote-1" href="#footnote-1-orig">1</a>: Apparemment ici sur NeoCities (bonne chose)<br>
+					    <a id="footnote-2" href="#footnote-2-orig">2</a>: <b>D</b>o <b>I</b>t <b>Y</b>ourself, "Faites-le vous-même" en traduction littérale. L'art et surtout la manière de fabriquer des trucs divers et variés<br>
+					</p>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Tranquille - 13/05/2026 16:12</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					J'ai fusionné la page d'accueil avec le blog à l'aide d'un morceau de code absolument horrible pour faire en sorte que le message d'accueil soit toujours affiché en premier en mettant manuellement le moment de sa création à celui de la génération des pages du blog.<br>
+					<br>
+					Mai va être un mois très court et très vide pour moi à cause de ma recherche d'emploi. J'arrive en fin de droits chômage et mes projets de reconversion ont capoté par manque de financement de la région (merci Macron). Jah bénisse, j'ai au moins les jeux vidéo pour passer le temps. J'ai atteint le rang de God of Destruction sur Tekken 8 y'a quelques jours (sur deux personnages sur 3, j'ai pas encore monté King) et j'ai repris un peu Zangief vite fait sur Street Fighter 6. Y'a un petit tournoi des deux ce dimanche, dans un cinéma en plus, et ça sera vraisemblablement la seule fois que je pourrais tryhard ce mois ci.<br>
+					<br>
+					Parallèlement, je bosse sur un petit jeu genre Wordle. Ca change un peu de la baston, et c'est un bon moyen de passer le temps. Pas aussi cool que de faire un nouveau build, mais bon !<br>
+					<br>
+					Bref, c'est tout pour moi aujourd'hui. Keep pushing !<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">On a Aero à la maison - 10/04/2026 16:04</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					J'ai enfin pris mon courage à deux mains pour tenter de coder une feuille de style inspirée par le cultissime langage Aero. Étant de nature à préférer "fini" plutôt que "parfait", ce n'est donc pas une copie 1 pour 1, mais si un jour j'en ai l'envie je tenterai une reproduction plus fidèle.<br>
+					<br>
+					Comme pas mal de millenials, j'éprouve une énorme nostalgie pour ce langage de design. La plupart des choses que je reproche au web moderne sont surtout des points de comparaison par rapport à Aero (et le Vieux Web par extension): aseptisé, trop neutre, sans individualité. Tout ça pour essayer d'uniformiser le web pour l'afficher sur une armée de terminaux de poche dont le niveau de standardisation tend à s'arrêter largement au noyau utilisé. J'ai l'impression que ça nous a coûté énormément en matière de personnalité...<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Hypersomnie - 29/03/2026 16:29</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					Vous avez déjà dormi pendant plus de 20 heures de suite ?<br>
+					<br>
+					Moi oui, ça m'est arrivé y'a quelques jours. Le fait d'avoir une journée qui s'évapore complètement est assez dérangeant, sans parler des acrobaties nécéssaires pour se remettre dans un cycle à peu près normal après. Personne sait vraiment ce qu'il m'arrive - ça peut juste pas logiquement être mes antidépresseurs vu que j'ai pas changé de posologie depuis Janvier.<br>
+					<br>
+					Bref, je bosse sur un autre truc sympa que j'espère pouvoir publier d'ici au premier Avril, mais les cartes éléctroniques que j'ai commandées sont à la bourre... Affaire à suivre.<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Nouvelles de Janvier ! - 30/01/2026 13:27</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					Manifestement, le rythme de 2 posts + un article par mois a pas tenu du tout... J'ai absolument rien fait ce mois-ci, pour deux raisons (à vous de me dire si c'en est des bonnes):<br>
+					<br>
+					La première est que j'ai commmencé à prendre des antidépresseurs. Comme dans toutes les périodes d'adaptation, les premières semaines sont assez rudes sur mon corps, et de fait je me retrouve assez léthargique pour le moment. Le côté positif, c'est que au moins je dors. Ca me change beaucoup de mes crises d'insomnie habituelles, mais d'un autre côté j'aime pas non plus particulièrement me lever à midi, j'ai toujours cette impression de gâcher ma journée quand ça arrive.<br>
+					<br>
+					La seconde raison est qu'à cause de problèmes dont je ne peux pas trop parler, je me suis retrouvé sans accès à Internet pendant une douzaine de jours. A l'heure où j'écris ce post, je tourne en 4G, avec mon téléphone portable ayant pris le rôle permanent de modem. Donc je peux plus l'utiliser pour, genre, chercher du boulot. Je vais fix ça dès que possible mais pour changer, les problèmes de logistiques sont pas de mon côté, donc là pour le moment je ne peux rien faire d'autre que prendre mon mal en patience...<br>
+					<br>
+					Ces galères d'Internet m'ont également forcé à dépenser de la thune que je n'avais pas vraiment et donc pour la première fois depuis assez longtemps dans ma période de chômage prolongé, j'ai fait un mois dans le rouge (dans le sens où j'ai dépensé + que ce que je n'ai gagné ce mois-ci, pas dans le sens où j'ai plus un rond et suis à découvert). De fait, je n'ai pas pu investir dans des loisirs comme l'impression 3D. L'année commence bien, hein ?<br>
+					<br>
+					Bref. Je vous retrouve en Février, espérons le avec un nouveau build.<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<!--Old school navigation widget-->
+			<div class="navigationWidget">
+				&nbsp;<strong>1</strong>&nbsp;				&nbsp;<a href="2.shtml">2</a>&nbsp;				&nbsp;<a href="2.shtml">&gt;</a>&nbsp;
+			</div>
+                            <!--Blog post generator end flag-->
+                            <script src="/common/elements/footer.js"></script>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+	</body>
+</html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Blog - Bad64's Domain</title>
+		<title>Home - Bad64's Domain</title>
 		<link rel="stylesheet" href="/common/styles/layout.css">
 		<link rel="stylesheet" href="/common/styles/styles.css">
 		<link id="currentStyleSheet" rel="stylesheet" href="">
@@ -26,13 +26,42 @@
                     <tr id="content">
                         <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
                         <td colspan="2" id="articles">
-
-			<div class="heading">Blog</div>
-			<!--Old school navigation widget-->
-			<div class="navigationWidget">
-				&nbsp;<a href="1.shtml">&lt;</a>&nbsp;				&nbsp;<a href="1.shtml">1</a>&nbsp;				&nbsp;<strong>2</strong>&nbsp;				&nbsp;<a href="3.shtml">3</a>&nbsp;				&nbsp;<a href="4.shtml">4</a>&nbsp;				&nbsp;<a href="3.shtml">&gt;</a>&nbsp;				&nbsp;<a href="4.shtml">&gt;&gt;</a>&nbsp;
-			</div>
-<br>			<article class="blogpost">
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Happy new year ! - 02/01/2026 19:21</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					Happy new year everybody ! Best wishes, may fortune and health smile upon you, blah blah blah, I think you know the drill by this point. Hopefully 2026 will suck a little less than 2025 !<br>
+					<div class="picture"><img src="/common/images/blog/2026/01/02/hbd.png"><p>As for me, I have something else to celebrate today !</p></div><br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Merry Christmas ! - 25/12/2025 16:38</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					Hope the Big Hypersonic Bearded Man has been kind to y'all ! Me, well, I'm still working on <i>things</i>...<br>
+					<div class="picture">
+						<img src="/common/images/blog/2025/12/25/godtier.jpg" />
+						<p>The kind of vibe I hope to bring to the function</p>
+					</div>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
 				<table class="titlebar">
 					<tr>
 						<td><label class="title">Medium-term survival - 19/12/2025 05:42</label></td>
@@ -79,41 +108,6 @@
 					Not that it should be very visible to most of you, but I changed most of the code that runs the site, mostly for layout consistency across devices and eventually frameworking. Took me most of the day, so definitely up there in terms of productive uses of my time lmao<br>
 					<br>
 					Anyways, hope y'all enjoying the Christmas season ! Not particularly fond of it myself for <i>reasons</i>, but don't let that stop you. I'm not the Grinch !<br>
-					<div class="signature">- Bad64</div>
-				</p>
-			</article>
-			<article class="blogpost">
-				<table class="titlebar">
-					<tr>
-						<td><label class="title">Some news - 27/11/2025 04:31</label></td>
-						<td class="buttoncontainer">
-							<script src="/common/elements/fakebuttons.js"></script>
-						</td>
-					</tr>
-				</table>
-				<script src="/common/elements/fakemenu.js"></script>
-				<p>
-					Hey, been a month already huh ? Time does fly when I work on the things y'all can't really see on this site hehe.<br>
-					I mean you <i>can</i> sorta see some of them, like the new landing page with language selection and the DOS-like style I added... But there's also a lot more going on like a new (and much cleaner) way to load stylesheets in what passes as the back-end. Not that it should really impact your navigation experience, it just makes things easier to maintain and expand on my end, mostly !<br>
-					<br>
-					Either way, we're closing in on November, and the holiday cheer is well and truly present around here. Hope everything goes well this season too. Let's try to not drink too much hot cocoa ! (No chance lmao)<br>
-					<div class="signature">- Bad64</div>
-				</p>
-			</article>
-			<article class="blogpost">
-				<table class="titlebar">
-					<tr>
-						<td><label class="title">Translation done and some other things - 02/11/2025 15:03</label></td>
-						<td class="buttoncontainer">
-							<script src="/common/elements/fakebuttons.js"></script>
-						</td>
-					</tr>
-				</table>
-				<script src="/common/elements/fakemenu.js"></script>
-				<p>
-					Finally done translating everything I wrote (so far) in French ! I also globally enabled the style selector rather than relegating it to an easter egg. Makes more sense given that styles now persist across site visits !<br>
-					<br>
-					I also tweaked the styles a little bit more for the occasion. Added some buttons and whatnot. Hope that looks good !<br>
 					<div class="signature">- Bad64</div>
 				</p>
 			</article>

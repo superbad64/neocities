@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Blog - Bad64's Domain</title>
+		<title>Home - Bad64's Domain</title>
 		<link rel="stylesheet" href="/common/styles/layout.css">
 		<link rel="stylesheet" href="/common/styles/styles.css">
 		<link id="currentStyleSheet" rel="stylesheet" href="">
@@ -26,13 +26,43 @@
                     <tr id="content">
                         <td colspan="1" id="landscapeMenu"><script src="/common/elements/landscapemenu.js"></script></td>
                         <td colspan="2" id="articles">
-
-			<div class="heading">Blog</div>
-			<!--Old school navigation widget-->
-			<div class="navigationWidget">
-				&nbsp;<a href="1.shtml">&lt;&lt;</a>&nbsp;				&nbsp;<a href="3.shtml">&lt;</a>&nbsp;				&nbsp;<a href="1.shtml">1</a>&nbsp;				&nbsp;<a href="2.shtml">2</a>&nbsp;				&nbsp;<a href="3.shtml">3</a>&nbsp;				&nbsp;<strong>4</strong>&nbsp;
-			</div>
-<br>			<article class="blogpost">
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Small update - 03/10/2025 21:53</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					I've cleaned up the actual website a little bit, and touched up the CSS to slightly better match the XP aesthetic. On the GitHub repo I've uploaded a bunch of new styles too.<br>
+					<br>
+					I should go back to my EVO training now ! Hopefully I'll get to write about my experience there !<br>
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
+				<table class="titlebar">
+					<tr>
+						<td><label class="title">Site launch - 30/09/2025 21:21</label></td>
+						<td class="buttoncontainer">
+							<script src="/common/elements/fakebuttons.js"></script>
+						</td>
+					</tr>
+				</table>
+				<script src="/common/elements/fakemenu.js"></script>
+				<p>
+					Well, here we are. I'm (finally) launching this website I've been bothering pretty much everyone about for the past five months or so.<br>
+					<br>
+					It's been an eventful road. I'm not a developer, much less a web developer (if anything I mostly write either administration scripts or low level code for embedded microcontrollers). The design alone took quite a lot of time. I created two stylesheets, one themed around Windows 9x and one around Windows XP. Still not entirely sure which one looks best.<br>
+					<br>
+					Either way, that's that. Hope you enjoy your stay !
+					<div class="signature">- Bad64</div>
+				</p>
+			</article>
+			<article class="blogpost">
 				<table class="titlebar">
 					<tr>
 						<td><label class="title">Hello, World ! - 30/09/2025 13:33</label></td>

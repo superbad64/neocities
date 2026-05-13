@@ -54,6 +54,7 @@ document.write('		            <option value="xp_olive">XP Olive</option>');
 document.write('		            <option value="xp_silver">XP Silver</option>');
 document.write('		            <option value="xp_royale_noir">XP Royale Noir</option>');
 document.write('		            <option value="aero">Aero (Windows Vista)</option>');
+document.write('		            <option value="aero_dark">Dark Aero</option>');
 document.write('		            <option value="aero_win7">Aero (Windows 7)</option>');
 document.write('		            <option value="common_desktop_environment">Common Desktop Environment</option>');
 document.write('		            <option value="neocities_classic">GeoCities Classic</option>');

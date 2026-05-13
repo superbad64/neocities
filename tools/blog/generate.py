@@ -15,15 +15,38 @@ class Post():
         self.path = path
         
         self.splitpath = self.path.split("/")
-        self.lang = self.splitpath[1]
-        self.year = self.splitpath[2]
-        self.month = self.splitpath[3]
-        self.day = self.splitpath[4]
-        self.date = f"{self.day}/{self.month}/{self.year}"
-        self.filename = self.splitpath[5].split(".shtml")[0]
-        self.ctime = time.strftime("%H:%M", time.strptime(time.ctime(os.path.getctime(path))))
+        try:
+            self.lang = self.splitpath[1]
+        except:
+            self.lang = "en"
 
-        self.title = f"{self.filename} - {self.date} {self.ctime}"
+        try:
+            self.year = self.splitpath[2]
+        except:
+            self.year = "1970"
+        
+        try:
+            self.month = self.splitpath[3]
+        except:
+            self.month = "01"
+
+        try:
+            self.day = self.splitpath[4]
+        except:
+            self.day = "01"
+
+        try:
+            self.filename = self.splitpath[5].split(".shtml")[0]
+        except:
+            self.filename = "What."
+        
+        try:
+            self.ctime = time.strftime("%H:%M", time.strptime(time.ctime(os.path.getctime(path))))
+        except:
+            self.ctime = time.strftime("%H:%M", time.strptime(datetime.datetime.now()))
+
+        self.date = f"{self.day}/{self.month}/{self.year} {self.ctime}"
+        self.title = f"{self.filename} - {self.date}"
         # Build content as a string
         with open(self.path, 'r') as file:
             self.content = file.read()
@@ -54,7 +77,12 @@ class Post():
 
     def get_publication_time(self):
         # Returns the post date (but not time) for sorting
-        return datetime.datetime.strptime(self.date, "%d/%m/%Y")
+        return datetime.datetime.strptime(self.date, "%d/%m/%Y %H:%M")
+
+    def to_string(self):
+        # Turns part of the post into a string. Mostly debug stuff
+        buf = f"{self.title}\nDate: {self.date}"
+        return buf
 
 def navigationWidget(pageNumber, maxPages):
     # Old-style chevron based navigation widget
@@ -103,18 +131,30 @@ with open("../../common/elements/template.shtml", 'r') as t:
         if doNotAppend == False:
             eval(f"{targetArray}.append(line)")
 
-## Append title
-fileStart[3] = "\t\t<title>Blog - Bad64's Domain</title>\n"
+# Append title
+fileStart[3] = "\t\t<title>Home - Bad64's Domain</title>\n"
 
-## And blog header
-fileStart.append("\n\t\t\t<div class=\"heading\">Blog</div>\n")
+# And blog header
 fileStart = ''.join(fileStart)
 fileEnd = ''.join(fileEnd)
 
 for lang in [ "en", "fr" ]:
     print(f"Working on the \"{lang}\" blog")
     # Seek all posts
-    posts = []
+    posts = [Post(f"../../common/elements/blog00_{lang}.shtml")]
+
+    ## Manually set up post 0 to be the welcome banner
+    posts[0].day = datetime.datetime.now().day
+    posts[0].month = datetime.datetime.now().month
+    posts[0].year = datetime.datetime.now().year
+    posts[0].ctime = datetime.datetime.now().strftime("%H:%M")
+    posts[0].date = f"{posts[0].day}/{posts[0].month}/{posts[0].year} {posts[0].ctime}"
+    
+    if lang == "en":
+        posts[0].title = "Welcome to the Badlands !"
+    elif lang == "fr":
+        posts[0].title = "Bienvenue dans la jungle !"
+
     files = glob.glob(f"posts/{lang}/*/*/*/*.shtml", recursive=True)
 
     print(f"Found {len(files)} posts")
@@ -125,8 +165,8 @@ for lang in [ "en", "fr" ]:
     posts = list(reversed(sorted(posts, key=Post.get_publication_time)))
 
     # Clear the working dir
-    print(f"Clearing the workdir: ../../{lang}/blog/*.shtml")
-    for file in glob.glob("../../{lang}/blog/*.shtml"):
+    print(f"Clearing the workdir: ../../{lang}/home/*.shtml")
+    for file in glob.glob("../../{lang}/home/*.shtml"):
         os.remove(file)
 
     # Create pages
@@ -134,11 +174,9 @@ for lang in [ "en", "fr" ]:
 
     print(f"Creating a total of {maxPages} pages")
     for i in range(1, maxPages + 1):
-        print(f"Creating page {lang}/blog/{i}.shtml (out of {maxPages})")
-        with open(f"../../{lang}/blog/{i}.shtml", "w") as f:
+        print(f"Creating page {lang}/home/{i}.shtml (out of {maxPages})")
+        with open(f"../../{lang}/home/{i}.shtml", "w") as f:
             f.write(fileStart)
-            f.write(navigationWidget(i, maxPages+1))
-            f.write("<br>")
             for j in range(len(posts)):
                 print(f"\tWriting blog post {posts[0].title}")
                 f.write(posts.pop(0).generate())
